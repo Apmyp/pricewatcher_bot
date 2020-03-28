@@ -1,7 +1,7 @@
 class PumaMoldovaParser < Parser
-  def call(url)
-    contents = fetch(url)
-    doc = parse(contents)
+  def call(link)
+    html = fetch(link)
+    doc = parse(html)
 
     ParserItem.new(
         name: doc.at("meta[property='og:title']")['content'],
