@@ -7,9 +7,11 @@ module Links
     def call(link)
       parser_const = Parsers::ParserChooser.call(link)
       parser_item = parser_const.call(link.link)
-      if link.link_items.empty? || item_data_differs?(link, parser_item)
-        AttachLinkItem.call(link, parser_item)
-      end
+
+      return [AttachLinkItem.call(link, parser_item), nil] if link.link_items.empty?
+
+      diff = item_data_differs?(link, parser_item)
+      [AttachLinkItem.call(link, parser_item), diff] unless diff.nil?
     end
 
     private
