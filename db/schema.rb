@@ -10,10 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_28_152429) do
+ActiveRecord::Schema.define(version: 2020_03_28_162408) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "link_items", force: :cascade do |t|
+    t.bigint "link_id", null: false
+    t.string "name"
+    t.string "image"
+    t.decimal "price", precision: 10, scale: 2
+    t.string "currency"
+    t.boolean "availability", default: false, null: false
+    t.integer "status", default: 0, null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["link_id"], name: "index_link_items_on_link_id"
+  end
 
   create_table "links", force: :cascade do |t|
     t.string "link"
@@ -24,4 +37,5 @@ ActiveRecord::Schema.define(version: 2020_03_28_152429) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "link_items", "links"
 end
