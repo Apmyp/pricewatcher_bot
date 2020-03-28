@@ -18,7 +18,7 @@ RSpec.describe Parsers::PumaMoldovaParser do
   end
 
   it "extracts item struct from pumamoldova page" do
-    parser_item = subject.call(raw_link)
+    parser_item = described_class.call(raw_link)
 
     expect(parser_item).to be_instance_of(Parsers::ParserItem)
     expect(parser_item.name).to eq('Кроссовки Puma Ralph Sampson Lo')

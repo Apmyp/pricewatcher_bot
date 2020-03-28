@@ -18,4 +18,18 @@ RSpec.describe Links::AttachLinkItem do
     active_item_ids = LinkItem.where(link: link, status: :active).pluck(:id)
     expect(active_item_ids).to eq([second_link_item.id])
   end
+
+  it 'respects active item link feature' do
+    link_item = described_class.call(link, parser_item)
+
+    expect(link.active_link_item).to eq(link_item)
+  end
+
+  it 'respects changing of active link item' do
+    link_item = described_class.call(link, parser_item)
+    second_link_item = described_class.call(link, second_parser_item)
+
+    expect(link.active_link_item).to_not eq(link_item)
+    expect(link.active_link_item).to eq(second_link_item)
+  end
 end

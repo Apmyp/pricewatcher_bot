@@ -5,7 +5,7 @@ RSpec.describe Parsers::ParserChooser do
     let(:link) { create(:link, host: 'example.com') }
 
     it "raises an exception for dummy host" do
-      expect { subject.call(link) }.to raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      expect { described_class.call(link) }.to raise_error(Parsers::ParserChooser::ParserNotFoundException)
     end
   end
 
@@ -13,7 +13,7 @@ RSpec.describe Parsers::ParserChooser do
     let(:link) { create(:link, host: 'pumamoldova.md') }
 
     it "returns pumamoldova parser constant" do
-      expect(subject.call(link)).to eq(Parsers::PumaMoldovaParser)
+      expect(described_class.call(link)).to eq(Parsers::PumaMoldovaParser)
     end
   end
 end
