@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe PumaMoldovaParser do
+RSpec.describe Parsers::PumaMoldovaParser do
   let(:url) { "http://pumamoldova.md/ru/shop/male/footwear/lifestyle/370846-05" }
 
   before(:each) do
@@ -20,7 +20,7 @@ RSpec.describe PumaMoldovaParser do
   it "parses" do
     parser_item = subject.call(url)
 
-    expect(parser_item).to be_instance_of(ParserItem)
+    expect(parser_item).to be_instance_of(Parsers::ParserItem)
     expect(parser_item.name).to eq('Кроссовки Puma Ralph Sampson Lo')
   end
 end
