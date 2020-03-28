@@ -1,17 +1,15 @@
-class PumaMoldovaParser
-  require 'open-uri'
-
-  def self.call(url)
-    new.call(url)
-  end
-
+class PumaMoldovaParser < Parser
   def call(url)
-    fetch(url)
-  end
+    contents = fetch(url)
+    doc = parse(contents)
 
-  private
-
-  def fetch(url)
-    URI.open(url, 'User-Agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.112 Safari/537.36').read
+    ParserItem.new(
+        name: doc.at("meta[property='og:title']")['content'],
+        image: doc.at("meta[property='og:image']")['content'],
+        price: doc.at("meta[property='product:price:amount']")['content'].to_i,
+        currency: doc.at("meta[property='product:price:currency']")['content'],
+        availability:
+            doc.at("meta[property='product:availability']")['content'].to_s == "in stock",
+    )
   end
 end
