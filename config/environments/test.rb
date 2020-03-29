@@ -42,4 +42,6 @@ Rails.application.configure do
 
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true
+
+  config.telegram_updates_controller.session_store = :redis_store, {expires_in: 1.month}
 end

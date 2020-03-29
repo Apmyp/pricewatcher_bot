@@ -22,6 +22,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'nokogiri', '>= 1.10.9'
 gem 'dry-struct', '>= 1.0.0'
+gem 'telegram-bot', '>= 0.14.3'
+gem 'redis-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
