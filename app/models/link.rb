@@ -6,4 +6,6 @@ class Link < ApplicationRecord
   has_many :link_items, dependent: :destroy
   has_one :active_link_item, -> { active.ordered }, class_name: 'LinkItem'
   belongs_to :telegram_user
+
+  scope :ordered, -> { order('id DESC') }
 end
