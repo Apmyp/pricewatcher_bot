@@ -8,4 +8,15 @@ class Link < ApplicationRecord
   belongs_to :telegram_user
 
   scope :ordered, -> { order('id DESC') }
+
+  def display_name
+    @display_name ||= begin
+                        if active_link_item.present?
+                          item = active_link_item
+                          "#{item.name} (#{item.price.to_i}#{item.currency})"
+                        else
+                          "#{host} (\##{hash_id})"
+                        end
+                      end
+  end
 end

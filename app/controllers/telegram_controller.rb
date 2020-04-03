@@ -30,9 +30,14 @@ class TelegramController < Telegram::Bot::UpdatesController
   def callback_query(data)
     if data == 'links'
       edit_message :text, links
-    elsif data[/link:\d+/]
-      link_id = data.scan(/link\:(\d+)/).first.first.to_i
-      edit_message :text, link(link_id)
+    elsif data[/^link:\d+/]
+      link_id = data.scan(/^link\:(\d+)/).first.first.to_i
+      edit_message :text, link(Link.find(link_id))
+    elsif data[/^destroy_link:\d+/]
+      link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
+      Link.find(link_id).destroy
+      answer_callback_query("Ссылка удалена")
+      edit_message :text, links
     elsif data == 'create_link'
       newlink!
     end
@@ -56,11 +61,12 @@ class TelegramController < Telegram::Bot::UpdatesController
     }
   end
 
-  def link(link_id)
+  def link(link)
     {
-        text: "Ссылка #{link_id}", reply_markup: {
+        text: "Ссылка #{link.id}", reply_markup: {
         inline_keyboard: [
             Telegram::MakeIkForBackLink.call(action: 'links'),
+            Telegram::MakeIkForDeleteLink.call(link)
         ]}
     }
   end
@@ -71,9 +77,10 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def link_added(link)
-    msg = "Добавлена ссылка #{link.host} (\##{link.hash_id})"
+    msg = "Добавлена ссылка #{link.display_name}"
     {text: msg, reply_markup: {
         inline_keyboard: [
+            Telegram::MakeIkForDeleteLink.call(link),
             Telegram::MakeIkForCreateLink.call,
         ]}}
   end
