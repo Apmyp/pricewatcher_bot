@@ -5,12 +5,12 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def start!(*)
     msg = "*Привет, #{current_user.first_name}!*\nКак тебе наш бот?"
-    respond_with :message, text: msg, parse_mode: :Markdown
+    respond_with :message, text: msg
   end
 
   def stop!(*)
     msg = "Больше мы тебя не побеспокоим"
-    respond_with :message, text: msg, parse_mode: :Markdown
+    respond_with :message, text: msg
   end
 
   def mylinks!(*)
@@ -20,12 +20,10 @@ class TelegramController < Telegram::Bot::UpdatesController
   def newlink!(raw_link = nil, *)
     if raw_link
       link = Links::CreateLink.call(current_user, raw_link)
-      msg = "Добавлена ссылка #{link.host} (\##{link.hash_id})"
-      respond_with :message, text: msg, parse_mode: :Markdown
+      respond_with :message, link_added(link)
     else
       save_context :newlink!
-      msg = "Скинь ссылку на товар. Мы поддерживаем тех-то и вон тех-то"
-      respond_with :message, text: msg, parse_mode: :Markdown
+      respond_with :message, new_link
     end
   end
 
@@ -53,7 +51,7 @@ class TelegramController < Telegram::Bot::UpdatesController
         text: 'Выбери ссылку', reply_markup: {
         inline_keyboard: [
             Telegram::MakeIkForLinks.call(current_user.active_links),
-            Telegram::MakeIkForCreateLink.call(current_user),
+            Telegram::MakeIkForCreateLink.call,
         ]}
     }
   end
@@ -65,5 +63,18 @@ class TelegramController < Telegram::Bot::UpdatesController
             Telegram::MakeIkForBackLink.call(action: 'links'),
         ]}
     }
+  end
+
+  def new_link
+    msg = "Скинь ссылку на товар. Мы поддерживаем тех-то и вон тех-то"
+    {text: msg}
+  end
+
+  def link_added(link)
+    msg = "Добавлена ссылка #{link.host} (\##{link.hash_id})"
+    {text: msg, reply_markup: {
+        inline_keyboard: [
+            Telegram::MakeIkForCreateLink.call,
+        ]}}
   end
 end

@@ -1,10 +1,10 @@
 module Telegram
   class MakeIkForCreateLink
-    def self.call(user)
-      new.call(user)
+    def self.call
+      new.call
     end
 
-    def call(_)
+    def call
       [
           {}.tap do |h|
             h['text'] = "🔗 Добавить ещё ссылку"

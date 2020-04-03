@@ -2,6 +2,8 @@ module Links
   class CreateLink
     require 'uri'
 
+    NANOID_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
+
     def self.call(user, raw_link)
       new.call(user, raw_link)
     end
@@ -15,7 +17,7 @@ module Links
 
       Link.create!(
           telegram_user: user,
-          hash_id: Nanoid.generate,
+          hash_id: Nanoid.generate(alphabet: NANOID_ALPHABET),
           link: raw_link,
           scheme: uri.scheme,
           host: host_without_www,
