@@ -1,4 +1,6 @@
 module Links
+  class PathNotFoundException < ::Exception; end
+
   class CreateLink
     require 'uri'
 
@@ -12,6 +14,8 @@ module Links
       normalized_raw_link = raw_link.sub(/^\/\//, '').sub(/\.$/, '')
       uri = URI.parse(normalized_raw_link)
       uri = URI.parse("http://#{normalized_raw_link}") if uri.scheme.nil?
+
+      raise PathNotFoundException.new if uri.path.size.zero?
 
       host_without_www = uri.host.start_with?('www.') ? uri.host[4..-1] : uri.host
 

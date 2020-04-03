@@ -4,11 +4,18 @@ class TelegramController < Telegram::Bot::UpdatesController
   before_action :set_current_user
 
   def start!(*)
+    current_user.update(status: :active)
     msg = "*Привет, #{current_user.first_name}!*\nКак тебе наш бот?"
     respond_with :message, text: msg
   end
 
+  def help!(*)
+    msg = "Вот чем я могу тебе помочь:"
+    respond_with :message, text: msg
+  end
+
   def stop!(*)
+    current_user.update(status: :disabled)
     msg = "Больше мы тебя не побеспокоим"
     respond_with :message, text: msg
   end
@@ -19,8 +26,15 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def newlink!(raw_link = nil, *)
     if raw_link
-      link = Links::CreateLink.call(current_user, raw_link)
-      respond_with :message, link_added(link)
+      begin
+        link = Links::CreateLink.call(current_user, raw_link)
+      rescue Links::PathNotFoundException, ActiveRecord::RecordInvalid
+        save_context :newlink!
+        respond_with :message, link_not_added
+        logger.info "I cant create the link. Can you investigate why? Link: #{raw_link}"
+      else
+        respond_with :message, link_added(link)
+      end
     else
       save_context :newlink!
       respond_with :message, new_link
@@ -52,8 +66,14 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def links
+    msg = if current_user.active_links.any?
+            'Выбери ссылку'
+          else
+            'Блин, а ссылок-то нет. Хочешь добавить первую?'
+          end
+
     {
-        text: 'Выбери ссылку', reply_markup: {
+        text: msg, reply_markup: {
         inline_keyboard: Telegram::MakeIkForLinks.call(current_user.active_links)
                              .concat([[Telegram::MakeIkForCreateLink.call]])}
     }
@@ -77,13 +97,15 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def link_added(link)
-    msg = "Добавлена ссылка #{link.display_name}"
+    msg = "Добавлена ссылка #{link.display_name}\n\nКогда будет инфа — я сообщу"
     {text: msg, reply_markup: {
         inline_keyboard: [
-            [
-                Telegram::MakeIkForDeleteLink.call(link),
-                Telegram::MakeIkForCreateLink.call,
-            ]
+            [Telegram::MakeIkForDeleteLink.call(link)],
+            [Telegram::MakeIkForCreateLink.call],
         ]}}
+  end
+
+  def link_not_added
+    {text: 'Че-то не так с ссылкой. Проверь чтобы все было ок и отправь ссылку еще раз'}
   end
 end
