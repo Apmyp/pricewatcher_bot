@@ -6,10 +6,12 @@ module Telegram
 
     def call(links)
       links.map do |link|
-        {}.tap do |h|
-          h['text'] = "#{link.host} (\##{link.hash_id})"
-          h['callback_data'] = "link:#{link.id}"
-        end
+        [
+            {}.tap do |h|
+              h['text'] = "#{link.host} (\##{link.hash_id})"
+              h['callback_data'] = "link:#{link.id}"
+            end
+        ]
       end
     end
   end

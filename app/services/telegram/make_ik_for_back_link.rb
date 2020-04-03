@@ -5,12 +5,10 @@ module Telegram
     end
 
     def call(text = 'Вернуться', action)
-      [
-          {}.tap do |h|
-            h['text'] = "← #{text}"
-            h['callback_data'] = action
-          end
-      ]
+      {}.tap do |h|
+        h['text'] = "← #{text}"
+        h['callback_data'] = action
+      end
     end
   end
 end

@@ -54,10 +54,8 @@ class TelegramController < Telegram::Bot::UpdatesController
   def links
     {
         text: 'Выбери ссылку', reply_markup: {
-        inline_keyboard: [
-            Telegram::MakeIkForLinks.call(current_user.active_links),
-            Telegram::MakeIkForCreateLink.call,
-        ]}
+        inline_keyboard: Telegram::MakeIkForLinks.call(current_user.active_links)
+                             .concat([[Telegram::MakeIkForCreateLink.call]])}
     }
   end
 
@@ -65,8 +63,10 @@ class TelegramController < Telegram::Bot::UpdatesController
     {
         text: "Ссылка #{link.id}", reply_markup: {
         inline_keyboard: [
-            Telegram::MakeIkForBackLink.call(action: 'links'),
-            Telegram::MakeIkForDeleteLink.call(link)
+            [
+                Telegram::MakeIkForBackLink.call(action: 'links'),
+                Telegram::MakeIkForDeleteLink.call(link)
+            ]
         ]}
     }
   end
@@ -80,8 +80,10 @@ class TelegramController < Telegram::Bot::UpdatesController
     msg = "Добавлена ссылка #{link.display_name}"
     {text: msg, reply_markup: {
         inline_keyboard: [
-            Telegram::MakeIkForDeleteLink.call(link),
-            Telegram::MakeIkForCreateLink.call,
+            [
+                Telegram::MakeIkForDeleteLink.call(link),
+                Telegram::MakeIkForCreateLink.call,
+            ]
         ]}}
   end
 end
