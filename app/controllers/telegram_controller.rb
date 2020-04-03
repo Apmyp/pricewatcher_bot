@@ -14,29 +14,7 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def mylinks!(*)
-    respond_with :message, text: 'Выбери ссылку', reply_markup: {
-        inline_keyboard: [
-            Telegram::MakeIkForLinks.call(current_user.active_links),
-            Telegram::MakeIkForCreateLink.call(current_user),
-        ]
-    }
-  end
-
-  def callback_query(data)
-    if data == 'alert'
-      edit_message :text, text: 'Выбери ссылку', reply_markup: {
-          inline_keyboard: [
-              [
-                  {text: 'https://example.com111', callback_data: 'alert'},
-              ],
-          ],
-      }
-    elsif data[/link:\d+/]
-      link_id = data.scan(/link\:(\d+)/).first.first.to_i
-      respond_with :message, text: "Ссылка #{link_id}"
-    elsif data == 'create_link'
-      newlink!(nil)
-    end
+    respond_with :message, links
   end
 
   def newlink!(raw_link = nil, *)
@@ -51,6 +29,16 @@ class TelegramController < Telegram::Bot::UpdatesController
     end
   end
 
+  def callback_query(data)
+    if data == 'links'
+      edit_message :text, links
+    elsif data[/link:\d+/]
+      link_id = data.scan(/link\:(\d+)/).first.first.to_i
+      edit_message :text, link(link_id)
+    elsif data == 'create_link'
+      newlink!
+    end
+  end
 
   private
 
@@ -58,5 +46,24 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def set_current_user
     @current_user ||= FindOrCreateTelegramUser.call(from)
+  end
+
+  def links
+    {
+        text: 'Выбери ссылку', reply_markup: {
+        inline_keyboard: [
+            Telegram::MakeIkForLinks.call(current_user.active_links),
+            Telegram::MakeIkForCreateLink.call(current_user),
+        ]}
+    }
+  end
+
+  def link(link_id)
+    {
+        text: "Ссылка #{link_id}", reply_markup: {
+        inline_keyboard: [
+            Telegram::MakeIkForBackLink.call(action: 'links'),
+        ]}
+    }
   end
 end
