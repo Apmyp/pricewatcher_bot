@@ -4,7 +4,7 @@ RSpec.describe Links::CreateLink do
   let(:user) { create(:telegram_user) }
 
   it "creates link with host and scheme in the right way" do
-    link = described_class.call(user, "https://example.com")
+    link = described_class.call(user, "https://example.com/path")
 
     expect(link).to be_persisted
     expect(link.host).to eq('example.com')
@@ -12,7 +12,7 @@ RSpec.describe Links::CreateLink do
   end
 
   it "creates link without scheme" do
-    link = described_class.call(user, "example.com")
+    link = described_class.call(user, "example.com/path")
 
     expect(link).to be_persisted
     expect(link.host).to eq('example.com')
@@ -20,7 +20,7 @@ RSpec.describe Links::CreateLink do
   end
 
   it "creates link without scheme, but with //" do
-    link = described_class.call(user, "//example.com")
+    link = described_class.call(user, "//example.com/path")
 
     expect(link).to be_persisted
     expect(link.host).to eq('example.com')
@@ -28,7 +28,7 @@ RSpec.describe Links::CreateLink do
   end
 
   it "creates link without scheme with www" do
-    link = described_class.call(user, "www.example.com")
+    link = described_class.call(user, "www.example.com/path")
 
     expect(link).to be_persisted
     expect(link.host).to eq('example.com')
@@ -36,7 +36,7 @@ RSpec.describe Links::CreateLink do
   end
 
   it "creates link with www" do
-    link = described_class.call(user, "https://www.example.com")
+    link = described_class.call(user, "https://www.example.com/path")
 
     expect(link).to be_persisted
     expect(link.host).to eq('example.com')

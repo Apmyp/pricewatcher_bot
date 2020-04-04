@@ -12,6 +12,8 @@ module Links
 
       diff = item_data_differs?(link, parser_item)
       [AttachLinkItem.call(link, parser_item), diff] unless diff.nil?
+
+      [nil, nil]
     end
 
     private
