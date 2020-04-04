@@ -38,18 +38,9 @@ class TelegramController < Telegram::Bot::UpdatesController
     if data == 'links'
       respond_with :message, links
     elsif data[/^link:\d+/]
-      link_id = data.scan(/^link\:(\d+)/).first.first.to_i
-      respond_with_link Link.find(link_id)
+      show_link_callback(data)
     elsif data[/^destroy_link:\d+/]
-      begin
-        link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
-        Link.find(link_id).destroy
-      rescue ActiveRecord::RecordNotFound
-        answer_callback_query(t('.link_destroyed'))
-      else
-        answer_callback_query(t('.link_destroyed'))
-        respond_with :message, links
-      end
+      destroy_link_callback(data)
     elsif data == 'create_link'
       newlink!
     end
@@ -61,6 +52,21 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def set_current_user
     @set_current_user ||= @current_user ||= FindOrCreateTelegramUser.call(from)
+  end
+
+  def show_link_callback(data)
+    link_id = data.scan(/^link\:(\d+)/).first.first.to_i
+    respond_with_link Link.find(link_id)
+  end
+
+  def destroy_link_callback(data)
+    link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
+    Link.find(link_id).destroy
+  rescue ActiveRecord::RecordNotFound
+    answer_callback_query(t('.link_destroyed'))
+  else
+    answer_callback_query(t('.link_destroyed'))
+    respond_with :message, links
   end
 
   def process_new_link(raw_link)

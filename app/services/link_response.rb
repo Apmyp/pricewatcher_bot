@@ -41,7 +41,8 @@ class LinkResponse
     {}.tap do |h|
       h[:name] = active_li.name
       h[:price] = active_li.price_with_currency
-      h[:availability] = I18n.t("telegram.availability.#{active_li.availability}")
+      h[:availability] =
+        I18n.t("telegram.availability.#{active_li.availability}")
     end
   end
 
