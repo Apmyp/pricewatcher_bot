@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateTelegramUsers < ActiveRecord::Migration[6.0]
   def change
     create_table :telegram_users do |t|

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Telegram::MakeIkForLinks do
@@ -7,6 +9,6 @@ RSpec.describe Telegram::MakeIkForLinks do
     inline_keyboard_markup = described_class.call(links)
 
     expect(inline_keyboard_markup.size).to eq(10)
-    expect(inline_keyboard_markup.first&.first&.keys).to match(['text', 'callback_data'])
+    expect(inline_keyboard_markup.first&.first&.keys).to match(%w[text callback_data])
   end
 end

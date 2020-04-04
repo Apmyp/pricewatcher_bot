@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 namespace :links do
-  desc "Search active users with active links and add it to job queue"
+  desc 'Search active users with active links and add it to job queue'
   task analyze: :environment do
     active_users_query = TelegramUser.active
     puts "Analyzing #{active_users_query.count} users"
@@ -11,10 +13,9 @@ namespace :links do
         end
       end
 
-      print "."
+      print '.'
     end
 
     print "\n"
   end
-
 end

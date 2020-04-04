@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class LinkItem < ApplicationRecord
-  enum status: %i[active pending]
+  enum status: { active: 0, pending: 1 }
 
   belongs_to :link
 

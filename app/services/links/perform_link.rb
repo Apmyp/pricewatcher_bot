@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Links
   class PerformLink
     def self.call(*args)
@@ -8,7 +10,9 @@ module Links
       parser_const = Parsers::ParserChooser.call(link)
       parser_item = parser_const.call(link.link)
 
-      return [AttachLinkItem.call(link, parser_item), nil] if link.link_items.empty?
+      if link.link_items.empty?
+        return [AttachLinkItem.call(link, parser_item), nil]
+      end
 
       diff = item_data_differs?(link, parser_item)
       return [AttachLinkItem.call(link, parser_item), diff] unless diff.nil?
@@ -19,7 +23,8 @@ module Links
     private
 
     def item_data_differs?(link, parser_item)
-      Parsers::ParserItemDiffers.call(Parsers::ConvertToParserItem.call(link.active_link_item), parser_item)
+      converted_li = Parsers::ConvertToParserItem.call(link.active_link_item)
+      Parsers::ParserItemDiffers.call(converted_li, parser_item)
     end
   end
 end

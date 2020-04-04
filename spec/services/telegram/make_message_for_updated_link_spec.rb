@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Telegram::MakeMessageForUpdatedLink do
@@ -12,10 +14,12 @@ RSpec.describe Telegram::MakeMessageForUpdatedLink do
   end
 
   context 'link with two items' do
-    let(:link_items) { [
+    let(:link_items) do
+      [
         create(:link_item, status: :active),
         create(:link_item, status: :pending)
-    ] }
+      ]
+    end
 
     let(:link) { create(:link, link_items: link_items) }
 

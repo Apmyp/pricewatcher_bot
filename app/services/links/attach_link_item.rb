@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Links
   class AttachLinkItem
     def self.call(*args)
@@ -14,17 +16,19 @@ module Links
     private
 
     def reset_active_status(link)
-      link.link_items.update_all(status: :pending)
+      link.link_items.find_each do |link_item|
+        link_item.update(status: :pending)
+      end
     end
 
     def attach_link_item(link, parser_item)
       link.link_items.create(
-          name: parser_item.name,
-          image: parser_item.image,
-          price: parser_item.price,
-          currency: parser_item.currency,
-          availability: parser_item.availability,
-          status: :active
+        name: parser_item.name,
+        image: parser_item.image,
+        price: parser_item.price,
+        currency: parser_item.currency,
+        availability: parser_item.availability,
+        status: :active
       )
     end
   end

@@ -1,11 +1,19 @@
-class Link < ApplicationRecord
-  enum status: %i[active disabled]
+# frozen_string_literal: true
 
-  validates_presence_of :telegram_user, :link, :host, :scheme, :status
+class Link < ApplicationRecord
+  enum status: { active: 0, disabled: 1 }
+
+  validates :telegram_user, :link, :host, :scheme, :status, presence: true
 
   has_many :link_items, dependent: :destroy
-  has_one :active_link_item, -> { active.ordered }, class_name: 'LinkItem'
-  has_one :prev_link_item, -> { pending.order('id DESC') }, class_name: 'LinkItem'
+  has_one :active_link_item,
+          -> { active.ordered },
+          class_name: 'LinkItem',
+          inverse_of: :link
+  has_one :prev_link_item,
+          -> { pending.order('id DESC') },
+          class_name: 'LinkItem',
+          inverse_of: :link
   belongs_to :telegram_user
 
   scope :ordered, -> { order('id DESC') }

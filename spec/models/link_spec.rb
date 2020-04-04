@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Link, type: :model do
@@ -15,6 +17,6 @@ RSpec.describe Link, type: :model do
     link = create(:link)
     create(:link_item, link: link, name: 'Test', price: 10, currency: '$')
 
-    expect(link.display_name).to eq("Test (10$)")
+    expect(link.display_name).to eq('Test (10$)')
   end
 end

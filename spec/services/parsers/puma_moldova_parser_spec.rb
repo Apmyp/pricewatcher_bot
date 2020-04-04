@@ -1,11 +1,13 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Parsers::PumaMoldovaParser do
-  let(:raw_link) { "http://pumamoldova.md/ru/shop/male/footwear/lifestyle/370846-05" }
+  let(:raw_link) { 'http://pumamoldova.md/ru/shop/male/footwear/lifestyle/370846-05' }
 
   before(:each) do
-    stub_request(:get, raw_link).
-        to_return(body: '
+    stub_request(:get, raw_link)
+      .to_return(body: '
 <meta property="og:title" content="Кроссовки Puma Ralph Sampson Lo">
 <meta property="og:image" content="http://pumamoldova.md/images/products/jpg/37084605.jpg">
 <meta property="product:brand" content="Puma">
@@ -17,7 +19,7 @@ RSpec.describe Parsers::PumaMoldovaParser do
 ')
   end
 
-  it "extracts item struct from pumamoldova page" do
+  it 'extracts item struct from pumamoldova page' do
     parser_item = described_class.call(raw_link)
 
     expect(parser_item).to be_instance_of(Parsers::ParserItem)
