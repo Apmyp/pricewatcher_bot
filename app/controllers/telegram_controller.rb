@@ -9,14 +9,12 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def help!(*)
-    msg = "Вот чем я могу тебе помочь:"
-    respond_with :message, text: msg
+    respond_with :message, text: t('.help', first_name: current_user.first_name)
   end
 
   def stop!(*)
     current_user.update(status: :disabled)
-    msg = "Больше мы тебя не побеспокоим"
-    respond_with :message, text: msg
+    respond_with :message, text: t('.stop', first_name: current_user.first_name)
   end
 
   def mylinks!(*)
