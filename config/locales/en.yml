@@ -1,33 +1,70 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  telegram:
+    start: |
+      Привет, %{first_name}!
+
+      Меня зовут Ценослед и я умею следить за ценами. Вот список сайтов с которыми я умею работать:
+      pumamoldova.md
+
+      Давай добавим твою первую ссылку и будем наблюдать за ней. Напиши /newlink и следуй инструкциям.
+
+    new_link: |
+      Отправь мне ссылку на товар за которым ты бы хотел следить.
+
+      Вот список сайтов с которыми я умею работать:
+      pumamoldova.md
+
+    link_not_added: |
+      Ты отправил мне ссылку и я не могу понять как с ней быть. Я уже оповестил об этом Повелителя, он-то точно знает что с ней делать.
+
+      Проверь, пожалуйста, ссылку и отправь её ещё раз.
+
+    link_added: |
+      Я запомнил ссылку %{link_name}
+
+      Когда по ней будут изменения, я оповещу тебя об этом лично. Тебе осталось только ждать.
+
+    link_destroyed: Ссылка удалена
+
+    links:
+      zero: Дружище, ссылок-то пока и нет. Добавь первую!
+      one: Одна ссылка — не предел! Выбери её, может там уже есть че-то полезное для тебя.
+      other: Выбери ссылку и наблюдай за результатами моей работы
+
+    availability:
+      true: Есть на складе
+      false: Нет в продаже
+
+    link_without_item: |
+      По ссылке %{display_name} пока нет ничего.
+
+      Как будет, я сообщу. Положись на меня!
+
+    link_with_prev: |
+      *%{name}*
+
+      %{availability}
+      %{price} (прошлая: %{price})
+
+    link: |
+      *%{name}*
+
+      %{availability}
+      %{price}
+
+    link_added_back: ← Посмотреть все ссылки
+    back: ← Вернуться
+    delete_link: 🗑 Удалить ссылку
+    add_link: 🔗 Добавить ещё ссылку
+
+    new_link_item: |
+      *✅ %{name}*
+
+      %{availability}
+      %{price}
+
+    updated_link_item: |
+      *📝 %{name}*
+
+      %{availability} %{prev_availability}
+      %{price} %{prev_price}
