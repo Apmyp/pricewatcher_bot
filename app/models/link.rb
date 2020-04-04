@@ -14,7 +14,7 @@ class Link < ApplicationRecord
     @display_name ||= begin
                         if active_link_item.present?
                           item = active_link_item
-                          "#{item.name} (#{item.price.to_i}#{item.currency})"
+                          "#{item.name} (#{item.price_with_currency})"
                         else
                           "#{host} (\##{hash_id})"
                         end
