@@ -5,8 +5,7 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def start!(*)
     current_user.update(status: :active)
-    msg = "*Привет, #{current_user.first_name}!*\nКак тебе наш бот?"
-    respond_with :message, text: msg
+    respond_with :message, text: t('.start', first_name: current_user.first_name)
   end
 
   def help!(*)
@@ -30,28 +29,33 @@ class TelegramController < Telegram::Bot::UpdatesController
         link = Links::CreateLink.call(current_user, raw_link)
       rescue Links::PathNotFoundException, ActiveRecord::RecordInvalid
         save_context :newlink!
-        respond_with :message, link_not_added
+        respond_with :message, text: t('.link_not_added')
         logger.info "I cant create the link. Can you investigate why? Link: #{raw_link}"
       else
         respond_with :message, link_added(link)
       end
     else
       save_context :newlink!
-      respond_with :message, new_link
+      respond_with :message, text: t('.new_link')
     end
   end
 
   def callback_query(data)
     if data == 'links'
-      edit_message :text, links
+      respond_with :message, links
     elsif data[/^link:\d+/]
       link_id = data.scan(/^link\:(\d+)/).first.first.to_i
-      edit_message :text, link(Link.find(link_id))
+      respond_with_link Link.find(link_id)
     elsif data[/^destroy_link:\d+/]
-      link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
-      Link.find(link_id).destroy
-      answer_callback_query("Ссылка удалена")
-      edit_message :text, links
+      begin
+        link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
+        Link.find(link_id).destroy
+      rescue ActiveRecord::RecordNotFound
+        answer_callback_query(t('.link_destroyed'))
+      else
+        answer_callback_query(t('.link_destroyed'))
+        respond_with :message, links
+      end
     elsif data == 'create_link'
       newlink!
     end
@@ -66,46 +70,94 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def links
-    msg = if current_user.active_links.any?
-            'Выбери ссылку'
-          else
-            'Блин, а ссылок-то нет. Хочешь добавить первую?'
-          end
-
     {
-        text: msg, reply_markup: {
+        text: t('.links', count: current_user.active_links.count), reply_markup: {
         inline_keyboard: Telegram::MakeIkForLinks.call(current_user.active_links)
-                             .concat([[Telegram::MakeIkForCreateLink.call]])}
+                             .concat([[Telegram::MakeIkLink.call(text: t('.add_link'), action: 'create_link')]])}
     }
   end
 
-  def link(link)
+  def respond_with_link(link)
+    respond_with link_respond_type(link), link_params(link)
+  end
+
+  def link_params(link)
+    link.active_link_item.present? ? photo_link(link) : message_link(link)
+  end
+
+  def link_respond_type(link)
+    link.active_link_item.present? ? :photo : :message
+  end
+
+  def link_locale_name(link)
+    if link.active_link_item.blank?
+      '.link_without_item'
+    elsif link.active_link_item.present? && link.prev_link_item.blank?
+      '.link'
+    elsif link.active_link_item.present? && link.prev_link_item.present?
+      '.link_with_prev'
+    else
+      '.link_without_item'
+    end
+  end
+
+  def link_options(link)
+    {}.tap do |h|
+      h[:display_name] = link.display_name
+
+      link_item = link.active_link_item
+
+      if link_item.present?
+        h[:name] = link_item.name
+        h[:price] = link_item.price_with_currency
+        h[:availability] = t(".availability.#{link_item.availability.to_s}")
+      end
+
+      prev_link_item = link.prev_link_item
+
+      if prev_link_item.present?
+        h[:prev_price] = prev_link_item.price_with_currency
+      end
+
+      h
+    end
+  end
+
+  def photo_link(link)
     {
-        text: "Ссылка #{link.id}", reply_markup: {
-        inline_keyboard: [
-            [
-                Telegram::MakeIkForBackLink.call(action: 'links'),
-                Telegram::MakeIkForDeleteLink.call(link)
-            ]
-        ]}
+        photo: link.active_link_item.image,
+        caption: t(link_locale_name(link), link_options(link)),
+        parse_mode: :Markdown,
+        reply_markup: {
+            inline_keyboard: [
+                [
+                    Telegram::MakeIkLink.call(text: t('.delete_link'), action: "destroy_link:#{link.id}"),
+                    Telegram::MakeIkLink.call(text: t('.back'), action: 'links'),
+                ]
+            ]}
     }
   end
 
-  def new_link
-    msg = "Скинь ссылку на товар. Мы поддерживаем тех-то и вон тех-то"
-    {text: msg}
+  def message_link(link)
+    {
+        text: t(link_locale_name(link), link_options(link)),
+        parse_mode: :Markdown,
+        reply_markup: {
+            inline_keyboard: [
+                [
+                    Telegram::MakeIkLink.call(text: t('.delete_link'), action: "destroy_link:#{link.id}"),
+                    Telegram::MakeIkLink.call(text: t('.back'), action: 'links'),
+                ]
+            ]}
+    }
   end
 
   def link_added(link)
-    msg = "Добавлена ссылка #{link.display_name}\n\nКогда будет инфа — я сообщу"
-    {text: msg, reply_markup: {
+    {text: t('.link_added', link_name: link.display_name), reply_markup: {
         inline_keyboard: [
-            [Telegram::MakeIkForDeleteLink.call(link)],
-            [Telegram::MakeIkForCreateLink.call],
+            [Telegram::MakeIkLink.call(text: t('.delete_link'), action: "destroy_link:#{link.id}")],
+            [Telegram::MakeIkLink.call(text: t('.add_link'), action: 'create_link')],
+            [Telegram::MakeIkLink.call(text: t('.link_added_back'), action: 'links')],
         ]}}
-  end
-
-  def link_not_added
-    {text: 'Че-то не так с ссылкой. Проверь чтобы все было ок и отправь ссылку еще раз'}
   end
 end

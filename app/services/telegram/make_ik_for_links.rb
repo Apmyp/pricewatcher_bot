@@ -1,7 +1,7 @@
 module Telegram
   class MakeIkForLinks
-    def self.call(links)
-      new.call(links)
+    def self.call(*args)
+      new.call(*args)
     end
 
     def call(links)
