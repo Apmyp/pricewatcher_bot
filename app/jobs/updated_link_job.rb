@@ -3,6 +3,6 @@ class UpdatedLinkJob < ApplicationJob
 
   def perform(link)
     message = Telegram::MakeMessageForUpdatedLink.call(link)
-    NotifyTelegramUser.call(link.telegram_user, message)
+    NotifyTelegramUser.call(link.telegram_user, link.active_link_item.image, message)
   end
 end
