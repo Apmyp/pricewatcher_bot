@@ -11,7 +11,7 @@ module Links
       return [AttachLinkItem.call(link, parser_item), nil] if link.link_items.empty?
 
       diff = item_data_differs?(link, parser_item)
-      [AttachLinkItem.call(link, parser_item), diff] unless diff.nil?
+      return [AttachLinkItem.call(link, parser_item), diff] unless diff.nil?
 
       [nil, nil]
     end

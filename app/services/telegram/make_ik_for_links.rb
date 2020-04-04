@@ -8,7 +8,7 @@ module Telegram
       links.map do |link|
         [
             {}.tap do |h|
-              h['text'] = "#{link.host} (\##{link.hash_id})"
+              h['text'] = link.display_name
               h['callback_data'] = "link:#{link.id}"
             end
         ]

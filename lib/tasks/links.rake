@@ -5,8 +5,10 @@ namespace :links do
     puts "Analyzing #{active_users_query.count} users"
 
     active_users_query.includes(:active_links).find_in_batches do |users|
-      users.active_links.each do |link|
-        ParseLinkJob.perform_later(link)
+      users.each do |user|
+        user.active_links.find_each do |link|
+          ParseLinkJob.perform_later(link)
+        end
       end
 
       print "."
