@@ -1,7 +1,7 @@
 module Parsers
   class ConvertToParserItem
-    def self.call(link_item)
-      new.call(link_item)
+    def self.call(*args)
+      new.call(*args)
     end
 
     def call(link_item)

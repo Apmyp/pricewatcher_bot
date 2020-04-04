@@ -7,6 +7,7 @@ RSpec.describe Links::CreateLink do
     link = described_class.call(user, "https://example.com/path")
 
     expect(link).to be_persisted
+    expect(link.link).to eq('https://example.com/path')
     expect(link.host).to eq('example.com')
     expect(link.scheme).to eq('https')
   end
@@ -15,6 +16,7 @@ RSpec.describe Links::CreateLink do
     link = described_class.call(user, "example.com/path")
 
     expect(link).to be_persisted
+    expect(link.link).to eq('http://example.com/path')
     expect(link.host).to eq('example.com')
     expect(link.scheme).to eq('http')
   end
@@ -23,6 +25,7 @@ RSpec.describe Links::CreateLink do
     link = described_class.call(user, "//example.com/path")
 
     expect(link).to be_persisted
+    expect(link.link).to eq('http://example.com/path')
     expect(link.host).to eq('example.com')
     expect(link.scheme).to eq('http')
   end
@@ -31,6 +34,7 @@ RSpec.describe Links::CreateLink do
     link = described_class.call(user, "www.example.com/path")
 
     expect(link).to be_persisted
+    expect(link.link).to eq('http://www.example.com/path')
     expect(link.host).to eq('example.com')
     expect(link.scheme).to eq('http')
   end
@@ -39,6 +43,7 @@ RSpec.describe Links::CreateLink do
     link = described_class.call(user, "https://www.example.com/path")
 
     expect(link).to be_persisted
+    expect(link.link).to eq('https://www.example.com/path')
     expect(link.host).to eq('example.com')
     expect(link.scheme).to eq('https')
   end
