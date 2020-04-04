@@ -1,7 +1,7 @@
 module Parsers
   class ParserItemDiffers
-    def self.call(first_parser_item, second_parser_item)
-      new.call(first_parser_item, second_parser_item)
+    def self.call(*args)
+      new.call(*args)
     end
 
     def call(first_parser_item, second_parser_item)

@@ -1,7 +1,7 @@
 module Links
   class AttachLinkItem
-    def self.call(link, parser_item)
-      new.call(link, parser_item)
+    def self.call(*args)
+      new.call(*args)
     end
 
     def call(link, parser_item)

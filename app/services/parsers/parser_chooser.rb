@@ -3,8 +3,8 @@ module Parsers
 
     class ParserNotFoundException < ::Exception; end
 
-    def self.call(link)
-      new.call(link)
+    def self.call(*args)
+      new.call(*args)
     end
 
     def call(link)

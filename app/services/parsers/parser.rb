@@ -4,8 +4,8 @@ module Parsers
     require 'uri'
     require 'nokogiri'
 
-    def self.call(url)
-      new.call(url)
+    def self.call(*args)
+      new.call(*args)
     end
 
     private

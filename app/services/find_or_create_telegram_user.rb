@@ -1,6 +1,6 @@
 class FindOrCreateTelegramUser
-  def self.call(from)
-    new.call(from)
+  def self.call(*args)
+    new.call(*args)
   end
 
   def call(from)

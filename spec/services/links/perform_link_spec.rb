@@ -8,7 +8,7 @@ RSpec.describe Links::PerformLink do
     it "creates link with host and scheme in the right way" do
       expect(Links::AttachLinkItem).to receive(:call)
                                            .with(link, parser_item)
-                                           .and_return(link.link_item)
+                                           .and_return(link.active_link_item)
 
       dbl = double
       allow(dbl).to receive(:call).with(link.link).and_return(parser_item)
