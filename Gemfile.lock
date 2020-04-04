@@ -62,7 +62,9 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.1)
+    chronic (0.10.2)
     concurrent-ruby (1.1.6)
+    connection_pool (2.2.2)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
     crass (1.0.6)
@@ -134,6 +136,8 @@ GEM
     puma (4.3.3)
       nio4r (~> 2.0)
     rack (2.2.2)
+    rack-protection (2.0.8.1)
+      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.2.2)
@@ -202,6 +206,11 @@ GEM
     rspec-support (3.9.2)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
+    sidekiq (6.0.6)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      rack-protection (>= 2.0.0)
+      redis (>= 4.1.0)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -228,6 +237,8 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    whenever (1.0.0)
+      chronic (>= 0.6.3)
     zeitwerk (2.3.0)
 
 PLATFORMS
@@ -246,11 +257,13 @@ DEPENDENCIES
   rails (~> 6.0.2, >= 6.0.2.2)
   redis-rails (>= 5.0.2)
   rspec-rails (>= 4.0.0)
+  sidekiq (>= 6.0.6)
   spring
   spring-watcher-listen (~> 2.0.0)
   telegram-bot (>= 0.14.3)
   tzinfo-data
   webmock (>= 3.8.3)
+  whenever (>= 1.0.0)
 
 RUBY VERSION
    ruby 2.7.0p0

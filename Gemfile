@@ -25,6 +25,8 @@ gem 'dry-struct', '>= 1.0.0'
 gem 'telegram-bot', '>= 0.14.3'
 gem 'redis-rails', '>= 5.0.2'
 gem 'nanoid', '>= 2.0.0'
+gem 'sidekiq', '>= 6.0.6'
+gem 'whenever', '>= 1.0.0', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
