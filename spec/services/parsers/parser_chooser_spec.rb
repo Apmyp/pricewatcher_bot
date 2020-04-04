@@ -7,7 +7,9 @@ RSpec.describe Parsers::ParserChooser do
     let(:link) { create(:link, host: 'example.com') }
 
     it 'raises an exception for dummy host' do
-      expect { described_class.call(link) }.to raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      expect { described_class.call(link) }.to(
+        raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      )
     end
   end
 

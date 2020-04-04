@@ -6,9 +6,9 @@ module Parsers
     require 'uri'
     require 'nokogiri'
 
-    # rubocop:disable Metrics/LineLength
+    # rubocop:disable Layout/LineLength
     USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.112 Safari/537.36'
-    # rubocop:enable Metrics/LineLength
+    # rubocop:enable Layout/LineLength
 
     def self.call(*args)
       new.call(*args)

@@ -3,9 +3,12 @@
 require 'rails_helper'
 
 RSpec.describe Parsers::PumaMoldovaParser do
-  let(:raw_link) { 'http://pumamoldova.md/ru/shop/male/footwear/lifestyle/370846-05' }
+  let(:raw_link) do
+    'http://pumamoldova.md/ru/shop/male/footwear/lifestyle/370846-05'
+  end
 
   before(:each) do
+    # rubocop:disable Layout/LineLength
     stub_request(:get, raw_link)
       .to_return(body: '
 <meta property="og:title" content="Кроссовки Puma Ralph Sampson Lo">
@@ -17,6 +20,7 @@ RSpec.describe Parsers::PumaMoldovaParser do
 <meta property="product:price:currency" content="MDL">
 <meta property="product_type" content="Мужчины > Обувь>Лайфстайл > Лайфстайл"/>
 ')
+    # rubocop:enable Layout/LineLength
   end
 
   it 'extracts item struct from pumamoldova page' do

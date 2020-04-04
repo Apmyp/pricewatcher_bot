@@ -15,14 +15,18 @@ RSpec.describe ParseLinkJob, type: :job do
   end
 
   it 'executes perform and updated link when changes parsed' do
-    expect(Links::PerformLink).to receive(:call).with(link).and_return([link_item, nil])
+    expect(Links::PerformLink).to(
+      receive(:call).with(link).and_return([link_item, nil])
+    )
     expect(UpdatedLinkJob).to receive(:perform_later).with(link)
 
     perform_enqueued_jobs { job }
   end
 
   it 'executes only perform when no changes parsed' do
-    expect(Links::PerformLink).to receive(:call).with(link).and_return([nil, nil])
+    expect(Links::PerformLink).to(
+      receive(:call).with(link).and_return([nil, nil])
+    )
     expect(UpdatedLinkJob).to_not receive(:perform_later).with(link)
 
     perform_enqueued_jobs { job }

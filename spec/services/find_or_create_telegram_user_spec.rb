@@ -3,7 +3,15 @@
 require 'rails_helper'
 
 RSpec.describe FindOrCreateTelegramUser do
-  let(:from) { { 'id' => 121_918_175, 'is_bot' => false, 'first_name' => 'Артур', 'username' => 'apmyp0', 'language_code' => 'ru' } }
+  let(:from) do
+    {
+      'id' => 121_918_175,
+      'is_bot' => false,
+      'first_name' => 'Артур',
+      'username' => 'apmyp0',
+      'language_code' => 'ru'
+    }
+  end
 
   it 'creates telegram user' do
     user = described_class.call(from)
