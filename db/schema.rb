@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_05_132558) do
+ActiveRecord::Schema.define(version: 2020_04_05_142905) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2020_04_05_132558) do
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "telegram_user_id", null: false
     t.string "path"
+    t.index ["telegram_user_id", "link"], name: "index_links_on_telegram_user_id_and_link", unique: true
     t.index ["telegram_user_id"], name: "index_links_on_telegram_user_id"
   end
 

@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
 class Link < ApplicationRecord
-  enum status: { active: 0, disabled: 1 }
+  enum status: {active: 0, disabled: 1}
 
   validates :telegram_user, :link, :host, :scheme, :status, presence: true
+  validates :link, uniqueness: {scope: :telegram_user_id}
+  validate :link_can_be_parsed
 
   has_many :link_items, dependent: :destroy
   has_one :active_link_item,
@@ -27,5 +29,11 @@ class Link < ApplicationRecord
                           "#{host} (\##{hash_id})"
                         end
                       end
+  end
+
+  def link_can_be_parsed
+    Parsers::ParserChooser.call(self)
+  rescue Parsers::ParserChooser::ParserNotFoundException
+    errors.add(:link, "can't be parsed")
   end
 end

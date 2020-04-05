@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
 module Parsers
-  class PumaMoldovaParser < Parser
+  class ExampleParser < Parser
     class << self
       def host
-        'pumamoldova.md'
+        'example.com'
       end
 
       def paths
         [
-            %r{/ru/shop/[^/]*/[^/]*/[^/]*}
+            %r{[^/]*}
         ]
       end
     end
@@ -31,7 +31,7 @@ module Parsers
 
     def availability(doc)
       doc.at("meta[property='product:availability']")['content']
-         .to_s == 'in stock'
+          .to_s == 'in stock'
     end
   end
 end

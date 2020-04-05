@@ -5,10 +5,14 @@ module Parsers
     class ParserNotFoundException < RuntimeError; end
 
     class << self
-      attr_accessor :parsers
+      attr_writer :parsers
 
       def call(*args)
         new.call(*args)
+      end
+
+      def parsers
+        @parsers || []
       end
     end
 

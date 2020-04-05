@@ -8,5 +8,9 @@ FactoryBot.define do
     host { 'example.com' }
     path { '/path' }
     status { :active }
+
+    trait :skip_validate do
+      to_create { |instance| instance.save(validate: false) }
+    end
   end
 end

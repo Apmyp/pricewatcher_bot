@@ -3,18 +3,22 @@
 require 'rails_helper'
 
 RSpec.describe Parsers::ParserChooser do
-  describe 'Host example.com' do
-    let(:link) { create(:link, host: 'example.com') }
+  describe 'Host dummy.com' do
+    let(:link) { create(:link, :skip_validate, host: 'dummy.com', path: '') }
 
     it 'raises an exception for dummy host' do
       expect { described_class.call(link) }.to(
-        raise_error(Parsers::ParserChooser::ParserNotFoundException)
+          raise_error(Parsers::ParserChooser::ParserNotFoundException)
       )
     end
   end
 
   describe 'Host pumamoldova.md' do
-    let(:link) { create(:link, host: 'pumamoldova.md') }
+    let(:link) do
+      create(:link,
+             host: 'pumamoldova.md',
+             path: '/ru/shop/1/1/1/1')
+    end
 
     it 'returns pumamoldova parser constant' do
       link.update(path: '/ru/shop/1/1/1/1')

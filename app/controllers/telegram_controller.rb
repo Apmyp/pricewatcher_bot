@@ -86,7 +86,7 @@ class TelegramController < Telegram::Bot::UpdatesController
   def process_new_link(raw_link)
     link = Links::CreateLink.call(current_user, raw_link)
     ParseLinkJob.set(wait: 5.seconds).perform_later(link)
-  rescue Links::PathNotFoundException, ActiveRecord::RecordInvalid
+  rescue ActiveRecord::RecordInvalid
     save_context :newlink!
     respond_with :message, text: t('.link_not_added')
     logger.info(

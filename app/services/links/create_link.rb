@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Links
-  class PathNotFoundException < RuntimeError; end
+  class ValidationException < RuntimeError; end
 
   class CreateLink
     require 'uri'
@@ -52,8 +52,6 @@ module Links
                               link = "http://#{link}"
                               uri = URI.parse(link)
                             end
-
-                            raise PathNotFoundException if uri.path.size.zero?
 
                             uri
                           end
