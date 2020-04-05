@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Telegram
-  class MakeIkLink
+  class MakeIkButton
     def self.call(*args)
       new.call(*args)
     end
@@ -9,7 +9,7 @@ module Telegram
     def call(text:, action:)
       {}.tap do |h|
         h['text'] = text
-        h['url'] = action
+        h['callback_data'] = action
       end
     end
   end

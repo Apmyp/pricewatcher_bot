@@ -21,7 +21,7 @@ class NotifyTelegramUser
 
   def inline_keyboard
     [
-      [Telegram::MakeIkLink.call(
+      [Telegram::MakeIkButton.call(
         text: I18n.t('telegram.link_added_back'),
         action: 'links'
       )]
