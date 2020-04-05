@@ -16,7 +16,7 @@ module Parsers
       end
 
       def parsers_hosts
-        parsers.map { |c| c.public_send(:host) }
+        parsers.map { |c| c.public_send(:host) }.join("\n")
       end
     end
 
