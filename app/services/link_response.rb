@@ -69,12 +69,12 @@ class LinkResponse
 
   def message_ik
     [
+      [make_link(text: I18n.t('telegram.show_link'), url: link.link)],
       [button(
         text: I18n.t('telegram.delete_link'),
         action: "destroy_link:#{link.id}"
       )],
       [button(text: I18n.t('telegram.back'), action: 'links')],
-      [make_link(text: I18n.t('telegram.show_link'), url: link.link)]
     ]
   end
 
