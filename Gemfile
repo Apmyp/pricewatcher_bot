@@ -28,6 +28,7 @@ gem 'nokogiri', '>= 1.10.9'
 gem 'redis-rails', '>= 5.0.2'
 gem 'sentry-raven'
 gem 'sidekiq', '>= 6.0.6'
+gem 'skylight'
 gem 'telegram-bot', '>= 0.14.3'
 gem 'whenever', '>= 1.0.0', require: false
 
