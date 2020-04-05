@@ -37,5 +37,12 @@ module SalesBot
     config.api_only = true
 
     config.active_job.queue_adapter = :sidekiq
+
+    Raven.configure do |config|
+      config.dsn = Rails.application.credentials.sentry
+      config.environments = %w[development production]
+      config.async = ->(event) { SentryJob.perform_later(event) }
+      config.silence_ready = true
+    end
   end
 end

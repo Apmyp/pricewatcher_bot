@@ -4,6 +4,8 @@ class TelegramController < Telegram::Bot::UpdatesController
   include Telegram::Bot::UpdatesController::MessageContext
 
   before_action :set_current_user
+  before_action :set_raven_context
+  around_action :wrap_in_raven
 
   def start!(*)
     current_user.update(status: :active)
@@ -52,6 +54,17 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def set_current_user
     @set_current_user ||= @current_user ||= FindOrCreateTelegramUser.call(from)
+  end
+
+  def set_raven_context
+    Raven.user_context(id: current_user.id)
+    Raven.extra_context(telegram_chat_id: current_user.external_id)
+  end
+
+  def wrap_in_raven
+    Raven.capture do
+      yield
+    end
   end
 
   def show_link_callback(data)

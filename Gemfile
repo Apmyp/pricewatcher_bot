@@ -26,6 +26,7 @@ gem 'dry-struct', '>= 1.0.0'
 gem 'nanoid', '>= 2.0.0'
 gem 'nokogiri', '>= 1.10.9'
 gem 'redis-rails', '>= 5.0.2'
+gem 'sentry-raven'
 gem 'sidekiq', '>= 6.0.6'
 gem 'telegram-bot', '>= 0.14.3'
 gem 'whenever', '>= 1.0.0', require: false
@@ -41,6 +42,8 @@ end
 group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'brakeman', '>= 4.8.0'
+  gem 'bullet'
   gem 'rubocop-rails', '>= 2.5.1', require: false
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
