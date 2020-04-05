@@ -9,45 +9,54 @@ module Links
     NANOID_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
 
     def self.call(*args)
-      new.call(*args)
+      new(*args).call
     end
 
-    def call(user, raw_link)
-      uri = normalized_raw_link(raw_link)
-      host_without_www = host_without_www(uri)
+    def initialize(user, raw_link)
+      @user = user
+      @raw_link = raw_link
+    end
 
+    def call
       Link.create!(
-        telegram_user: user,
-        hash_id: Nanoid.generate(alphabet: NANOID_ALPHABET),
-        link: uri.to_s,
-        scheme: uri.scheme,
-        host: host_without_www,
-        status: :active
+          telegram_user: user,
+          hash_id: Nanoid.generate(alphabet: NANOID_ALPHABET),
+          link: normalized_uri.to_s,
+          scheme: normalized_uri.scheme,
+          path: normalized_uri.path,
+          host: host_without_www,
+          status: :active
       )
     end
 
     private
 
-    def host_without_www(uri)
-      if uri.host.start_with?('www.')
-        uri.host[4..-1]
-      else
-        uri.host
-      end
+    attr_reader :user, :raw_link
+
+    def host_without_www
+      @host_without_www ||= begin
+                              if normalized_uri.host.start_with?('www.')
+                                normalized_uri.host[4..-1]
+                              else
+                                normalized_uri.host
+                              end
+                            end
     end
 
-    def normalized_raw_link(raw_link)
-      link = raw_link.sub(%r{^//}, '').sub(/\.$/, '')
-      uri = URI.parse(link)
+    def normalized_uri
+      @normalized_uri ||= begin
+                            link = raw_link.sub(%r{^//}, '').sub(/\.$/, '')
+                            uri = URI.parse(link)
 
-      if uri.scheme.nil?
-        link = "http://#{link}"
-        uri = URI.parse(link)
-      end
+                            if uri.scheme.nil?
+                              link = "http://#{link}"
+                              uri = URI.parse(link)
+                            end
 
-      raise PathNotFoundException if uri.path.size.zero?
+                            raise PathNotFoundException if uri.path.size.zero?
 
-      uri
+                            uri
+                          end
     end
   end
 end

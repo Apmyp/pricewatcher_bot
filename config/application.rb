@@ -46,5 +46,11 @@ module SalesBot
     end
 
     config.skylight.probes += %w[redis active_job]
+
+    config.after_initialize do
+      Parsers::ParserChooser.parsers = [
+        Parsers::PumaMoldovaParser
+      ]
+    end
   end
 end

@@ -17,7 +17,16 @@ RSpec.describe Parsers::ParserChooser do
     let(:link) { create(:link, host: 'pumamoldova.md') }
 
     it 'returns pumamoldova parser constant' do
+      link.update(path: '/ru/shop/1/1/1/1')
       expect(described_class.call(link)).to eq(Parsers::PumaMoldovaParser)
+    end
+
+    it 'raises an exception' do
+      link.update(path: '/contact')
+
+      expect { described_class.call(link) }.to(
+          raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      )
     end
   end
 end

@@ -18,4 +18,15 @@ namespace :links do
 
     print "\n"
   end
+
+  desc 'Generates path for links which does not have it'
+  task generate_paths: :environment do
+    link_query = Link.where(path: nil)
+    puts "Found #{link_query.count} links"
+
+    link_query.find_each do |link|
+      uri = URI.parse(link.link)
+      link.update!(path: uri.path)
+    end
+  end
 end

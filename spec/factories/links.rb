@@ -6,6 +6,7 @@ FactoryBot.define do
     link { 'http://example.com' }
     scheme { 'http' }
     host { 'example.com' }
+    path { '/path' }
     status { :active }
   end
 end

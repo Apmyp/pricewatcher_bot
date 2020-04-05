@@ -4,14 +4,21 @@ module Parsers
   class ParserChooser
     class ParserNotFoundException < RuntimeError; end
 
-    def self.call(*args)
-      new.call(*args)
+    class << self
+      attr_accessor :parsers
+
+      def call(*args)
+        new.call(*args)
+      end
     end
 
     def call(link)
-      raise ParserNotFoundException unless link.host == 'pumamoldova.md'
+      self.class.parsers.find do |parser_const|
+        host = parser_const.public_send(:host)
+        paths = parser_const.public_send(:paths)
 
-      PumaMoldovaParser
+        link.host == host && paths.any? { |p| link.path[p] }
+      end || raise(ParserNotFoundException)
     end
   end
 end
