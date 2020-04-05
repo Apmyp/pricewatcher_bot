@@ -9,7 +9,7 @@ module Parsers
 
       def paths
         [
-          %r{/ru/shop/[^/]*/[^/]*/[^/]*}
+          %r{/[^\/]*/shop/[^/]*/[^/]*/[^/]*}
         ]
       end
     end
