@@ -20,9 +20,10 @@ RSpec.describe UpdatedLinkJob, type: :job do
       .and_return('test')
 
     expect(NotifyTelegramUser).to receive(:call).with(
-      link.telegram_user,
-      link.active_link_item.image,
-      'test'
+      user: link.telegram_user,
+      photo: link.active_link_item.image,
+      raw_link: link.link,
+      message: 'test'
     )
 
     perform_enqueued_jobs { job }

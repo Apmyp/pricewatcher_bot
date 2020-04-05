@@ -6,10 +6,10 @@ module Telegram
       new.call(*args)
     end
 
-    def call(text:, action:)
+    def call(text:, url:)
       {}.tap do |h|
         h['text'] = text
-        h['url'] = action
+        h['url'] = url
       end
     end
   end

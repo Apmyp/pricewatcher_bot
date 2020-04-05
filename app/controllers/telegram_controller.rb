@@ -127,7 +127,7 @@ class TelegramController < Telegram::Bot::UpdatesController
     { text: t('.link_added', link_name: link.display_name), reply_markup: {
       inline_keyboard: [
         [button(text: t('.delete_link'), action: "destroy_link:#{link.id}")],
-        [make_link(text: I18n.t('telegram.show_link'), url: link.link)],
+        [make_link(text: t('.show_link'), url: link.link)],
         [button(text: t('.add_link'), action: 'create_link')],
         [button(text: t('.link_added_back'), action: 'links')]
       ]
