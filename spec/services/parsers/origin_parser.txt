@@ -1,0 +1,922 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1">
+
+    <script type="text/javascript">
+        if (typeof window.devicePixelRatio != 'undefined' && !document.cookie.retina) {
+            if (window.devicePixelRatio > 1) {
+                var date = new Date(new Date().getTime() + 60 * 1000 * 60 * 24);
+                document.cookie = "retina=" + window.devicePixelRatio + "; path=; expires=" + date.toUTCString();
+            } else {
+                var date = new Date(0);
+                document.cookie = "retina=; path=; expires=" + date.toUTCString();
+            }
+        }
+    </script>
+
+	<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=install_email
+        page_id="288272441668330"
+  logged_in_greeting="Salut! Cu ce vă putem ajuta?"
+  logged_out_greeting="Salut! Cu ce vă putem ajuta?">
+      </div>
+
+
+
+    	<meta name="keywords" itemprop="keywords" content="Туфли, мужская обувь туфли, Un Larvik Lace Brown Leather,">
+	<meta name="description" itemprop="description" content="
+
+">
+	<title>Туфли мужские Un Larvik Lace Brown Leather | Туфли - Origin
+
+</title>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRTM8J3');</script>
+<!-- End Google Tag Manager -->
+
+    <link type="image/png" rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicons/apple-touch-icon-144-precomposed.png?1">
+    <link type="image/png" rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicons/apple-touch-icon-114-precomposed.png?1">
+    <link type="image/png" rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicons/apple-touch-icon-72-precomposed.png?1">
+    <link type="image/png" rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/favicons/apple-touch-icon-57-precomposed.png?1">
+    <link type="image/png" rel="shortcut icon" sizes="64x64" href="/img/favicons/favicon64.png?1">
+    <link type="image/png" rel="shortcut icon" sizes="48x48" href="/img/favicons/favicon48.png?1">
+    <link type="image/png" rel="shortcut icon" sizes="32x32" href="/img/favicons/favicon32.png?1">
+    <link type="image/png" rel="shortcut icon" sizes="16x16" href="/img/favicons/favicon16.png?1">
+
+    <link href="/style/jquery.fancybox-1.3.4.css,select-theme-black.css,select-theme-light.css,default.css,responsive.css,animate.css,jquery-ui.css,cloud-zoom.css,owl.carousel.css,owl.theme.css?24" rel="stylesheet" type="text/css" />
+
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="/javascript/jquery.js,scripts.js,functions.js,jquery-ui.min.js,wow.min.js,select.min.js,cloud-zoom.1.0.2.js,owl.carousel.min.js,imageMapResizer.min.js" type="text/javascript"></script>
+
+            	<style>body .wow { visibility:visible; }</style>
+
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRTM8J3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="header">
+    <div class="">
+        <div class="line first">
+            <a href="/ru/" class="logo"><img src="/img/content/logo.svg?3" alt="Origin" class="logo_img" width="142" height="35" style="margin-top: 4px" /></a>
+
+            <div class="header_tabs">
+    <div class="tabs">
+        			            <div class="tab with_submenu have-submenu" rel="49"><a href="https://www.origin.md/ru/products/zhenskaya-obuv" class="nolink"><span>Женская обувь</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                                                            <div class="submenu">
+                        	<div class="submenu-items">
+                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Категории</a>
+																																					<a href="https://www.origin.md/ru/products/zhenskaya-obuv-sapogi" class="tab subtab animated ">Сапоги</a>
+																									<a href="https://www.origin.md/ru/products/zhenskaya-obuv-botinki" class="tab subtab animated ">Ботинки</a>
+																									<a href="https://www.origin.md/ru/products/zhenskaya-obuv-tufli" class="tab subtab animated ">Туфли</a>
+																									<a href="https://www.origin.md/ru/products/zhenskaya-obuv-kedi" class="tab subtab animated ">Кеды</a>
+																									<a href="https://www.origin.md/ru/products/zhenskaya-obuv-baletki" class="tab subtab animated ">Балетки</a>
+																									<a href="https://www.origin.md/ru/products/zhenskaya-obuv-mokasini" class="tab subtab animated ">Мокасины</a>
+																									<a href="https://www.origin.md/ru/products/zhenskaya-obuv-bosonozhki" class="tab subtab animated ">Босоножки</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Бренды</a>
+																																					<a href="/ru/brand/geox/category=zhenskaya-obuv" class="tab subtab animated ">Geox</a>
+																									<a href="/ru/brand/clarks/category=zhenskaya-obuv" class="tab subtab animated ">Clarks</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Размеры</a>
+
+																									<div class="nav-sizes">
+														<a href="/ru/products/zhenskaya-obuv/size=35" class="nav-sizes__size">35</a><a href="/ru/products/zhenskaya-obuv/size=35.5" class="nav-sizes__size">35.5</a><a href="/ru/products/zhenskaya-obuv/size=36" class="nav-sizes__size">36</a><a href="/ru/products/zhenskaya-obuv/size=37" class="nav-sizes__size">37</a><a href="/ru/products/zhenskaya-obuv/size=37.5" class="nav-sizes__size">37.5</a><a href="/ru/products/zhenskaya-obuv/size=38" class="nav-sizes__size">38</a><a href="/ru/products/zhenskaya-obuv/size=39" class="nav-sizes__size">39</a><a href="/ru/products/zhenskaya-obuv/size=39.5" class="nav-sizes__size">39.5</a><a href="/ru/products/zhenskaya-obuv/size=40" class="nav-sizes__size">40</a><a href="/ru/products/zhenskaya-obuv/size=41" class="nav-sizes__size">41</a><a href="/ru/products/zhenskaya-obuv/size=41.5" class="nav-sizes__size">41.5</a><a href="/ru/products/zhenskaya-obuv/size=42" class="nav-sizes__size">42</a>													</div>
+																							</div>
+																			                                                            </div>
+                            								<div class="img-col">
+									<img src="/img/images/Category/2/incaltaminte-femei.jpg" />
+								</div>
+                                                    </div>
+                                                </div>
+        			            <div class="tab with_submenu have-submenu" rel="50"><a href="https://www.origin.md/ru/products/muzhskaya-obuv" class="nolink"><span>Мужская обувь</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                                                            <div class="submenu">
+                        	<div class="submenu-items">
+                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Категории</a>
+																																					<a href="https://www.origin.md/ru/products/muzhskaya-obuv-botinki" class="tab subtab animated ">Ботинки</a>
+																									<a href="https://www.origin.md/ru/products/muzhskaya-obuv-sapogi" class="tab subtab animated ">Сапоги</a>
+																									<a href="https://www.origin.md/ru/products/muzhskaya-obuv-tufli" class="tab subtab animated ">Туфли</a>
+																									<a href="https://www.origin.md/ru/products/muzhskaya-obuv-kedi" class="tab subtab animated ">Кеды</a>
+																									<a href="https://www.origin.md/ru/products/muzhskaya-obuv-mokasini" class="tab subtab animated ">Мокасины</a>
+																									<a href="https://www.origin.md/ru/products/muzhskaya-obuv-sandalii" class="tab subtab animated ">Сандали</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Бренды</a>
+																																					<a href="/ru/brand/geox/category=muzhskaya-obuv" class="tab subtab animated ">Geox</a>
+																									<a href="/ru/brand/clarks/category=muzhskaya-obuv" class="tab subtab animated ">Clarks</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Размеры</a>
+
+																									<div class="nav-sizes">
+														<a href="/ru/products/muzhskaya-obuv/size=39" class="nav-sizes__size">39</a><a href="/ru/products/muzhskaya-obuv/size=39.5" class="nav-sizes__size">39.5</a><a href="/ru/products/muzhskaya-obuv/size=40" class="nav-sizes__size">40</a><a href="/ru/products/muzhskaya-obuv/size=41" class="nav-sizes__size">41</a><a href="/ru/products/muzhskaya-obuv/size=41.5" class="nav-sizes__size">41.5</a><a href="/ru/products/muzhskaya-obuv/size=42" class="nav-sizes__size">42</a><a href="/ru/products/muzhskaya-obuv/size=42.5" class="nav-sizes__size">42.5</a><a href="/ru/products/muzhskaya-obuv/size=43" class="nav-sizes__size">43</a><a href="/ru/products/muzhskaya-obuv/size=44" class="nav-sizes__size">44</a><a href="/ru/products/muzhskaya-obuv/size=44.5" class="nav-sizes__size">44.5</a><a href="/ru/products/muzhskaya-obuv/size=45" class="nav-sizes__size">45</a><a href="/ru/products/muzhskaya-obuv/size=46" class="nav-sizes__size">46</a><a href="/ru/products/muzhskaya-obuv/size=47" class="nav-sizes__size">47</a>													</div>
+																							</div>
+																			                                                            </div>
+                            								<div class="img-col">
+									<img src="/img/images/Category/9/incaltaminte-barbati.jpg" />
+								</div>
+                                                    </div>
+                                                </div>
+        			            <div class="tab with_submenu have-submenu" rel="51"><a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek" class="nolink"><span>Обувь для девочек</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                                                            <div class="submenu">
+                        	<div class="submenu-items">
+                                																														<div class="navcol">
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek" class="tab navcol-title animated">Categorii</a>
+																																					<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek-baletki" class="tab subtab animated ">Балетки</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek-botinki" class="tab subtab animated ">Ботинки</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek-sapogi" class="tab subtab animated ">Сапоги</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek-kedi" class="tab subtab animated ">Кеды</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek-tufli" class="tab subtab animated ">Туфли</a>
+																									<a href="https://www.origin.md/ru/products/incaltaminte-copii-incaltaminte-fete-sandale" class="tab subtab animated ">Sandale</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Бренды</a>
+																																					<a href="/ru/brand/geox/category=detskaya-obuv-obuv-dlya-devochek" class="tab subtab animated ">Geox</a>
+																									<a href="/ru/brand/primigi/category=detskaya-obuv-obuv-dlya-devochek" class="tab subtab animated ">Primigi</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Размеры</a>
+
+																									<div class="nav-sizes">
+														<a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=19" class="nav-sizes__size">19</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=20" class="nav-sizes__size">20</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=21" class="nav-sizes__size">21</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=22" class="nav-sizes__size">22</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=23" class="nav-sizes__size">23</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=24" class="nav-sizes__size">24</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=25" class="nav-sizes__size">25</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=26" class="nav-sizes__size">26</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=27" class="nav-sizes__size">27</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=28" class="nav-sizes__size">28</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=29" class="nav-sizes__size">29</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=30" class="nav-sizes__size">30</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=31" class="nav-sizes__size">31</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=32" class="nav-sizes__size">32</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=33" class="nav-sizes__size">33</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=34" class="nav-sizes__size">34</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=35" class="nav-sizes__size">35</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=36" class="nav-sizes__size">36</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=37" class="nav-sizes__size">37</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=38" class="nav-sizes__size">38</a><a href="/ru/products/detskaya-obuv-obuv-dlya-devochek/size=39" class="nav-sizes__size">39</a>													</div>
+																							</div>
+																			                                                            </div>
+                            								<div class="img-col">
+									<img src="/img/images/Category/14/incaltaminte-copii-incaltaminte-fete.jpg" />
+								</div>
+                                                    </div>
+                                                </div>
+        			            <div class="tab with_submenu have-submenu" rel="69"><a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov" class="nolink"><span>Обувь для мальчиков</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                                                            <div class="submenu">
+                        	<div class="submenu-items">
+                                																														<div class="navcol">
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov" class="tab navcol-title animated">Categorii</a>
+																																					<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov-botinki" class="tab subtab animated ">Ботинки</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov-sapogi" class="tab subtab animated ">Сапоги</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov-kedi" class="tab subtab animated ">Кеды</a>
+																									<a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov-tufli" class="tab subtab animated ">Туфли</a>
+																									<a href="https://www.origin.md/ru/products/vnvnvbnvbn" class="tab subtab animated ">Sandale</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Бренды</a>
+																																					<a href="/ru/brand/geox/category=detskaya-obuv-obuv-dlya-malchikov" class="tab subtab animated ">Geox</a>
+																									<a href="/ru/brand/primigi/category=detskaya-obuv-obuv-dlya-malchikov" class="tab subtab animated ">Primigi</a>
+
+																							</div>
+																			                                																														<div class="navcol">
+																									<a class="tab navcol-title animated">Размеры</a>
+
+																									<div class="nav-sizes">
+														<a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=18" class="nav-sizes__size">18</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=19" class="nav-sizes__size">19</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=20" class="nav-sizes__size">20</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=21" class="nav-sizes__size">21</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=22" class="nav-sizes__size">22</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=23" class="nav-sizes__size">23</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=24" class="nav-sizes__size">24</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=25" class="nav-sizes__size">25</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=26" class="nav-sizes__size">26</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=27" class="nav-sizes__size">27</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=28" class="nav-sizes__size">28</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=29" class="nav-sizes__size">29</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=30" class="nav-sizes__size">30</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=31" class="nav-sizes__size">31</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=32" class="nav-sizes__size">32</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=33" class="nav-sizes__size">33</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=34" class="nav-sizes__size">34</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=35" class="nav-sizes__size">35</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=36" class="nav-sizes__size">36</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=37" class="nav-sizes__size">37</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=38" class="nav-sizes__size">38</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=39" class="nav-sizes__size">39</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=40" class="nav-sizes__size">40</a><a href="/ru/products/detskaya-obuv-obuv-dlya-malchikov/size=41" class="nav-sizes__size">41</a>													</div>
+																							</div>
+																			                                                            </div>
+                            								<div class="img-col">
+									<img src="/img/images/Category/21/incaltaminte-copii-incaltaminte-baieti.jpg" />
+								</div>
+                                                    </div>
+                                                </div>
+        			            <div class="tab with_submenu have-submenu" rel="77"><a href="https://www.origin.md/ru/products/kurtki" class="nolink"><span>Куртки</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                            </div>
+        			            <div class="tab with_submenu have-submenu technologies-tab" rel="70"><a class="nolink"><span>Бренды</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                                                            <div class="submenu technologies-menu">
+                        	<div class="submenu-items display-block">
+                                																														<div class="navcol">
+																																					<a href="/ru/brand/clarks/" class="tab subtab animated ">Clarks</a>
+																									<a href="/ru/brand/geox/" class="tab subtab animated ">Geox</a>
+																									<a href="/ru/brand/primigi/" class="tab subtab animated ">Primigi</a>
+
+																							</div>
+																			                                                            </div>
+                                                    </div>
+                                                </div>
+        			            <div class="tab with_submenu have-submenu technologies-tab" rel="57"><a class="nolink"><span>Технологии</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                                                            <div class="submenu technologies-menu">
+                        	<div class="submenu-items display-block">
+                                																														<div class="navcol">
+																																					<a href="/ru/technology/clarks_plus" class="tab subtab animated ">Clarks plus</a>
+																									<a href="/ru/technology/goretex" class="tab subtab animated ">Goretex</a>
+
+																							</div>
+																			                                                            </div>
+                                                    </div>
+                                                </div>
+        			            <div class="tab with_submenu have-submenu" rel="62"><a href="https://www.origin.md/ru/nashi-magazini" class="nolink"><span>Магазины</span></a>
+			<div class="toggler" onclick="$(this).toggleClass('opened').parent().find('.submenu').toggle(200)"></div>                            </div>
+        		<div class="clear"></div>
+    </div>
+	<a href="javascript:void(0)" class="meanmenu-reveal show_tabs" onclick="$('#header').toggleClass('show-menu')"></a>
+
+
+</div>
+
+<script type="text/javascript">
+	$('.tabs .tab.with_submenu > span').bind('click', function(){
+		$(this).addClass("clicked");
+		$('.tabs .tab.with_submenu > span:not(.clicked)').parent().removeClass("hover");
+
+		if($(this).parent().hasClass("hover")){
+			$(this).parent().removeClass("hover");
+		}else{
+			$(this).parent().addClass("hover");
+		}
+
+		$(this).removeClass("clicked");
+	});
+
+	$('.tabs .tab.products-tab .submenu .subtab:not(.tab-href, .with_image)').bind('click', function(e){
+		if($(e.target).hasClass("with_image") == false && $(e.target).hasClass("tab-href") == false){
+			$('.tabs .tab.products-tab .submenu .subtab:not(.tab-href, .with_image)').removeClass("hover");
+			if($(this).hasClass("hover")){
+				$(this).removeClass("hover");
+			}else{
+				$(this).addClass("hover");
+			}
+		}
+		e.preventDefault();
+	});
+
+	$(document).mouseup(function(e){
+		var container = $(".tabs .tab.with_submenu");
+		if(container.has(e.target).length === 0){
+			container.removeClass("hover");
+		}
+	});
+</script>
+            <div class="search_form">
+    <input type="text" id="search_input" placeholder="Поиск..." class="hidden" />
+
+	<div class="btn search">
+        <div class="icon search_left_icon"></div>
+    </div>
+
+    <script type="text/javascript">
+		$(".search_form .search").bind("click", function(){
+			var input = $("#search_input");
+
+			if(input.val() !== "")
+				window.location.href = "/ru/search/s/"+encodeURIComponent(input.val());
+			else {
+				$("#search_input").toggleClass('hidden');
+				$("#header .tabs .tab:last").toggle();
+			}
+			/*else
+				input.toggle().focus();*/
+			input.focus();
+		});
+		$("#search_input").bind("keypress", function(e){
+			if(e.keyCode == 13){
+				$(".search_form .btn.search").click();
+			}
+		});
+		$("#search_input")/*.focus(function(){
+			if($(this).val() == ""){
+				$(this).attr("placeholder", "");
+			}
+		})*/.blur(function(){
+			if($(this).val() == ""){
+				$("#search_input").toggleClass('hidden');
+				$("#header .tabs .tab:last").toggle();
+			}
+		});
+	</script>
+</div>
+
+            <!--<a href="/ru/cart/" class="btn cart"><b style="display:none"></b></a>-->
+
+            <a href="/ro/product/pantofi-clarks-un-larvik-lace-brown-leather" class="btn language animated_all">ro</a>        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).bind('scroll', function(){
+        var header = $('#header');
+		var scrolled = $(document).scrollTop();
+		if(scrolled > 75){
+            if(header.hasClass('fixed') == false){
+                header.addClass('fixed');
+                //$('body').css('padding-top', header.height());
+            }
+        }else{
+            if(header.hasClass('fixed')){
+                header.removeClass('fixed');
+                //$('body').css('padding-top', 0);
+            }
+        }
+	});
+</script>
+
+    <div class="main_content product-page">
+        <div class="responsive_padding">
+
+            <div class="content_width responsive-padding-def">
+
+
+    </div>
+
+
+<div class="content_width default_padding">
+                        <div class="path__brands__image">
+                <img src="/img/images/Brands/2/clarks.jpg" alt="Clarks">
+            </div>
+            </div>
+
+        	<div id="content">
+                <div class="content_width default_padding">
+                    <div id="item_info">
+
+    <div class="images">
+        <div class="view_image">
+	<a onclick="return false" href="/img/images/Item/2868/26144583_1.jpg" class="cloud-zoom" id="zoom1" rel="useWrapper: false" ><img class="item-image" width="660" height="660" src="/img/images/Item/2868/660x660/26144583_1.jpg"></a>
+
+
+</div>
+
+<div class="list">
+        	<a href="/img/images/Item/2868/26144583_1.jpg" class="image selected cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_1.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_1.jpg"></a>
+        	<a href="/img/images/Item/2868/26144583_2.jpg" class="image cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_2.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_2.jpg"></a>
+        	<a href="/img/images/Item/2868/26144583_3.jpg" class="image cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_3.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_3.jpg"></a>
+        	<a href="/img/images/Item/2868/26144583_4.jpg" class="image cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_4.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_4.jpg"></a>
+        	<a href="/img/images/Item/2868/26144583_5.jpg" class="image cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_5.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_5.jpg"></a>
+        	<a href="/img/images/Item/2868/26144583_6.jpg" class="image cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_6.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_6.jpg"></a>
+        	<a href="/img/images/Item/2868/26144583_7.jpg" class="image cloud-zoom-gallery" rel="position:'inside', useZoom:'zoom1', smallImage:'/img/images/Item/2868/660x660/26144583_7.jpg', disableZoom: 'auto'"><img width="80" height="80" src="/img/images/Item/2868/80x80/26144583_7.jpg"></a>
+    </div>
+
+<script type="text/javascript">
+	$(".images .list .image").bind("click", function(){
+		$(".images .list .image").removeClass("selected");
+		$(this).addClass("selected");
+	});
+
+    $(".images .list").owlCarousel({
+        items : 4,
+		itemsCustom : [
+			[0, 2],
+			[370, 3],
+			[678, 2],
+			[900, 3],
+			[1200, 4]
+		],
+        navigation : true,
+        slideSpeed : 500,
+        pagination : false,
+		autoPlay: 3000,
+    });
+</script>
+    </div>
+
+    <div class="info">
+                <h1>Туфли мужские Un Larvik Lace</h1>
+        <h2>Brown Leather</h2>
+
+        <hr />
+
+        <div class="price-box">
+            <div class="price sale moveup"><p>1912</p> <span>MDL</span></div>        <div class="old_price moveup"><p>2390</p> <span>MDL</span></div>
+    <!--<div class="free-delivery"><img src="/img/content/delivery.png" width="20" height="16" />Бесплатная доставка от 1000 леев</div>-->
+</div>
+
+<hr class="dotted" />
+
+
+
+
+<div class="sizes">
+    <label>Доступные размеры:</label>
+    <div class="list">
+                <div class="size">39.5</div>
+                <div class="size">40</div>
+                <div class="size">41</div>
+                <div class="size">41.5</div>
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">45</div>
+            </div>
+</div>
+<a href="javascript:void(0)" class="size-guide ajax-request" action="infoblocks/size_guide/2" type="fancybox">Гид по размерам<img width="30" height="12" src="/img/content/measure.png"></a>
+
+<div class="clear"></div>
+
+<!---->
+<!--<div class="cart-warning-2 message-block"><strong>Бесплатная опция:</strong> Вы можете выбрать еще один размер (к примеру, 36-37).  Мы доставим оба размера и Вы сможете их примерить.
+
+</div>-->
+<!---->
+
+
+
+<!--<a class="cart-button" data-id="2868"><i class="icon cart-icon"></i><span>Зарезервировать онлайн</span></a>-->
+
+<!--<div class="phone-button">-->
+<!--<div>-->
+<!--<span class="phone-title">Зарезервировать по телефону</span>-->
+<!--<span class="phone-number">37360000000</span>-->
+<!--</div>-->
+<!--</div>-->
+
+
+<div class="phone-buttons">
+    <div class="reserve" style="margin-top: 30px;">Зарезервировать по телефону</div>
+    <a href="tel:+37360607765" class="phone-button">+(373) 60 607 765</a>
+    <a href="viber://add?number=%2B37360607765" class="phone-button phone-button--viber"></a>
+</div>
+
+
+<div class="clear"></div>
+<div class="main-links">
+    <div class="content_width">
+                    <a href="https://origin.md/ru/usloviya-garantii" class="default">
+                <img src="/img/content/link-1.png" class="icon1" />
+                <span>90-дневная гарантия на все продукты</span>
+            </a>
+                    <a href="https://origin.md/ru/kak-kupit-onlayn" class="default">
+                <img src="/img/content/link-2.png" class="icon2" />
+                <span>Резервация размера на 24 часа</span>
+            </a>
+                    <a href="https://origin.md/ru/primeryay--pokupay-pryamo-v-magazine" class="default">
+                <img src="/img/content/link-3.png" class="icon3" />
+                <span>Примеряй / покупай прямо в магазине</span>
+            </a>
+            </div>
+</div>
+
+<div class="clear message-clear" style="display: none"></div>
+<div class="cart-warning message-block">Выберите ваш размер</div>
+
+
+
+<div style="margin-bottom: 15px;" class="clear"></div>
+
+<!--<div id="tabs">-->
+<!--<div class="tabs__caption">-->
+<!---->
+<!--&lt;!&ndash;<h3 class="tab active">Доставка</h3>&ndash;&gt;-->
+<!--<h3 class="tab">Возврат</h3>-->
+<!--</div>-->
+<!---->
+<!--&lt;!&ndash;<div class="tabs__content active">*Primim comenzile de Luni pana Vineri, orele: 9:00 - 17:00<br />
+- Livram (la solicitare) 2 marimi concomitent<br />
+- Livrare in 3 ore (prin Chisinau)<br />
+- Livrare timp de pana la 24 ore (in afara Chisinaului)<br />
+- Daca produsul nu vi se potriveste, il puteti returna direct curierului
+
+</div>&ndash;&gt;-->
+<!--<div class="tabs__content">La solicitare, livram din start 2 marimi, ca sa puteti alege marimea potrivita! Comandati doua marimi care le purtati de obicei (Exemplu: marimele 36 si 37).<br />
+<br />
+- Achitati perechea care se potriveste, iar a doua marime o returnati curierului, absolut gratuit!<br />
+- Daca nici una din perechi nu este potrivita, returnati ambele perechi direct curierului, gratuit!<br />
+- Daca dupa plecarea curierului apare nevoia de a returna incaltamintea, apropiati-va in unul din magazinele Clarks
+
+</div>-->
+<!--</div>-->
+
+<div class="clear"></div>
+
+<div class="colors">
+    <label>Другие цвета:</label>
+    <div class="list">
+                <a href="/ru/product/tufli-clarks-un-larvik-lace-black-leather" class="nolink"><img src="/img/images/Item/2867/80x80/26144577_1.jpg" height="80" width="80" class="item" /></a>
+            </div>
+</div>
+
+<div class="share-block">
+    <label>Поделиться с друзьями</label>
+
+    <a onclick="Share.facebook('http://origin.md/ru/')" class="icon social facebook nolink animated"></a>
+    <!--<a onclick="Share.mailru('http://origin.md/ru/')" class="icon social mailru nolink animated"></a>-->
+    <a href="viber://forward?text=https://origin.md/ru/product/tufli-clarks-un-larvik-lace-brown-leather" target="_blank" class="icon social viber nolink animated"></a>
+    <a href="https://telegram.me/share/url?url=https://origin.md/ru/product/tufli-clarks-un-larvik-lace-brown-leather&text=Un Larvik Lace Brown Leather" target="_blank" class="icon social telegram nolink animated"></a>
+    <a href="https://www.instagram.com/clarksshoes/" target="_blank" class="icon social instagram nolink animated"></a>
+    <a href="https://web.whatsapp.com/send?text=https://origin.md/ru/product/tufli-clarks-un-larvik-lace-brown-leather" target="_blank" class="icon social whatsup nolink animated"></a>
+
+    <div class="clear"></div>
+</div>
+
+<script type="text/javascript">
+    $("#tabs").Tabs('none');
+
+    $(".sizes .size").bind("click", function(){
+        if($(".sizes").hasClass("disabled")) return false;
+
+        $(".sizes .size.selected").removeClass('selected');
+        $(this).addClass("selected");
+
+        $(".cart-button").removeClass("disabled");
+        $(".cart-warning").hide();
+    });
+
+    // $(".sizes .size").bind("click", function(){
+    //     if($(".sizes").hasClass("disabled")) return false;
+    //
+    //     if($(".sizes").hasClass("select-additional")){
+    //         $(".sizes .size.selected2").removeClass("selected2");
+    //         $(this).addClass("selected2");
+    //     }else{
+    //         if($(".sizes .size.selected").length < 2){
+    //             $(this).toggleClass("selected");
+    //
+    //             $(".cart-button").removeClass("disabled");
+    //             $(".cart-warning").hide();
+    //             //$(".cart-warning-2").css({ display: "inline-block" });
+    //         }else{
+    //             $(this).removeClass("selected");
+    //         }
+    //     }
+    //
+    // });
+
+    var timeout;
+
+    $(".cart-button").bind("click", function(){
+        if($(".cart-button").hasClass("disabled")) return false;
+
+
+        if($(".cart-button").hasClass("select-additional")){
+            if('13' == '26') return false;
+
+            if($(".sizes .size.selected2").length == 0 && '13' !== '26'){
+                $(".cart-warning").removeClass("success").removeClass("error").css({ display: " inline-block" }).text("Выберите ваш размер");
+                return false;
+            }
+
+
+            var ID = parseInt($(this).data("id"));
+            var size = $(".sizes .size.selected").text();
+            var a_size = $(".sizes .size.selected2").text();
+
+            if((ID > 0 && size !== "" && a_size !== "") || '13' == '26'){
+                $.Request({ type: 'json', controller: 'item', action: 'add_additional_size_to_cart', data: 'object='+ID+'&size='+size+'&a_size='+a_size, complete: function(responce){
+                        if(responce.err == 1){
+                            if(responce.recommended_size > 0){
+                                $("#fancybox_content").Request({ controller: 'item', action: 'show_popup', complete: function(){ $("#fancybox-open").click(); } });
+                            }else{
+                                $("#fancybox_content").Request({ controller: 'item', action: 'show_popup', data: 'object='+responce.ID, complete: function(){ $("#fancybox-open").click(); } });
+                            }
+                        }else{
+                            if(responce.result == 1){
+                                $(".cart-warning").removeClass("error").addClass("success").css({ display: " inline-block" }).text("Второй размер добавлен в корзину");
+                                clearTimeout(timeout);
+                                timeout = setTimeout(function(){ $(".cart-warning").fadeOut(300); }, 3000);
+                                if('13' !== '26'){
+                                    //$(".cart-warning-2").css({ display: "inline-block" });
+                                    $(".sizes, .cart-button").addClass("disabled");
+                                    //$(".cart-button").text("В корзину");
+                                    //$(".cart-warning-2").hide();
+                                }
+                            }else{
+                                $(".cart-warning").removeClass("success").addClass("error").css({ display: " inline-block" }).text("Произошла ошибка");
+                            }
+                        }
+                    } });
+            }
+        }else{
+
+            if($(".sizes .size.selected").length == 0 && '13' !== '26'){
+                $(".cart-warning").removeClass("success").removeClass("error").css({ display: " inline-block" }).text("Выберите ваш размер");
+                return false;
+            }
+
+            var ID = parseInt($(this).data("id"));
+            var size;
+            var sizes_count = $(".sizes .size.selected").length;
+            $(".sizes .size.selected").each(function(i, e){
+                if(i == 0)
+                    size = $(e).text();
+                else
+                    size = size + ", " + $(e).text();
+            });
+
+            if(sizes_count == 1){
+                $(".cart-button, .sizes").addClass("select-additional");
+            }
+
+            $(".cart-warning").hide();
+
+            if((ID > 0 && size !== "") || '13' == '26'){
+                var button = $(this);
+                $.Request({ type: 'json', controller: 'item', action: 'add_to_cart', data: 'object='+ID+'&size='+size, complete: function(responce){
+                        if(responce.err == 1){
+                            if(responce.recommended_size > 0){
+                                $("#fancybox_content").Request({ controller: 'item', action: 'show_popup', complete: function(){ $("#fancybox-open").click(); } });
+                            }else{
+                                $("#fancybox_content").Request({ controller: 'item', action: 'show_popup', data: 'object='+responce.ID, complete: function(){ $("#fancybox-open").click(); } });
+                            }
+                        }else{
+                            if(responce.result == 1){
+                                $(".cart-warning").removeClass("error").addClass("success").css({ display: " inline-block" }).text("В корзине!");
+                                clearTimeout(timeout);
+                                timeout = setTimeout(function(){ $(".cart-warning").fadeOut(300); }, 3000);
+                                                                if('13' !== '26'){
+                                    //$(".cart-warning-2").hide();
+                                    if(sizes_count > 1){
+                                        $(".sizes").addClass("disabled");
+                                        $(".cart-button").addClass("disabled");
+                                    }
+                                    //$(".cart-button").text("Выбрать размер");
+                                }else{
+                                    $(".sizes").addClass("disabled");
+                                    $(".cart-button").addClass("disabled");
+                                }
+
+                                $("#fancybox_content").Request({ controller: 'item', action: 'item_in_cart', complete: function(){ $("#fancybox-open").click(); } });
+                            }else{
+                                $(".cart-warning").removeClass("success").addClass("error").css({ display: " inline-block" }).text("Произошла ошибка");
+                            }
+                            $("#header .cart b").text(responce.count);
+                            if(responce.count > 0)
+                                $("#header .cart b").show();
+                            else
+                                $("#header .cart b").hide();
+                        }
+                    } });
+            }
+        }
+    });
+</script>
+
+</div>
+
+    <div class="clear"></div>
+
+
+    <div class="clear"></div>
+
+            <div class="similar">
+            <label>Похожие товары</label>
+            <div class="list">
+                <div class="products-grid">
+                                        <div class="product">
+	<div class="product-img">
+		<a href="/ru/product/tufli-geox-u742xd-black" class="nolink">
+						<img src="/img/images/Item/1568/458x458/u742xd_00043_c9999_00.jpg" width="262" height="262" class="base-image" />
+
+							<div class="technologies">
+									</div>
+
+			<div class="product-box-hover">
+				<div class="product-buttons">
+					<div class="product-reserve">Подробнее</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="product-info">
+		<div style="height: 18px"><a href="/ru/brand/" class="product-brand nolink"></a></div>
+		<a href="/ru/product/tufli-geox-u742xd-black" class="product-name nolink">U742XD</a>
+		<div class="product-color">BLACK</div>
+		<div class="product-price">
+			<span class="current-price">2163 MDL</span>
+					</div>
+	</div>
+</div>
+                                        <div class="product">
+	<div class="product-img">
+		<a href="/ru/product/tufli-geox-u34r2a-black" class="nolink">
+						<img src="/img/images/Item/1570/458x458/u34r2a_00043_c9999_10.jpg" width="262" height="262" class="base-image" />
+
+							<div class="technologies">
+									</div>
+
+			<div class="product-box-hover">
+				<div class="product-buttons">
+					<div class="product-reserve">Подробнее</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="product-info">
+		<div style="height: 18px"><a href="/ru/brand/" class="product-brand nolink"></a></div>
+		<a href="/ru/product/tufli-geox-u34r2a-black" class="product-name nolink">U34R2A</a>
+		<div class="product-color">BLACK</div>
+		<div class="product-price">
+			<span class="current-price">1912 MDL</span>
+					</div>
+	</div>
+</div>
+                                        <div class="product">
+	<div class="product-img">
+		<a href="/ru/product/tufli-clarks-banbury-limit-black-leather" class="nolink">
+						<img src="/img/images/Item/1709/458x458/banbury_limit_black_leather_26132242.jpg" width="262" height="262" class="base-image" />
+
+							<div class="technologies">
+									</div>
+
+			<div class="product-box-hover">
+				<div class="product-buttons">
+					<div class="product-reserve">Подробнее</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="product-info">
+		<div style="height: 18px"><a href="/ru/brand/" class="product-brand nolink"></a></div>
+		<a href="/ru/product/tufli-clarks-banbury-limit-black-leather" class="product-name nolink">Banbury Limit</a>
+		<div class="product-color">Black Leather</div>
+		<div class="product-price">
+			<span class="current-price">1609 MDL</span>
+					</div>
+	</div>
+</div>
+                                        <div class="product">
+	<div class="product-img">
+		<a href="/ru/product/tufli-clarks-glide-lace-black-leather" class="nolink">
+						<img src="/img/images/Item/1722/458x458/glide_lace_black_leather_26135431.jpg" width="262" height="262" class="base-image" />
+
+							<div class="technologies">
+									</div>
+
+			<div class="product-box-hover">
+				<div class="product-buttons">
+					<div class="product-reserve">Подробнее</div>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="product-info">
+		<div style="height: 18px"><a href="/ru/brand/" class="product-brand nolink"></a></div>
+		<a href="/ru/product/tufli-clarks-glide-lace-black-leather" class="product-name nolink">Glide Lace</a>
+		<div class="product-color">Black Leather</div>
+		<div class="product-price">
+			<span class="current-price">1609 MDL</span>
+					</div>
+	</div>
+</div>
+                                    </div>
+            </div>
+        </div>
+    </div>                </div>
+            </div>
+
+        	<div class="clear"></div>
+        </div>
+    </div>
+
+
+                    <div id="footer">
+	<div class="content_width default_padding">
+            <div class="col">
+            <div class="title">Категории</div>
+                                                <a href="https://www.origin.md/ru/products/zhenskaya-obuv" class="default">Женская обувь</a>
+                                    <a href="https://www.origin.md/ru/products/muzhskaya-obuv" class="default">Мужская обувь</a>
+                                    <a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-devochek" class="default">Обувь для девочек</a>
+                                    <a href="https://www.origin.md/ru/products/detskaya-obuv-obuv-dlya-malchikov" class="default">Обувь для мальчиков</a>
+                                    </div>
+
+        <div class="col subscribe-col">
+                            <div id="subscribe_form" class="subscribe_form">
+    <div class="form">
+                    <form rel="subscribe_form" class="form-block ajax-form-request" action="forms/subscribe_form">
+                <h3>Подпишитесь на рассылку</h3>
+
+                <input type="hidden" name="submit" value="1" />
+
+                <div class="subscribe__checkboxes subscribe__checkboxes--brands">
+                    <label><input type="checkbox" id="clarks-checkbox" name="params[clarks]" value="1">Clarks</label>
+                    <label><input type="checkbox" id="geox-checkbox" name="params[geox]" value="1">Geox</label>
+                    <label><input type="checkbox" id="primigi-checkbox" name="params[primigi]" value="1">Primigi</label>
+                </div>
+
+                <div class="subscribe__checkboxes subscribe__checkboxes--types">
+                    <label><input type="checkbox" id="woman-checkbox" name="params[woman]" value="1">Женская</label>
+                    <label><input type="checkbox" id="man-checkbox" name="params[man]" value="1">Мужская</label>
+                    <label><input type="checkbox" id="children-checkbox" name="params[children]" value="1">Детская</label>
+                </div>
+
+                <script>
+                    $(".subscribe__checkboxes--brands input").bind("change", function() {
+                        if ($("#clarks-checkbox").prop('checked') && ! $("#geox-checkbox").prop('checked') && ! $("#primigi-checkbox").prop('checked')) {
+                            $("#children-checkbox").prop('checked', false);
+                            $("#children-checkbox").parent().hide();
+                        } else {
+                            $("#children-checkbox").parent().show();
+
+                            if ($("#primigi-checkbox").prop('checked') && ! $("#clarks-checkbox").prop('checked') && ! $("#geox-checkbox").prop('checked')) {
+                                $("#woman-checkbox").prop('checked', false);
+                                $("#man-checkbox").prop('checked', false);
+                                $("#woman-checkbox").parent().hide();
+                                $("#man-checkbox").parent().hide();
+                            } else {
+                                $("#woman-checkbox").parent().show();
+                                $("#man-checkbox").parent().show();
+                            }
+                        }
+                    });
+                </script>
+
+                <div class="input_field"><input placeholder="Ваш электронный адрес" class="text animated" maxlength="255" type="email" value="" name="params[email]" required /></div>
+
+                <button type="submit" class="send_message animated"><div class="icon subscribe"></div><span>Подписаться</span></button>
+
+                                            </form>
+            </div>
+</div>                    </div>
+            <div class="col">
+            <div class="title">Информация</div>
+                                                <a href="https://www.origin.md/ru/newproducts" class="default">Новые товары</a>
+                                    <a href="https://www.origin.md/ru/nashi-magazini" class="default">Наши магазины</a>
+                                    <a href="https://www.origin.md/ru/svyazhites-s-nami" class="default">Свяжитесь с нами</a>
+                                    <a href="https://www.origin.md/ru/nasha-istoriya" class="default">Наша история</a>
+                                    </div>
+
+        <div class="col subscribe-col">
+                    </div>
+        <div class="col info" style="margin-top: 30px;">
+        <!-- <img src="/img/content/footer-logo-black.png" width="293" height="85" /> -->
+
+        <div class="socials" style="margin-top: 0">
+            <a href="https://www.facebook.com/Clarks.md" target="_blank" class="icon social facebook nolink animated"></a>
+            <a href="https://www.instagram.com/clarksshoes/" target="_blank" class="icon social instagram nolink animated"></a>
+            <!--<a onclick="Share.mailru('http://www.origin.md/ru/')" class="icon social mailru nolink animated"></a>-->
+
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+</div>
+	<div class="scroll-up-button" onclick="ScrollTop()"></div>
+	<script type="text/javascript">
+		$(document).bind('scroll', function(){
+			var scrolled = $(document).scrollTop();
+			if(scrolled > 1000)
+				$('.scroll-up-button').fadeIn(200);
+			else
+				$('.scroll-up-button').fadeOut(200);
+		});
+	</script>
+
+	</div>
+
+	<div style="display:none">
+    	<div id="fancybox_content"></div>
+    	<a id="fancybox-open" href="#fancybox_content" class="fancybox"></a>
+    </div>
+
+    <script src="/fancybox/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+    <!--<script src="/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>-->
+
+    <script type="text/javascript">
+		$(function(){
+			$(document).tooltip();
+		});
+	</script>
+	<div id="json"></div>
+
+	<script type="text/javascript">
+		var host = "origin.md";
+		var page = "product";
+		var language = "ru";
+		var section = "frontend";
+		var noLangRequest = "product/info/tufli-clarks-un-larvik-lace-brown-leather";
+		var root = "";
+
+		$(document).ready(function(){
+			$(document).SetControls();
+		});
+	</script>
+</body>
+</html>

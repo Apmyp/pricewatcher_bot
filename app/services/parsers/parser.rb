@@ -11,17 +11,33 @@ module Parsers
     # rubocop:enable Layout/LineLength
 
     def self.call(*args)
-      new.call(*args)
+      new(*args).call
     end
 
-    private
+    def initialize(link)
+      @link = link
+    end
 
-    def fetch(link)
+    def call
+      ParserItem.new(
+          name: name,
+          image: image,
+          price: price,
+          currency: currency,
+          availability: availability
+      )
+    end
+
+    protected
+
+    attr_reader :link
+
+    def fetch
       @fetch ||= URI.open(link, 'User-Agent' => USER_AGENT).read
     end
 
-    def parse(html)
-      @parse ||= Nokogiri::HTML(html)
+    def doc
+      @doc ||= Nokogiri::HTML(fetch)
     end
   end
 end

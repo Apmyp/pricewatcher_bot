@@ -16,7 +16,7 @@ module Parsers
 
     def call(link)
       html = fetch(link)
-      doc = parse(html)
+      doc = doc(html)
 
       ParserItem.new(
           name: doc.at("meta[property='og:title']")['content'],
