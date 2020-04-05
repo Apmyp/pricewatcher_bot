@@ -1,24 +1,5 @@
-# README
+# Pricewatcher
+Pricewatcher is a telegram bot who detect price change. Tell about at least one link to [@apm_pricewatcher_bot](https://t.me/apm_pricewatcher_bot) and wait a little bit.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](docs/demo.gif)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
