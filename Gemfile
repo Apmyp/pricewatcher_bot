@@ -48,6 +48,12 @@ group :development do
   gem 'rubocop-rails', '>= 2.5.1', require: false
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem "capistrano", "~> 3.10", require: false
+  gem "capistrano-rails", "~> 1.4", require: false
+  gem 'capistrano-rvm'
+  gem 'capistrano-bundler', '~> 1.6'
+  gem 'capistrano3-puma'
+  gem 'capistrano-sidekiq'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
