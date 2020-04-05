@@ -11,11 +11,20 @@ class TelegramController < Telegram::Bot::UpdatesController
     current_user.update(status: :active)
     respond_with :message,
                  text: t('.start',
-                         first_name: current_user.first_name)
+                         first_name: current_user.first_name,
+                         parsers_hosts: parsers_hosts)
   end
 
   def help!(*)
-    respond_with :message, text: t('.help', first_name: current_user.first_name)
+    respond_with :message, text: t('.help',
+                                   first_name: current_user.first_name,
+                                   parsers_hosts: parsers_hosts)
+  end
+
+  def action_missing
+    respond_with :message, text: t('.help',
+                                   first_name: current_user.first_name,
+                                   parsers_hosts: parsers_hosts)
   end
 
   def stop!(*)
@@ -32,7 +41,7 @@ class TelegramController < Telegram::Bot::UpdatesController
       process_new_link(raw_link)
     else
       save_context :newlink!
-      respond_with :message, text: t('.new_link')
+      respond_with :message, text: t('.new_link', parsers_hosts: parsers_hosts)
     end
   end
 
@@ -126,5 +135,9 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def button(text:, action:)
     Telegram::MakeIkLink.call(text: text, action: action)
+  end
+
+  def parsers_hosts
+    @parsers_hosts ||= Parsers::ParserChooser.parsers_hosts
   end
 end

@@ -14,6 +14,10 @@ module Parsers
       def parsers
         @parsers || []
       end
+
+      def parsers_hosts
+        parsers.map { |c| c.public_send(:host) }
+      end
     end
 
     def call(link)
