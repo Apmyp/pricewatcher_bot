@@ -62,9 +62,10 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def wrap_in_raven
-    Raven.capture do
-      yield
-    end
+    yield
+  rescue => exception
+    Raven.capture_exception(exception)
+    raise exception
   end
 
   def show_link_callback(data)
@@ -88,7 +89,7 @@ class TelegramController < Telegram::Bot::UpdatesController
     save_context :newlink!
     respond_with :message, text: t('.link_not_added')
     logger.info(
-      "I cant create the link. Can you investigate why? Link: #{raw_link}"
+        "I cant create the link. Can you investigate why? Link: #{raw_link}"
     )
   else
     respond_with :message, link_added(link)
@@ -96,15 +97,15 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def links
     {
-      text: t('.links', count: current_user.active_links.count), reply_markup: {
+        text: t('.links', count: current_user.active_links.count), reply_markup: {
         inline_keyboard: links_ik(current_user.active_links)
-      }
+    }
     }
   end
 
   def links_ik(links)
     [].concat(Telegram::MakeIkForLinks.call(links))
-      .concat([[button(text: t('.add_link'), action: 'create_link')]])
+        .concat([[button(text: t('.add_link'), action: 'create_link')]])
   end
 
   def respond_with_link(link)
@@ -113,13 +114,13 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def link_added(link)
-    { text: t('.link_added', link_name: link.display_name), reply_markup: {
-      inline_keyboard: [
-        [button(text: t('.delete_link'), action: "destroy_link:#{link.id}")],
-        [button(text: t('.add_link'), action: 'create_link')],
-        [button(text: t('.link_added_back'), action: 'links')]
-      ]
-    } }
+    {text: t('.link_added', link_name: link.display_name), reply_markup: {
+        inline_keyboard: [
+            [button(text: t('.delete_link'), action: "destroy_link:#{link.id}")],
+            [button(text: t('.add_link'), action: 'create_link')],
+            [button(text: t('.link_added_back'), action: 'links')]
+        ]
+    }}
   end
 
   def button(text:, action:)
