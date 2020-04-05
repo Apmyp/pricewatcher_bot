@@ -63,9 +63,9 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def wrap_in_raven
     yield
-  rescue => exception
-    Raven.capture_exception(exception)
-    raise exception
+  rescue StandardError => e
+    Raven.capture_exception(e)
+    raise e
   end
 
   def show_link_callback(data)
