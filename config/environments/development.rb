@@ -48,7 +48,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.telegram_updates_controller.session_store = :redis_store, {expires_in: 1.month}
+  config.telegram_updates_controller.session_store = :redis_store, { expires_in: 1.month }
 
   config.after_initialize do
     Bullet.enable = true

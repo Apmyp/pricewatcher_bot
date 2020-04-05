@@ -9,7 +9,7 @@ module Parsers
 
       def paths
         [
-            %r{[^/]*}
+          %r{[^/]*}
         ]
       end
     end
@@ -19,11 +19,11 @@ module Parsers
       doc = doc(html)
 
       ParserItem.new(
-          name: doc.at("meta[property='og:title']")['content'],
-          image: doc.at("meta[property='og:image']")['content'],
-          price: doc.at("meta[property='product:price:amount']")['content'],
-          currency: doc.at("meta[property='product:price:currency']")['content'],
-          availability: availability(doc)
+        name: doc.at("meta[property='og:title']")['content'],
+        image: doc.at("meta[property='og:image']")['content'],
+        price: doc.at("meta[property='product:price:amount']")['content'],
+        currency: doc.at("meta[property='product:price:currency']")['content'],
+        availability: availability(doc)
       )
     end
 
@@ -31,7 +31,7 @@ module Parsers
 
     def availability(doc)
       doc.at("meta[property='product:availability']")['content']
-          .to_s == 'in stock'
+         .to_s == 'in stock'
     end
   end
 end

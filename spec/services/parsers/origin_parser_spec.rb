@@ -14,7 +14,7 @@ RSpec.describe Parsers::OriginParser do
 
   before(:each) do
     stub_request(:get, raw_link)
-        .to_return(body: page_content)
+      .to_return(body: page_content)
   end
 
   it 'extracts item struct' do

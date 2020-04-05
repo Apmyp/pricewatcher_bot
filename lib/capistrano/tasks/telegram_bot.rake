@@ -4,13 +4,13 @@ namespace :telegram do
   namespace :bot do
     namespace :poller do
       {
-          start: 'start an instance of the application',
-          stop: 'stop all instances of the application',
-          restart: 'stop all instances and restart them afterwards',
-          reload: 'send a SIGHUP to all instances of the application',
-          # run:           'start the application and stay on top',
-          zap: 'set the application to a stopped state',
-          status: 'show status (PID) of application instances'
+        start: 'start an instance of the application',
+        stop: 'stop all instances of the application',
+        restart: 'stop all instances and restart them afterwards',
+        reload: 'send a SIGHUP to all instances of the application',
+        # run:           'start the application and stay on top',
+        zap: 'set the application to a stopped state',
+        status: 'show status (PID) of application instances'
       }.each do |action, description|
         desc description
         task action do

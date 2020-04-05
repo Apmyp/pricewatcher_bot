@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 class Link < ApplicationRecord
-  enum status: {active: 0, disabled: 1}
+  enum status: { active: 0, disabled: 1 }
 
   validates :telegram_user, :link, :host, :scheme, :status, presence: true
-  validates :link, uniqueness: {scope: :telegram_user_id}
+  validates :link, uniqueness: { scope: :telegram_user_id }
   validate :link_can_be_parsed
 
   has_many :link_items, dependent: :destroy

@@ -19,13 +19,13 @@ module Links
 
     def call
       Link.create!(
-          telegram_user: user,
-          hash_id: Nanoid.generate(alphabet: NANOID_ALPHABET),
-          link: normalized_uri.to_s,
-          scheme: normalized_uri.scheme,
-          path: normalized_uri.path,
-          host: host_without_www,
-          status: :active
+        telegram_user: user,
+        hash_id: Nanoid.generate(alphabet: NANOID_ALPHABET),
+        link: normalized_uri.to_s,
+        scheme: normalized_uri.scheme,
+        path: normalized_uri.path,
+        host: host_without_www,
+        status: :active
       )
     end
 

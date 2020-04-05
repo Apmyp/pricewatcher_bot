@@ -20,11 +20,11 @@ module Parsers
 
     def call
       ParserItem.new(
-          name: name,
-          image: image,
-          price: price,
-          currency: currency,
-          availability: availability
+        name: name,
+        image: image,
+        price: price,
+        currency: currency,
+        availability: availability
       )
     end
 
