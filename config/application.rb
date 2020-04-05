@@ -44,5 +44,7 @@ module SalesBot
       config.async = ->(event) { SentryJob.perform_later(event) }
       config.silence_ready = true
     end
+
+    config.skylight.probes += %w[redis active_job]
   end
 end
