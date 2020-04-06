@@ -1,0 +1,1417 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="https://moonglow.md">
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    <meta name="csrf-token" content="jXHdbDTh5YB0QndoNm9uWp4jPEIp6rJ98Tcwr33y">
+    <link rel="icon" type="image/png" href="https://moonglow.md/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="https://moonglow.md/favicon.png">
+    <meta name="description" content="Déesse AC Spot Healer este un dispozitiv inteligent pentru tratarea la fața locului, cu lumină albastră și lumină IR care calmează petele și vindecă pielea deteriorată. Acesta ajută la creșterea rezistenței la UV prin întărirea barierei pielii deteriorate și ajută la prevenirea daunelor și a pigmentărilor UV. Lumina albastră controlează producția de sebum care previne cusururile. Lumina IR întărește elasticitatea pielii și repară pielea deteriorată.
+
+Dispozitiv de tratament spot cu lumină albastră și lumină IR.
+
+Calmează pete și pielea deteriorată.">
+
+    <meta name="keywords" content="Cosmetice coreene, cosmetice coreene la Chișinău, cosmetice coreene în moldova">
+    <title>DR.CEURACLE DÉESSE AC SPOT HEALER</title>
+
+            <meta property="og:locale:alternate"
+              content="en_EN"/>
+            <meta property="og:locale:alternate"
+              content="ru_RU"/>
+            <meta property="og:locale"
+              content="ro_RO"/>
+        <meta property="og:type" content="website"/>
+    <meta property="og:title" content="DR.CEURACLE DÉESSE AC SPOT HEALER"/>
+    <meta property="og:image"
+          content="https://moonglow.md/files/2020-02-26/images/medium/1821051_1-_-1582730461.jpg"/>
+    <meta property="og:image:width" content="500"/>
+    <meta property="og:image:height" content="200"/>
+    <meta property="og:description" content="Déesse AC Spot Healer este un dispozitiv inteligent pentru tratarea la fața locului, cu lumină albastră și lumină IR care calmează petele și vindecă pielea deteriorată. Acesta ajută la creșterea rezistenței la UV prin întărirea barierei pielii deteriorate și ajută la prevenirea daunelor și a pigmentărilor UV. Lumina albastră controlează producția de sebum care previne cusururile. Lumina IR întărește elasticitatea pielii și repară pielea deteriorată.
+
+Dispozitiv de tratament spot cu lumină albastră și lumină IR.
+
+Calmează pete și pielea deteriorată."/>
+    <meta property="og:url" content="https://moonglow.md/ro/products/dr-ceuracle-deesse-ac-spot-healer"/>
+    <meta property="og:site_name" content="moonglow.md"/>
+
+    <meta property="og:fb:admins" content="moonglow.md"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:description" content="Déesse AC Spot Healer este un dispozitiv inteligent pentru tratarea la fața locului, cu lumină albastră și lumină IR care calmează petele și vindecă pielea deteriorată. Acesta ajută la creșterea rezistenței la UV prin întărirea barierei pielii deteriorate și ajută la prevenirea daunelor și a pigmentărilor UV. Lumina albastră controlează producția de sebum care previne cusururile. Lumina IR întărește elasticitatea pielii și repară pielea deteriorată.
+
+Dispozitiv de tratament spot cu lumină albastră și lumină IR.
+
+Calmează pete și pielea deteriorată."/>
+    <meta name="twitter:title" content="DR.CEURACLE DÉESSE AC SPOT HEALER"/>
+    <meta name="twitter:site" content="@url"/>
+    <meta name="twitter:image"
+          content="https://moonglow.md/files/2020-02-26/images/medium/1821051_1-_-1582730461.jpg"/>
+
+    <meta property="place:location:latitude" content=""/>
+    <meta property="place:location:longitude" content=""/>
+    <meta property="business:contact_data:street_address"
+          content=""/>
+    <meta property="business:contact_data:locality"
+          content=""/>
+    <meta property="business:contact_data:postal_code" content=""/>
+    <meta property="business:contact_data:country_name"
+          content=""/>
+    <meta property="business:contact_data:email" content="info@moonglow.md"/>
+    <meta property="business:contact_data:phone_number" content=""/>
+    <meta property="business:contact_data:website" content="https://moonglow.md"/>
+    <meta name="author" content="Cherry Digital Agency">
+
+    <link rel="stylesheet"
+          href="https://moonglow.md/assets/css/main.css">
+</head>
+<body>
+
+<div class="global-wrap">
+
+
+
+    <!-- Cookies -->
+
+            <div class="container-cookies">
+            <div class="text-cookies">
+                <p>
+                    Te informăm că acest site folosește
+                    <a href="https://moonglow.md/ro/privacy-and-cookies"> cookies</a>
+                </p>
+                <button class="btn close-cookie-btn" type="button" id="accept-terms" data-url="https://moonglow.md/ro/accept-terms"> Accepta </button>
+            </div>
+            <div class="exit">
+                <div class="exit-class">
+                    <div class="cross">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#close"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!--header-->
+
+    <div class="wrap">
+
+        <header class="header">
+
+            <div class="logo">
+                <a href="https://moonglow.md/ro">
+                    <img src='https://moonglow.md/files/2019-05-15/images/logo-_-1557913050.svg' alt='MoonGlow' title='MoonGlow'>
+                </a>
+            </div>
+            <div class="mainBlock">
+
+                <div class="searchBtnOnMobile">
+    <svg class="icon">
+        <use xlink:href="https://moonglow.md/assets/img/sprite.svg#lens"></use>
+    </svg>
+</div>
+<div class="searchContainerOnHeader">
+    <div class="searchMask">
+
+        <form action="https://moonglow.md/ro/search"  id="search2" method="get">
+            <input type="text"  name="q"  id="searchProductInput" placeholder="Ce produs cauți?" autocomplete="off">
+            <button type="submit">
+                <svg class="icon" id="search-magnifier">
+                    <use xlink:href="https://moonglow.md/assets/img/sprite.svg#search"></use>
+                </svg>
+            </button>
+            <button type="button" id="search-close">
+                <svg class="icon">
+                    <use xlink:href="https://moonglow.md/assets/img/sprite.svg#close"></use>
+                </svg>
+            </button>
+        </form>
+
+        <div class="searchProductContainer">
+            <div class="page-title">Cele mai noi produse</div>
+            <div class="product-container">
+                                    <a class="productCardContainer "
+       href="https://moonglow.md/ro/products/kapsulnaya-syvorotka-dlya-uvelicheniya-obema-gub-kocostar-plump-lip-capsule-mask-7-kapsul">
+        <div class="imgContainer">
+
+            <img src="https://moonglow.md/files/2020-03-31/images/medium/219._p_n_g-_-1585665294.PNG" alt="kapsulnaya-syvorotka-dlya-uvelicheniya-obema-gub-kocostar-plump-lip-capsule-mask-7-kapsul" title="Kocostar Lip Plump Capsule Mask">
+            <div class="badgeContainer">
+                                    <div class="badge new">NOU</div>
+
+                                    <div class="badge sale">-10%</div>
+
+            </div>
+
+
+                    <div class="addToWishListBtn  favorites "
+                         data-item-id="5734">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#heartcontur"></use>
+                        </svg>
+                    </div>
+
+
+        </div>
+
+        <div class="mainInfoContainer">
+            <div class="container-flex-direction">
+                <div class="new-sale">
+
+                        <div class="prod new">NOU</div>
+
+                                            <div class="prod sale">-10%</div>
+                                    </div>
+
+            </div>
+            <div class="cardFooter">
+                <div class="name"> Kocostar Lip Plump Capsule Mask</div>
+                <div class="priceContainer">
+
+                    <div class="container-price-sales">
+                        <div class='price' itemprop='price' content='126'>126MDL</div><div class='lastPrice active' itemprop='price' content='140'>140MDL</div>
+                    </div>
+                                            <div class="wishlistBtn add-product-to-cart "
+                             data-item="5734"
+                             data-url="https://moonglow.md/ro/addToCart">
+                            <div class="add-product "></div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="filter"></div>
+    </a>
+
+                                    <a class="productCardContainer  out-of-stock "
+       href="https://moonglow.md/ro/products/ochishayushaya-kislorodnaya-maska-dlya-lica-graymelin-oxygen-bubble-mask-pack-200-ml">
+        <div class="imgContainer">
+
+            <img src="https://moonglow.md/files/2020-03-31/images/medium/210._p_n_g-_-1585608755.PNG" alt="ochishayushaya-kislorodnaya-maska-dlya-lica-graymelin-oxygen-bubble-mask-pack-200-ml" title="Graymelin Oxygen Bubble Mask Pack 200 ml">
+            <div class="badgeContainer">
+                                    <div class="badge new">NOU</div>
+
+
+            </div>
+
+
+                    <div class="addToWishListBtn  favorites "
+                         data-item-id="5733">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#heartcontur"></use>
+                        </svg>
+                    </div>
+
+
+        </div>
+
+        <div class="mainInfoContainer">
+            <div class="container-flex-direction">
+                <div class="new-sale">
+
+                        <div class="prod new">NOU</div>
+
+                                    </div>
+
+            </div>
+            <div class="cardFooter">
+                <div class="name"> Graymelin Oxygen Bubble Mask Pack 200 ml</div>
+                <div class="priceContainer">
+
+                    <div class="container-price-sales">
+                        <div class='price' itemprop='price' content='380'>380MDL</div>
+                    </div>
+                                            <div class="out-of-stock">nu este în stoc</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="filter"></div>
+    </a>
+
+                                    <a class="productCardContainer "
+       href="https://moonglow.md/ro/products/mizon-enjoy-vital-up-time-nourishing-mask-25ml">
+        <div class="imgContainer">
+
+            <img src="https://moonglow.md/files/2020-03-23/images/medium/127._p_n_g-_-1584984127.PNG" alt="mizon-enjoy-vital-up-time-nourishing-mask-25ml" title="Mizon Enjoy Vital-Up Time Nourishing Mask 25ml">
+            <div class="badgeContainer">
+                                    <div class="badge new">NOU</div>
+
+
+            </div>
+
+
+                    <div class="addToWishListBtn  favorites "
+                         data-item-id="5730">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#heartcontur"></use>
+                        </svg>
+                    </div>
+
+
+        </div>
+
+        <div class="mainInfoContainer">
+            <div class="container-flex-direction">
+                <div class="new-sale">
+
+                        <div class="prod new">NOU</div>
+
+                                    </div>
+
+            </div>
+            <div class="cardFooter">
+                <div class="name"> Mizon Enjoy Vital-Up Time Nourishing Mask 25ml</div>
+                <div class="priceContainer">
+
+                    <div class="container-price-sales">
+                        <div class='price' itemprop='price' content='25'>25MDL</div>
+                    </div>
+                                            <div class="wishlistBtn add-product-to-cart "
+                             data-item="5730"
+                             data-url="https://moonglow.md/ro/addToCart">
+                            <div class="add-product "></div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="filter"></div>
+    </a>
+
+                                    <a class="productCardContainer "
+       href="https://moonglow.md/ro/products/mizon-enjoy-vital-up-time-watery-moisture-mask-23ml">
+        <div class="imgContainer">
+
+            <img src="https://moonglow.md/files/2020-03-23/images/medium/126._p_n_g-_-1584983712.PNG" alt="mizon-enjoy-vital-up-time-watery-moisture-mask-23ml" title="Mizon Enjoy Vital-Up Time Watery Moisture Mask 23ml">
+            <div class="badgeContainer">
+                                    <div class="badge new">NOU</div>
+
+
+            </div>
+
+
+                    <div class="addToWishListBtn  favorites "
+                         data-item-id="5729">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#heartcontur"></use>
+                        </svg>
+                    </div>
+
+
+        </div>
+
+        <div class="mainInfoContainer">
+            <div class="container-flex-direction">
+                <div class="new-sale">
+
+                        <div class="prod new">NOU</div>
+
+                                    </div>
+
+            </div>
+            <div class="cardFooter">
+                <div class="name"> Mizon Enjoy Vital-Up Time Watery Moisture Mask 23ml</div>
+                <div class="priceContainer">
+
+                    <div class="container-price-sales">
+                        <div class='price' itemprop='price' content='20'>20MDL</div>
+                    </div>
+                                            <div class="wishlistBtn add-product-to-cart "
+                             data-item="5729"
+                             data-url="https://moonglow.md/ro/addToCart">
+                            <div class="add-product "></div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="filter"></div>
+    </a>
+
+                            </div>
+        </div>
+    </div>
+    <form class="searchContainer"  id="search-form">
+        <input type="text"  placeholder="Ce produs cauți?"  autocomplete="off">
+
+        <button type="submit">
+            <svg class="icon" id="search-magnifier">
+                <use xlink:href="https://moonglow.md/assets/img/sprite.svg#search"></use>
+            </svg>
+        </button>
+
+
+
+
+
+
+    </form>
+
+    <div class="searchResultMainContainer" id="searchResult">
+
+
+    </div>
+</div>
+
+
+
+
+                <div class="profileContainerOnHeader">
+    <div class="profile-hover getModal" data-modal="#modal-login">
+        <div class="profileBtn ">
+            <svg class="icon">
+                                    <use xlink:href="https://moonglow.md/assets/img/sprite.svg#user"></use>
+                            </svg>
+        </div>
+
+        <div class="register-login">
+                            <div class="log">Autentificare</div>
+                    </div>
+    </div>
+    </div>
+                <div class="dropdown language">
+    <div class="curerntChoice">
+        <div class="text">RO</div>
+        <div class="carret">
+            <svg class="icon">
+                <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="dropdownMenu">
+        <a href='https://moonglow.md/en/products/dr-ceuracle-deesse-ac-spot-healer' class='item'>EN</a><a href='https://moonglow.md/ru/products/dr-ceuracle-deesse-ac-spot-healer' class='item'>RU</a>
+    </div>
+</div>                <div class="dropdown currency twoColumn">
+        <div class="curerntChoice">
+            <div class="text">MDL</div>
+            <div class="carret">
+                <svg class="icon">
+                    <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="dropdownMenu">
+
+                <a class="item" data-item-id="1"
+                   title="">MDL</a>
+
+                <a class="item" data-item-id="2"
+                   title="EUR">&#8364;</a>
+
+                <a class="item" data-item-id="3"
+                   title="USD">&#36;</a>
+                    </div>
+    </div>
+
+            </div>
+        </header>
+    </div>
+
+    <div class="mobileMenu">
+    <div class="icon openMobileMenuBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="p">Meniu</div>
+    </div>
+
+</div>
+
+<div class="wrap">
+<div id="nav-stiky"></div>
+    <nav class="nav">
+        <div class="nav-wrapper">
+
+            <div class="menu">
+                <div class="dropdownContainer">
+                    <div class="dropdown currency twoColumn">
+        <div class="curerntChoice">
+            <div class="text">MDL</div>
+            <div class="carret">
+                <svg class="icon">
+                    <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+                </svg>
+            </div>
+        </div>
+
+        <div class="dropdownMenu">
+
+                <a class="item" data-item-id="1"
+                   title="">MDL</a>
+
+                <a class="item" data-item-id="2"
+                   title="EUR">&#8364;</a>
+
+                <a class="item" data-item-id="3"
+                   title="USD">&#36;</a>
+                    </div>
+    </div>
+
+                    <div class="dropdown language">
+    <div class="curerntChoice">
+        <div class="text">RO</div>
+        <div class="carret">
+            <svg class="icon">
+                <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+            </svg>
+        </div>
+    </div>
+    <div class="dropdownMenu">
+        <a href='https://moonglow.md/en/products/dr-ceuracle-deesse-ac-spot-healer' class='item'>EN</a><a href='https://moonglow.md/ru/products/dr-ceuracle-deesse-ac-spot-healer' class='item'>RU</a>
+    </div>
+</div>                </div>
+                                                            <div class="categories">
+                                                                                                                                        <a href="https://moonglow.md/ro/products-categories/new-arrivals">
+                                            <div class="categoryContainer">
+                                                <div class="category">Produse Noi
+                                                </div>
+                                            </div>
+                                        </a>
+                                                                                                                                                                                                            <a href="https://moonglow.md/ro/products-categories/best-sellers">
+                                            <div class="categoryContainer">
+                                                <div class="category">Cele mai cumpărate
+                                                </div>
+                                            </div>
+                                        </a>
+                                                                                                                                                                                                            <div class="categoryContainer">
+                                            <div class="category">BB &amp; CC cream
+                                                <div class="carret">
+                                                    <svg class="icon">
+                                                        <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="subcategoryContainer">
+                                                <div class="subcategory">
+                                                    <div class="linksContainer active">
+                                                        <div class="category-products">
+                                                                                                                            <a href="https://moonglow.md/ro/products-categories/bb-cream"> <span
+                                                                            class="bold">BB cream</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/cc-crem"> <span
+                                                                            class="bold">CC cream</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/primer"> <span
+                                                                            class="bold">Bază de machiaj</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/foundations"> <span
+                                                                            class="bold">Fond de ten</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                            <div class="categoryContainer">
+                                            <div class="category">Magazin
+                                                <div class="carret">
+                                                    <svg class="icon">
+                                                        <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="subcategoryContainer">
+                                                <div class="subcategory">
+                                                    <div class="linksContainer active">
+                                                        <div class="category-products">
+                                                                                                                            <a href="https://moonglow.md/ro/products-categories/ingrijire"> <span
+                                                                            class="bold">Îngrijire</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                                                        <a href="https://moonglow.md/ro/products-categories/cleansing-oils">Uleiuri hidrofile</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/foams-and-gels">Spume / geluri de curățare</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/exfoliation-pads-peelings">Exfoliere, paduri, peeling</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/toners">Tonere</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/essences-serums-ampoules">Esențe, seruri, fiole</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/fabric-masks">Măști țesături</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/eye-creams">Creme pentru ochi</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/face-creams">Creme pentru față</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/masks">Măști</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/mists">Sprey-uri pentru față</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/lips-1">Buze</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/eye-patches">Măști sub ochi</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/sun-protection">Protecție solară</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/alginate-masks">Măști alginate</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="https://moonglow.md/ro/products-categories/special-care"> <span
+                                                                            class="bold">Îngrijire specială</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                                                        <a href="https://moonglow.md/ro/products-categories/dry-skin-sensitive">Piele uscată/normală</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/combination-oily-skin">Piele combinată/grasă</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/podrostkovaya-kozha">Pielea adolescentilor</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/pores-black-spots">Pori / puncte negre</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/acne">Piele problematică (acnee)</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/kuperoz">Cuperoza</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="https://moonglow.md/ro/products-categories/produse-cu-componente-active"> <span
+                                                                            class="bold">Produse cu componente active</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                                                        <a href="https://moonglow.md/ro/products-categories/fermented-products-galactomyces">Produse fermentate/galactomyces</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/vitaminizirovannye-syvorotki">Serumuri cu vitamine</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/vitamin-c-serums-vitamin-e-creams">Serumuri cu Vitamina C</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/vitamin-e-creams">Сreme cu Vitamin E</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="https://moonglow.md/ro/products-categories/body"> <span
+                                                                            class="bold">Corp</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                                                        <a href="https://moonglow.md/ro/products-categories/hair">Păr</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/shampoos">Șampoane</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/hair-care">Îngrijirea părului</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/hands-feet">Mâini/picioare</a>
+                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/the-whole-body">Întreg corpul</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                    <a href="https://moonglow.md/ro/products-categories/kids"> <span
+                                                                            class="bold">Copii</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/gift-sets"> <span
+                                                                            class="bold">Seturi cadou</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories/gift-certificates"> <span
+                                                                            class="bold">Certificate cadou</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                            <div class="categoryContainer">
+                                            <div class="category">Brand-uri
+                                                <div class="carret">
+                                                    <svg class="icon">
+                                                        <use xlink:href="https://moonglow.md/assets/img/sprite.svg#carretBlack"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="subcategoryContainer">
+                                                <div class="subcategory">
+                                                    <div class="linksContainer active">
+                                                        <div class="category-products">
+                                                                                                                            <a href="https://moonglow.md/ro/products-categories?brands=[96]"> <span
+                                                                            class="bold">About me</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[68]"> <span
+                                                                            class="bold">Agatha</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[88]"> <span
+                                                                            class="bold">A.H.C.</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[17]"> <span
+                                                                            class="bold">A&#039;Pieu</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[23]"> <span
+                                                                            class="bold">Aromatica</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[84]"> <span
+                                                                            class="bold">Artpe</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[25]"> <span
+                                                                            class="bold">Atopalm</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[11]"> <span
+                                                                            class="bold">Banila Co</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[29]"> <span
+                                                                            class="bold">Banobagi</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[37]"> <span
+                                                                            class="bold">BeauuGreen</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[74]"> <span
+                                                                            class="bold">Beautydrugs</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[38]"> <span
+                                                                            class="bold">Benton</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[43]"> <span
+                                                                            class="bold">Bling Pop</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[98]"> <span
+                                                                            class="bold">Briskin</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[7]"> <span
+                                                                            class="bold">By Wishtrend</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[97]"> <span
+                                                                            class="bold">Cos De Baha</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[3]"> <span
+                                                                            class="bold">CosRX</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[51]"> <span
+                                                                            class="bold">COS.W</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[101]"> <span
+                                                                            class="bold">Coxir</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[20]"> <span
+                                                                            class="bold">CP-1</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[101]"> <span
+                                                                            class="bold">Coxir</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[9]"> <span
+                                                                            class="bold">dear Klairs</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[59]"> <span
+                                                                            class="bold">Deoproce</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[103]"> <span
+                                                                            class="bold">Derma:B</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[50]"> <span
+                                                                            class="bold">Double Dare Omg!</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[107]"> <span
+                                                                            class="bold">Dr. Ceuracle</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[1]"> <span
+                                                                            class="bold">Dr.Jart+</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[28]"> <span
+                                                                            class="bold">ElishaCoy</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[16]"> <span
+                                                                            class="bold">Elizavecca</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[30]"> <span
+                                                                            class="bold">Enough</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[75]"> <span
+                                                                            class="bold">Esthetic House</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[109]"> <span
+                                                                            class="bold">Eyenlip</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[66]"> <span
+                                                                            class="bold">Etude House</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[60]"> <span
+                                                                            class="bold">Farm Stay</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[106]"> <span
+                                                                            class="bold">Fascy</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[95]"> <span
+                                                                            class="bold">Floland</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[81]"> <span
+                                                                            class="bold">Fresh Pop</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[73]"> <span
+                                                                            class="bold">Frienvita</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[94]"> <span
+                                                                            class="bold">Hanskin</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[36]"> <span
+                                                                            class="bold">Heimish</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[54]"> <span
+                                                                            class="bold">Holika Holika</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[6]"> <span
+                                                                            class="bold">Huxley</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[67]"> <span
+                                                                            class="bold">HYGGEE</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[102]"> <span
+                                                                            class="bold">ILLIYOON</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[92]"> <span
+                                                                            class="bold">I&#039;m From</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[61]"> <span
+                                                                            class="bold">Imonpro</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[72]"> <span
+                                                                            class="bold">I&#039;m Sorry For My Skin</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[2]"> <span
+                                                                            class="bold">Innisfree</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[24]"> <span
+                                                                            class="bold">Isntree</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[22]"> <span
+                                                                            class="bold">It&#039;s Skin</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[62]"> <span
+                                                                            class="bold">Jayjun Cosmetic</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[99]"> <span
+                                                                            class="bold">Jigott</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[5]"> <span
+                                                                            class="bold">JMsolution</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[64]"> <span
+                                                                            class="bold">Jumiso</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[76]"> <span
+                                                                            class="bold">KLAVUU</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[69]"> <span
+                                                                            class="bold">Kocostar</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[19]"> <span
+                                                                            class="bold">Koelf</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[55]"> <span
+                                                                            class="bold">LABUTE</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[14]"> <span
+                                                                            class="bold">LaDor</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href=""> <span
+                                                                            class="bold"></span>
+                                                                </a>
+                                                                                                                                                                                            <a href="https://moonglow.md/ro/products-categories?brands=[77]"> <span
+                                                                            class="bold">LANEIGE</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[63]"> <span
+                                                                            class="bold">Leaders Ex Solution</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[52]"> <span
+                                                                            class="bold">Lindsay</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[45]"> <span
+                                                                            class="bold">Manyo Factory</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[104]"> <span
+                                                                            class="bold">MaxClinic</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[100]"> <span
+                                                                            class="bold">M-Cerade</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[47]"> <span
+                                                                            class="bold">Mediheal</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[53]"> <span
+                                                                            class="bold">Medi-Peel</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[8]"> <span
+                                                                            class="bold">MISSHA</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[18]"> <span
+                                                                            class="bold">Mizon</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[26]"> <span
+                                                                            class="bold">MjCare</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[48]"> <span
+                                                                            class="bold">Nature Republic</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[46]"> <span
+                                                                            class="bold">Neogen</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[80]"> <span
+                                                                            class="bold">No:hj</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[58]"> <span
+                                                                            class="bold">Ottie</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[13]"> <span
+                                                                            class="bold">Petitfee</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[83]"> <span
+                                                                            class="bold">Plan36.5</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[82]"> <span
+                                                                            class="bold">Proud Mary</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[12]"> <span
+                                                                            class="bold">Purito</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[15]"> <span
+                                                                            class="bold">Pyunkang Yul</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[44]"> <span
+                                                                            class="bold">Real Barrier</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[85]"> <span
+                                                                            class="bold">Royal Skin</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[56]"> <span
+                                                                            class="bold">SCINIC</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[57]"> <span
+                                                                            class="bold">SeaNtree</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[42]"> <span
+                                                                            class="bold">Secret Key</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[89]"> <span
+                                                                            class="bold">SNP</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[41]"> <span
+                                                                            class="bold">Some By Mi</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[34]"> <span
+                                                                            class="bold">SON&amp;PARK</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[93]"> <span
+                                                                            class="bold">So Natural</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[39]"> <span
+                                                                            class="bold">SRB</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[105]"> <span
+                                                                            class="bold">SUR.MEDIC+</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[33]"> <span
+                                                                            class="bold">Tiam</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[32]"> <span
+                                                                            class="bold">Too Cool For School</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[35]"> <span
+                                                                            class="bold">The Face Shop</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[27]"> <span
+                                                                            class="bold">The Oozoo</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[86]"> <span
+                                                                            class="bold">The Saem</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[21]"> <span
+                                                                            class="bold">The Skin House</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[31]"> <span
+                                                                            class="bold">Village 11 Factory</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[90]"> <span
+                                                                            class="bold">Velvizo</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[70]"> <span
+                                                                            class="bold">Wish Formula</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[91]"> <span
+                                                                            class="bold">Wonder Bath</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                                <a href="https://moonglow.md/ro/products-categories?brands=[71]"> <span
+                                                                            class="bold">23 years</span>
+                                                                </a>
+                                                                                                                                                                                                                                                                                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                            <a href="https://moonglow.md/ro/contacts">
+                                            <div class="categoryContainer">
+                                                <div class="category">Contacte
+                                                </div>
+                                            </div>
+                                        </a>
+                                                                                                                        </div>
+                                                </div>
+
+            <div class="heart-cart">
+                <div class="cartContainerOnHeader">
+    <div class="cartBtn">
+        <svg class="icon">
+            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#cart"></use>
+        </svg>
+        <div class="count" id="cart-count"
+              style="display: none" ></div>
+    </div>
+
+    <div class="cartResultContainer scrollbar">
+        <div class="scrollbar-thumb triangle"></div>
+
+        <div id="cart-preview">
+            <div class="emptyCart">Încă nu ai produse în coș.</div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+                <a class="wishlistBtn cartBtn" href="https://moonglow.md/ro/wish-list">
+                    <svg class="icon">
+                        <use xlink:href="https://moonglow.md/assets/img/sprite.svg#path"></use>
+                    </svg>
+                        <div class="count"     style="display: none"  ></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <main class="main">
+            <div class="global-wrap" id="product">
+        <div class="wrap">
+            <div class="mainProductDetail">
+
+    <div class="sliderContainer">
+        <div class="slider-wrap fixed">
+            <div class="contain-image">
+                <div class="new-sale">
+
+                                    </div>
+
+                <div class="slider one-time ">
+
+                                                                        <div class="photo-container">
+                                <img class="main-photo" src="https://moonglow.md/files/2020-02-26/images/large/1821051_1-_-1582730461.jpg" alt="DR.CEURACLE DÉESSE AC SPOT HEALER">
+                                <img class="blur-bg" src="https://moonglow.md/files/2020-02-26/images/large/1821051_1-_-1582730461.jpg" alt="DR.CEURACLE DÉESSE AC SPOT HEALER">
+                            </div>
+                                                            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="productInfoContainer">
+        <div class="productHeader">
+            <div class="badge">
+                                                            <div class="new">În stoc</div>
+                                                                    <div class="addToWishListBtn favorites "
+                     data-item-id="5643">
+                    <svg class="icon">
+                        <use xlink:href="https://moonglow.md/assets/img/sprite.svg#heartcontur"></use>
+                    </svg>
+                </div>
+
+            </div>
+            <div class="productName">DR.CEURACLE DÉESSE AC SPOT HEALER </div>
+
+        </div>
+        <form method="POST" action="https://moonglow.md/ro/addToCart" class="add-to-cart-form" id="add-to-cart-form">
+        <input type="hidden" name="item_id" value="5643" autocomplete="off">
+        <input type="hidden" name="variation_id" autocomplete="off" value="">
+        <input type="hidden" name="variations" value="" autocomplete="off">
+
+        <div class="product-add-to-cart-info-wrap">
+
+            <div class="product-price-block" id="price-product-block">
+                <span class='price' itemprop='price' content='495'>495MDL</span>
+            </div>
+
+            <div class="count-items-block" id="count-items-block">
+                <div class="qty">
+
+                    <div class="amout minus update-product-quantity" data-op="diff" data-id="5643">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets/img/sprite.svg#minus"></use>
+                        </svg>
+                    </div>
+
+                    <input type="text" class="update-product-quantity" id="count-items" name="count-items"
+                           autocomplete="off" placeholder="1" data-id="5643"
+                           value="1" >
+
+                    <div class="amout plus update-product-quantity" data-op="sum" data-id="5643">
+                        <svg class="icon">
+                            <use xlink:href="https://moonglow.md/assets//img/sprite.svg#plus"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="add-to-cart-btn-section">
+                    <button type="button"
+                            class="btn btn-add-to-cart submit-add-to-cart-btn  "
+                            data-action="addToCart"
+                             data-form-id="add-to-cart-form">
+                       <span class="text">Adaugă în coș</span>
+
+                        <div class="wishlistBtn">
+                            <svg class="icon">
+                                <use xlink:href="https://moonglow.md/assets/img/sprite.svg#basket"></use>
+                            </svg>
+                            <div class="add-product ">
+
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="delivery"><p>Livrare prin Moldova &icirc;n decurs de 2-3&nbsp;zile lucrătoare. Livrare gratuită &icirc;n raza orașului Chișinău de la suma comenzii de 250 lei.&nbsp;</p>
+            </div>
+        </div>
+
+        <div class="phone-and-social">
+            <div class="contact-phone">
+                <div class="grey-info">Vrei să ne contactezi?</div>
+
+                <div class="contact-me">079 08 376</div>
+            </div>
+
+            <div class="social-links">
+                <div class="grey-info">Împarte cu prietenii</div>
+                <div class="socialIconsContainer">
+                    <div class='icon facebook' data-sharer='facebook' data-url='https://moonglow.md/ro/products/dr-ceuracle-deesse-ac-spot-healer'></div><div class='icon telegram' data-sharer='telegram' data-title='DR.CEURACLE DÉESSE AC SPOT HEALER' data-url='https://moonglow.md/ro/products/dr-ceuracle-deesse-ac-spot-healer'></div><div class='icon tweeter' data-sharer='twitter' data-title='DR.CEURACLE DÉESSE AC SPOT HEALER' data-url='https://moonglow.md/ro/products/dr-ceuracle-deesse-ac-spot-healer'></div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+<div class="anchorsNav">
+    <div class="anchorLink scrolling" href="#anchor2">Descriere</div>
+    <div class="anchorLink scrolling" href="#anchor1">Caracteristici</div>
+    <div class="anchorLink scrolling" href="#anchor3">Achitare și livrare</div>
+</div>
+<div class="productTechDescriptionContainer" id="anchor2">
+    <div class="title">Descriere</div>
+    <div class="text-description"><p>D&eacute;esse AC Spot Healer este un dispozitiv inteligent pentru tratarea la fața locului, cu lumină albastră și lumină IR care calmează petele și vindecă pielea deteriorată. Acesta ajută la creșterea rezistenței la UV prin &icirc;ntărirea barierei pielii deteriorate și ajută la prevenirea daunelor și a pigmentărilor UV. Lumina albastră controlează producția de sebum care previne cusururile. Lumina IR &icirc;ntărește elasticitatea pielii și repară pielea deteriorată.</p>
+
+<p>Dispozitiv de tratament spot cu lumină albastră și lumină IR.</p>
+
+<p>Calmează pete și pielea deteriorată.</p>
+
+<p>Ajută la prevenirea pigmentărilor.</p>
+
+<p>utilizare:</p>
+
+<p>Pasul 1 - Curățați bine pielea &icirc;nainte de utilizare.<br />
+Pasul 2 - Porniți dispozitivul și aplicați vopsele timp de 10-15 secunde, ora de dimineață și de noapte.<br />
+Pasul 3 - După utilizare, opriți puterea și curățați capul cu un prosop uscat.</p>
+    </div>
+    </div>
+
+
+<div class="aboutProductContainer" id="anchor1">
+    <div class="title">Caracteristici</div>
+    <div class="gray-text">Producător</div>
+    <div class="info">Dr. Ceuracle</div>
+
+            <div class="gray-text">Volum</div>
+        <div class="info">1buc.</div>
+
+
+
+    <div class="showAllbtn">
+        <div class="text">Vezi toate</div>
+        <div class="text">Vezi mai puțin</div>
+    </div>
+</div>
+
+
+
+<div class="productDeliveryInfoContainer" id="anchor3">
+            <div class="title">Achitare și livrare</div>
+
+
+            <div class="techDescription">
+                <div class="title">Livrarea în Moldova</div>
+                <div class="text">Livrarea în raza orașului Chișinău este gratuită, dacă suma minimă a comenzii este 250 lei. Se livrează a doua zi direct la adresa indicată. Livrarea pe teritoriu țării este gratuită, dacă suma minimă a comenzii este 650 lei. Se livrează în decurs de 2-3 zile direct la adresa indicată.
+                </div>
+            </div>
+
+            <div class="techDescription">
+                <div class="title">Livrarea internațională</div>
+                <div class="text">Opțiuni disponibile de livrare: servicii de livrare rapida prin curier, prin rutieră, prin cunoscuții/rudele din Chișinău pentru a fi transmise dmv. Veți fi contactat pentru a clarifica metoda de livrare și confirmarea finalizării pregătirii comenzii. Va trebui să achitați adițional in dependența de greutatea coletului
+                </div>
+            </div>
+            </div>
+
+
+
+
+
+    </div>
+</div>
+        </div>
+    </div>
+
+
+    <div class="similarProductSliderContainer">
+    </div>    </main>
+
+        <!--footer-->
+    <footer class="footer">
+        <div class="wrap container">
+            <div class="leftBlock">
+                <a class="logo" href="https://moonglow.md/ro">
+                    <div class="logo-footer">
+                        <img src='https://moonglow.md/files/2019-05-15/images/logo-_-1557913050.svg' alt='MoonGlow' title='MoonGlow'>
+                    </div>
+                </a>
+                <div class="text">Cosmetica coreana in Moldova
+                </div>
+            </div>
+            <div class="centerBlock">
+                                                            <div class="title">Meniu</div>
+                                                                                    <a href="https://moonglow.md/ro/promotion"
+                                   class="">Promoții</a>
+                                                                                                                <a href="https://moonglow.md/ro/contacts"
+                                   class="">Contacte</a>
+                                                                                                                <a href="https://moonglow.md/ro/livrare-si-returnare"
+                                   class="">Livrare si returnare</a>
+                                                                                                                <a href="https://moonglow.md/ro/privacy-and-cookies"
+                                   class="">Privacy and cookies</a>
+                                                                                                    </div>
+            <div class="rightBlock">
+                <div class="title">Contacte</div>
+
+                                                            <a href="tel:079 08 376">079 08 376</a>
+
+                <a></a>
+                <a href="mailto:info@moonglow.md">info@moonglow.md</a>
+                <div class="socialIconsContainer">
+                                            <a class="icon facebook" href="https://www.facebook.com/moonglow.md/"
+                           target="_blank"></a>
+                                                                <a class="icon instagram" href="https://www.instagram.com/moonglow.md/"
+                           target="_blank"></a>
+                                                                            </div>
+            </div>
+            <div class="copyrightBar">
+                <div class="copyright">
+                    © 2020 MoonGlow</div>
+                <a class="craftedBy" href="https://cherrydigitalagency.com/en" target="_blank">Crafted with
+
+                    <div class="crafted-love">
+                        <img src="https://moonglow.md/assets/img/svg-icons/heartfooter.svg" alt="">
+                    </div>
+                    by Cherry Digital Agency
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="content"></div>
+    <div id="top">
+
+        <div class="go-top">
+            <svg class="icon">
+                <use xlink:href="https://moonglow.md/assets/img/sprite.svg#history2"></use>
+            </svg>
+        </div>
+    </div>
+    <!--END footer-->
+
+    <!--modal-success-->
+    <div class="arcticmodal-container">
+        <div class="arcticmodal-container_table">
+            <div class="arcticmodal-container_td">
+                <div class="modal modal-success" id="modal-success">
+                    <div class="modal-close arcticmodal-close"></div>
+                    <div class="title">Informația a fost trimisă cu succes</div>
+                    <div class="desc">Veți fi contactat în curînd</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END modal-success-->
+
+    <!--LOGARE-->
+<div class="art-modal">
+    <div class="arcticmodal-container">
+        <div class="arcticmodal-container_table">
+            <div class="arcticmodal-container_td">
+
+                <div class="modal modal-success" id="modal-login">
+                    <div class="modal-close arcticmodal-close"></div>
+                    <div class="info-popup">
+                        <div class="title-messaje">Bună!</div>
+                        <div class="login">Loghează-te cu una din rețele de socializare</div>
+
+                        <div class="socialIconsContainer">
+                            <a href="https://moonglow.md/ro/login/facebook" class="icon facebook"></a>
+                            <a href="https://moonglow.md/ro/login/google" class="icon google"></a>
+                            <a href="https://moonglow.md/ro/login/vkontakte" class="icon vkontakte"></a>
+                            <a href="https://moonglow.md/ro/login/twitter" class="icon tweeter"></a>
+                        </div>
+                        <div class="login option">sau cu e-mail și parolă</div>
+
+                        <form method="post" action="https://moonglow.md/ro/login" id="loginForm">
+                            <div class="form name inputContainer">
+                                <div class="logs">E-mail</div>
+                                <input type="text" name="email" autocomplete="off">
+                            </div>
+
+                            <div class="form password inputContainer">
+                                <div class="new-password">
+                                    <div class="logs">Parola</div>
+                                    <div class="log2 text"><a class="getModal"
+                                                              href="#modal-reset">Am uitat parola</a>
+                                    </div>
+                                </div>
+
+                                <input type="password" name="password" data-focus="0" autocapitalize="off"
+                                       autocorrect="off">
+
+                            </div>
+
+                            <div class="sign-in">
+                                <button type="submit" class="submit-form-btn"
+                                        data-form-id="loginForm">Logare
+                                </button>
+                            </div>
+                        </form>
+                        <div class="registration-block">
+                            <div class="cont-register">Nu ai cont încă? <a href="#modal-register"
+                                                                                       class="green getModal">Înregistreză-te.</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--INREGISTRARE-->
+
+<div class="art-modal">
+    <div class="arcticmodal-container">
+        <div class="arcticmodal-container_table">
+            <div class="arcticmodal-container_td">
+
+                <div class="modal modal-success" id="modal-register">
+                    <div class="modal-close arcticmodal-close"></div>
+
+                    <div class="title-messaje">Crează cont nou</div>
+                    <div class="login">cu una din rețele de socializare</div>
+
+                    <div class="socialIconsContainer">
+                        <a href="https://moonglow.md/ro/login/facebook" class="icon facebook"></a>
+                        <a href="https://moonglow.md/ro/login/google" class="icon google"></a>
+                        <a href="https://moonglow.md/ro/login/vkontakte" class="icon vkontakte"></a>
+                        <a href="https://moonglow.md/ro/login/twitter" class="icon tweeter"></a>
+                    </div>
+
+                    <div class="login option">sau cu e-mail și parolă</div>
+
+                    <form method="post" action="https://moonglow.md/ro/register" target="_top" id="registerFormCheckout">
+
+                        <div class="form name inputContainer">
+                            <div class="logs">E-mail</div>
+                            <input type="email" name="email">
+                        </div>
+
+                        <div class="form password inputContainer">
+                            <div class="logs">Parola</div>
+                            <input data-focus="0" autocapitalize="off"
+                                   autocorrect="off" type="password" name="password">
+                        </div>
+
+                        <div class="checkboxesContainer confirm-policy privacy">
+                            <input type="checkbox" class="checkbox" value="1" name="confirm_policy" id="ch1">
+                            <label for="ch1" class="account">
+                                <div class="checkbox"></div>
+                                Am luat cunoștință și sunt de acord cu
+                                <a class="account color" href="https://moonglow.md/ro/privacy-and-cookies" target="_blank">
+                                    Politica de confidențialitate
+                                </a>
+                            </label>
+                        </div>
+
+                        <div class="sign-in">
+                            <button type="submit" class="submit-form-btn"
+                                    data-form-id="registerFormCheckout">Înregistrare
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--RESETAREA PAROLEI-->
+
+<div class="art-modal">
+    <div class="arcticmodal-container">
+        <div class="arcticmodal-container_table">
+            <div class="arcticmodal-container_td">
+
+                <div class="modal modal-success" id="modal-reset">
+                    <div class="modal-close arcticmodal-close"></div>
+                    <div class="reset-password">
+                        <div class="title-messaje">Resetarea parolei</div>
+                        <div class="info">Lasăți-ne adresa de email asociată contului d-voastră și vă vom trimite instrucțiunile pentru resetarea parolei:
+                        </div>
+
+                        <form method="post" action="https://moonglow.md/ro/password/reset-password" id="resetPassForm">
+
+                            <div class="form name inputContainer">
+                                <div class="logs">E-mail</div>
+                                <input type="text" name="email">
+                            </div>
+
+                            <div class="sign-in">
+                                <button type="submit" class="submit-form-btn ressetBtn"
+                                        data-form-id="resetPassForm">Trimite
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--PAROLA NOUA-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--VERIFICARE E-MAIL-->
+
+<div class="art-modal">
+    <div class="arcticmodal-container">
+        <div class="arcticmodal-container_table">
+            <div class="arcticmodal-container_td">
+
+                <div class="modal modal-success" id="verify-email">
+                    <div class="modal-close arcticmodal-close"></div>
+                    <div class="verify">
+                        <div class="title-messaje">Resetarea parolei</div>
+                        <div class="info">Vă rugăm să verificați email-ul d-voastră</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.contains,Array.prototype.find,Array.prototype.findIndex,Array.prototype.Array.prototype.entries,Array.prototype.includes,Object.entries,String.prototype.contains,fetch,String.prototype.repeat"></script>
+
+<script src="https://moonglow.md/assets/js/main.js"></script>
+<script src="//code.jivosite.com/widget.js" data-jv-id="85170vdBVb" async></script>
+</body>
+</html>
