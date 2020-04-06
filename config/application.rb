@@ -54,7 +54,8 @@ module SalesBot
         Parsers::MyskinParser,
         Parsers::MoonglowParser,
         Parsers::InglotParser,
-        Parsers::ElefantParser
+        Parsers::ElefantParser,
+        Parsers::SephoraParser
       ]
     end
   end

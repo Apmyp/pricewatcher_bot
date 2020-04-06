@@ -136,4 +136,26 @@ RSpec.describe Parsers::ParserChooser do
       )
     end
   end
+
+  describe 'Host sephora.com' do
+    let(:link) do
+      # rubocop:disable Layout/LineLength
+      create(:link,
+             host: 'sephora.com',
+             path: '/product/peach-kiss-moisture-matte-long-wear-lipstick-peaches-cream-collection-P422600')
+      # rubocop:enable Layout/LineLength
+    end
+
+    it 'returns parser constant' do
+      expect(described_class.call(link)).to eq(Parsers::SephoraParser)
+    end
+
+    it 'raises an exception' do
+      link.update(path: '/contact')
+
+      expect { described_class.call(link) }.to(
+        raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      )
+    end
+  end
 end
