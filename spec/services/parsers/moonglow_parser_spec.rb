@@ -9,9 +9,7 @@ RSpec.describe Parsers::MoonglowParser do
   end
 
   let(:raw_link) do
-    # rubocop:disable Layout/LineLength
     'https://moonglow.md/ro/products/dr-ceuracle-deesse-ac-spot-healer'
-    # rubocop:enable Layout/LineLength
   end
 
   before(:each) do

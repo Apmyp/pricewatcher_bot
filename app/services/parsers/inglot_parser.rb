@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
 module Parsers
-  class MoonglowParser < Parser
+  class InglotParser < Parser
     class << self
       def host
-        'moonglow.md'
+        'inglot.md'
       end
 
       def paths
         [
-          %r{/[^\/]*/products/[^\/]*/?}
+          %r{/[^\/]*/[^/]*/[^/]*/?}
         ]
       end
     end
@@ -25,18 +25,15 @@ module Parsers
     end
 
     def price
-      xpath = '//*[@id="price-product-block"]/span[@itemprop="price"]'
-      doc.at(xpath)['content']
+      doc.at("meta[property='product:price:amount']")['content']
     end
 
     def currency
-      'MDL'
+      doc.at("meta[property='product:price:currency']")['content']
     end
 
     def availability
-      el = doc.at('//*[@id="product"]/div/div/div[2]/div[1]/div[1]/div[1]').text
-
-      el.strip == 'В наличии'
+      true
     end
   end
 end

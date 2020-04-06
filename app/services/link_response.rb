@@ -74,7 +74,7 @@ class LinkResponse
         text: I18n.t('telegram.delete_link'),
         action: "destroy_link:#{link.id}"
       )],
-      [button(text: I18n.t('telegram.back'), action: 'links')],
+      [button(text: I18n.t('telegram.back'), action: 'links')]
     ]
   end
 

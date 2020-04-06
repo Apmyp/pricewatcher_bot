@@ -73,19 +73,37 @@ RSpec.describe Parsers::ParserChooser do
         raise_error(Parsers::ParserChooser::ParserNotFoundException)
       )
     end
-    end
+  end
 
   describe 'Host moonglow.md' do
     let(:link) do
-      # rubocop:disable Layout/LineLength
       create(:link,
              host: 'moonglow.md',
              path: '/ro/products/dr-ceuracle-deesse-ac-spot-healer')
-      # rubocop:enable Layout/LineLength
     end
 
     it 'returns parser constant' do
       expect(described_class.call(link)).to eq(Parsers::MoonglowParser)
+    end
+
+    it 'raises an exception' do
+      link.update(path: '/contact')
+
+      expect { described_class.call(link) }.to(
+        raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      )
+    end
+  end
+
+  describe 'Host inglot.md' do
+    let(:link) do
+      create(:link,
+             host: 'inglot.md',
+             path: '/ro/face-makeup-highlighting/979-highlighter-empowerpuff')
+    end
+
+    it 'returns parser constant' do
+      expect(described_class.call(link)).to eq(Parsers::InglotParser)
     end
 
     it 'raises an exception' do

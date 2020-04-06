@@ -53,6 +53,7 @@ module SalesBot
         Parsers::OriginParser,
         Parsers::MyskinParser,
         Parsers::MoonglowParser,
+        Parsers::InglotParser
       ]
     end
   end
