@@ -19,21 +19,21 @@ module Parsers
     private
 
     def name
-      doc.css('p.sticky-title span.sticky-brand').first.text
+      doc.css('p.sticky-title span.sticky-brand').first.text.strip
     end
 
     def image
-      doc.css('img[data-large][data-type="L"]').first['data-large']
+      doc.css('img[data-large][data-type="L"]').first['data-large'].strip
     end
 
     def price
       css = '[data-testing-id="current-price"][data-price-currencymnemonic]'
-      doc.css(css).first.text.strip.sub(/\slei$/, '').gsub(',', '.')
+      doc.css(css).first.text.strip.sub(/\slei$/, '').gsub(',', '.').strip.to_i.to_s
     end
 
     def currency
       css = '[data-testing-id="current-price"][data-price-currencymnemonic]'
-      doc.css(css).first['data-price-currencymnemonic']
+      doc.css(css).first['data-price-currencymnemonic'].strip
     end
 
     def availability
