@@ -1,0 +1,2688 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="ro"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/img/logo_is7.ico"><meta name="robots" content="index,follow" /><meta name="description" content="Rachael Lippincott, Mikki Daughtry, Tobias Iaconis - La cinci pasi de tine - &quot;Pentru prima data simt intreaga povara a fiecarui centimetru, a fiecarui milimetru din cei cinci pasi dintre noi. Imi strang puloverul mai aproape de corp si intorc privirea spre teancul de saltele de yoga din colt, incerc" /><meta name="keywords" content="" /><link rel="canonical" href="https://www.elefant.md/la-cinci-pasi-de-tine_45553530-ecaa-45a5-84bd-b54ac0272472" /><title>Rachael Lippincott, Mikki Daughtry, Tobias Iaconis - La cinci pasi de tine - elefant.md</title>
+
+
+
+
+
+<script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/vendor/jquery-3.3.1.min.js"></script><script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/theme.min.js?lastModified=1586135285000"></script><script type="text/javascript">
+/*
+* Translated default messages for bootstrap-select.
+*/
+(function ($) {
+$.fn.selectpicker.defaults = {
+noneSelectedText: "nimic selectat",
+noneResultsText: "Nici un rezultat compatibil {0}",
+countSelectedText: function (numSelected, numTotal) {
+return (numSelected == 1) ? "{0} element selectat" : "{0} elemente selectate";
+},
+selectAllText: "Selectează tot",
+deselectAllText:"Deselectațile pe toate"
+};
+})(jQuery);
+</script><script type="text/javascript">
+(function(a) {a.fn.datepicker.dates.ro = {days: ["duminică", "luni", "Marţi", "miercuri", "joi", "vineri", "sâmbătă"],daysShort: ["Duminică", "Luni", "Marți", "Miercuri", "Joi", "Vineri", "Sâmbătă"],daysMin: ["Du", "Luni", "Marți", "Noi", "Joi", "Vineri", "Sâm"],months: ["ianuarie", "februarie","Martie", "Aprilie", "Mai", "iunie", "iulie", "August", "Septembrie", "octombrie", "noiembrie", "decembrie"],monthsShort: ["Ianuarie", "februarie", "Martie", "Aprilie","Mai", "Iunie", "iulie", "august", "septembrie", "octombrie", "noiembrie", "decembrie"],today: "Astăzi",monthsTitle: "Luni",clear: "Curăță",weekStart: 1,format: "dd.MM.yyyy",titleFormat:"MM yyyy"}})(jQuery);
+</script>
+<script type="text/javascript">
+(function($) {
+$.fn.bootstrapValidator.i18n.forbiddensymbols = $.extend($.fn.bootstrapValidator.i18n.forbiddensymbols || {}, {
+'default': 'Your input contains forbidden symbols.'
+});
+$.fn.bootstrapValidator.validators.forbiddensymbols = {
+enableByHtml5: function($field) {
+return (undefined !== $field.attr('forbiddensymbols'));
+},
+/**
+* Return true if and only if the input value is a valid name
+*
+* @param {BootstrapValidator} validator Validate plugin instance
+* @param {jQuery} $field Field element
+* @param {Object} [options]
+* @returns {Boolean}
+*/
+validate: function(validator, $field, options) {
+var value = $field.val();
+if (value === '') {
+return true;
+}
+var forbiddenSymbolsRegExp = /^[^\<\>\&\@\;\%\*\#\|\_\[\]\!\?\~\+\{\}\(\)\:]*$/;
+return forbiddenSymbolsRegExp.test(value);
+}
+};
+}(window.jQuery));
+</script><script type="text/javascript">
+if (typeof RetailShop === 'undefined') {var RetailShop = {}};
+RetailShop.URLs = {};
+RetailShop.URLs.getProductComponents = "https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProduct-RenderProductComponents?CatalogID=CartiCatalog&CategoryName=6026"; // additional params: SKU, cid, [cid, cid, ...]
+RetailShop.URLs.getRecommendedProducts = "https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductRecommendation-Start"; // params: SKU, ContextViewId
+RetailShop.URLs.getRecommendationSession = "https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductRecommendation-GetSessionData"; // no params
+RetailShop.URLs.loginPage = "https://www.elefant.md/login";
+RetailShop.user = {};
+RetailShop.user.currency_symbol = "lei";
+</script><meta name="channel-locale" value="ro_MD">
+</meta><script type="text/javascript">
+var webRootPath = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD";
+</script>
+
+
+
+
+<script type="text/javascript">
+// console.log("Anatavo interface login call start");
+var customerID = "";
+window.addEventListener('unload', function(event) {
+document.cookie = "antavo_redirect_url=" + window.location.href + "; path=/; domain=.elefant.ro";
+});
+var options = {
+socialShare: {
+enabled: false
+},
+setHash: {
+enabled: false
+}
+};
+if (typeof customerID !== 'undefined' && customerID !== null && customerID !== "") {
+//console.log("Customer is logged in with email 1 " + customerID);
+customerID = "";
+setTimeout(function callAntavo() { console.log("Antavo Customer is logged in with email " + customerID); (function(t, u, c) {
+var d = document, o = d.createElement(t), s = d.getElementsByTagName(t)[0];
+if (c) {
+o.onload = c;
+}
+o.src = '//' + u;
+try{
+s.parentNode.insertBefore(o, s);
+}catch(e){
+console.log("Antavo SDK could not be loaded and init was not successful !");
+}
+}('script', 'https://api-apps.antavo.com/events', function() {
+try{
+var callResp = Antavo.SDK.init('EANYZN11MTAAXFSVOGL1', customerID, options);
+// console.log("Return from antavo is " + callResp);
+}catch(e){
+//console.log("Antavo SDK could not be loaded and init was not successful !")
+}
+}))},4000);
+} else {
+setTimeout(function callAntavo() { console.log("Antavo Customer has not logged in"); (function(t, u, c) {
+var d = document, o = d.createElement(t), s = d.getElementsByTagName(t)[0];
+if (c) {
+o.onload = c;
+}
+o.src = '//' + u;
+try{
+s.parentNode.insertBefore(o, s);
+}catch(e){
+//console.log("Antavo SDK could not be loaded and init was not successful !");
+}
+}('script', 'https://api-apps.antavo.com/events', function() {
+try{
+Antavo.SDK.init('EANYZN11MTAAXFSVOGL1', null, options);
+}catch(e){
+// console.log("Antavo SDK could not be loaded and init was not successful !")
+}
+}))},3000);
+}
+</script>
+<script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/address.js"></script>
+<script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/elf-address.js"></script>
+<script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/elf-checkout.js"></script>
+<script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/vendor/multizoom.js"></script>
+<script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/productdetail-zoom.js"></script>
+<link rel="manifest" href="/manifest.json"><script type="text/javascript">
+if (typeof RESTConfiguration === 'undefined')
+{
+var RESTConfiguration = {}
+RESTConfigurationClass = function() {
+var http = location.protocol.concat("//").concat(window.location.hostname);
+this.AuthenticationToken = null;
+this.BusinessPartnerNo = null;
+this.CustomerNo = null;
+this.Login = null;
+this.WebServerSecureURL = null;
+this.WebServerURL = null;
+this.URLMappingRESTWebadapter = null;
+this.URLMappingPipelineWebadapter = null;
+this.Domain = null;
+this.ServerGroup = null;
+this.URLIdentifier = null;
+this.LocaleID = null;
+this.CurrencyCode = null;
+this.CustomerTypeID = null;
+this.URLMappingStaticWebadapter = null;
+};
+RESTConfigurationClass.prototype = {
+get: function(index) {
+return this[index];
+},
+set: function(index, value) {
+this[index] = value;
+},
+getCurrentHost: function() {
+return window.location.origin;
+},
+getWebUrl: function() {
+return this.getCurrentHost() + this.URLMappingPipelineWebadapter + '/' + this.ServerGroup + '/' + this.Domain + '/' + this.LocaleID + '/' + this.URLIdentifier + '/' + this.CurrencyCode + '/';
+},
+getRESTUrl: function() {
+return this.getCurrentHost() + this.URLMappingRESTWebadapter + '/' + this.ServerGroup + '/' + this.Domain + '/' + this.URLIdentifier;
+},
+getBaseRESTUrl: function() {
+return this.getCurrentHost() + this.URLMappingRESTWebadapter + '/' + this.ServerGroup + '/' + this.Domain + '/-/';
+},
+getStaticUrl: function() {
+return this.URLMappingStaticWebadapter + '/' + this.ServerGroup + '/' + this.Domain + '/' + this.URLIdentifier + '/-/' + this.LocaleID + '/';
+},
+getRESTClientHost: function() {
+return this.URLMappingRESTWebadapter + '/' + this.ServerGroup;
+},
+getRESTClientPrefix: function() {
+return this.Domain + '/' + this.URLIdentifier;
+},
+getAuthenticationToken: function() {
+return this.AuthenticationToken;
+},
+getCustomerUrlPart: function(accountAdmin) {
+if (this.CustomerTypeID === 'PRIVATE' || accountAdmin === true) {
+return 'customers/' + this.CustomerNo;
+}else{
+return 'customers/' + this.CustomerNo + '/users/' + this.Login;
+}
+},
+getLocale: function(rewrite) {
+if (typeof rewrite === 'undefined') {
+return this.LocaleID;
+}else{
+return this.LocaleID.replace('_','-');
+}
+},
+getLang: function() {
+return this.LocaleID.split('_')[0];
+},
+getLocalizationsUrl: function(id) {
+if (typeof id !== 'undefined' && typeof id === 'string') {
+return this.getStaticUrl() + 'js/localizations/' + id + '-' + RESTConfiguration.LocaleID + '.json'
+}
+return this.getStaticUrl() + 'js/localizations/'
+},
+getLocalizationProperties: function(topic, locale) {
+if (typeof locale === 'undefined') {
+var locale = this.getLocale();
+}
+var promise = $.getJSON(this.getWebUrl() + 'ViewLocalization-Get?topic='+topic+'&locale='+locale).then(function(data) {
+var localizationProperties = {};
+localizationProperties[RESTConfiguration.getLocale()] = data;
+return localizationProperties;
+});
+return promise;
+}
+};
+};
+RESTConfiguration = new RESTConfigurationClass();
+
+RESTConfiguration.set('AuthenticationToken', 'encryption0@PBEWithMD5AndTripleDES:/QXRm8CbGAo=|hmDytxurASzrbiWTZ2ExBwVfiGAYdiZpsp2pEQM07ACUEQCRoEGbow==');
+
+RESTConfiguration.set('WebServerSecureURL', 'https://ish14-elfnticmprod-lv.westeurope.cloudapp.azure.com:443')
+
+RESTConfiguration.set('WebServerURL', 'http://ish14-elfnticmprod-lv.westeurope.cloudapp.azure.com:80')
+
+RESTConfiguration.set('URLMappingRESTWebadapter', '/INTERSHOP/rest')
+
+RESTConfiguration.set('URLMappingPipelineWebadapter', '/INTERSHOP/web')
+
+RESTConfiguration.set('Domain', 'elefant-elefantMD-Site')
+
+RESTConfiguration.set('ServerGroup', 'WFS')
+
+RESTConfiguration.set('URLIdentifier', 'b2c-responsive')
+
+RESTConfiguration.set('LocaleID', 'ro_MD')
+
+RESTConfiguration.set('CurrencyCode', 'MDL')
+
+RESTConfiguration.set('URLMappingStaticWebadapter', '/INTERSHOP/static')
+
+RESTConfiguration.set("MoneyFormat", {
+
+"EUR_EURO_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v €", neg: "- %v €" } },
+"MDL_MONEY_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"RON_EURO_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"MDL_EURO_COMBINED": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v lei", neg: "- %v lei" } },
+"EUR_MONEY_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"RON_MONEY_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"MDL_EURO_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v lei", neg: "- %v lei" } },
+"MDL_MONEY_INPUT": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v", neg: "-%v" } },
+"EUR_EURO_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"USD_EURO_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v $", neg: "- %v $" } },
+"MDL_EURO_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"USD_EURO_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"USD_MONEY_SHORT": { precision: 2, decimal: ",", thousand: ".", format: { pos: "%v", neg: "- %v" } },
+"EUR_MONEY_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v €", neg: "- %v €" } },
+"EUR_EURO_COMBINED": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v €", neg: "- %v €" } },
+"EUR_MONEY_INPUT": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v", neg: "-%v" } },
+"USD_EURO_COMBINED": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v $", neg: "- %v $" } },
+"USD_MONEY_INPUT": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v", neg: "-%v" } },
+"RON_EURO_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v lei", neg: "- %v lei" } },
+"RON_MONEY_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v lei", neg: "- %v lei" } },
+"RON_MONEY_INPUT": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v", neg: "-%v" } },
+"USD_MONEY_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v $", neg: "- %v $" } },
+"MDL_MONEY_LONG": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v lei", neg: "- %v lei" } },
+"RON_EURO_COMBINED": { precision: 1, decimal: ",", thousand: ".", format: { pos: "%v lei", neg: "- %v lei" } }
+});
+
+RESTConfiguration.set("DateFormat", {
+
+"DATE_INPUT": "dd.MM.yyyy"
+,
+"TIME_INPUT": "HH:mm"
+,
+"DATE_TIME_INPUT": "dd.MM.yyyy HH:mm"
+,
+"DATE_SHORT": "d.M.yyyy"
+,
+"DATE_TIME": "HH:mm:ss"
+,
+"DATE_LONG": "dd.MM.yyyy"
+
+});
+</script><script type="text/javascript" src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/elefant/ro_MD/System/Exponea/exponea_21.js"></script><link rel="stylesheet" type="text/css" media="all" href="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/css&#47;theme.min.css?lastModified=1586135287000"/><style type="text/css">/* beginning */
+
+.price-notification {
+    display: none!important;
+}
+
+.list-body-cart .list-item-row .button-container a {
+    background-color: transparent!important;
+}
+
+/*hide category
+.filter-item.filter-layer2:nth-child(34) {
+    display: none !important;
+}
+hide category end*/
+
+.button-container{
+    width: 50px;
+}
+
+.filterattribute-culoare .ws-filter:nth-of-type(1n+2) .ws-filter-name:first-child {
+    display: none !important;
+}
+
+.utils-element {
+    display: none !important;
+}
+
+/*
+.utils-element:last-child {
+    display: none !important;
+}
+*/
+.pli-description .hidden-xs{
+    display: block!important;
+}
+
+
+
+#StickyProductHeader .col-center-right {
+    line-height: 20px!important;
+}
+
+.slick-prev{
+left: -25px!important;
+}
+
+.slick-next{
+right: -25px!important;
+}
+
+.header-utility{
+float: none!important;
+padding: 0 20px!important;
+}
+
+/*
+.utils div:first-child {
+    display: none!important;
+}
+*/
+/* label */
+.product-label-topseller {
+    background: url('/INTERSHOP/static/WFS/elefant-Site/-/elefant/ro_RO/img/icons/product_sprite_v4.png') no-repeat -164px -73px!important;
+    top: 185px!important;
+    z-index: 1;
+
+}
+
+.product-label-new{
+    background: url('/INTERSHOP/static/WFS/elefant-Site/-/elefant/ro_RO/img/icons/product_sprite_v4.png') no-repeat -82px -73px!important;
+    top: 185px!important;
+    z-index: 1;
+
+}
+
+.product-label-sale{
+    background: url('/INTERSHOP/static/WFS/elefant-Site/-/elefant/ro_RO/img/icons/product_sprite_v4.png') no-repeat 0px -73px!important;
+    top: 185px!important;
+    z-index: 1;
+
+}
+/* label */
+
+
+button.close {
+    padding: 0 7px!important;
+}
+
+.filter-dialog .modal-header {
+    padding: 15px 23px 15px 30px!important;
+}
+
+a.transaction-link {
+    display: none;
+}
+
+.main-navigation-level1-1-item {
+    font-size: 13px!important;
+    text-transform: uppercase!important;
+    background: 0!important;
+    padding: 0!important;
+    font-family: "latobold","Helvetica",Arial,sans-serif!important;
+    font-style: normal!important;
+    font-stretch: normal!important;
+    line-height: 2!important;
+    letter-spacing: 1px!important;
+    text-align: left!important;
+    color: #2d2d2d!important;
+}
+
+.main-navigation-level1-1-item::before {
+    content: ''!important;
+    display: block!important;
+    width: 32px!important;
+    height: 1px!important;
+    background-color: #e9c8a0!important;
+    position: absolute!important;
+    top: 23px!important;
+    left: 0!important;
+}
+
+.current-category-name {
+    font-size: 18px!important;
+    margin: 0;
+}
+
+.add-to-wishlist:hover {
+    color: #6fc115!important;
+}
+
+.add-to-wishlist {
+    color: #7ed321!important;
+}
+
+.add-to-wishlist-icon::before {
+    font-size: 28px!important;
+    font-weight: bold!important;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.7)!important;
+}
+
+.list-body-cart .list-item-row .button-container a {
+    display: block!important;
+    padding: 0 15px!important;
+}
+
+.dl-separator>dt:after {
+    content: ""!important;
+}
+
+.panel-collapse.collapse.in a {
+    text-decoration: underline;
+    color: #4a4a4a;
+}
+
+li.list-group-item.d-flex.justify-content-between.align-items-center:first-child {
+    display: none;
+}
+
+@media (max-width: 426px){
+span.super.mobile-cart-counter {
+    top: -2px;
+    left: 106px;
+}
+
+
+
+
+
+
+  .filter-group .glyphicon:hover {
+    color: #7ed321!important;
+}
+iframe.antavo-loyalty {
+    height: 3224px!important;
+}
+.list-body-cart .list-item-row .button-container {
+    float: right!important;
+    position: absolute!important;
+    left: 83.5%!important;
+    border-top: none!important;
+}
+.list-body-cart .list-item-row .button-container div {
+    padding-top: 20px!important;
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 427px) {
+iframe.antavo-loyalty {
+    height: 2160px!important;
+}
+}
+
+@media (max-width: 767px){
+  .breadcrumbs {
+    display: inline-block!important;
+  }
+  .breadcrumbs ol {
+    padding-left: 16px!important;
+    list-style-type: disc!important;
+    display: grid!important;
+  }
+  .breadcrumbs-list {
+    font-size: 12px!important;
+  }
+  .breadcrumbs label {
+    display: none!important;
+  }
+/*fix search goes over filters*/
+  #MobileSearchRow {
+    padding-top: 0px!important;
+  }
+/*fix search goes over filters end*/
+}
+
+@media (max-width: 991px){
+header .utils-wrapper {
+        margin: 1px 0!important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px)
+{
+ .main-navigation ul.main-navigation-list li>ul.category-level1 {
+   transition-delay: .5s!important;
+ }
+ .dropdown-menu {
+  margin-left: -14px!important;
+ }
+
+
+
+.magnifyarea {
+    top: 29.3%!important;
+}
+}
+
+@media screen and (min-width: 992px)
+{
+.magnifyarea {
+    top: 40.3%!important;
+}
+}
+
+@media screen and (min-width: 1200px)
+{
+.magnifyarea {
+    top: 50.3%!important;
+}
+}
+
+/* end */</style><script type="text/javascript">
+window.cssDir = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/css/";
+window.imgDir = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/images/";
+</script>
+
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N2GXZ77');</script>
+<!-- End Google Tag Manager --> </head>
+<body  class="product-detail-page"><noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-N2GXZ77"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript><noscript>
+<div class="system-notification">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="system-notification-icon">
+<span class="glyphicon glyphicon-warning-sign"></span>
+</div>
+<div class="system-notification-text">
+<h2>Se pare că browser-ul dvs. a dezactivat JavaScript.</h2>
+<p>Acest site necesită browser-ul să fie activat JavaScript.</p>
+<p>Vă rugăm să activați JavaScript și să reîncărcați această pagină.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</noscript><div id="disabled-cookies-warning" style="display: none;">
+<div class="system-notification">
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<div class="system-notification-icon">
+<span class="glyphicon glyphicon-warning-sign"></span>
+</div>
+<div class="system-notification-text">
+<div class="h2">Se pare că browser-ul dvs. a dezactivat cookie-urile.</div>
+<p>Site-ul necesită browser-ul pentru a activa cookie-urile pentru a se autentifica.</p>
+<p>Vă rugăm să activați cookie-urile și reîncărcați această pagină.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+(function cookieTest(){
+var name = 'cookie_test';
+document.cookie = name + '=;';
+if (document.cookie.indexOf(name) == -1) {
+$('#disabled-cookies-warning').show();
+}
+document.cookie = name + '=; expires=Thu, 01-Jan-70 00:00:01 GMT;';
+})();
+</script>
+</div><header data-testing-id="page-header" class="top"><div class="top-header">
+<div class="utils-wrapper hidden-xs hidden-sm">
+<div class="container">
+<div class="utils row"><div class="&quot;utils-element">Comandă telefonic: <span style="color: #ff6600;">061.000.901</span> / <span style="color: #ff6600;">069.687.771</span> (08:00 - 20:00)| <a href="/masuri-de-siguranta-cms-depozit">Masuri de siguranta</a></div>
+<div class="utils-element hidden-xs"><i class="material-icons">arrow_forward</i><span>Acum si livrare nationala prin curier rapid!</span></div>
+
+
+<div class="utils-element">
+<a data-toggle="collapse" class="locale-switch-link" href=".locale-switch-layer" rel="nofollow">
+<i class="material-icons MD">language</i>MD</a>
+<div class="top-beak locale-switch-layer-beak"></div>
+<div class="collapse layer locale-switch-layer" id="locale-switch-layer">
+<div class="title locale-switch-title">Țară</div>
+<div class="locale-switch-channel " data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Channel">
+<i class="material-icons RO">language</i>
+<span>Rom&acirc;nia</span></div><div class="locale-switch-channel selected" data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Channel">
+<i class="material-icons MD">language</i>
+<span>Moldova</span><i class="material-icons check">check</i></div><div class="title language-switch-title">Limbă:</div><div class="locale-switch-language selected" data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Language">
+<i class="material-icons">language</i>
+<span class="">Rom&acirc;nă</span><i class="material-icons check">check</i></div><div class="locale-switch-language " data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Language">
+<i class="material-icons">language</i>
+<span class="">Pусский</span></div></div>
+</div></div>
+</div>
+</div>
+<nav class="container">
+<div class="row header-row" id="HeaderRow">
+<div class="col-sm-4 col-md-3 logo-wrapper hidden-xs"><a rel="home" href="http://www.elefant.md/"><img src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/elefant-elefantMD/ro_MD/logo.png" alt="Logo"></a></div>
+<div class="visible-xs"><a rel="home" href="http://www.elefant.md/" class="mobile-logo"><img src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/elefant-elefantMD/ro_MD/logo%402x.png" alt="Logo"/></a></div>
+<div class="hidden-md hidden-lg pull-right">
+<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#globalnav">
+<span class="sr-only">Modifică navigarea&nbsp;</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="col-md-9 header-search-container-wrapper">
+<div class="row">
+<div class="col-md-7 col-lg-8 search-container header-search-container hidden-xs hidden-sm"><form method="post" action="https://www.elefant.md/search" role="search" class="search clearfix suggest" name="SearchBox_Header"><input autocomplete="off" type="text" name="SearchTerm"
+class="form-control searchTerm js-has-overlay"
+data-suggestURL="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSuggestSearch-Suggest?MaxAutoSuggestResults=10"
+placeholder="Căutați cuv&acirc;nt cheie, codul de produs, tip produs" />
+<a class="search-cancel"><i class="material-icons">cancel</i></a>
+<button class="btn-search btn btn-primary" type="submit" name="search" title="Începe căutarea"><span class="glyphicon glyphicon-search"></span></button>
+<input type="hidden" name="search" value="" />
+<ul class="search-suggest-results">
+</ul></form><div class="search-background-overlay"></div></div>
+<ul class="user-links">
+<li><div class="account-layer-beak"></div><a data-toggle="collapse" class="my-account-link hidden-xs" href="#account-layer" rel="nofollow">
+<span class="login-prompt">Conectare</span>
+<div class="icon-wrapper">
+<i class="material-icons">face</i>
+<span class="super logged-out-dot"></span>
+<span>Cont</span>
+</div>
+</a>
+<div class="collapse" id="account-layer">
+<h4>Contul Meu</h4>
+<i class="material-icons">face</i><a class="my-account-login btn btn-primary btn-block" href="https://www.elefant.md/login" rel="nofollow">Conectare</a><a class="btn btn-default btn-block" href="https://www.elefant.md/new-account?TargetPipeline=ViewProfileSettings-ViewProfile">Creează cont</a>
+</div>
+<a class="my-account-link my-account-login visible-xs" href="https://www.elefant.md/login" rel="nofollow">
+<div class="icon-wrapper">
+<i class="material-icons">face</i>
+<span class="super logged-out-dot"></span>
+<span>Cont</span>
+</div>
+</a></li>
+<li><a href="https://www.elefant.md/login?TargetPipeline=ViewWishlist-ViewAll" class="" rel="nofollow">
+<div class="icon-wrapper">
+<i class="material-icons">favorite</i>
+<span>Favorite</span>
+</div>
+</a></li>
+<li data-ajax-content="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewMiniCart-Status" class="hidden-xs hidden-sm">
+<div class="quick-cart-link">
+<a href="https://www.elefant.md/cart">
+<span class="glyphicon glyphicon-shopping-cart"></span>
+</a>
+</div>
+</li>
+<li class="hidden-md hidden-lg">
+<a href="https://www.elefant.md/cart">
+<div class="icon-wrapper">
+<i class="material-icons">shopping_cart</i>
+<span class="super mobile-cart-counter"></span>
+<span>Cos</span>
+</div>
+</a>
+</li>
+</ul>
+<div class="header-utility"><div class="utils row hidden-sm hidden-md hidden-lg">
+<div class="utils-element" style="border-radius: 7px; background-color: #7ed321;"><i class="material-icons" style="margin-left: 7px; color: #ffffff!important;">label</i> <span style="margin-right: 7px; color: #ffffff!important;"><a style="color: #ffffff;" href="/essentials-cms-cmp-essentials" data-testing-id="Outlet-link">Esentiale</a></span></div>
+</div></div>
+</div>
+</div>
+<div class="utils-wrapper hidden-md hidden-lg">
+<div class="container">
+<div class="utils row"><div class="&quot;utils-element">Comandă telefonic: <span style="color: #ff6600;">061.000.901</span> / <span style="color: #ff6600;">069.687.771</span> (08:00 - 20:00)| <a href="/masuri-de-siguranta-cms-depozit">Masuri de siguranta</a></div>
+<div class="utils-element hidden-xs"><i class="material-icons">arrow_forward</i><span>Acum si livrare nationala prin curier rapid!</span></div>
+
+
+<div class="utils-element">
+<a data-toggle="collapse" class="locale-switch-link" href=".locale-switch-layer" rel="nofollow">
+<i class="material-icons MD">language</i>MD</a>
+<div class="top-beak locale-switch-layer-beak"></div>
+<div class="collapse layer locale-switch-layer" id="locale-switch-layer">
+<div class="title locale-switch-title">Țară</div>
+<div class="locale-switch-channel " data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Channel">
+<i class="material-icons RO">language</i>
+<span>Rom&acirc;nia</span></div><div class="locale-switch-channel selected" data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Channel">
+<i class="material-icons MD">language</i>
+<span>Moldova</span><i class="material-icons check">check</i></div><div class="title language-switch-title">Limbă:</div><div class="locale-switch-language selected" data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Language">
+<i class="material-icons">language</i>
+<span class="">Rom&acirc;nă</span><i class="material-icons check">check</i></div><div class="locale-switch-language " data-ajax="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSiteSwitchURL-AjaxRedirectURL" data-switch-type="Language">
+<i class="material-icons">language</i>
+<span class="">Pусский</span></div></div>
+</div></div>
+</div>
+</div>
+<div class="mobile-search-row hidden-md hidden-lg" id="MobileSearchRow">
+<div class="col-md-7 search-container header-search-container"><form method="post" action="https://www.elefant.md/search" role="search" class="search clearfix suggest" name="SearchBox_Header"><input autocomplete="off" type="text" name="SearchTerm"
+class="form-control searchTerm js-has-overlay"
+data-suggestURL="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewSuggestSearch-Suggest?MaxAutoSuggestResults=10"
+placeholder="Căutați cuv&acirc;nt cheie, codul de produs, tip produs" />
+<a class="search-cancel"><i class="material-icons">cancel</i></a>
+<button class="btn-search btn btn-primary" type="submit" name="search" title="Începe căutarea"><span class="glyphicon glyphicon-search"></span></button>
+<input type="hidden" name="search" value="" />
+<ul class="search-suggest-results">
+</ul></form><div class="search-background-overlay"></div></div>
+</div>
+</nav>
+</div>
+<div class="bottom-header">
+<div class="container">
+<div class="row">
+<div class="global-nav collapse navbar-collapse" id="globalnav">
+<div class="main-navigation" role="navigation">
+<ul class="navbar-nav main-navigation-list"><ul class="navbar-nav main-navigation-list" style="padding: 0!important;"><!-- moble start -->
+<li id="mobileCat-Outlet" class="dropdown outlet-button"><a href="/essentials-cms-cmp-essentials" data-testing-id="Outlet-link">Esentiale</a></li>
+<!-- moble start -->
+<li id="mobileCat-Carte" class="dropdown visible-xs hidden-sm hidden-md hidden-lg"><a href="/hp-carte" data-testing-id="Carte-link">Carte</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Carte"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Carte" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/hp-carte">Carte</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteCarte"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CarteCarte" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/carte">Bestseller 2019</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/arta-arhitectura-si-fotografie?sort=popularitate&amp;dir=desc">Arta, arhitectura si fotografie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/biografii-si-memorii">Biografii si memorii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/business-economie-finante">Business, economie, finante</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/carti-pentru-copii">Carti pentru copii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/dictionare-si-enciclopedii">Dictionare si Enciclopedii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/diete-si-fitness">Diete si fitness</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/fictiune?sort=popularitate&amp;dir=desc">Fictiune</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/filologie-filosofie">Filologie, Filosofie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/gastronomie">Gastronomie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/ghiduri-de-calatorie-harti">Ghiduri de calatorie, harti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/hobby-timp-liber">Hobby, timp liber</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/istorie">Istorie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/limbi-straine">Limbi straine</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/parenting-si-familie">Parenting si familie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/psihologie-pedagogie">Psihologie, Pedagogie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/religie">Religie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/self-help?sort=popularitate&amp;dir=desc">Self Help</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/sociologie-stiinte-politice">Sociologie, stiinte politice</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/spiritualitate-ezoterism">Spiritualitate, ezoterism</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/stiinte?sort=popularitate&amp;dir=desc">Stiinte</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte">Vezi toate</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/filters/autor-Jojo+Moyes_or_Agnes+Martin-Lugand_or_Yuval+Noah+Harari_or_Irina+Binder_or_Elena+Ferrante_or_Anna+Todd_or_John+C.+Maxwell_or_Jill+Tomlinson_or_Alec+Blenche_or_Daniel+Goleman">Top Autori</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteTopAutori"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CarteTopAutori" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Jojo+Moyes">Jojo Moyes</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Agnes+Martin-Lugand">Agnes Martin-Lugand</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Yuval+Noah+Harari">Yuval Noah Harari</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Irina+Binder">Irina Binder</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Elena+Ferrante">Elena Ferrante</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Anna+Todd">Anna Todd</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-John+C.+Maxwell">John C. Maxwell</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Jill+Tomlinson">Jill Tomlinson</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Alec+Blenche">Alec Blenche</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Daniel+Goleman">Daniel Goleman</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/recomandari-elefant-cms-zilele-devoratorilor-de-carti-recomandari-elefant">Targ de carte</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteTargulDevoratorilorDeCarti"><span class="glyphicon glyphicon-plus"></span></a></li>
+</ul>
+</li>
+<!-- mobile end -->
+<li id="mobileCat-Carte" class="dropdown hidden-xs visible-sm visible-md visible-lg"><a href="/hp-carte" data-testing-id="Carte-link">Carte</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Carte"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Carte" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/hp-carte">Carte</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteCarte"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CarteCarte" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/carte">Bestseller 2019</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/arta-arhitectura-si-fotografie?sort=popularitate&amp;dir=desc">Arta, arhitectura si fotografie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/biografii-si-memorii">Biografii si memorii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/business-economie-finante">Business, economie, finante</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/carti-pentru-copii">Carti pentru copii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/dictionare-si-enciclopedii">Dictionare si Enciclopedii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/diete-si-fitness">Diete si fitness</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/fictiune?sort=popularitate&amp;dir=desc">Fictiune</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/filologie-filosofie">Filologie, Filosofie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/gastronomie">Gastronomie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item">
+<ul id="mobileCat-CarteCarte" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/ghiduri-de-calatorie-harti">Ghiduri de calatorie, harti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/hobby-timp-liber">Hobby, timp liber</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/istorie">Istorie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/limbi-straine">Limbi straine</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/parenting-si-familie">Parenting si familie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/psihologie-pedagogie">Psihologie, Pedagogie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/religie">Religie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/self-help?sort=popularitate&amp;dir=desc">Self Help</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/sociologie-stiinte-politice">Sociologie, stiinte politice</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/spiritualitate-ezoterism">Spiritualitate, ezoterism</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte/stiinte?sort=popularitate&amp;dir=desc">Stiinte</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte">Vezi toate</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/filters/autor-Jojo+Moyes_or_Agnes+Martin-Lugand_or_Yuval+Noah+Harari_or_Irina+Binder_or_Elena+Ferrante_or_Anna+Todd_or_John+C.+Maxwell_or_Jill+Tomlinson_or_Alec+Blenche_or_Daniel+Goleman">Top Autori</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteTopAutori"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CarteTopAutori" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Jojo+Moyes">Jojo Moyes</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Agnes+Martin-Lugand">Agnes Martin-Lugand</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Yuval+Noah+Harari">Yuval Noah Harari</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Irina+Binder">Irina Binder</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Elena+Ferrante">Elena Ferrante</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Anna+Todd">Anna Todd</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-John+C.+Maxwell">John C. Maxwell</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Jill+Tomlinson">Jill Tomlinson</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Alec+Blenche">Alec Blenche</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/filters/autor-Daniel+Goleman">Daniel Goleman</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/recomandari-elefant-cms-zilele-devoratorilor-de-carti-recomandari-elefant">Targ de carte</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteTargulDevoratorilorDeCarti"><span class="glyphicon glyphicon-plus"></span></a></li>
+</ul>
+</li>
+<li id="mobileCat-CarteStraina" class="dropdown"><a href="/list/carti/carte-straina" data-testing-id="CarteStraina-link">Carte straina</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-CarteStraina"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CarteStraina" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/carti/carte-straina">Foreign books</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CarteStrainaForeignBooks"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CarteStrainaForeignBooks" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina?sort=noutati&amp;dir=desc">New</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/biography-literature-literary-studies">Biography, literature &amp; literary studies</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/children-s-teenage-educational">Children's, Teenage &amp; Educational</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/computing-information-technology">Computing &amp; information technology</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/earth-sciences-geography-environment-planning">Earth sciences, geography, environment, planning</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/economics-finance-business-management">Economics, finance, business &amp; management</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/fiction-related-items">Fiction &amp; related items</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/graphic-novels-comic-books-cartoons">Graphic novels, comic books, cartoons</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/health-relationships-personal-development">Health, relationships &amp; personal development</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item">
+<ul id="mobileCat-CarteCarte" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/history-archaeology">History &amp; archaeology</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/language-linguistics">Language &amp; linguistics</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/law">Law</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/lifestyle-hobbies-leisure">Lifestyle, hobbies &amp; leisure</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/mathematics-science">Mathematics &amp; science</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/medicine-nursing">Medicine &amp; nursing</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/philosophy-religion">Philosophy &amp; religion</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/reference-information-interdisciplinary-subjects">Reference, information &amp; interdisciplinary subjects</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/society-social-sciences">Society &amp; social sciences</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/sports-active-outdoor-recreation">Sports &amp; active outdoor recreation</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/technology-engineering-agriculture">Technology, engineering, agriculture</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/carte-straina/the-arts">The arts</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="mobileCat-Русскаякнига" class="dropdown"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0" data-testing-id="Русскаякнига-link">Русская книга</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Русскаякнига"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Русскаякнига" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0">Художественная литература</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаХудожественнаялитература"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаХудожественнаялитература" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B0-%D0%B8-%D1%84%D1%8D%D0%BD%D1%82%D0%B5%D0%B7%D0%B8">Фантастика и фэнтези</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D1%81%D0%BE%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BF%D1%80%D0%BE%D0%B7%D0%B0">Современная проза</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0">Классика</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D1%80%D0%BE%D0%BC%D0%B0%D0%BD%D1%8B">Любовные романы</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F">Приключения</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B8-%D1%80%D0%BE%D0%BC%D0%B0%D0%BD">Исторический роман</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BF%D0%BE%D1%8D%D0%B7%D0%B8%D1%8F">Поэзия</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B0%D1%84%D0%BE%D1%80%D0%B8%D0%B7%D0%BC%D1%8B-%D1%86%D0%B8%D1%82%D0%B0%D1%82%D1%8B">Афоризмы, цитаты</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D1%8E%D0%BC%D0%BE%D1%80">Юмор</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0">Проф. литература</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаПрофлитература"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаПрофлитература" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BF%D0%B4%D0%B4-%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B8-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82">ПДД, личный транспорт</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0">Компьютерная литература</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B8-%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BE%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">Медицина и здравоохранение</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B3%D1%83%D0%BC%D0%B0%D0%BD%D0%B8%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8">Гуманитарные Науки</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D0%BF%D1%80%D0%B0%D0%B2%D0%BE-%D1%8E%D1%80%D0%B8%D1%81%D0%BF%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F">Естественные Науки</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B5%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8">Государство и право. Юриспруденция</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8">Общественные Науки</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5-%D0%B4%D0%B5%D0%BB%D0%BE">Военное дело</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%80%D0%BE%D1%84-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BD%D0%B0%D1%83%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Технические науки. Промышленность</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B">Все для школы</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаВседляшколы"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаВседляшколы" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0-%D0%BA-%D1%88%D0%BA%D0%BE%D0%BB%D0%B5">Подготовка к школе</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D1%8F">Учебные пособия</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D0%B2%D0%BD%D0%B5%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%BD%D0%BE%D0%B5-%D1%87%D1%82%D0%B5%D0%BD%D0%B8%D0%B5">Внеклассное чтение</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D1%82%D0%B5%D1%82%D1%80%D0%B0%D0%B4%D0%B8-%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8">Тетради, дневники</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D0%B0%D0%B1%D0%B8%D1%82%D1%83%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B0%D0%BC">Абитуриентам</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D0%B4%D0%BB%D1%8F-%D0%BF%D1%80%D0%B5%D0%BF%D0%BE%D0%B4%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B8">Для Преподавателей</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B8">Книги для детей</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаКулинарияКнигидлядетей"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаКулинарияКнигидлядетей" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B8/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B6%D0%BA%D0%B8">Первые книжки</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B8/%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8">Развивающие книги</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B8/%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8">Художественные книги</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B8/%D0%B4%D0%BE%D1%81%D1%83%D0%B3-%D0%B8-%D1%83%D0%B2%D0%BB%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D1%8F">Досуг и увлечения</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B8">Ежедневники, блокноты, календариi</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаЕжедневникиблокнотыкалендари"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаЕжедневникиблокнотыкалендари" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B8/%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B8">Блокноты для записи</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B8/%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%80%D1%8B">Ежедневники, планеры</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B8/%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B8g">Календари</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B5%D0%B6%D0%B5%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B-%D0%BA%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%B8/%D1%82%D0%B2%D0%BE%D1%80%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%B1%D0%BB%D0%BE%D0%BA%D0%BD%D0%BE%D1%82%D1%8B">Творческие блокноты</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B2%D1%81%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/%D1%82%D0%B5%D1%82%D1%80%D0%B0%D0%B4%D0%B8-%D0%B4%D0%BD%D0%B5%D0%B2%D0%BD%D0%B8%D0%BA%D0%B8">Тетради, дневники</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8">Иностранные языки</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаПрофлитератураИностранныеязыки"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаПрофлитератураИностранныеязыки" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5-%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D1%8F">Грамматические пособия</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F">Путешествия</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаПутешествия"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаПутешествия" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%BE-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B0%D1%85-%D0%B8-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0%D1%85">Книги о городах и странах</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F/%D0%BF%D1%83%D1%82%D0%B5%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B8">Путеводители</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BD%D0%B5%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0">Нехудожественная литература</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаНехудожественнаялитература"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаНехудожественнаялитература" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BD%D0%B5%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%BB%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B0/%D0%B1%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%B8-%D0%BC%D0%B5%D0%BC%D1%83%D0%B0%D1%80%D1%8B">Биографии, мемуары</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B4%D0%BE%D0%BC-%D0%B4%D0%BE%D1%81%D1%83%D0%B3-%D1%85%D0%BE%D0%B1%D0%B1%D0%B8">Дом, досуг, хобби</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаДомдосугхобби"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаДомдосугхобби" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8">Бизнес-книги</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаБизнескниги"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаБизнескниги" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D1%83%D0%BB%D0%B8%D0%BD%D0%B0%D1%80%D0%B8%D1%8F">Кулинария</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаКулинария"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаКулинария" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B8">Книги для родителей</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаКнигидляродителей"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаКнигидляродителей" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B8">Книги для родителей</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаКнигидляродителей"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаКнигидляродителей" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B0%D1%8F-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0/%D0%BA%D0%BE%D0%BC%D0%B8%D0%BA%D1%81%D1%8B">Комиксы</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаКомиксы"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаКомиксы" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/carti/русская-книга">Посмотри все книги</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-РусскаякнигаПосмотривсекниги"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-РусскаякнигаПосмотривсекниги" class="category-level2 collapse"></ul>
+</li>
+</ul>
+</li>
+<li id="mobileCat-JucariiCopiiBebe" class="dropdown"><a href="/list/jucarii-copii-bebe" data-testing-id="JucariiCopiiBebe-link">Jucarii, Copii &amp; Bebe</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-JucariiCopiiBebe"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-JucariiCopiiBebe" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/jucarii">Jucarii</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-JucariiCopiiBebeJucarii"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-JucariiCopiiBebeJucarii" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/filters/sex-Fete">Pentru fete</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/filters/sex-Baieti">Pentru baieti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jucarii-bebe">Pentru bebelusi</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/hp-jucarii-cms-hp-jucarii">Categorii</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-JucariiCopiiBebeCategorii"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-JucariiCopiiBebeCategorii" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jocuri">Jocuri</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/rechizite-si-papetarie/ghiozdane-genti-penare">Ghiozdane si penare</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jucarii-educative">Jucarii educative</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/arta-si-indemanare">Arta si indemanare</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/puzzle-uri">Puzzle-uri</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/papusi-si-accesorii">Papusi si accesorii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/masinute-trenulete-si-avioane">Masinute, trenulete, avioane</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/figurine">Figurine</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jucarii-de-plus">Jucarii de plus</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jucarii-de-rol">Jucarii de rol</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jucarii-electronice">Jucarii electronice</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/seturi-de-constructie">Seturi de constructie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/accesorii-calatorie">Accesorii calatorie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/jucarii-de-exterior-si-gradina">Jucarii de exterior si gradina</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/vehicule-de-exterior">Vehicule de exterior</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/jucarii/lego">LEGO</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-JucariiCopiiBebeLego"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-JucariiCopiiBebeLego" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-duplo">LEGO DUPLO</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-city">LEGO City</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-friends">LEGO Friends</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-disney-princess">LEGO Disney Princess</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-ninjago">LEGO Ninjago</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-super-heroes">LEGO Super Heroes</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-minecraft">LEGO Minecraft</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-technic">LEGO Technic</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-star-wars">LEGO Star Wars</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-juniors">LEGO Juniors</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-classic">LEGO Classic</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-creator">LEGO Creator</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-speed-champions">LEGO Speed Champions</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-movie-2">LEGO Movie 2</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/lego-jurassic-world">LEGO Jurassic World</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/jucarii/lego/accesorii-lego">Accesorii LEGO</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/jucarii">Branduri populare</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-JucariiCopiiBebeBranduriPopulare"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-JucariiCopiiBebeBranduriPopulare" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Disney">Disney</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-LOL">LOL</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-My+Little+Pony?GroupSize.brand=0">My Little Pony</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Barbie">Barbie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Fisher+Price">Fisher Price</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Tomy?GroupSize.brand=0">Tomy</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Clementoni">Clementoni</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Hasbro+Games">Hasbro Gaming</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Play-Doh?GroupSize.brand=0">Play-Doh</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Nerf?GroupSize.brand=0">Nerf</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Noriel?GroupSize.brand=0">Noriel</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Trefl?GroupSize.brand=0">Trefl</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Castorland">Castorland</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Geomag">Geomag</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii">Articole bebe</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ArticoleBebe"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ArticoleBebe" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/camera-copil/aparatura-bebe/nebulizatoare-copii"><b>NOU! Aerosoli</b></a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii">Categorii</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-Categorii"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Categorii" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele">Scutece si servetele</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/igiena-si-ingrijire">Igiena si ingrijire</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/articole-transport">Articole transport</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/camera-copil">Camera copil</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/articole-hrana-bebe">Articole hrana bebe</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele">Scutece</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-Scutece"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Scutece" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele/filters/brand-Pampers">Pampers</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele/filters/brand-Huggies">Huggies</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele/filters/brand-Pufies">Pufies</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele/filters/brand-Happy">Happy</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/scutece-si-servetele/filters/brand-Happy_or_Huggies_or_Pampers_or_Pufies">Branduri populare</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-BranduriPopulare"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-BranduriPopulare" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/filters/brand-Philips+Avent">Philips Avent</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/filters/brand-Baby+Dove">Baby Dove</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/filters/brand-Lorelli">Lorelli</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/jucarii-copii-bebe/articole-bebe-si-copii/filters/brand-Ariel">Ariel</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="mobileCat-Parfumuri" class="dropdown"><a href="/hp-parfumuri-md-cms-hp-parfumuri-md" data-testing-id="Parfumuri-link">Parfumuri</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Parfumuri"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Parfumuri" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex">Parfumuri pentru femei</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriParfumuriPentruFemei"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ParfumuriParfumuriPentruFemei" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/apa-de-parfum/filters/sex-Femei">Apa de parfum</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/apa-de-toaleta/filters/sex-Femei">Apa de toaleta</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/seturi-cadou/filters/sex-Femei">Seturi cadou</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Calvin+Klein_or_Guess_or_Bvlgari_or_Versace_or_Paco+Rabanne_or_Hugo+Boss_or_Salvatore+Ferragamo">Top branduri femei</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriTopBranduriFemei"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ParfumuriTopBranduriFemei" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Calvin+Klein">Calvin Klein</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Guess">Guess</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Bvlgari">Bvlgari</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Versace">Versace</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Paco+Rabanne">Paco Rabanne</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Hugo+Boss">Hugo Boss</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei/brand-Salvatore+Ferragamo">Salvatore Ferragamo</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Lancome_or_Yves+Saint+Laurent_or_Giorgio+Armani_or_Dolce%2B%2526%2BGabbana_or_Givenchy_or_Guerlain_or_Thierry+Mugler">Premium brands femei</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriPremiumBrandsFemei"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ParfumuriPremiumBrandsFemei" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Lancome">Lancome</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Yves+Saint+Laurent">Yves Saint Laurent</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei/brand-Giorgio+Armani">Giorgio Armani</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Dolce%2B%2526%2BGabbana">Dolce &amp; Gabbana</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Givenchy">Givenchy</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Guerlain">Guerlain</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Thierry+Mugler">Thierry Mugler</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Unisex">Parfumuri unisex</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriParfumuriUnisex"><span class="glyphicon glyphicon-plus"></span></a> <a href="/list/parfumuri">Vezi toate parfumurile</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriParfumuriUnisex"><span class="glyphicon glyphicon-plus"></span></a></li>
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Barbati_or_Unisex">Parfumuri pentru barbati</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriParfumuriPentruBarbati"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ParfumuriParfumuriPentruBarbati" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/apa-de-parfum/filters/sex-Barbati">Apa de parfum</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/apa-de-toaleta/filters/sex-Barbati">Apa de toaleta</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/seturi-cadou/filters/sex-Barbati">Seturi cadou</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Calvin+Klein_or_Guess_or_Bvlgari_or_Versace_or_Paco+Rabanne_or_Hugo+Boss_or_Davidoff">Top branduri barbati</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriTopBranduriBarbati"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ParfumuriTopBranduriBarbati" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Calvin+Klein">Calvin Klein</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Guess">Guess</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Bvlgari">Bvlgari</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Versace">Versace</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Paco+Rabanne">Paco Rabanne</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Hugo+Boss">Hugo Boss</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Davidoff">Davidoff</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Hermes_or_Yves+Saint+Laurent_or_Giorgio+Armani_or_Dolce%2B%2526%2BGabbana_or_Givenchy_or_Prada_or_Christian+Dior">Premium brands barbati</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-ParfumuriPremiumBrandsBarbati"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-ParfumuriPremiumBrandsBarbati" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Hermes">Hermes</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Yves+Saint+Laurent">Yves Saint Laurent</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Giorgio+Armani">Giorgio Armani</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Dolce%2B%2526%2BGabbana">Dolce &amp; Gabbana</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Givenchy">Givenchy</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Prada">Prada</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/parfumuri/filters/sex-Barbati/brand-Christian+Dior">Dior</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="mobileCat-Cosmetice" class="dropdown"><a href="/list/cosmetice" data-testing-id="Cosmetice-link">Cosmetice</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Cosmetice"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Cosmetice" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/filters/brand-Dermacol_or_IDC+INSTITUTE_or_L+Oreal+Paris_or_LOreal+Professionnel_or_Makeup+Revolution+London_or_Revlon_or_Revlon+Flex">Top branduri cosmetice</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeTopBranduriCosmetice"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeTopBranduriCosmetice" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/filters/brand-Makeup+Revolution+London">Makeup Revolution London</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/filters/brand-IDC+Institute">IDC Institute</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/filters/brand-Revlon">Revlon</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/filters/brand-L+Oreal+Paris">L'Oreal Paris</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/filters/brand-L%27Oréal+Professionnel">L'Oreal Professionnel</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/filters/brand-Dermacol">Dermacol</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/machiaj">Machiaj</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeMachiaj"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeMachiaj" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/machiaj/seturi-si-truse-de-machiaj">Seturi si truse de machiaj</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/machiaj/ten">Ten</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/machiaj/ochi">Ochi</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/machiaj/buze">Buze</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/machiaj/unghii">Unghii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/machiaj/pensule-si-accesorii">Pensule si accesorii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/ingrijire-ten">Ingrijire ten</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeIngrijireTen"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeIngrijireTen" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-ten/curatare-si-demachiere">Curatare si demachiere</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-ten/hidratare">Hidratare</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-ten/tratament">Tratament</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-ten/seturi-de-ingrijire-ten">Seturi ingrijire ten</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/ingrijire-par">Ingrijire par</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeIngrijirePar"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeIngrijirePar" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-par/sampon-si-balsam">Sampon si balsam</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-par/masca-si-tratament">Masca si tratament</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-par/produse-styling">Produse styling</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-par/colorare-par">Colorare</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-par/accesorii-par">Accesorii</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/ingrijire-corp">Ingrijire corp</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeIngrijireCorp"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeIngrijireCorp" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/produse-de-baie">Produse de baie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/creme-si-lotiuni">Creme si lotiuni</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/tratament">Tratament</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/deodorante-si-antiperspirante">Deodorante si antiperspirante</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/produse-epilare">Produse epilare</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/protectie-solara">Protectie solara</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/ingrijire-corp/seturi-ingrijire-corp">Seturi ingrijire corp</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/igiena-dentara">Igiena dentara</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeIgienaDentara"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeIgienaDentara" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-dentara/apa-de-gura">Apa de gura</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-dentara/pasta-de-dinti">Pasta de dinti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-dentara/periute-de-dinti">Periute de dinti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/igiena-intima">Igiena intima</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeIgienaIntima"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeIgienaIntima" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-intima/absorbante-si-tampoane">Absorbante si tampoane</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-intima/geluri-intime">Geluri intime</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/igiena-sexuala">Igiena sexuala</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeIgienaSexuala"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeIgienaSexuala" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-sexuala/lubrifianti">Lubrifianti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/igiena-sexuala/prezervative">Prezervative</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/cosmetice-barbati">Cosmetice barbati</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeCosmeticeBarbati"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CosmeticeCosmeticeBarbati" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/cosmetice-barbati/ingrijire-ten-si-barba">Ingijire ten si barba</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/cosmetice-barbati/produse-barbierit">Produse barbierit</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/cosmetice-barbati/produse-styling">Produse styling</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/cosmetice/cosmetice-barbati/ingrijire-corp">Ingrijire corp</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/seturi-cadou">Seturi cadou</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeSeturiCadou"><span class="glyphicon glyphicon-plus"></span></a></li>
+<li class="main-navigation-level1-item"><a href="/list/cosmetice/filters/brand-AZBANE_or_Bema_or_Bio+Mer_or_Bioderma_or_La+Dispensa_or_NAOBAY_or_Naturys">Naturale si organice</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CosmeticeNaturaleSiOrganice"><span class="glyphicon"></span></a></li>
+</ul>
+</li>
+<li id="mobileCat-Ceasuri" class="dropdown"><a href="/list/ceasuri" data-testing-id="Ceasuri-link">Ceasuri</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Ceasuri"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Ceasuri" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/ceasuri/filters/sex-Femei">Ceasuri de dama</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CeasuriCeasuriDeDama"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CeasuriCeasuriDeDama" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei_or_Unisex/brand-Burgi_or_Daniel+Klein_or_Emily+Westwood_or_Frederic+Graff_or_Just+Cavalli_or_Lambretta_or_Naf+Naf_or_Paul+Mcneal_or_Victoria+Walls?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei/brand-Casio_or_Festina_or_Fossil_or_Skagen_or_Timex_or_Tommy+Hilfiger_or_U.S.+Polo+ASSN.">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/ceasuri/filters/sex-Femei/brand-Casio_or_Cluse_or_Fossil_or_Timex_or_U.S.+Polo+ASSN.">Top branduri Ceasuri de Dama</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CeasuriTopBranduriCeasuriDeDama"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CeasuriTopBranduriCeasuriDeDama" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei/brand-Fossil">Fossil</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei/brand-Casio">Casio</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei/brand-Timex">Timex</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei/brand-Cluse">Cluse</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Femei/brand-U.S.+Polo+ASSN.">U.S. Polo ASSN.</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex">Ceasuri barbatesti</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CeasuriCeasuriBarbatesti"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CeasuriCeasuriBarbatesti" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Ben+Sherman_or_Frederic+Graff_or_Gant_or_Just+Cavalli_or_Lambretta_or_Orient_or_Paul+Mcneal_or_Skechers?sort=noutati&amp;dir=desc">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Casio_or_Festina_or_Fossil_or_Skagen_or_Timex_or_Tommy+Hilfiger_or_U.S.+Polo+ASSN.">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Casio_or_Festina_or_Fossil_or_Timex_or_U.S.+Polo+ASSN.">Top branduri Ceasuri Barbatesti</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CeasuriTopBranduriCeasuriBarbatesti"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-CeasuriTopBranduriCeasuriBarbatesti" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Fossil">Fossil</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Casio">Casio</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Timex">Timex</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-Festina">Festina</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/ceasuri/filters/sex-Barbati_or_Unisex/brand-U.S.+Polo+ASSN.">U.S. Polo ASSN.</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/filter?CatalogCategoryID=&amp;SearchParameter=%26%40QueryTerm%3Dset%26AvailableFlag%3D1%26ContextCategoryUUID%3DL_UKKgAHuywAAAFm5.kNuosq%26sex%3DFemei_or_Unisex%26%40Sort.bestseller%3D1&amp;PageSize=60&amp;SortingAttribute=bestseller-desc&amp;SearchTerm=set">Seturi cadou pentru ea</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CeasuriSeturiCadouPentruEa"><span class="glyphicon glyphicon-plus"></span></a></li>
+<li class="main-navigation-level1-item"><a href="/filter?SearchTerm=set&amp;SearchParameter=%26%40QueryTerm%3Dset%26AvailableFlag%3D1%26ContextCategoryUUID%3DL_UKKgAHuywAAAFm5.kNuosq%26sex%3DBarbati_or_Unisex&amp;PageSize=60&amp;PageNumber=0&amp;SortingAttribute=">Seturi cadou pentru el</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-CeasuriSeturiCadouPentruEl"><span class="glyphicon glyphicon-plus"></span></a></li>
+</ul>
+</li>
+<li id="mobileCat-Fashion" class="dropdown"><a href="/list/fashion" data-testing-id="Fashion-link">Fashion</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-Fashion"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-Fashion" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/fashion/genti-si-accesorii">Genti</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionGentiAccesorii"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionGentiAccesorii" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii?sort=noutati">Noutati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/genti">Bestseller</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/genti/de-mana">Genti de mana</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/genti/de-umar">Genti de umar</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/genti/plic">Plicuri</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/genti/rucsac">Rucsacuri</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/portofele">Portofele</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/fashion/genti-si-accesorii/genti/filters/brand-Francesca+Moretti_or_MAYA_or_Ribelle+">Top brands</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionGentiAccesorii"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionGentiAccesorii" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/filters/brand-Ribelle+">Ribelle</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/filters/brand-Francesca+Moretti">Francesca Moretti</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/genti-si-accesorii/filters/brand-MAYA">Maya</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Femei_or_Unisex">Ochelari de soare femei</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionOchelariDeSoareFemei"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionOchelariDeSoareFemei" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Femei_or_Unisex/brand-Guess">Guess</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Femei_or_Unisex/brand-Polaroid">Polaroid</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Femei_or_Unisex/brand-Vogue">Vogue</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Femei_or_Unisex/brand-Quay+Australia">Quay Australia</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Femei_or_Unisex/brand-Italia+Independent_or_Le+Specs_or_Police">Fashion Brands</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Barbati_or_Unisex">Ochelari de soare barbati</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionOchelariDeSoareBarbati"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionOchelariDeSoareBarbati" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Barbati_or_Unisex/brand-Polaroid">Polaroid</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Barbati_or_Unisex/brand-Police">Police</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Barbati_or_Unisex/brand-Guess">Guess</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/ochelari-de-soare/filters/sex-Barbati_or_Unisex/brand-Italia+Independent_or_Le+Specs_or_Superdry">Fashion Brands</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/fashion/ochelari/rame-ochelari">Rame ochelari</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionRameOchelari"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionRameOchelari" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/rame-ochelari/filters/sex-Femei_or_Unisex">Rame ochelari femei</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/fashion/ochelari/rame-ochelari/filters/sex-Barbati_or_Unisex">Rame ochelari barbati</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/fashion/ochelari/ochelari-de-soare">Ochelari de soare</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionRameOchelari"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionRameOchelari" class="category-level2 collapse"></ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/fashion/bijuterii">Bijuterii</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-FashionRameOchelari"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-FashionRameOchelari" class="category-level2 collapse"></ul>
+</li>
+</ul>
+</li>
+<li id="mobileCat-HomeDeco" class="dropdown"><a href="/list/home-deco" data-testing-id="Fashion-link">HomeDeco</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-HomeDeco"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDeco" class="category-level1 dropdown-menu">
+<li class="main-navigation-level1-item"><a href="/list/home-deco/bucatarie-si-servirea-mesei">Bucatarie si servirea mesei</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-HomeDecoBucatarieSiServireaMesei"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDecoBucatarieSiServireaMesei" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/home-deco/bucatarie-si-servirea-mesei/vase-pentru-gatit">Vase gatit</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/bucatarie-si-servirea-mesei/articole-pentru-servit">Articole servire</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/bucatarie-si-servirea-mesei/ustensile-gatit">Ustensile gatit</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/home-deco/textile-covoare/textile-camera">Textile camera</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-HomeDecoTextileCamera"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDecoTextileCamera" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/home-deco/textile-covoare/textile-camera/lenjerii-de-pat">Lenjerii pat</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/textile-covoare/textile-camera/pilote">Pilote</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/textile-covoare/textile-camera/paturi-si-cuverturi">Paturi si cuverturi</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/home-deco/textile-covoare/covoare">Covoare</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-HomeDecoCovoare"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDecoCovoare" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/home-deco/textile-covoare/covoare/covoare-casa">Covoare casa</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/textile-covoare/covoare/covorase-intrare">Covoare intrare</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/textile-covoare/covoare/covorase-baie">Covoare baie</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/home-deco/mobilier-saltele/mobilier">Mobilier</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-HomeDecoMobilier"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDecoMobilier" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/home-deco/mobilier-saltele/mobilier/biblioteci">Biblioteci</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/mobilier-saltele/mobilier/rafturi">Rafturi</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/mobilier-saltele/mobilier/mese">Masute cafea</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/home-deco/mobilier-saltele/saltele-si-protectii-saltea">Saltele si protectii saltea</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-HomeDecoSalteleSiProtectiiSaltea"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDecoSalteleSiProtectiiSaltea" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/home-deco/mobilier-saltele/saltele-si-protectii-saltea/saletele">Saltele</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/mobilier-saltele/saltele-si-protectii-saltea/topper-saltele">Toppere</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/mobilier-saltele/saltele-si-protectii-saltea/protectii-saltea">Protectii saltea</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+<li class="main-navigation-level1-item"><a href="/list/home-deco/decoratiuni">Decoratiuni</a><a class="mobile-sublevel-toggle visible-xs" data-toggle="collapse" data-target="#mobileCat-HomeDecoDecoratiuni"><span class="glyphicon glyphicon-plus"></span></a>
+<ul id="mobileCat-HomeDecoDecoratiuni" class="category-level2 collapse">
+<li class="main-navigation-level2-item"><a href="/list/home-deco/decoratiuni/decoratiuni-interioare/ceasuri-decorative">Ceasuri decorative</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/decoratiuni/decoratiuni-interioare/stickere-decorative">Stickere decorative</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+<li class="main-navigation-level2-item"><a href="/list/home-deco/decoratiuni/decoratiuni-interioare/tablouri">Tablouri</a>
+<div class="mobile-sublevel-toggle-placeholder visible-xs"> </div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="mobileCat-BranduriSiEdituri" class="dropdown"><a href="/page-brandindex-cms-page.brandindex" data-testing-id="BranduriSiEdituri-link">Branduri si Edituri</a><a class="dropdown-toggle visible-xs" data-toggle="dropdown" data-target="#mobileCat-BranduriSiEdituri"><span class="glyphicon"></span></a></li>
+</ul></ul>
+</div>
+</div>
+</div>
+</div>
+</div></header>
+<div class="wrapper">
+<div role="main" class="container main-container"><script type="text/javascript">
+var _cms = new Object();
+_cms.webRoot = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD";
+_cms.contentURL = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/";
+</script><div class="UDPC"></div><script type="text/javascript">
+var _cms = new Object();
+_cms.webRoot = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD";
+_cms.contentURL = "/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/";
+</script><div class="UDPC"></div>
+<div class="clearfix"
+data-testing-id="product-detail-page"
+data-dynamic-block
+data-dynamic-block-call-parameters="CID=0.oKKgAHSZQAAAFmWbMNuosl"
+data-dynamic-block-product-id="cC8KAQMV8VEAAAFq03cEDA0v"
+
+>
+<div class="container">
+<div class="breadcrumbs product-breadcrumbs row"><label>Mai multe din:</label><ol class="breadcrumbs-list"><li class="breadcrumbs-list">
+<a class="breadcrumbs-list-link" href="http://www.elefant.md/list/carti">Carti</a><span class="breadcrumb-list-separator">&nbsp;</span><input type="hidden" class="elf-category-name" value="Carti"></li><li class="breadcrumbs-list">
+<a class="breadcrumbs-list-link" href="http://www.elefant.md/list/carti/carte">Carte</a><span class="breadcrumb-list-separator">&nbsp;</span></li><li class="breadcrumbs-list">
+<a class="breadcrumbs-list-link" href="http://www.elefant.md/list/carti/carte/fictiune">Fictiune</a><span class="breadcrumb-list-separator">&nbsp;</span></li><li class="breadcrumbs-list">
+<a class="breadcrumbs-list-link" href="http://www.elefant.md/list/carti/carte/fictiune/young-adult">Young adult</a><span class="breadcrumb-list-separator">&nbsp;</span></li><li class="breadcrumbs-list breadcrumbs-list-active">La cinci pasi de tine</li></ol>
+</div>
+<div class="marketing-area"><div class="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div><div class="row product-details">
+<div class="clearfix"><div class="col-md-2 hidden-xs hidden-sm text-center"><div class="product-img-thumbs" data-type="S">
+<a class="carousel-control-vertical " href="#prodimgcarousel" role="button" data-slide="prev" style="visibility: hidden;">
+<i class="material-icons">expand_less</i>
+</a>
+<div class="product-thumb-set-wrapper"><img src="http:&#47;&#47;mcdn.elefant.ro&#47;mnresize&#47;150&#47;150&#47;images&#47;08&#47;2001908&#47;la-cinci-pasi-de-tine_1_fullsize.jpg"
+data-test="true"
+ class="product-image" data-type="S" alt="La cinci pasi de tine fotografia produsului"
+/></div>
+<a class="carousel-control-vertical " href="#prodimgcarousel" role="button" data-slide="next" style="visibility: hidden;">
+<i class="material-icons">expand_more</i>
+</a>
+</div><!-- Facebook Share button -->
+<div class="fb-share-button"
+data-href=""
+data-layout="button_count">
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 col-xs-12 product-detail-img clearfix">
+<div class="product-image-container"><div id="prodimgcarousel" class="carousel slide">
+<div class="product-img-main product-img-inner"><img src="http:&#47;&#47;mcdn.elefant.ro&#47;mnresize&#47;1500&#47;1500&#47;images&#47;08&#47;2001908&#47;la-cinci-pasi-de-tine_1_fullsize.jpg"
+data-test="true"
+
+data-large="http:&#47;&#47;mcdn.elefant.ro&#47;mnresize&#47;1500&#47;1500&#47;images&#47;08&#47;2001908&#47;la-cinci-pasi-de-tine_1_fullsize.jpg"
+ data-type="L" alt="La cinci pasi de tine fotografia produsului"
+/></div>
+</div></div><span class="product-img-discount">-29%</span><!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script></div><div class="col-md-4 col-sm-6 col-xs-12 add-to-cart-wrapper"><div class="product-rating clearfix" >
+
+
+
+
+<ul class="rating-input rating-unregistered clearfix rating-four">
+<li><a class="star-one" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=1" data-value="1" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-two" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=2" data-value="2" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-three" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=3" data-value="3" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-four" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=4" data-value="4" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-five" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=5" data-value="5" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li><li class="rating-total" >
+(<span id="rating-total-count">6</span> voturi)
+</li></ul>
+<div class="rating-login-hint collapse" id="rating-login">Ar trebui să fiți autentificat pentru a vota.</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="product-info"><h2 class="product-brand"><a href="https://www.elefant.md/list/carti/filters/autor-Rachael+Lippincott%2C+Mikki+Daughtry%2C+Tobias+Iaconis">Rachael Lippincott, Mikki Daughtry, Tobias Iaconis</a>
+</h2><input type = "hidden" name = "supplier-name" value ="GRUP EDITORIAL LITERA SRL"><h1 class="product-title">La cinci pasi de tine</h1>
+<div class="product-number">
+<label>ID Produs:</label>
+<span >45553530-ecaa-45a5-84bd-b54ac0272472</span>
+</div>
+
+<table class="pdp-table">
+<tr class="row-pdp">
+<th class="pdp-table-th price-container-pdp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="was-price" data-testing-id="old-price">199,70 lei</div><div class="current-price  sale-price" data-testing-id="current-price" data-price-currencymnemonic="MDL">140,99 lei
+
+
+
+
+</div><div class="scale-prices">
+<span data-testing-id="scale-prices"></span>
+</div></th><th class="pdp-table-th free-delivery"><th></tr>
+</table><div class="dynamicproductdata"><div class="product-availability">In stoc</div><form method="post" action="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewCart-Dispatch" class="product-form bv-form form-horizontal" id="productDetailForm_45553530-ecaa-45a5-84bd-b54ac0272472" name="productDetailForm_45553530-ecaa-45a5-84bd-b54ac0272472"><input type="hidden" name="SynchronizerToken" value="454e886dbedc34f519425b210774bcac894005e6e3c47993eacf1d978ebe5fc8"/><input type="hidden" name="SKU" value="45553530-ecaa-45a5-84bd-b54ac0272472"/><div class="product-info-actions">
+
+
+
+
+<div class="product-quantity row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="alert"
+data-name="Quantity_45553530-ecaa-45a5-84bd-b54ac0272472Error"
+class="server-error "
+></div><label for="Quantity_45553530-ecaa-45a5-84bd-b54ac0272472" class="label-quantity col-xs-6 ">Cantitate</label>
+<div class="col-xs-6 form-group "><input type="number" class="input-quantity form-control"
+required
+id="Quantity_45553530-ecaa-45a5-84bd-b54ac0272472"
+name="Quantity_45553530-ecaa-45a5-84bd-b54ac0272472"
+value="1"
+step="1"
+min="1"
+max="10"
+data-error-position="placeholder"
+data-bv-notempty-message="Vă rugăm să introduceți un număr."
+data-bv-lessthan-message="Te rugăm să introduci 10 sau mai puțin."
+data-bv-greaterthan-message="Te rugăm să introduci 1 sau mai mult."
+data-bv-message="Vă rugăm să introduceți un număr."
+data-bv-integer-message="Introduceți un număr &icirc;ntreg."
+/></div></div><div role="alert"
+data-name="SelectedPriceError"
+class="server-error btn-lg btn-block"
+></div><div class="add-to-cart">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" name="addToCartBehavior"
+value="expresscart" /><button type="submit" name="addProduct"
+class="btn btn-lg btn-block btn-primary"
+
+data-expresscart
+data-expresscart-action="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewExpressShop-AddProduct"
+
+title="Adaugă &icirc;n coș" data-testing-id="addToCartButton"
+>Adaugă &icirc;n coș</button></div><!-- Debug: False = "true" --><a class="btn price-notification btn-link"
+href="https://www.elefant.md/login?TargetPipeline=ViewProduct-Start&Parameter1_Name=SKU&Parameter1_Value=45553530-ecaa-45a5-84bd-b54ac0272472&TargetURLFragment=add-notification_45553530-ecaa-45a5-84bd-b54ac0272472&LoginToUse=notifications"
+data-testing-class="button-addPriceNotification"
+>
+<i class="material-icons notifications"></i><span class="share-label">Alerta modificare preț</span>
+</a></div></form></div><div class="product-info-actions">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button type="submit" class="btn add-to-wishlist btn-link add-to-wishlist_45553530-ecaa-45a5-84bd-b54ac0272472 "
+rel="nofollow"
+name="addToWishlistProduct"
+data-dialog-form=productDetailForm_45553530-ecaa-45a5-84bd-b54ac0272472
+data-dialog
+
+data-dialog-action="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewWishlist-AddItems?AjaxRequestMarker=true&TargetPipelineAfterLogin=ViewProduct-Start&Parameter1_Name=LoginToUse&Parameter1_Value=wishlists&Parameter2_Name=TargetPipeline&Parameter2_Value=ViewProduct-Start&Parameter3_Name=Parameter1_Name&Parameter3_Value=SKU&Parameter4_Name=Parameter1_Value&Parameter4_Value=45553530-ecaa-45a5-84bd-b54ac0272472&Parameter5_Name=TargetURLFragment&Parameter5_Value=add-to-wishlist_45553530-ecaa-45a5-84bd-b54ac0272472"
+
+data-testing-class="button-addToWishlistProduct"
+title="Adaugă la lista de favorite"
+><span class="glyphicon glyphicon-heart"></span>
+<span class="share-label add-to-wishlist-link">Adaugă la lista de favorite</span>
+<span class="share-label added-to-wishlist-link">Adăugat la lista de favorite</span></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="list-group service-list">
+<li class="list-group-item d-flex justify-content-between align-items-center">
+<span class="list-item">
+<i class="material-icons">loyalty</i>Puncte bonus:
+<span class="bonus-points">
+Indisponibil momentan</span>
+</span>
+</li>
+<li class="list-group-item d-flex justify-content-between align-items-center">
+<i class="material-icons">local_shipping</i>Estimare livrare: <div class="ready-for-shipment" data-testing-id="section-productshipping-shortinfo">
+<span id="ArrivalTime"></span>
+<script>
+//When the page has loaded.
+$( document ).ready(function(){
+//Perform Ajax request.
+$.ajax({
+type: 'POST',
+url: 'https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ETACall-GetArrivalTime' + '?ProductSKU=' + '45553530-ecaa-45a5-84bd-b54ac0272472',
+async: true,
+success: function(result) {
+$('#ArrivalTime').html(result);
+// trigger event which can be used to check when the eta is shown
+$(document).trigger('productdetail.eta.shown');
+},
+error: function() {
+$('#ArrivalTime').html('NA');
+// trigger event which can be used to check when the eta is not shown
+$(document).trigger('productdetail.eta.notshown');
+}
+});
+});
+</script>
+</div></li></ul>
+</div><div class="navbar-fixed-top hidden-xs hidden-sm" id="StickyProductHeader" style="display: none;">
+<div class="container">
+<div class="row">
+<div class="col-md-2 col-lg-1">
+<div class="product-image-container"><img src="http:&#47;&#47;mcdn.elefant.ro&#47;mnresize&#47;150&#47;150&#47;images&#47;08&#47;2001908&#47;la-cinci-pasi-de-tine_1_fullsize.jpg"
+data-test="true"
+ data-type="S" alt="La cinci pasi de tine fotografia produsului"
+/></div>
+</div>
+<div class="col-md-5 col-lg-7">
+<p class="sticky-title"><span class="sticky-brand">Rachael Lippincott, Mikki Daughtry, Tobias Iaconis</span><span class="sticky-name">La cinci pasi de tine</span></p><div class="product-rating clearfix" >
+
+
+
+
+<ul class="rating-input rating-unregistered clearfix rating-four">
+<li><a class="star-one" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=1" data-value="1" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-two" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=2" data-value="2" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-three" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=3" data-value="3" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-four" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=4" data-value="4" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li>
+<li><a class="star-five" href="javascript:void(false)" data-url="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductReview-CreateRating?SKU=45553530-ecaa-45a5-84bd-b54ac0272472&Rating=5" data-value="5" data-average-rating="4,0" data-rating-count="6"><span class="glyphicon glyphicon-star"></span></a></li><li class="rating-total" >
+(<span id="rating-total-count">6</span> voturi)
+</li></ul>
+<div class="rating-login-hint collapse" id="rating-login">Ar trebui să fiți autentificat pentru a vota.</div></div></div>
+<div class="col-md-2 col-lg-2 col-center-right">
+<div class="price-container" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="was-price" data-testing-id="old-price">199,70 lei</div><div class="current-price  sale-price" data-testing-id="current-price" data-price-currencymnemonic="MDL">140,99 lei
+
+
+
+
+</div><div class="scale-prices">
+<span data-testing-id="scale-prices"></span>
+</div></div>
+</div>
+<div class="col-md-3 col-lg-2 col-center-right">
+<button name="StickyAddProduct" class="btn btn-lg btn-block btn-primary" onClick="triggerAddToBasket()" style="display: none;" title="Adaugă &icirc;n coș">Adaugă &icirc;n coș</button>
+<button name="StickyNotAvailable" class="btn btn-lg btn-block btn-primary btn-indisponsible" style="display: none;">Indisponibil</button>
+<button class="btn btn-secondary scroll-top" id="top" onClick="scrollToTop()" type="button"><i class="material-icons">keyboard_arrow_up</i></button>
+</div>
+</div>
+</div>
+</div>
+<script>
+window.onscroll = function() {
+setFixed()
+};
+var header = $("#StickyProductHeader").eq(0);
+var productInfo = $('.product-info')
+var topPos = productInfo.offset().top + productInfo.height();
+// show header on its scroll position
+function setFixed() {
+if (window.pageYOffset >= topPos) {
+if( $('form.product-form div.add-to-cart button[name="addProduct"]').length == 1 ){
+header.find('button[name="StickyAddProduct"]').show();
+}
+else {
+header.find('button[name="StickyNotAvailable"]').show();
+}
+header.fadeIn();
+} else {
+header.find('button[name="StickyAddProduct"]').hide();
+header.find('button[name="StickyNotAvailable"]').hide();
+header.fadeOut(200);
+}
+}
+function scrollToTop() {
+$("html,body").animate({scrollTop:0},"1000");
+}
+function triggerAddToBasket() {
+$('form.product-form div.add-to-cart button[name="addProduct"]').trigger('click');
+}
+</script></div>
+</div>
+<div class="col-xs-12">
+<div class="row"><div class="col-sm-4">
+<div class="card">
+<div class="card-body text-center">
+<i class="material-icons">room</i>
+<h5 class="card-title">Livrare gratuită</h5>
+<p class="card-text">&icirc;n Pickup Point de la 300 MDL</p>
+</div>
+</div>
+</div><div class="col-sm-4">
+<div class="card">
+<div class="card-body text-center"><i class="material-icons rotate">swap_vertical_circle</i><h5 class="card-title">Retur gratuit</h5>
+<p class="card-text">&icirc;n 30 de zile</p>
+</div>
+</div>
+</div><div class="col-sm-4">
+<div class="card">
+<div class="card-body text-center">
+<i class="material-icons">assignment_turned_in</i>
+<h5 class="card-title">Verificare colet</h5>
+<p class="card-text">&icirc;nainte de plată</p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div><div id="Pagelet_3rIKKgAHEI0AAAFmzbENuosl" class="content-container  section"
+
+></div>
+<!-- product description -->
+<div class="container">
+<div class="product-description col-xs-12">
+<div class="product-description-links hidden-xs">
+<a href="#ProductDescription">Descriere</a> <a href="#ProductDetails">Detalii</a>
+</div><div class="h1" id="ProductDescription">Descriere</div>
+<div id="ZRMKAQNpS1UAAAFx1CKbNE45" class="panel-collapse collapse" aria-expanded="false"><p>"Pentru prima data simt intreaga povara a fiecarui centimetru, a fiecarui milimetru din cei cinci pasi dintre noi. Imi strang puloverul mai aproape de corp si intorc privirea spre teancul de saltele de yoga din colt, incercand sa nu dau atentie faptului ca distanta aceasta va exista intotdeauna."<br /><br />Oare poti iubi pe cineva pe care nu-l poti atinge niciodata?<br /><br />Stella Grant simte nevoia sa-si planifice viata pas cu pas - poate pentru ca plamanii ei bolnavi, pe care nu-i poate controla, i-o guverneaza oricum, trimitand-o periodic in spital, inca din copilarie. In momentul de fata, Stella trebuie sa-si planifice foarte bine viata pentru a nu pierde locul pe lista beneficiarilor unui transplant de plamani, care-i va asigura cinci ani de existenta fara probleme. Pentru asta e obligata sa stea in permanenta la sase pasi de oricine i-ar putea transmite o infectie pulmonara. Sase pasi. Fara exceptii.<br /><br />Will Newman este exact persoana de care Stella trebuie sa se fereasca. Lui Will nu-i pasa de reguli, de tratamente, nu-si respecta orarul de medicatie si abia asteapta sa implineasca optsprezece ani ca sa-si decida singur soarta. Vrea sa plece sa vada lumea - nu doar spitalele ei. Mai mult, Will o poate infecta pe Stella cu o bactie mortala. <br /><br />Si totusi, dintr-odata, cei sase pasi dintre ei nu mai par un spatiu de siguranta, ci o pedeapsa. Oare n-ar putea sa fure macar o mica parte din aceasta distanta, in schimbul a tot ceea ce plamanii lor defecti le-au furat din viata? Cat de periculosi ar putea fi numai cinci pasi intre ei, daca asta ii ajuta sa castige sufleteste?</p></div>
+<a data-toggle="collapse" data-parent="#accordion" href="#ZRMKAQNpS1UAAAFx1CKbNE45" class="toggle-link collapsed">
+<span class="toggle-link-more">mai mult</span><span class="toggle-link-less">mai putin</span> <i class="material-icons">more_horiz</i>
+</a><div class="h1" id="ProductDetails">Detalii</div>
+<div id="wLAKAQNpBa4AAAFx1yKbNE45" class="panel-collapse collapse" aria-expanded="false">
+<div class="panel-body">
+<dl class="ish-productAttributes"><dt class="ish-ca-type">Autor</dt><dd class="ish-ca-value">Rachael Lippincott, Mikki Daughtry, Tobias Iaconis</dd><dt class="ish-ca-type">Editura</dt><dd class="ish-ca-value">Litera</dd><dt class="ish-ca-type">Anul aparitiei</dt><dd class="ish-ca-value">2019</dd><dt class="ish-ca-type">Luna aparitiei</dt><dd class="ish-ca-value">4</dd><dt class="ish-ca-type">Tip coperta</dt><dd class="ish-ca-value">Brosata</dd><dt class="ish-ca-type">Numar de pagini</dt><dd class="ish-ca-value">288</dd><dt class="ish-ca-type">Format</dt><dd class="ish-ca-value">130x200</dd><dt class="ish-ca-type">isbn</dt><dd class="ish-ca-value">978-606-33-3691-1</dd><dt class="ish-ca-type">EANCode</dt><dd class="ish-ca-value">9786063336911</dd></dl>
+</div>
+</div>
+<a data-toggle="collapse" data-parent="#accordion" href="#wLAKAQNpBa4AAAFx1yKbNE45" class="toggle-link collapsed">
+<span class="toggle-link-more">mai mult</span><span class="toggle-link-less">mai putin</span> <i class="material-icons">more_horiz</i>
+</a></div>
+</div><div class="marketing-area marketing-area-bottom"></div>
+</div>
+<script type="text/javascript">
+if (typeof window.ish === "undefined") {
+window.ish = [];
+}
+window.ish.GTMproductDetail = window.ish.GTMproductDetail || [];
+
+window.ish.GTMproductDetail.push(
+{
+'id': '45553530-ecaa-45a5-84bd-b54ac0272472',
+'name': 'La cinci pasi de tine',
+'price': '140.99',
+'brand': 'Litera',
+'category': 'Carti\/Carte\/Fictiune\/Young adult'
+
+});
+</script><script type="text/javascript">
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+'ecommerce': {
+'currencyCode': 'MDL',
+'detail': {
+'actionField': {'list': 'Product Detail'},
+'products': window.ish.GTMproductDetail
+}
+},
+'event' : 'impressionsPushed',
+});
+</script><div class="product-carousel-container recent">
+<div class="row">
+<div class="container"><div class="product-list-container ">
+<a class="view-all text-right" href="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewRecentlyViewedItems-ClearAll">Ștergeți istoricul meu</a><h2>RECENT VIZUALIZATE</h2><div class="product-list slick-carousel"
+
+data-slick='{"slidesToShow": 6, "slidesToScroll": 6, "dots": true, "responsive": [{"breakpoint": 1200, "settings": {"slidesToShow": 5, "slidesToScroll": 5}}, {"breakpoint": 992, "settings": {"slidesToShow": 4, "slidesToScroll": 4}}, {"breakpoint": 768, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}]}'
+
+><div class="product-list-item  lazy"
+data-loader="productTileLoader"
+data-instock="true"
+data-action="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductTileAsync-Start?CatalogID=&CategoryID=&ProductID=cC8KAQMV8VEAAAFq03cEDA0v&list_name=&listItemCssClass=&ViewContextUUID=3moKKgAHx8gAAAFmH5kNuosl">
+</div><div class="product-list-item  lazy"
+data-loader="productTileLoader"
+data-instock="false"
+data-action="https://www.elefant.md/INTERSHOP/web/WFS/elefant-elefantMD-Site/ro_MD/-/MDL/ViewProductTileAsync-Start?CatalogID=&CategoryID=&ProductID=DswKAQMVV2MAAAFmeWpYMrR2&list_name=&listItemCssClass=&ViewContextUUID=3moKKgAHx8gAAAFmH5kNuosl">
+</div></div>
+<script type="text/javascript">
+window.ish = window.ish || {};
+</script><script type="text/javascript">
+window.ish.GTMproducts = [];
+window.ish.GTMproducts.push(
+
+);
+</script><script type="text/javascript">
+if ( (window.ish.GTMproducts !== null) && (typeof window.ish.GTMproducts !== "undefined") && (window.ish.GTMproducts.length > 0)) {
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+'ecommerce': {
+'currencyCode': '',
+'impressions': window.ish.GTMproducts
+}
+});
+}
+</script><script src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/vendor/jquery.lazy.min.js"></script>
+<script>
+function loadTile(element) {
+var action = $(element).data('action');
+var instock = $(element).data('instock');
+var soldOutText="Stoc epuizat!";
+$.ajax({
+type: 'POST',
+url: action,
+dataType: "html",
+success: function(html) {
+element.html(html);
+if (instock == false) {
+let productDetailUrl = $(element).find('div.product-image-container a').attr('href');
+$(element).find('div.product-image-container').before('<a href="' + productDetailUrl + '"><div class="product-sold-out"></div></a>');
+$(element).find('div.product-image-container a').after('<a href="' + productDetailUrl + '"><div class="product-sold-out-text">' + soldOutText + '</div></a>');
+}
+},
+});
+}
+$(document).ready(function($) {
+$('.lazy').Lazy({
+productTileLoader: function(element) {
+setTimeout(function() {
+loadTile(element);
+}, 1);
+}
+});
+});
+</script></div></div>
+</div>
+</div>
+</div>
+</div>
+<footer data-testing-id="section-footer"><div class="clearfix"><div id="Pagelet_QSsKKgAHw.YAAAFm_6wNuosl" class="content-container hidden-xs hidden-sm hidden-md  container footer-columns"
+
+><div id="Pagelet_.XMKKgAHzDoAAAFmwqwNuosl" class="content-container  col-lg-5ths"
+
+><h3>Nou pe elefant.md</h3>
+<ul>
+<li><a title="Ceasuri de dama" href="/list/ceasuri/filters/sex-Femei">Ceasuri de dama</a></li>
+<li><a title="Ceasuri barbatesti" href="/list/ceasuri/filters/sex-Barbati">Ceasuri barbatesti</a></li>
+<li><a title="Parfumuri pentru femei" href="/list/parfumuri/filters/sex-Femei">Parfumuri pentru femei</a></li>
+<li><a title="Parfumuri pentru barbati" href="/list/parfumuri/filters/sex-Barbati">Parfumuri pentru barbati</a></li>
+<li><a title="Produse cosmetice" href="/list/cosmetice">Produse cosmetice</a></li>
+<li><a title="Produse machiaj" href="/list/cosmetice/machiaj">Produse machiaj</a></li>
+</ul></div>
+<div id="Pagelet_8O4KKgAHJR8AAAFmC60Nuosl" class="content-container  col-lg-5ths"
+
+><h3>Top Parfumuri</h3>
+<ul>
+<li><a href="/list/parfumuri/filters/brand-Calvin+Klein?sort=bestseller">Parfumuri Calvin Klein</a></li>
+<li><a href="/list/parfumuri/filters/brand-Hugo+Boss?sort=bestseller">Parfumuri Hugo Boss</a></li>
+<li><a href="/list/parfumuri/filters/brand-Nina+Ricci?sort=bestseller">Parfumuri Nina Ricci</a></li>
+<li><a href="/list/parfumuri/filters/brand-Bvlgari?sort=bestseller">Parfumuri Bvlgari</a></li>
+<li><a href="/list/parfumuri/filters/brand-Davidoff?sort=bestseller">Parfumuri Davidoff</a></li>
+<li><a href="/list/parfumuri/filters/brand-Paco+Rabanne?sort=bestseller">Parfumuri Paco Rabanne</a></li>
+<li><a href="/list/parfumuri/filters/sex-Femei_or_Unisex/brand-Victorias+Secret">Victorias Secret</a></li>
+</ul></div>
+<div id="Pagelet_fdoKKgAHbroAAAFmP60Nuosl" class="content-container  col-lg-5ths"
+
+><h3>Top Ceasuri</h3>
+<ul>
+<li><a title="Ceasuri Fossil" href="/list/ceasuri/filters/brand-Fossil">Ceasuri Fossil</a></li>
+<li><a href="/list/ceasuri/filters/brand-Casio">Ceasuri Casio</a></li>
+<li><a href="/list/ceasuri/filters/brand-Timex">Ceasuri Timex</a></li>
+<li><a href="/list/ceasuri/filters/brand-U.S.+Polo+ASSN.">Ceasuri U.S. POLO ASSN.</a></li>
+<li><a title="Festina" href="/list/ceasuri/filters/brand-Festina?sort=bestseller">Ceasuri Festina</a></li>
+<li><a title="Stuhrling Original" href="/list/ceasuri/filters/brand-Stuhrling+Original">Ceasuri Stuhrling Original</a></li>
+<li><a title="Stuhrling Original" href="/list/ceasuri/filters/brand-Michael+Kors">Ceasuri Michael Kors</a></li>
+</ul></div>
+<div id="Pagelet_pIEKKgAHZ80AAAFmTa0Nuosl" class="content-container  col-lg-5ths"
+
+><h3>Top Cosmetice</h3>
+<ul>
+<li><a href="/list/cosmetice/filters/brand-Dermacol?sort=bestseller">Cosmetice Dermacol</a></li>
+<li><a href="/list/cosmetice/filters/brand-Revlon?sort=bestseller">Cosmetice Revlon</a></li>
+<li><a href="/list/cosmetice/filters/brand-Maybelline+NY?sort=bestseller">Cosmetice Maybelline NY</a></li>
+<li><a href="/list/cosmetice/filters/brand-Batiste?sort=bestseller">Cosmetice Batiste</a></li>
+<li><a href="/list/cosmetice/filters/brand-LOreal+Professionnel?sort=bestseller">Cosmetice LOreal Professionnel</a></li>
+<li><a href="/list/cosmetice/filters/brand-Christian+Dior?sort=bestseller">Cosmetice Christian Dior</a></li>
+</ul></div>
+<div id="Pagelet_LasKKgAHOaQAAAFmT60Nuosl" class="content-container  col-lg-5ths"
+
+><h3>Top Jucarii &amp; Copii</h3>
+<ul>
+<li><a title="LEGO" href="/list/jucarii-copii-bebe/filters/brand-LEGO?sort=bestseller">LEGO</a></li>
+<li><a href="/list/jucarii-copii-bebe/filters/brand-Kosmos?sort=bestseller">Catan</a></li>
+<li><a href="/list/jucarii-copii-bebe/filters/brand-Barbie?sort=bestseller">Barbie</a></li>
+<li><a title="My little Pony" href="/list/jucarii-copii-bebe/filters/brand-My+Little+Pony?sort=bestseller">My little Pony</a></li>
+<li><a href="/list/jucarii-copii-bebe/filters/brand-Hasbro+Games?sort=bestseller">Hasbro Games</a></li>
+<li><a href="/list/jucarii-copii-bebe/filters/brand-Disney?sort=bestseller">Disney</a></li>
+<li><a href="/list/jucarii-copii-bebe/jucarii/filters/brand-My+Little+Pony">My Little Pony</a></li>
+<li><a href="/list/jucarii-copii-bebe/jucarii/filters/tema-Soy+Luna">Soy Luna</a></li>
+</ul></div>
+</div>
+<div id="Pagelet__MgKKgAHm7AAAAFmua0Nuosl" class="content-container  container footer-top"
+
+><div id="Pagelet_uTQKKgAHzjUAAAFmv60Nuosl" class="content-container hidden-xs hidden-sm col-md-4 col-lg-4  "
+
+></div>
+<div id="Pagelet_19MKKgAHpJUAAAFmiq0Nuosl" class="content-container col-xs-12 col-sm-12 col-md-4 col-lg-4  "
+
+><ul class="list-inline">
+<li><a title="Despre noi" href="https://www.elefant.md/page.aboutus-cms-page.aboutus">Despre noi</a></li>
+<!--
+<li><a href="#">Autori</a></li>
+<li><a href="#">Edituri</a></li>
+-->
+<li><a title="Contact" href="https://www.elefant.md/helpdesk/contact-us">Contact</a></li>
+<li><a title="Masuri de preventie" href="/masuri-de-siguranta-cms-depozit">Masuri de preventie</a></li>
+</ul></div>
+<div id="Pagelet_Z74KKgAHPDwAAAFm6a0Nuosl" class="content-container hidden-xs hidden-sm col-md-4 col-lg-4  "
+
+><a class="icon icon-facebook" href="https://www.facebook.com/elefantmoldova/"> </a>
+<a class="icon icon-instagram" href="https://www.instagram.com/elefantmd/"> </a></div>
+</div>
+<div id="Pagelet_NI8KKgAH64kAAAFmZK0Nuosl" class="content-container  container footer-mid text-center"
+
+><h3>SUPORT</h3>
+<a class="btn-contact" href="mailto:contact@elefant.md"><span class="envelope"></span>contact@elefant.md</a><a class="btn-contact" href="https://www.elefant.md/helpdesk/faq"><span> </span><span class="question-sign"></span>Intrebari frecvente</a></div>
+<div id="Pagelet_zLAKKgAH004AAAFmjawNuosl" class="content-container  container footer-bottom text-center"
+
+><ul class="list-inline">
+<li><a href="https://www.elefant.md/helpdesk/safety-security-privacy/terms-and-conditions">Termeni si conditii</a></li>
+<li><a href="https://www.elefant.md/cookies-cms-page.helpdesk.cookies">Cookies</a></li>
+<li><a href="/sitemap">Sitemap</a></li>
+</ul>
+<p><small><a href="http://www.consumator.gov.md/">APC - Agentia pentru Protectia Consumatorului</a><br />( Info consumator: 373 22 741 464 )</small></p></div>
+</div></footer><script type="text/javascript" src="/INTERSHOP/static/WFS/elefant-elefantMD-Site/-/-/ro_MD/js/promotion-tracking.js"></script>
+</body>
+</html>

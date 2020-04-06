@@ -114,4 +114,26 @@ RSpec.describe Parsers::ParserChooser do
       )
     end
   end
+
+  describe 'Host elefant.md' do
+    let(:link) do
+      # rubocop:disable Layout/LineLength
+      create(:link,
+             host: 'elefant.md',
+             path: '/la-cinci-pasi-de-tine_45553530-ecaa-45a5-84bd-b54ac0272472')
+      # rubocop:enable Layout/LineLength
+    end
+
+    it 'returns parser constant' do
+      expect(described_class.call(link)).to eq(Parsers::ElefantParser)
+    end
+
+    it 'raises an exception' do
+      link.update(path: '/contact')
+
+      expect { described_class.call(link) }.to(
+        raise_error(Parsers::ParserChooser::ParserNotFoundException)
+      )
+    end
+  end
 end
