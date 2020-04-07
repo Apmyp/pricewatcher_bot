@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Responses
   class LinkResponse < Response
     def initialize(link, *args)
@@ -44,39 +46,39 @@ module Responses
         h[:name] = active_li.name
         h[:price] = active_li.price_with_currency
         h[:availability] =
-            I18n.t("telegram.availability.#{active_li.availability}")
+          I18n.t("telegram.availability.#{active_li.availability}")
       end
     end
 
     def photo
       {
-          photo: active_li.image,
-          caption: I18n.t(locale_name, options),
-          parse_mode: :Markdown,
-          reply_markup: {
-              inline_keyboard: message_ik
-          }
+        photo: active_li.image,
+        caption: I18n.t(locale_name, options),
+        parse_mode: :Markdown,
+        reply_markup: {
+          inline_keyboard: message_ik
+        }
       }
     end
 
     def message
       {
-          text: I18n.t(locale_name, options),
-          parse_mode: :Markdown,
-          reply_markup: {
-              inline_keyboard: message_ik
-          }
+        text: I18n.t(locale_name, options),
+        parse_mode: :Markdown,
+        reply_markup: {
+          inline_keyboard: message_ik
+        }
       }
     end
 
     def message_ik
       [
-          [link(text: I18n.t('telegram.show_link'), url: current_link.link)],
-          [button(
-               text: I18n.t('telegram.delete_link'),
-               action: "destroy_link:#{current_link.id}"
-           )],
-          [button(text: I18n.t('telegram.back'), action: 'links')]
+        [link(text: I18n.t('telegram.show_link'), url: current_link.link)],
+        [button(
+          text: I18n.t('telegram.delete_link'),
+          action: "destroy_link:#{current_link.id}"
+        )],
+        [button(text: I18n.t('telegram.back'), action: 'links')]
       ]
     end
 
@@ -89,6 +91,5 @@ module Responses
     def prev_li
       @prev_li ||= current_link.prev_link_item
     end
-
   end
 end

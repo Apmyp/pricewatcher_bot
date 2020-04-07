@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Responses
   class Response
     def self.call(*args)
@@ -14,13 +16,13 @@ module Responses
 
     def to_h
       {
-          text: text,
-          reply_markup: reply_markup
+        text: text,
+        reply_markup: reply_markup
       }
     end
 
     def type
-      raise ::StandardError.new
+      raise ::StandardError
     end
 
     protected
@@ -29,7 +31,7 @@ module Responses
 
     def reply_markup
       {
-          inline_keyboard: inline_keyboard
+        inline_keyboard: inline_keyboard
       }
     end
 

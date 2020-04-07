@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Responses
   class LinksResponse < Response
     def type
@@ -16,8 +18,8 @@ module Responses
 
     def inline_keyboard
       [
-          *link_buttons(links),
-          [button(text: I18n.t('telegram.add_link'), action: 'create_link')]
+        *link_buttons(links),
+        [button(text: I18n.t('telegram.add_link'), action: 'create_link')]
       ]
     end
 
