@@ -29,6 +29,10 @@ module Responses
 
     attr_reader :user
 
+    def text
+      raise ::StandardError
+    end
+
     def reply_markup
       {
         inline_keyboard: inline_keyboard

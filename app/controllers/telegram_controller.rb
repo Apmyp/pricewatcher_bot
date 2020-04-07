@@ -81,6 +81,7 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def show_link_callback(data)
     link_id = data.scan(/^link\:(\d+)/).first.first.to_i
+
     response = Responses::LinkResponse.new(Link.find(link_id), current_user)
     respond_with response.type, response.call
   end
@@ -92,6 +93,7 @@ class TelegramController < Telegram::Bot::UpdatesController
     answer_callback_query(t('.link_destroyed'))
   else
     answer_callback_query(t('.link_destroyed'))
+
     response = Responses::LinksResponse.new(current_user)
     respond_with response.type, response.call
   end
@@ -99,29 +101,21 @@ class TelegramController < Telegram::Bot::UpdatesController
   def process_new_link(raw_link)
     link = Links::CreateLink.call(current_user, raw_link)
     ParseLinkJob.set(wait: 5.seconds).perform_later(link)
-  rescue ActiveRecord::RecordInvalid
+  rescue ActiveRecord::RecordInvalid => e
     save_context :newlink!
+
     respond_with :message, text: t('.link_not_added')
     logger.info(
-      "I cant create the link. Can you investigate why? Link: #{raw_link}"
+      "I cant create the link. Can you investigate why? Link: #{raw_link}. Errors: #{e.record.errors.to_json}"
     )
   else
-    respond_with :message, link_added(link)
+    response = Responses::LinkAddedResponse.new(link, current_user)
+    respond_with response.type, response.call
   end
 
   def respond_with_link(link)
     response = LinkResponse.new(link)
     respond_with response.type, response.call
-  end
-
-  def link_added(link)
-    { text: t('.link_added', link_name: link.display_name), reply_markup: {
-      inline_keyboard: [
-        [make_link(text: t('.show_link'), url: link.link)],
-        [button(text: t('.add_link'), action: 'create_link')],
-        [button(text: t('.link_added_back'), action: 'links')]
-      ]
-    } }
   end
 
   def button(text:, action:)
