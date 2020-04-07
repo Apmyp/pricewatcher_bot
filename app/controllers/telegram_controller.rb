@@ -33,7 +33,8 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def mylinks!(*)
-    respond_with :message, links
+    response = Responses::LinksResponse.new(current_user)
+    respond_with response.type, response.call
   end
 
   def newlink!(raw_link = nil, *)
@@ -47,7 +48,8 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def callback_query(data)
     if data == 'links'
-      respond_with :message, links
+      response = Responses::LinksResponse.new(current_user)
+      respond_with response.type, response.call
     elsif data[/^link:\d+/]
       show_link_callback(data)
     elsif data[/^destroy_link:\d+/]
@@ -79,7 +81,8 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def show_link_callback(data)
     link_id = data.scan(/^link\:(\d+)/).first.first.to_i
-    respond_with_link Link.find(link_id)
+    response = Responses::LinkResponse.new(Link.find(link_id), current_user)
+    respond_with response.type, response.call
   end
 
   def destroy_link_callback(data)
@@ -89,7 +92,8 @@ class TelegramController < Telegram::Bot::UpdatesController
     answer_callback_query(t('.link_destroyed'))
   else
     answer_callback_query(t('.link_destroyed'))
-    respond_with :message, links
+    response = Responses::LinksResponse.new(current_user)
+    respond_with response.type, response.call
   end
 
   def process_new_link(raw_link)
@@ -105,22 +109,9 @@ class TelegramController < Telegram::Bot::UpdatesController
     respond_with :message, link_added(link)
   end
 
-  def links
-    {
-      text: t('.links', count: current_user.active_links.count), reply_markup: {
-        inline_keyboard: links_ik(current_user.active_links)
-      }
-    }
-  end
-
-  def links_ik(links)
-    [].concat(Telegram::MakeIkForLinks.call(links))
-      .concat([[button(text: t('.add_link'), action: 'create_link')]])
-  end
-
   def respond_with_link(link)
     response = LinkResponse.new(link)
-    respond_with response.respond_type, response.params
+    respond_with response.type, response.call
   end
 
   def link_added(link)
