@@ -2,10 +2,12 @@
 
 class TelegramController < Telegram::Bot::UpdatesController
   include Telegram::Bot::UpdatesController::MessageContext
+  include Skylight::Helpers
 
   before_action :set_current_user
   before_action :set_raven_context
   around_action :wrap_in_raven
+  around_action :wrap_in_skylight
 
   def start!(*)
     current_user.update(status: :active)
@@ -71,6 +73,12 @@ class TelegramController < Telegram::Bot::UpdatesController
   rescue StandardError => e
     Raven.capture_exception(e)
     raise e
+  end
+
+  def wrap_in_skylight
+    Skylight.instrument title: "Running telegram command" do
+      yield
+    end
   end
 
   def show_link_callback(data)
