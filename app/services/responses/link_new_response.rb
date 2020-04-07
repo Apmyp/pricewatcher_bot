@@ -8,10 +8,10 @@ module Responses
 
     def to_h
       {
-          photo: photo,
-          caption: text,
-          reply_markup: reply_markup,
-          parse_mode: :Markdown
+        photo: photo,
+        caption: text,
+        reply_markup: reply_markup,
+        parse_mode: :Markdown
       }
     end
 
@@ -32,14 +32,14 @@ module Responses
 
     def inline_keyboard
       [
-          [link(
-              text: I18n.t('telegram.show_link'),
-              url: current_link.link
-          )],
-          [button(
-              text: I18n.t('telegram.link_added_back'),
-              action: 'links'
-          )]
+        [link(
+          text: I18n.t('telegram.show_link'),
+          url: current_link.link
+        )],
+        [button(
+          text: I18n.t('telegram.link_added_back'),
+          action: 'links'
+        )]
       ]
     end
 
@@ -49,7 +49,7 @@ module Responses
           h[:name] = link_item.name
           h[:price] = link_item.price_with_currency
           h[:availability] =
-              I18n.t("telegram.availability.#{link_item.availability}")
+            I18n.t("telegram.availability.#{link_item.availability}")
         end
       end
     end

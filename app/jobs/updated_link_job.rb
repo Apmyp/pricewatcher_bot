@@ -5,14 +5,14 @@ class UpdatedLinkJob < ApplicationJob
 
   def perform(link)
     response_const = if link.prev_link_item.present?
-                 Responses::LinkUpdatedResponse
-               else
-                 Responses::LinkNewResponse
-               end
+                       Responses::LinkUpdatedResponse
+                     else
+                       Responses::LinkNewResponse
+                     end
 
     NotifyTelegramUser.call(
-        user: link.telegram_user,
-        response: response_const.new(link, link.telegram_user)
+      user: link.telegram_user,
+      response: response_const.new(link, link.telegram_user)
     )
   end
 end

@@ -21,12 +21,6 @@ class TelegramController < Telegram::Bot::UpdatesController
                                    parsers_hosts: parsers_hosts)
   end
 
-  def action_missing
-    respond_with :message, text: t('.help',
-                                   first_name: current_user.first_name,
-                                   parsers_hosts: parsers_hosts)
-  end
-
   def stop!(*)
     current_user.update(status: :disabled)
     respond_with :message, text: t('.stop', first_name: current_user.first_name)
@@ -87,8 +81,7 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def destroy_link_callback(data)
-    link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
-    Link.find(link_id).destroy
+    destroy_link(data)
   rescue ActiveRecord::RecordNotFound
     answer_callback_query(t('.link_destroyed'))
   else
@@ -98,6 +91,11 @@ class TelegramController < Telegram::Bot::UpdatesController
     respond_with response.type, response.call
   end
 
+  def destroy_link(data)
+    link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
+    Link.find(link_id).destroy
+  end
+
   def process_new_link(raw_link)
     link = Links::CreateLink.call(current_user, raw_link)
     ParseLinkJob.set(wait: 5.seconds).perform_later(link)
@@ -105,25 +103,17 @@ class TelegramController < Telegram::Bot::UpdatesController
     save_context :newlink!
 
     respond_with :message, text: t('.link_not_added')
-    logger.info(
-      "I cant create the link. Can you investigate why? Link: #{raw_link}. Errors: #{e.record.errors.to_json}"
-    )
+    log_error(e, raw_link)
   else
     response = Responses::LinkAddedResponse.new(link, current_user)
     respond_with response.type, response.call
   end
 
-  def respond_with_link(link)
-    response = LinkResponse.new(link)
-    respond_with response.type, response.call
-  end
-
-  def button(text:, action:)
-    Telegram::MakeIkButton.call(text: text, action: action)
-  end
-
-  def make_link(text:, url:)
-    Telegram::MakeIkLink.call(text: text, url: url)
+  def log_error(exception, raw_link)
+    logger.info(
+      'I cant create the link. Can you investigate why? '\
+    "Link: #{raw_link}. Errors: #{exception.record.errors.to_json}"
+    )
   end
 
   def parsers_hosts

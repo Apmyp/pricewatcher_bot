@@ -24,7 +24,7 @@ class NotifyTelegramUser
 
   def options
     {
-        chat_id: user.external_id,
+      chat_id: user.external_id
     }.merge(response.call)
   end
 end
