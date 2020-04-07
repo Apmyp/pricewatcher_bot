@@ -76,7 +76,7 @@ class TelegramController < Telegram::Bot::UpdatesController
   end
 
   def wrap_in_skylight
-    Skylight.instrument title: "Running telegram command" do
+    Skylight.instrument title: 'Running telegram command' do
       yield
     end
   end
@@ -106,7 +106,7 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def process_new_link(raw_link)
     link = Links::CreateLink.call(current_user, raw_link)
-    ParseLinkJob.set(wait: 5.seconds).perform_later(link)
+    ParseLinkJob.perform_later(link)
   rescue ActiveRecord::RecordInvalid => e
     save_context :newlink!
 

@@ -6,8 +6,6 @@ module Links
   class CreateLink
     require 'uri'
 
-    NANOID_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
-
     def self.call(*args)
       new(*args).call
     end
@@ -18,20 +16,29 @@ module Links
     end
 
     def call
-      Link.create!(
+      link = Link.find_or_initialize_by(
         telegram_user: user,
-        hash_id: Nanoid.generate(alphabet: NANOID_ALPHABET),
-        link: normalized_uri.to_s,
-        scheme: normalized_uri.scheme,
-        path: normalized_uri.path,
-        host: host_without_www,
-        status: :active
+        link: normalized_uri.to_s
       )
+
+      link.attributes = attributes
+
+      link.save!
+      link
     end
 
     private
 
     attr_reader :user, :raw_link
+
+    def attributes
+      {
+        scheme: normalized_uri.scheme,
+        path: normalized_uri.path,
+        host: host_without_www,
+        status: :active
+      }
+    end
 
     def host_without_www
       @host_without_www ||= begin

@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class Link < ApplicationRecord
+  NANOID_ALPHABET = '0123456789abcdefghijklmnopqrstuvwxyz'
+
   enum status: { active: 0, disabled: 1 }
 
   validates :telegram_user, :link, :host, :scheme, :status, presence: true
@@ -23,6 +25,8 @@ class Link < ApplicationRecord
 
   scope :ordered, -> { order('id DESC') }
 
+  before_create :set_hash_id
+
   def display_name
     @display_name ||= begin
                         if active_link_item.present?
@@ -38,5 +42,9 @@ class Link < ApplicationRecord
     Parsers::ParserChooser.call(self)
   rescue Parsers::ParserChooser::ParserNotFoundException
     errors.add(:link, "can't be parsed")
+  end
+
+  def set_hash_id
+    self.hash_id = Nanoid.generate(alphabet: NANOID_ALPHABET)
   end
 end

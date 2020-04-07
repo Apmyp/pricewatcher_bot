@@ -8,7 +8,8 @@ RSpec.describe Link, type: :model do
   end
 
   it 'displays host when no items found' do
-    link = create(:link, host: 'example.com', hash_id: 'test')
+    link = create(:link, host: 'example.com')
+    link.update(hash_id: 'test')
 
     expect(link.display_name).to eq("example.com (\#test)")
   end
