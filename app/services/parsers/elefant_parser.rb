@@ -28,7 +28,7 @@ module Parsers
 
     def price
       css = '[data-testing-id="current-price"][data-price-currencymnemonic]'
-      doc.css(css).first.text.strip.sub(/\slei$/, '').gsub(',', '.').strip.to_i.to_s
+      doc.css(css).first.text.strip.sub(/\slei$/, '').gsub(',', '.').strip
     end
 
     def currency
