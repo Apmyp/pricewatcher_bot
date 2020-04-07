@@ -13,7 +13,7 @@ module Responses
     end
 
     def text
-      I18n.t('telegram.links', count: user.active_links.count)
+      I18n.t('telegram.links', count: user.active_links_count)
     end
 
     def inline_keyboard

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_05_142905) do
+ActiveRecord::Schema.define(version: 2020_04_07_150242) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -52,6 +52,8 @@ ActiveRecord::Schema.define(version: 2020_04_05_142905) do
     t.boolean "subscribed", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "active_links_count", default: 0, null: false
+    t.integer "links_count", default: 0, null: false
     t.index ["external_id"], name: "index_telegram_users_on_external_id"
   end
 

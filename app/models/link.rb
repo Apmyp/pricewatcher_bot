@@ -17,6 +17,9 @@ class Link < ApplicationRecord
           class_name: 'LinkItem',
           inverse_of: :link
   belongs_to :telegram_user
+  counter_culture :telegram_user, column_names: {
+    Link.active => :active_links_count
+  }
 
   scope :ordered, -> { order('id DESC') }
 
