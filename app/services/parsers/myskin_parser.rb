@@ -17,15 +17,16 @@ module Parsers
     private
 
     def name
-      doc.xpath('//*[@id="content"]/div[1]/h1').first.text
+      doc.xpath('//*[@id="content"]/div[1]/h1').first.text.strip
     end
 
     def image
-      doc.xpath('//*[@id="imgCoverSingle"]/img').first['data-src']
+      doc.xpath('//*[@id="imgCoverSingle"]/img').first['data-src'].strip
     end
 
     def price
-      doc.at('//*[@id="productPrice-966"]').text
+      css = 'span[data-price]'
+      doc.css(css).first['data-price'].strip.to_i.to_s
     end
 
     def currency
