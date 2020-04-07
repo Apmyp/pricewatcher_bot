@@ -1,32 +1,50 @@
 # frozen_string_literal: true
 
-module Telegram
-  class MakeMessageForUpdatedLink
-    def self.call(*args)
-      new.call(*args)
+module Responses
+  class LinkUpdatedResponse < ALinkResponse
+    def type
+      :photo
     end
 
-    def call(link)
-      active_li = link.active_link_item
-      prev_li = link.prev_link_item
-
-      if prev_li.present?
-        updated_link_item(active_li, prev_li)
-      else
-        new_link_item(active_li)
-      end
+    def to_h
+      {
+          photo: photo,
+          caption: text,
+          reply_markup: reply_markup,
+          parse_mode: :Markdown
+      }
     end
 
-    private
+    protected
 
-    def new_link_item(link_item)
-      I18n.t('telegram.new_link_item',
-             new_link_item_options(link_item))
+    def active_li
+      @active_li ||= current_link.active_link_item
     end
 
-    def updated_link_item(active_li, prev_li)
+    def prev_li
+      @prev_li ||= current_link.prev_link_item
+    end
+
+    def photo
+      active_li.image
+    end
+
+    def text
       I18n.t('telegram.updated_link_item',
-             updated_link_item_options(active_li, prev_li))
+             options(active_li, prev_li))
+    end
+
+    def inline_keyboard
+      [
+          [link(
+              text: I18n.t('telegram.show_link'),
+              url: current_link.link
+          )],
+          [button(
+              text: I18n.t('telegram.link_added_back'),
+              action: 'links'
+          )]
+      ]
     end
 
     def new_link_item_options(link_item)
@@ -35,12 +53,12 @@ module Telegram
           h[:name] = link_item.name
           h[:price] = link_item.price_with_currency
           h[:availability] =
-            I18n.t("telegram.availability.#{link_item.availability}")
+              I18n.t("telegram.availability.#{link_item.availability}")
         end
       end
     end
 
-    def updated_link_item_options(active_li, prev_li)
+    def options(active_li, prev_li)
       {}.tap do |h|
         h.merge!(new_link_item_options(active_li))
 

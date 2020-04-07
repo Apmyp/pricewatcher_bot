@@ -1,19 +1,12 @@
 # frozen_string_literal: true
 
 module Responses
-  class LinkAddedResponse < Response
-    def initialize(link, *args)
-      super(*args)
-      @current_link = link
-    end
-
+  class LinkAddedResponse < ALinkResponse
     def type
       :message
     end
 
     protected
-
-    attr_reader :current_link
 
     def text
       I18n.t('telegram.link_added', link_name: current_link.display_name)

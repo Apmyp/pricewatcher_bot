@@ -25,6 +25,14 @@ module Responses
       raise ::StandardError
     end
 
+    def photo?
+      type == :photo
+    end
+
+    def message?
+      type == :message
+    end
+
     protected
 
     attr_reader :user

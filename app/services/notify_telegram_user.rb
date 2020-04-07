@@ -2,33 +2,29 @@
 
 class NotifyTelegramUser
   def self.call(*args)
-    new.call(*args)
+    new(*args).call
   end
 
-  def call(user:, photo:, raw_link:, message:)
-    Telegram.bot.send_photo(
-      chat_id: user.external_id,
-      photo: photo,
-      caption: message,
-      parse_mode: :Markdown,
-      reply_markup: {
-        inline_keyboard: inline_keyboard(raw_link)
-      }
-    )
+  def initialize(user:, response:)
+    @user = user
+    @response = response
   end
 
-  private
+  def call
+    if response.photo?
+      Telegram.bot.send_photo(options)
+    else
+      Telegram.bot.send_message(options)
+    end
+  end
 
-  def inline_keyboard(raw_link)
-    [
-      [Telegram::MakeIkLink.call(
-        text: I18n.t('telegram.show_link'),
-        url: raw_link
-      )],
-      [Telegram::MakeIkButton.call(
-        text: I18n.t('telegram.link_added_back'),
-        action: 'links'
-      )]
-    ]
+  protected
+
+  attr_reader :user, :response
+
+  def options
+    {
+        chat_id: user.external_id,
+    }.merge(response.call)
   end
 end
