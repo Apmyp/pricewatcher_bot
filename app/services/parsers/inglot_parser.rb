@@ -25,7 +25,7 @@ module Parsers
     end
 
     def price
-      doc.at("meta[property='product:price:amount']")['content']
+      doc.at("meta[property='product:price:amount']")['content'].strip.to_i.to_s
     end
 
     def currency

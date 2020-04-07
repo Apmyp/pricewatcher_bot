@@ -23,6 +23,6 @@ RSpec.describe Parsers::ElefantParser do
     expect(parser_item).to be_instance_of(Parsers::ParserItem)
     name = 'Rachael Lippincott, Mikki Daughtry, Tobias Iaconis'
     expect(parser_item.name).to eq(name)
-    expect(parser_item.price).to eq('140.99')
+    expect(parser_item.price).to eq('140')
   end
 end

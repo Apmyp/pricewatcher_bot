@@ -14,24 +14,6 @@ module Parsers
       end
     end
 
-    def call(link)
-      html = fetch(link)
-      doc = doc(html)
-
-      ParserItem.new(
-        name: doc.at("meta[property='og:title']")['content'],
-        image: doc.at("meta[property='og:image']")['content'],
-        price: doc.at("meta[property='product:price:amount']")['content'],
-        currency: doc.at("meta[property='product:price:currency']")['content'],
-        availability: availability(doc)
-      )
-    end
-
-    private
-
-    def availability(doc)
-      doc.at("meta[property='product:availability']")['content']
-         .to_s == 'in stock'
-    end
+    def call; end
   end
 end

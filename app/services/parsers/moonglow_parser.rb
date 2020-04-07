@@ -26,7 +26,7 @@ module Parsers
 
     def price
       xpath = '//*[@id="price-product-block"]/span[@itemprop="price"]'
-      doc.at(xpath)['content']
+      doc.at(xpath)['content'].strip.to_i.to_s
     end
 
     def currency
