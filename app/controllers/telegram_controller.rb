@@ -119,8 +119,9 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def log_error(exception, raw_link)
     logger.info(
-      'I cant create the link. Can you investigate why? '\
-    "Link: #{raw_link}. Errors: #{exception.record.errors.to_json}"
+      "[user:#{current_user.id}] "\
+    'I cant create the link. Can you investigate why? '\
+  "Link: #{raw_link}. Errors: #{exception.record.errors.to_json}"
     )
   end
 

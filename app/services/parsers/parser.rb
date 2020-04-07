@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
 module Parsers
+  class NotOkException < ::StandardError; end
+
   class Parser
     require 'open-uri'
-    require 'uri'
     require 'nokogiri'
 
     USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) '\
@@ -33,11 +34,29 @@ module Parsers
     attr_reader :link
 
     def fetch
-      @fetch ||= URI.open(link, 'User-Agent' => USER_AGENT).read
+      @fetch ||= begin
+                   raise NotOkException unless fetch_status_code == 200
+
+                   fetch_body
+                 end
     end
 
     def doc
       @doc ||= Nokogiri::HTML(fetch)
+    end
+
+    private
+
+    def fetch_uri
+      @fetch_uri ||= URI.open(link, 'User-Agent' => USER_AGENT)
+    end
+
+    def fetch_body
+      @fetch_body ||= fetch_uri.read
+    end
+
+    def fetch_status_code
+      @fetch_status_code ||= fetch_uri.status[0].to_i
     end
   end
 end
