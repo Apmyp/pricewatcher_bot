@@ -11,6 +11,16 @@ module Links
     end
 
     def call
+      return [nil, nil] if parser_item.blank?
+
+      perform_parser_item
+    end
+
+    private
+
+    attr_reader :link
+
+    def perform_parser_item
       if link.link_items.empty?
         return [AttachLinkItem.call(link, parser_item), nil]
       end
@@ -21,19 +31,40 @@ module Links
       [nil, nil]
     end
 
-    private
-
-    attr_reader :link
-
     def parser_item
       @parser_item ||= begin
-                         parser_const = Parsers::ParserChooser.call(link)
-                         parser_const.call(link.link)
-                       rescue NotOkException
-                         logger.info("[link:#{link.id}][host:#{link.host}] "\
-'Link unreachable, status is not OK')
+                         parser_item = parser.call
+                         save_request(:success)
+                         parser_item
+                       rescue Parsers::NotOkException, Dry::Struct::Error
+                         perform_error
                          raise
                        end
+    end
+
+    def parser
+      @parser ||= begin
+                    parser_const = Parsers::ParserChooser.call(link)
+                    parser_const.new(link.link)
+                  end
+    end
+
+    def perform_error
+      request = save_request(:error)
+
+      Links::DisableLink.call(link) if link.reload.errors_count >= 3
+
+      Rails.logger.info("[link:#{link.id}][host:#{link.host}]"\
+"[request:#{request.id}] "\
+'Link unreachable, status is not OK')
+    end
+
+    def save_request(status)
+      Links::CreateLinkRequest.call(
+        link: link,
+        status: status,
+        html: parser.to_html
+      )
     end
 
     def item_data_differs?(link, parser_item)

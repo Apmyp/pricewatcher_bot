@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_07_150242) do
+ActiveRecord::Schema.define(version: 2020_04_08_063532) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,8 +38,18 @@ ActiveRecord::Schema.define(version: 2020_04_07_150242) do
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "telegram_user_id", null: false
     t.string "path"
+    t.integer "errors_count", default: 0, null: false
     t.index ["telegram_user_id", "link"], name: "index_links_on_telegram_user_id_and_link", unique: true
     t.index ["telegram_user_id"], name: "index_links_on_telegram_user_id"
+  end
+
+  create_table "requests", force: :cascade do |t|
+    t.integer "status", default: 0, null: false
+    t.string "html"
+    t.bigint "link_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["link_id"], name: "index_requests_on_link_id"
   end
 
   create_table "telegram_users", force: :cascade do |t|
@@ -59,4 +69,5 @@ ActiveRecord::Schema.define(version: 2020_04_07_150242) do
 
   add_foreign_key "link_items", "links"
   add_foreign_key "links", "telegram_users"
+  add_foreign_key "requests", "links"
 end

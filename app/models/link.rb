@@ -9,6 +9,7 @@ class Link < ApplicationRecord
   validates :link, uniqueness: { scope: :telegram_user_id }
   validate :link_can_be_parsed
 
+  has_many :requests, dependent: :destroy
   has_many :link_items, dependent: :destroy
   has_one :active_link_item,
           -> { active.ordered },
@@ -19,9 +20,10 @@ class Link < ApplicationRecord
           class_name: 'LinkItem',
           inverse_of: :link
   belongs_to :telegram_user
-  counter_culture :telegram_user, column_names: {
-    Link.active => :active_links_count
-  }
+  counter_culture :telegram_user,
+                  column_name: proc { |m|
+                    m.active? ? 'active_links_count' : nil
+                  }
 
   scope :ordered, -> { order('id DESC') }
 

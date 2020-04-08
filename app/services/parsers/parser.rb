@@ -29,6 +29,10 @@ module Parsers
       )
     end
 
+    def to_html
+      fetch_body
+    end
+
     protected
 
     attr_reader :link

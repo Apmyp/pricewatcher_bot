@@ -3,7 +3,7 @@
 FactoryBot.define do
   factory :link do
     telegram_user
-    link { 'http://example.com' }
+    link { 'http://example.com/path' }
     scheme { 'http' }
     host { 'example.com' }
     path { '/path' }
