@@ -101,7 +101,7 @@ class TelegramController < Telegram::Bot::UpdatesController
 
   def destroy_link(data)
     link_id = data.scan(/^destroy_link\:(\d+)/).first.first.to_i
-    Link.find(link_id).destroy
+    Link.find(link_id).update(status: :disabled)
   end
 
   def process_new_link(raw_link)

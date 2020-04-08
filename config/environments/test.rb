@@ -53,4 +53,7 @@ Rails.application.configure do
   config.after_initialize do
     Parsers::ParserChooser.parsers += [Parsers::ExampleParser]
   end
+
+  Telegram.reset_bots
+  Telegram::Bot::ClientStub.stub_all!
 end
