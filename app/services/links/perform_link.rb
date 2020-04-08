@@ -36,7 +36,9 @@ module Links
                          parser_item = parser.call
                          save_request(:success)
                          parser_item
-                       rescue Parsers::NotOkException, Dry::Struct::Error
+                       rescue Parsers::NotOkException,
+                              Dry::Struct::Error,
+                              Parsers::ParserChooser::ParserNotFoundException
                          perform_error
                          raise
                        end
