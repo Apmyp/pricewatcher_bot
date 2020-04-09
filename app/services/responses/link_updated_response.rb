@@ -8,7 +8,7 @@ module Responses
 
     def to_h
       {
-        photo: photo,
+        photo: URI.open(photo),
         caption: text,
         reply_markup: reply_markup,
         parse_mode: :Markdown

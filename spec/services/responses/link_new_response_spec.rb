@@ -4,6 +4,8 @@ require 'rails_helper'
 
 RSpec.describe Responses::LinkNewResponse do
   it 'makes telegram response in right shape' do
+    allow(URI).to receive(:open)
+
     link_items = [
       create(:link_item, status: :active),
       create(:link_item, status: :pending)
