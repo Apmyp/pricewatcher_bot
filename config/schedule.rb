@@ -24,3 +24,7 @@
 every 1.hour do
   rake 'links:analyze'
 end
+
+every 1.day, at: '09:55am' do
+  runner 'stats:send'
+end
