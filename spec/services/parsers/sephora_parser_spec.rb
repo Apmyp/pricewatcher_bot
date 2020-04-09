@@ -24,6 +24,6 @@ RSpec.describe Parsers::SephoraParser do
     name = 'Peach Kiss Moisture Matte Long Wear Lipstick – '\
            'Peaches and Cream Collection - Too Faced'
     expect(parser_item.name).to eq(name)
-    expect(parser_item.price).to eq('21.00')
+    expect(parser_item.price).to eq('21')
   end
 end

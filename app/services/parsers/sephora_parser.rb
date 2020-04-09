@@ -29,7 +29,7 @@ module Parsers
 
     def price
       css = 'span[data-at="price"]'
-      doc.css(css).first.text.strip.sub(/^\$/, '')
+      doc.css(css).first.text.strip.sub(/^\$/, '').to_i.to_s
     end
 
     def currency
