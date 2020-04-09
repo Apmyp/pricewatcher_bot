@@ -42,6 +42,15 @@ class TelegramController < Telegram::Bot::UpdatesController
     end
   end
 
+  def stats!
+    if current_user.admin?
+      response = Responses::StatsResponse.new(current_user)
+      respond_with response.type, response.call
+    else
+      help!
+    end
+  end
+
   def callback_query(data)
     if data == 'links'
       response = Responses::LinksResponse.new(current_user)

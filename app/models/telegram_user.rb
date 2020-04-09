@@ -2,6 +2,7 @@
 
 class TelegramUser < ApplicationRecord
   enum status: { active: 0, disabled: 1 }
+  enum role: { user: 0, admin: 1 }
 
   has_many :links,
            dependent: :destroy,

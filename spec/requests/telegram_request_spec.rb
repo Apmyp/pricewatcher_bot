@@ -14,6 +14,21 @@ RSpec.describe TelegramController, type: :request, telegram_bot: :rails do
     it { should respond_with_message(/Ценослед/) }
   end
 
+  describe '#stats!' do
+    context 'user' do
+      subject { -> { dispatch_command :stats } }
+      it { should respond_with_message(/Ценослед/) }
+    end
+
+    context 'admin' do
+      let(:from_id) { 1337 }
+      let!(:user) { create(:telegram_user, external_id: from_id, role: :admin) }
+
+      subject { -> { dispatch_command :stats } }
+      it { should respond_with_message(/Пользователей:\s/) }
+    end
+  end
+
   describe '#mylinks!' do
     context 'with links' do
       let!(:links) { create_list(:link, 2, telegram_user: user) }

@@ -39,7 +39,7 @@ module Parsers
 
     def fetch
       @fetch ||= begin
-                   raise NotOkException unless fetch_status_code == 200
+                   raise Parsers::NotOkException unless fetch_status_code == 200
 
                    fetch_body
                  end
