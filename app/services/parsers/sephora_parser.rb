@@ -28,8 +28,22 @@ module Parsers
     end
 
     def price
+      if sale_price.to_i.positive?
+        sale_price
+      else
+        regular_price
+      end
+    end
+
+    def regular_price
       css = 'span[data-at="price"]'
       doc.css(css).first.text.strip.sub(/^\$/, '').to_i.to_s
+    end
+
+    def sale_price
+      css = 'span[data-at="sale_price"]'
+      el = doc.css(css).first
+      el.text.strip.sub(/^\$/, '').to_i.to_s if el.present?
     end
 
     def currency
