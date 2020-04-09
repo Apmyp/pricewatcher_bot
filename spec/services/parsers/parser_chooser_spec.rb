@@ -72,4 +72,10 @@ RSpec.describe Parsers::ParserChooser do
                    '/la-cinci-pasi-de-tine_45553530-ecaa-'\
                    '45a5-84bd-b54ac0272472',
                    Parsers::ElefantParser
+
+  include_examples 'Host checker',
+                   'sephora.com',
+                   '/product/mini-star-eyeshadow-palette-'\
+                   'P436273?icid2=similar%20products:p436273:product',
+                   Parsers::SephoraParser
 end
