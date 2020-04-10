@@ -9,11 +9,11 @@ jobs:
           PGHOST: localhost
           PGUSER: sales_bot
           RAILS_ENV: test
-      - image: postgres:9.5
+      - image: postgres:12.2
         environment:
           POSTGRES_USER: sales_bot
           POSTGRES_DB: sales_bot_test
-          POSTGRES_PASSWORD: ""
+          POSTGRES_PASSWORD: sales_bot_test
     steps:
       - checkout
       - type: cache-restore
