@@ -58,7 +58,8 @@ module SalesBot
         Parsers::SephoraParser,
         Parsers::CosmeticshopParser,
         Parsers::MakeupParser,
-        Parsers::OvicoParser
+        Parsers::OvicoParser,
+        Parsers::VizajenicaParser
       ]
     end
   end

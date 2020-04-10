@@ -14,6 +14,7 @@ Pricewatcher is a telegram bot who detect price change. Tell about at least one 
 - cosmeticshop.md
 - makeup.md
 - ovico.md
+- shop.vizaje-nica.com
 
 ## Todos
 - [x] Realize parser

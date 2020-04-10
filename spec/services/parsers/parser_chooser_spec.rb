@@ -99,4 +99,11 @@ RSpec.describe Parsers::ParserChooser do
                    'ovico.md',
                    'https://ovico.md/ru/ga-stronger-with-you-freeze-edt',
                    Parsers::OvicoParser
+
+  include_examples 'Host checker',
+                   'shop.vizaje-nica.com',
+                   'https://shop.vizaje-nica.com/tovar/uhod-za-kozhey'\
+                   '/antivozrastnyie-sredstva/l-action-youth-boosting-'\
+                   'night-mask-nochnaya-maska-stimulyatsiya-molodosti',
+                   Parsers::VizajenicaParser
 end
