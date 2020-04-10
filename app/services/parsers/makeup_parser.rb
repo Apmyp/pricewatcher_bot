@@ -26,9 +26,8 @@ module Parsers
     end
 
     def price
-      doc.css('span[itemprop="price"]')
-         .first
-         .text
+      doc.css('meta[itemprop="price"]')
+         .first['content']
          .strip
          .to_i
          .to_s
