@@ -39,6 +39,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails', '>= 5.1.1'
   gem 'rspec-rails', '>= 4.0.0'
+  gem 'rspec_junit_formatter'
   gem 'webmock', '>= 3.8.3'
 end
 

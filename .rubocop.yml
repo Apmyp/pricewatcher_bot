@@ -14,7 +14,7 @@ Rails/NotNullColumn:
   Exclude:
     - 'db/migrate/*.rb'
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 80
   Exclude:
     - 'config/environments/*.rb'
@@ -29,3 +29,5 @@ Metrics/ClassLength:
 AllCops:
   Exclude:
     - vendor/**/*
+    - db/schema.rb
+    - bin/*

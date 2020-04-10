@@ -68,7 +68,15 @@ jobs:
       - type: cache-restore
         name: Restore bundle cache
         key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
-      - run: bundle exec rubocop
+      - run:
+        command: |
+          mkdir /tmp/rubocop-results
+          bundle exec rubocop -f ju
+      - store_test_results:
+         path: /tmp/rubocop-results
+      - store_artifacts:
+         path: /tmp/rubocop-results
+         destination: rubocop-results
   brakeman:
     working_directory: ~/sales_bot
     docker:
@@ -78,7 +86,15 @@ jobs:
       - type: cache-restore
         name: Restore bundle cache
         key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
-      - run: bundle exec brakeman
+      - run:
+        command: |
+          mkdir /tmp/brakeman-results
+          brakeman -f junit -o brakeman.xml
+      - store_test_results:
+          path: /tmp/brakeman-results
+      - store_artifacts:
+          path: /tmp/brakeman-results
+          destination: brakeman-results
 workflows:
   version: 2
   build-deploy:
