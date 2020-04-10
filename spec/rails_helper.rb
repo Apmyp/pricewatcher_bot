@@ -72,7 +72,7 @@ RSpec.configure do |config|
   config.after { Telegram.bot.reset }
 end
 
-RSpec.shared_examples 'Parser' do |parser_name, link, parser_item_hash|
+RSpec.shared_examples 'Parser' do |parser_name, raw_link, parser_item_hash|
   let!(:page_content) do
     file = "#{File.dirname(__FILE__)}/services/"\
           "parsers/#{parser_name.to_s.downcase}_parser.txt"
@@ -80,14 +80,25 @@ RSpec.shared_examples 'Parser' do |parser_name, link, parser_item_hash|
   end
 
   before(:each) do
-    stub_request(:get, link)
+    stub_request(:get, raw_link)
       .to_return(body: page_content)
   end
 
   it 'extracts item struct' do
-    parser_item = described_class.call(link)
+    parser_item = described_class.call(raw_link)
 
     expect(parser_item).to be_instance_of(Parsers::ParserItem)
     expect(parser_item).to include(parser_item_hash)
+  end
+
+  let(:link) { create(:link) }
+
+  it 'saves normalized price' do
+    parser_item = described_class.call(raw_link)
+    link_item = Links::AttachLinkItem.call(link, parser_item)
+    parsed_link_item = Parsers::ConvertToParserItem.call(link_item)
+
+    diff = Parsers::ParserItemDiffers.call(parser_item, parsed_link_item)
+    expect(diff).to be_nil
   end
 end
