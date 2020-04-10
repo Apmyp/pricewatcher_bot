@@ -25,3 +25,7 @@ Metrics/LineLength:
 Metrics/ClassLength:
   Exclude:
     - 'app/controllers/telegram_controller.rb'
+    -
+AllCops:
+  Exclude:
+    - vendor/**/*
