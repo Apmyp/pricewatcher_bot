@@ -30,7 +30,7 @@ jobs:
       - type: cache-restore
         name: Restore bundle cache
         key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
-      - run: bundle install
+      - run: bundle check || bundle install
       - type: cache-save
         name: Store bundle cache
         key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
@@ -89,7 +89,7 @@ jobs:
       - run:
           command: |
             mkdir /tmp/brakeman-results
-            brakeman -f junit -o brakeman.xml
+            bundle exec brakeman -f junit -o brakeman.xml
       - store_test_results:
           path: /tmp/brakeman-results
       - store_artifacts:
