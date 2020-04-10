@@ -71,3 +71,23 @@ RSpec.configure do |config|
   include FactoryBot::Syntax::Methods
   config.after { Telegram.bot.reset }
 end
+
+RSpec.shared_examples 'Parser' do |parser_name, link, parser_item_hash|
+  let!(:page_content) do
+    file = "#{File.dirname(__FILE__)}/services/"\
+           "parsers/#{parser_name.to_s.downcase}_parser.txt"
+    File.open(file).read
+  end
+
+  before(:each) do
+    stub_request(:get, link)
+      .to_return(body: page_content)
+  end
+
+  it 'extracts item struct' do
+    parser_item = described_class.call(link)
+
+    expect(parser_item).to be_instance_of(Parsers::ParserItem)
+    expect(parser_item).to include(parser_item_hash)
+  end
+end
