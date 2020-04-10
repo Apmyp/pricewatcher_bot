@@ -71,7 +71,7 @@ jobs:
       - run:
           command: |
             mkdir /tmp/rubocop-results
-            bundle exec rubocop -f ju
+            bundle exec rubocop -f ju -o /tmp/rubocop-results/rubocop.xml
       - store_test_results:
           path: /tmp/rubocop-results
       - store_artifacts:
@@ -89,7 +89,7 @@ jobs:
       - run:
           command: |
             mkdir /tmp/brakeman-results
-            bundle exec brakeman -f junit -o brakeman.xml
+            bundle exec brakeman -f junit -o /tmp/brakeman-results/brakeman.xml
       - store_test_results:
           path: /tmp/brakeman-results
       - store_artifacts:
