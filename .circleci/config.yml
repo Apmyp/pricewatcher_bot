@@ -41,10 +41,10 @@ jobs:
           POSTGRES_DB: sales_bot_test
           POSTGRES_PASSWORD: ""
     steps:
-      - - checkout
-        - type: cache-restore
-          name: Restore bundle cache
-          key: sales_bot-{{ checksum "Gemfile.lock" }}
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot-{{ checksum "Gemfile.lock" }}
       - run: bundle exec rake
   rubocop:
     working_directory: ~/sales_bot
