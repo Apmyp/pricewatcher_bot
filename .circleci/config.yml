@@ -26,7 +26,7 @@ jobs:
         paths:
           - vendor/bundle
       - run: dockerize -wait tcp://localhost:5432 -timeout 1m
-      - run: bundle exec rake db:setup
+      - run: RAILS_ENV=test bundle exec rake db:setup
   rspec:
     working_directory: ~/sales_bot
     docker:
