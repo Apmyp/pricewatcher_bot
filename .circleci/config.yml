@@ -30,7 +30,6 @@ jobs:
       - type: cache-restore
         name: Restore bundle cache
         key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
-      - run: gem install bundler
       - run: bundle install
       - type: cache-save
         name: Store bundle cache

@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: <%= ENV.fetch('POSTGRES_HOST', 'sales_bot_test') %>
+  host: <%= ENV.fetch('POSTGRES_HOST', 'sales_bot_test') %>
   database: <%= ENV.fetch('POSTGRES_DB', 'sales_bot_test') %>
   username: <%= ENV.fetch('POSTGRES_USER', 'sales_bot_test') %>
   password: <%= ENV.fetch('POSTGRES_PASSWORD', 'sales_bot_test') %>
