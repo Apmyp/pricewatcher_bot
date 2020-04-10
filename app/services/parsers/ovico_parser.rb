@@ -43,5 +43,19 @@ module Parsers
 
       availability == 'InStock'
     end
+
+    protected
+
+    def fetch
+      @fetch ||= begin
+                   fetch_body
+                 rescue OpenURI::HTTPError => e
+                   raise Parsers::NotOkException unless e.io.status[0] == '500'
+
+                   e.io.read
+                 rescue StandardError
+                   raise Parsers::NotOkException
+                 end
+    end
   end
 end

@@ -14,7 +14,7 @@ Rails/NotNullColumn:
   Exclude:
     - 'db/migrate/*.rb'
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 80
   Exclude:
     - 'config/environments/*.rb'
@@ -25,3 +25,9 @@ Metrics/LineLength:
 Metrics/ClassLength:
   Exclude:
     - 'app/controllers/telegram_controller.rb'
+    -
+AllCops:
+  Exclude:
+    - vendor/**/*
+    - db/schema.rb
+    - bin/*

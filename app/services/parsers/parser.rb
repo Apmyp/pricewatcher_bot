@@ -49,8 +49,6 @@ module Parsers
       @doc ||= Nokogiri::HTML(fetch)
     end
 
-    private
-
     def fetch_uri
       @fetch_uri ||= URI.open(link, 'User-Agent' => USER_AGENT)
     end

@@ -1,0 +1,111 @@
+---
+version: 2
+
+references:
+  default_docker_ruby_executor: &default_docker_ruby_executor
+    image: circleci/ruby:2.6.6-stretch
+    environment:
+      BUNDLE_JOBS: 3
+      BUNDLE_RETRY: 3
+      BUNDLE_PATH: vendor/bundle
+      POSTGRES_HOST: localhost
+      POSTGRES_DB: sales_bot_test
+      POSTGRES_USER: sales_bot
+      POSTGRES_PASSWORD: sales_bot_test
+      RAILS_ENV: test
+  postgres: &postgres
+    image: postgres:12.2
+    environment:
+      POSTGRES_USER: sales_bot
+      POSTGRES_DB: sales_bot_test
+      POSTGRES_PASSWORD: sales_bot_test
+
+jobs:
+  build:
+    working_directory: ~/sales_bot
+    docker:
+      - *default_docker_ruby_executor
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
+      - run: bundle check || bundle install
+      - type: cache-save
+        name: Store bundle cache
+        key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
+        paths:
+          - vendor/bundle
+  rspec:
+    working_directory: ~/sales_bot
+    docker:
+      - *default_docker_ruby_executor
+      - *postgres
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
+      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run: bundle exec rails db:schema:load --trace
+      - run:
+          command: |
+            mkdir /tmp/test-results
+            TESTFILES=$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)
+            bundle exec rspec $TESTFILES --profile 10 --format RspecJunitFormatter --out /tmp/test-results/rspec.xml --format progress
+      - store_test_results:
+          path: /tmp/test-results
+      - store_artifacts:
+          path: /tmp/test-results
+          destination: test-results
+
+  rubocop:
+    working_directory: ~/sales_bot
+    docker:
+      - *default_docker_ruby_executor
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
+      - run:
+          command: |
+            mkdir /tmp/rubocop-results
+            bundle exec rubocop -f ju -o /tmp/rubocop-results/rubocop.xml
+      - store_test_results:
+          path: /tmp/rubocop-results
+      - store_artifacts:
+          path: /tmp/rubocop-results
+          destination: rubocop-results
+  brakeman:
+    working_directory: ~/sales_bot
+    docker:
+      - *default_docker_ruby_executor
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot_v2-{{ checksum "Gemfile.lock" }}
+      - run:
+          command: |
+            mkdir /tmp/brakeman-results
+            bundle exec brakeman -f junit -o /tmp/brakeman-results/brakeman.xml
+      - store_test_results:
+          path: /tmp/brakeman-results
+      - store_artifacts:
+          path: /tmp/brakeman-results
+          destination: brakeman-results
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - rubocop:
+          requires:
+            - build
+      - rspec:
+          requires:
+            - build
+      - brakeman:
+          requires:
+            - build
