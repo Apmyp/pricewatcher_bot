@@ -59,7 +59,8 @@ module SalesBot
         Parsers::CosmeticshopParser,
         Parsers::MakeupParser,
         Parsers::OvicoParser,
-        Parsers::VizajenicaParser
+        Parsers::VizajenicaParser,
+        Parsers::CultbeautyParser
       ]
     end
   end

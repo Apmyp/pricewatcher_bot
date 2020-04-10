@@ -106,4 +106,10 @@ RSpec.describe Parsers::ParserChooser do
                    '/antivozrastnyie-sredstva/l-action-youth-boosting-'\
                    'night-mask-nochnaya-maska-stimulyatsiya-molodosti',
                    Parsers::VizajenicaParser
+
+  include_examples 'Host checker',
+                   'cultbeauty.co.uk',
+                   'https://www.cultbeauty.co.uk/'\
+                   'huda-beauty-mercury-retrograde-palette.html',
+                   Parsers::CultbeautyParser
 end

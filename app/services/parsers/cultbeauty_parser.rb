@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
 module Parsers
-  class OvicoParser < Parser
+  class CultbeautyParser < Parser
     class << self
       def host
-        'ovico.md'
+        'cultbeauty.co.uk'
       end
 
       def paths
         [
-          %r{/[^\/]*/[^\/]*}
+          %r{/[^\/]*\.html}
         ]
       end
     end
@@ -25,23 +25,24 @@ module Parsers
     end
 
     def price
-      doc.css('meta[itemprop="price"]')
-         .first['content']
+      doc.css('span[itemprop="price"]')
+         .first
+         .text
          .strip
          .to_i
          .to_s
     end
 
     def currency
-      'MDL'
+      doc.css('meta[itemprop="priceCurrency"]').first['content'].strip
     end
 
     def availability
-      availability = doc.css('meta[itemprop="availability"]')
-                        .first['content']
+      availability = doc.css('[itemprop="availability"]')
+                        .first['href']
                         .strip
 
-      availability == 'InStock'
+      availability == 'http://schema.org/InStock'
     end
   end
 end

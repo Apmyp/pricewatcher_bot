@@ -30,6 +30,8 @@ module Parsers
          .first
          .text
          .strip
+         .to_i
+         .to_s
     end
 
     def currency
