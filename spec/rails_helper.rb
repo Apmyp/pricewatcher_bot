@@ -75,7 +75,7 @@ end
 RSpec.shared_examples 'Parser' do |parser_name, link, parser_item_hash|
   let!(:page_content) do
     file = "#{File.dirname(__FILE__)}/services/"\
-           "parsers/#{parser_name.to_s.downcase}_parser.txt"
+          "parsers/#{parser_name.to_s.downcase}_parser.txt"
     File.open(file).read
   end
 

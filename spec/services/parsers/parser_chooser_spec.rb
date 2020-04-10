@@ -78,4 +78,10 @@ RSpec.describe Parsers::ParserChooser do
                    '/product/mini-star-eyeshadow-palette-'\
                    'P436273?icid2=similar%20products:p436273:product',
                    Parsers::SephoraParser
+
+  include_examples 'Host checker',
+                   'cosmeticshop.md',
+                   'http://cosmeticshop.md/ru/home/'\
+                   '2501-gubnaya-pomada-uvlazhnyayusshaya-dlya-gub-sophi-.html',
+                   Parsers::CosmeticshopParser
 end
