@@ -94,4 +94,9 @@ RSpec.describe Parsers::ParserChooser do
                    'makeup.md',
                    'https://makeup.md/ru/product/314655/',
                    Parsers::MakeupParser
+
+  include_examples 'Host checker',
+                   'ovico.md',
+                   'https://ovico.md/ru/ga-stronger-with-you-freeze-edt',
+                   Parsers::OvicoParser
 end
