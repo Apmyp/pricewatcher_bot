@@ -1,0 +1,86 @@
+---
+version: 2
+jobs:
+  build:
+    working_directory: ~/sales_bot
+    docker:
+      - image: circleci/ruby:2.7.0
+        environment:
+          PGHOST: localhost
+          PGUSER: sales_bot
+          RAILS_ENV: test
+      - image: postgres:9.5
+        environment:
+          POSTGRES_USER: sales_bot
+          POSTGRES_DB: sales_bot_test
+          POSTGRES_PASSWORD: ""
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot-{{ checksum "Gemfile.lock" }}
+      - run: bundle install --path vendor/bundle
+      - type: cache-save
+        name: Store bundle cache
+        key: sales_bot-{{ checksum "Gemfile.lock" }}
+        paths:
+          - vendor/bundle
+      - run: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run: bundle exec rake db:setup
+  rspec:
+    working_directory: ~/sales_bot
+    docker:
+      - image: circleci/ruby:2.7.0
+        environment:
+          PGHOST: localhost
+          PGUSER: sales_bot
+          RAILS_ENV: test
+      - image: postgres:9.5
+        environment:
+          POSTGRES_USER: sales_bot
+          POSTGRES_DB: sales_bot_test
+          POSTGRES_PASSWORD: ""
+    steps:
+      - - checkout
+        - type: cache-restore
+          name: Restore bundle cache
+          key: sales_bot-{{ checksum "Gemfile.lock" }}
+      - run: bundle exec rake
+  rubocop:
+    working_directory: ~/sales_bot
+    docker:
+      - image: circleci/ruby:2.7.0
+        environment:
+          RAILS_ENV: test
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot-{{ checksum "Gemfile.lock" }}
+      - run: bundle exec rubocop
+  brakeman:
+    working_directory: ~/sales_bot
+    docker:
+      - image: circleci/ruby:2.7.0
+        environment:
+          RAILS_ENV: test
+    steps:
+      - checkout
+      - type: cache-restore
+        name: Restore bundle cache
+        key: sales_bot-{{ checksum "Gemfile.lock" }}
+      - run: bundle exec brakeman
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - rubocop:
+          requires:
+            - build
+      - rspec:
+          requires:
+            - build
+      - brakeman:
+          requires:
+            - build
