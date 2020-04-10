@@ -84,4 +84,14 @@ RSpec.describe Parsers::ParserChooser do
                    'http://cosmeticshop.md/ru/home/'\
                    '2501-gubnaya-pomada-uvlazhnyayusshaya-dlya-gub-sophi-.html',
                    Parsers::CosmeticshopParser
+
+  include_examples 'Host checker',
+                   'makeup.md',
+                   'https://makeup.md/product/314655/',
+                   Parsers::MakeupParser
+
+  include_examples 'Host checker',
+                   'makeup.md',
+                   'https://makeup.md/ru/product/314655/',
+                   Parsers::MakeupParser
 end

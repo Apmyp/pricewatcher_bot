@@ -57,6 +57,7 @@ module SalesBot
         Parsers::ElefantParser,
         Parsers::SephoraParser,
         Parsers::CosmeticshopParser,
+        Parsers::MakeupParser
       ]
     end
   end

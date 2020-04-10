@@ -1,15 +1,16 @@
 # frozen_string_literal: true
 
 module Parsers
-  class CosmeticshopParser < Parser
+  class MakeupParser < Parser
     class << self
       def host
-        'cosmeticshop.md'
+        'makeup.md'
       end
 
       def paths
         [
-          %r{/[^\/]*/[^\/]*/\d+\-[^\/]*\.html/?}
+          %r{/[^\/]*/product/\d+/?},
+          %r{/product/\d+/?}
         ]
       end
     end
@@ -17,18 +18,17 @@ module Parsers
     private
 
     def name
-      doc.css('h1[itemprop="name"]').first.text.strip
+      doc.css('div[itemprop="name"]').first.text.strip
     end
 
     def image
-      doc.css('#view_full_size img[itemprop="image"]').first['src'].strip
+      doc.at("meta[property='og:image']")['content']
     end
 
     def price
       doc.css('span[itemprop="price"]')
          .first
          .text
-         .gsub(/\slei$/, '')
          .strip
     end
 
@@ -37,7 +37,11 @@ module Parsers
     end
 
     def availability
-      true
+      availability = doc.css('[itemprop="availability"]')
+                        .first['href']
+                        .strip
+
+      availability == 'https://schema.org/InStock'
     end
   end
 end
