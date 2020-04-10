@@ -6,7 +6,10 @@ RSpec.describe Parsers::PumaMoldovaParser do
   link = 'http://pumamoldova.md/ru/shop/male/footwear/lifestyle/370846-05'
   parser_hash_item = {
     name: 'Кроссовки Puma Ralph Sampson Lo',
-    price: '1199'
+    price: '1199',
+    image: 'http://pumamoldova.md/images/products/jpg/37084605.jpg',
+    currency: 'MDL',
+    availability: true
   }
 
   include_examples 'Parser',

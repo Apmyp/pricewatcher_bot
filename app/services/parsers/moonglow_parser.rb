@@ -36,7 +36,7 @@ module Parsers
     def availability
       el = doc.at('//*[@id="product"]/div/div/div[2]/div[1]/div[1]/div[1]').text
 
-      el.strip == 'В наличии'
+      el.strip == 'В наличии' || el.strip == 'În stoc'
     end
   end
 end

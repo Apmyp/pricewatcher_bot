@@ -9,7 +9,10 @@ RSpec.describe Parsers::SephoraParser do
   parser_hash_item = {
     name: 'Peach Kiss Moisture Matte Long Wear Lipstick – '\
           'Peaches and Cream Collection - Too Faced',
-    price: '21'
+    price: '21',
+    image: 'https://sephora.com/productimages/sku/s2107993-main-hero-300.jpg',
+    currency: 'USD',
+    availability: true
   }
 
   include_examples 'Parser',

@@ -10,7 +10,10 @@ RSpec.describe Parsers::MyskinParser do
          '%D0%BC%D0%BB'
   parser_hash_item = {
     name: 'SOME BY ME Восстанавливающий крем для проблемной кожи, 60мл.',
-    price: '315'
+    price: '315',
+    image: 'https://myskin.md/img/p/3358/3358.jpg',
+    currency: 'MDL',
+    availability: true
   }
 
   include_examples 'Parser',
