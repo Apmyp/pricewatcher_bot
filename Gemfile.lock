@@ -85,6 +85,8 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
+    capistrano-sentry (0.4.0)
+      capistrano (~> 3.1)
     capistrano-sidekiq (1.0.2)
       capistrano (>= 3.9.0)
       sidekiq (>= 3.4)
@@ -326,6 +328,7 @@ DEPENDENCIES
   capistrano-bundler (~> 1.6)
   capistrano-rails (~> 1.4)
   capistrano-rvm
+  capistrano-sentry
   capistrano-sidekiq
   capistrano3-puma
   counter_culture (~> 2.0)

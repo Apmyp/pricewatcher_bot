@@ -52,6 +52,7 @@ group :development do
   gem 'capistrano-bundler', '~> 1.6'
   gem 'capistrano-rails', '~> 1.4', require: false
   gem 'capistrano-rvm'
+  gem 'capistrano-sentry', require: false
   gem 'capistrano-sidekiq'
   gem 'capistrano3-puma'
   gem 'rubocop-rails', '>= 2.5.1', require: false
