@@ -1,0 +1,767 @@
+
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Виски 'Jack Daniels' 1 л – купить в Кишиневе онлайн с доставкой на дом</title>
+<meta name="keywords" content="купить онлайн, купить он-лайн, Виски 'Jack Daniels' 1 л, Кишинев, Молдова" />
+<meta name="description" content="Интернет-магазин Пегас. У нас можно купить вкусные продукты онлайн с доставкой на дом по Кишиневу: Виски 'Jack Daniels' 1 л." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=1100px">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700italic&subset=latin,cyrillic,latin-ext,cyrillic-ext' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="/kjs/code.js?v=1586598294"></script>
+<script type="text/javascript" src="/kjs/slyder.js"></script>
+<script type="text/javascript" src="/kjs/jquery.formstyler.min.js"></script>
+<link href="/kcss/pegas_jquery.formstyler.css" type="text/css" rel="stylesheet">
+<link href="/kcss/fonts_ru.css?v=1586598294" type="text/css" rel="stylesheet">
+<link href="/kcss/pegas_css.css?v=1586598294" type="text/css" rel="stylesheet">
+<script src="/kjs/jquery.inputmask.js"></script>
+<style>
+@media screen and (max-width: 640px) {
+	.sb_menu {display:block!important;}
+}
+</style>
+<script type="text/javascript">
+(function($) {
+$(function() {
+
+  $('select, input').styler();
+  $('input[name="mobile"]').inputmask('099999999');
+
+})
+})(jQuery)
+</script>
+</head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54077788-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-54077788-1');
+</script>
+<body>
+	<!--min-width-->
+	<div id="min-width">
+		<!--overflow-->
+		<div id="overflow">
+			<!--wrapper-->
+			<div id="wrapper">
+				<!--header-->
+				<div id="header">
+					<div class="logo"><a href="/"><img src="/public/i/logo1.png"></a></div>
+					<div class="m_ctrl"></div>
+					<div class="tm_wr">
+						<div class="close"></div>
+						<ul class="t_menu"><li class="item1"><a href="/ru/pages/popular/" class="tm-lnk">Купить Online</a></li><li class="item2"><a href="/ru/pages/products/" class="tm-lnk">Наша продукция</a></li><li class="item3"><a href="/ru/pages/about-us/" class="tm-lnk">О нас</a></li><li class="item4"><a href="/ru/pages/recipes/" class="tm-lnk">Рецепты</a></li><li class="item5"><a href="/ru/pages/our-address/" class="tm-lnk">Наши адреса</a></li><li class="item6"><a href="/ru/pages/cart/" class="tm-lnk">Корзина</a></li></ul>					</div>
+					<div class="lang_wr">
+						<div class="lang_vis">
+							Rus						</div>
+						<ul class="lang">
+														<li class="active"><a href="/ru/pages/shop/1/27/32/687/">Rus</a></li>
+							<li><a href="/ro/pages/shop/1/27/32/687/">Rom</a></li>
+							<li><a href="/en/pages/shop/1/27/32/687/">Eng</a></li>
+						</ul>
+					</div>
+											<ul class="login">
+							<li><a href="/ru/pages/login/?page=login">Логин</a></li>
+							<li><a href="/ru/pages/login/?page=register">Регистрация</a></li>
+						</ul>
+											<div class="h_cart"><a href="/ru/pages/cart/">0 MDL</a></div>
+						<script>
+	var clonclick=false;
+
+	function addtocart_fill(arg) {
+      if ((typeof yaCounter25950143 !== 'undefined')) {
+          yaCounter25950143.reachGoal('add_item_to_cart');
+      }
+      var cart3 = jQuery( "#cartitemelements" ).val();
+      cart3++;
+      if (cart3 == 3 ) {
+          $( "#cartitemelements" ).val( cart3 );
+          ga('send', 'event', 'Knopka', 'addtocart');
+          _gaq.push(['_trackEvent', 'Knopka', 'addtocart']);
+      }
+		num=jQuery('#fltnum'+arg).val().replace('.','');
+		jQuery.post('/pages/acart/',{itemid:arg,itemnum:num},function(data) {
+			jQuery('.h_cart a').html(data+' MDL');
+			tx='<div id="c_msg" style="position:fixed;left:50%;top:30%;width:280px;padding:20px;margin:0 0 0 -160px;text-align:center;border:1px solid #bebebe;background:#fff;z-index:100;">Товар добавлен в корзину</div>';
+			jQuery('#c_msg').remove();
+			jQuery('body').append(tx);
+			clearTimeout(tttmm);
+			tttmm=setTimeout(function() {
+				jQuery('#c_msg').fadeTo(500,0,function() {
+					jQuery('#c_msg').remove();
+				});
+			},3000);
+		});
+	}
+	var tttmm;
+	function getSearchResults() {
+		val=jQuery.trim(jQuery('#searchinp').val());
+		if (val.length>=3) {
+			jQuery.post('/pages/ajax_search/',{sval:val},function(data) {
+				if ($.trim(data)=='') {
+					jQuery('.resp').hide();
+					jQuery('.resp').html('');
+				} else {
+					jQuery('.resp').show();
+					jQuery('.resp').css('left',(jQuery('#searchinp').position().left+20)+'px');
+					jQuery('.resp').html(data);
+
+					jQuery(".resp .qt_min .down").click(function () {
+						var qty_f = jQuery(this).siblings('.qty_value');
+						if ( (parseInt(qty_f.val()) - 1) > 0 ) {
+							qty_f.val(parseInt(qty_f.val()) - 1).trigger('change');
+						}
+					});
+					jQuery(".resp .qt_min .up").click(function () {
+						var qty_f = jQuery(this).siblings('.qty_value');
+						newval=parseInt(qty_f.val())+1;
+						maxval=parseInt(jQuery(qty_f).attr('maxval'));
+						if (newval>maxval) newval=maxval;
+						qty_f.val(parseInt(newval)).trigger('change');
+					});
+
+					jQuery(".resp .qt_100 .down").click(function () {
+						var qty_f = jQuery(this).siblings('.qty_value');
+						mstep=parseInt(jQuery(qty_f).attr('minstep'));
+						if ( (parseInt(qty_f.val().replace('.','')) - mstep) > 0 ) {
+							newval=parseInt(qty_f.val().replace('.','')) - mstep;
+							if (newval>1000) {
+								fval=newval%1000;
+								if (fval==0) fval='000';
+								trval=((newval-fval)/1000)+'.'+fval;
+							} else {
+								trval=newval;
+							}
+							qty_f.val(trval).trigger('change');
+						}
+					});
+					jQuery(".resp .qt_100 .up").click(function () {
+						var qty_f = jQuery(this).siblings('.qty_value');
+						mstep=parseInt(jQuery(qty_f).attr('minstep'));
+						newval=parseInt(qty_f.val().replace('.','')) + mstep;
+						maxval=parseInt(jQuery(qty_f).attr('maxval'))*1000;
+						if (newval>maxval) newval=maxval;
+						if (newval>1000) {
+							fval=newval%1000;
+							if (fval==0) fval='000';
+							trval=((newval-fval)/1000)+'.'+fval;
+						} else {
+							trval=newval;
+						}
+
+						qty_f.val(trval).trigger('change');
+					});
+
+            jQuery(".qt_min .amount .amount-btn_reduce").click(function () {
+                var qty_f = jQuery(this).siblings().children('.qty_value');
+                if ( (parseInt(qty_f.val()) - 1) > 0 ) {
+                    qty_f.val(parseInt(qty_f.val()) - 1).trigger('change');
+
+                    if ((parseInt(qty_f.val())) == 1)  {
+                        jQuery(this).addClass('amount-btn_disabled');
+                    }
+                }
+            });
+            jQuery(".qt_min .amount .amount-btn_inc").click(function () {
+                var qty_f = jQuery(this).siblings().children('.qty_value');
+                newval=parseInt(qty_f.val())+1;
+                maxval=parseInt(jQuery(qty_f).attr('maxval'));
+                if (newval>maxval) newval=maxval;
+                jQuery(this).siblings('.amount-btn_reduce').removeClass('amount-btn_disabled');
+                qty_f.val(parseInt(newval)).trigger('change');
+            });
+
+            jQuery(".qt_100 .amount .amount-btn_reduce").click(function () {
+                var qty_f = jQuery(this).siblings().children('.qty_value');
+                mstep=parseInt(jQuery(qty_f).attr('minstep'));
+                if ( (parseInt(qty_f.val().replace('.','')) - mstep) > 0 ) {
+                    newval=parseInt(qty_f.val().replace('.','')) - mstep;
+                    if (newval>1000) {
+                        fval=newval%1000;
+                        if (fval==0) fval='000';
+                        trval=((newval-fval)/1000)+'.'+fval;
+                    } else {
+                        trval=newval;
+                    }
+                    qty_f.val(trval).trigger('change');
+                    if (trval == mstep) {
+                        jQuery(this).addClass('amount-btn_disabled');
+                    }
+                }
+            });
+            jQuery(".qt_100 .amount .amount-btn_inc").click(function () {
+                var qty_f = jQuery(this).siblings().children('.qty_value');
+                mstep=parseInt(jQuery(qty_f).attr('minstep'));
+                newval=parseInt(qty_f.val().replace('.','')) + mstep;
+                maxval=parseInt(jQuery(qty_f).attr('maxval'))*1000;
+                if (newval>maxval) newval=maxval;
+                if (newval>1000) {
+                    fval=newval%1000;
+                    if (fval==0) fval='000';
+                    trval=((newval-fval)/1000)+'.'+fval;
+                } else {
+                    trval=newval;
+                }
+                jQuery(this).siblings('.amount-btn_reduce').removeClass('amount-btn_disabled');
+
+                qty_f.val(trval).trigger('change');
+            });
+
+				}
+			});
+		} else {
+			jQuery('.resp').hide();
+			jQuery('.resp').html('');
+		}
+	}
+
+	var ktm;
+	jQuery(document).ready(function() {
+		jQuery('#searchinp').keyup(function() {
+			clearTimeout(ktm);
+			ktm=setTimeout(function() {
+				getSearchResults();
+			},200);
+		});
+
+		jQuery('.resp').hover(function() {
+			clonclick=false;
+		},function() {
+			clonclick=true;
+		});
+
+		jQuery(document).click(function() {
+			if (clonclick) {
+				jQuery('.resp').hide();
+				jQuery('.resp').html('');
+			}
+		});
+	});
+	</script>
+	<div id="searchblock">
+		<div class="ctrl"></div>
+		<div class="in">
+			<form method="post" action="/ru/pages/search/">
+				<span>Поиск ></span>
+				<input type="text" id="searchinp" name="sval" placeholder="ВПИШИТЕ НАЗВАНИЕ ТОВАРА" value="">
+				<input type="submit" class="search_formsub" value="">
+			</form>
+			<div class="resp"></div>
+		</div>
+	</div>
+					</div><!--/header-->
+				<!--main-->
+				<div id="main">
+						<div id="main">
+				<div class="tabs_wr v1">
+						<div class="tab_content">
+				<div class="p_descr">
+														</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<script type="text/javascript">
+	(function($) {
+		$(document).ready(function() {
+			$('select, input').styler();
+			if($(window).width() > 900) {
+				$(".zoom_img").hover(
+					function() {
+						$(this).append('<img style="position:absolute;top:-46px;left:-46px;z-index:100;" class="big_preview" src="'+ $(this).data('large') +'">');
+					},
+					function() {
+						$(this).children('.big_preview').remove();
+					}
+				);
+			}
+
+			$('.riflingcheck').change(function() {
+				id=$(this).attr('pid');
+				if ($(this).is(':checked')) {
+					val=1;
+				} else {
+					val=0;
+				}
+				$.get('/pages/setrifling/'+id+'/'+val);
+			});
+
+			$(".qt_min .down").click(function () {
+				var qty_f = $(this).siblings('.qty_value');
+				if ( (parseInt(qty_f.val()) - 1) > 0 ) {
+					qty_f.val(parseInt(qty_f.val()) - 1).trigger('change');
+				}
+			});
+			$(".qt_min .up").click(function () {
+				var qty_f = $(this).siblings('.qty_value');
+				newval=parseInt(qty_f.val())+1;
+				maxval=parseInt($(qty_f).attr('maxval'));
+				if (newval>maxval) newval=maxval;
+				qty_f.val(parseInt(newval)).trigger('change');
+			});
+
+			$(".qt_100 .down").click(function () {
+				var qty_f = $(this).siblings('.qty_value');
+				mstep=parseInt($(qty_f).attr('minstep'));
+				if ( (parseInt(qty_f.val().replace('.','')) - mstep) > 0 ) {
+					newval=parseInt(qty_f.val().replace('.','')) - mstep;
+					if (newval>1000) {
+						fval=newval%1000;
+						if (fval==0) fval='000';
+						trval=((newval-fval)/1000)+'.'+fval;
+					} else {
+						trval=newval;
+					}
+					qty_f.val(trval).trigger('change');
+				}
+			});
+			$(".qt_100 .up").click(function () {
+				var qty_f = $(this).siblings('.qty_value');
+				mstep=parseInt($(qty_f).attr('minstep'));
+				newval=parseInt(qty_f.val().replace('.','')) + mstep;
+				maxval=parseInt($(qty_f).attr('maxval'))*1000;
+				if (newval>maxval) newval=maxval;
+				if (newval>1000) {
+					fval=newval%1000;
+					if (fval==0) fval='000';
+					trval=((newval-fval)/1000)+'.'+fval;
+				} else {
+					trval=newval;
+				}
+
+				qty_f.val(trval).trigger('change');
+			});
+
+        $(".qt_min .amount .amount-btn_reduce").click(function () {
+            var qty_f = $(this).siblings().children('.qty_value');
+            if ( (parseInt(qty_f.val()) - 1) > 0 ) {
+                qty_f.val(parseInt(qty_f.val()) - 1).trigger('change');
+
+                if ((parseInt(qty_f.val())) == 1)  {
+                    $(this).addClass('amount-btn_disabled');
+                }
+            }
+        });
+        $(".qt_min .amount .amount-btn_inc").click(function () {
+            var qty_f = $(this).siblings().children('.qty_value');
+            newval=parseInt(qty_f.val())+1;
+            maxval=parseInt($(qty_f).attr('maxval'));
+            if (newval>maxval) newval=maxval;
+            $(this).siblings('.amount-btn_reduce').removeClass('amount-btn_disabled');
+            qty_f.val(parseInt(newval)).trigger('change');
+        });
+
+        $(".qt_100 .amount .amount-btn_reduce").click(function () {
+            var qty_f = $(this).siblings().children('.qty_value');
+            mstep=parseInt($(qty_f).attr('minstep'));
+            if ( (parseInt(qty_f.val().replace('.','')) - mstep) > 0 ) {
+                newval=parseInt(qty_f.val().replace('.','')) - mstep;
+                if (newval>1000) {
+                    fval=newval%1000;
+                    if (fval==0) fval='000';
+                    if (fval<100 && fval > 0) { dot='.0' } else {dot = '.';}
+                    trval=((newval-fval)/1000)+dot+fval;
+                } else {
+                    trval=newval;
+                }
+                qty_f.val(trval).trigger('change');
+                if (trval == mstep) {
+                    $(this).addClass('amount-btn_disabled');
+                }
+            }
+        });
+        $(".qt_100 .amount .amount-btn_inc").click(function () {
+            var qty_f = $(this).siblings().children('.qty_value');
+            mstep=parseInt($(qty_f).attr('minstep'));
+            newval=parseInt(qty_f.val().replace('.','')) + mstep;
+            maxval=parseInt($(qty_f).attr('maxval'))*1000;
+            if (newval>maxval) newval=maxval;
+            if (newval>1000) {
+                fval=newval%1000;
+                if (fval==0) fval='000';
+                if (fval<100 && fval > 0) { dot='.0' } else {dot = '.';}
+                trval=((newval-fval)/1000)+dot+fval;
+            } else {
+                trval=newval;
+            }
+            $(this).siblings('.amount-btn_reduce').removeClass('amount-btn_disabled');
+
+            qty_f.val(trval).trigger('change');
+        });
+
+		});
+	})(jQuery);
+
+	function setpagenum(arg) {
+		cid='27';
+		cid2='32';
+		if (cid!='') cid+='/';
+		if (cid2!='') cid2+='/';
+		jQuery.post('/pages/setcatnum/',{num:arg},function(data) {
+			window.location='/ru/pages/shop/1/'+cid+cid2;
+		});
+	}
+	var tm;
+
+	function addtocart(arg) {
+      if ((typeof yaCounter25950143 !== 'undefined')) {
+          yaCounter25950143.reachGoal('add_item_to_cart');
+      }
+      var x = jQuery( "#cartitemelements" ).val();
+      x++;
+      if (x == 3 ) {
+          $( "#cartitemelements" ).val( x );/*
+          ga('send', 'event', 'Knopka', 'addtocart');
+		  _gaq.push(['_trackEvent', 'Knopka', 'addtocart']); */
+		  gtag('event', 'addtocart', { 'event_category': 'Knopka', 'event_action': 'addtocart', });
+      }
+		num=jQuery('#num'+arg).val().replace('.','');
+		jQuery('#num'+arg).val(jQuery('#num'+arg).attr('sval'));
+		jQuery.post('/pages/acart/',{itemid:arg,itemnum:num},function(data) {
+			jQuery('.h_cart a').html(data+' MDL');
+			tx='<div id="c_msg" style="position:fixed;left:50%;top:30%;width:280px;padding:20px;margin:0 0 0 -160px;text-align:center;border:1px solid #bebebe;background:#fff;z-index:100;">Товар добавлен в корзину</div>';
+			jQuery('#c_msg').remove();
+			jQuery('body').append(tx);
+			clearTimeout(tm);
+			tm=setTimeout(function() {
+				jQuery('#c_msg').fadeTo(500,0,function() {
+					jQuery('#c_msg').remove();
+				});
+			},3000);
+		});
+	}
+</script>
+<div class="content_wr">
+
+
+	<div class="content">
+						<div class="p_detail">
+						<div class="preview">
+														<div class="thumb" id="zoomprop" style="pointer-events:none;">
+
+									<img src="/public/catalog/thumbs/version_900x900x1/_MG_1542_web.jpg" width="498" alt="">
+
+								<script src="/kjs/jquery.zoom.js"></script>
+								<script type="text/javascript">
+									(function($) {
+										$(window).load(function() {
+											/*$('#main_prid_img img').addimagezoom({
+												cursorshade: true,
+												largeimage: $('#main_prid_img').data('vlarge')
+											});*/
+											$('#zoomprop').css('pointer-events','auto');
+											$('#zoomprop').zoom();
+										});
+									})(jQuery);
+								</script>
+							</div>
+														<div class="p_descr" style="padding-top:25px;">
+								<h1>Виски 'Jack Daniels' 1 л</h1>
+								<div class="price">Цена: <strong>583.7 Лей</strong> за шт.</div>
+								<div class="p_buy">
+									<div class="qt qt_min">									<!--	<input type="text" maxval="" minstep="" id="num" sval="" value="" class="styler qty_value">
+										<span class="up" title=""></span>
+										<span class="down" title=""></span>-->
+
+                  <div class="amount">
+                    <span class="amount-btn_reduce amount-btn_disabled" title="Меньше" >–</span>
+                    <span class="amount-input">
+										  <input maxval="2" minstep="1" type="text" id="num687" sval="1" value="1" class="styler qty_value" style="border:none;">
+								    </span>
+                    <span class="amount-btn_inc" title="Больше" >+</span>
+                  </div>
+                  <div style="position:absolute;top:12px;left:115px;">шт.</div>
+                  <div style="position:absolute;top:12px;left:145px;">
+                    <input type="submit" value="В заказ" style="margin-left:0px;" class="btn" onclick="addtocart(687);">
+                  </div>
+
+                </div>
+									                </div>
+								<div class="tabs_wr">
+									<ul id="tabsul" class="tabs">
+										<li id="sub_ul_1" class="active">Описание</li>
+										<li id="sub_ul_2">Доставка и оплата</li>
+									</ul>
+									<script type="text/javascript">
+										(function($) {
+											$(document).ready(function() {
+												$('.content').width(1032);
+												$("#tabsul > li").click(function () {
+													$('#tabsul li').removeClass('active');
+													$('.sub_ul').css('display', 'none');
+
+													$(this).addClass('active');
+													$('.sub_ul.'+$(this).attr('id')).css('display', 'block');
+													return false;
+												});
+											});
+										})(jQuery);
+									</script>
+									<div class="tab_content">
+										<div class="sub_ul sub_ul_1">
+											<p></p>
+											<ul>
+																								<li><strong>Производитель:</strong> "Brown-Forman"	</li>												<li><strong>Страна:</strong> Соединенные Штаты Америки</li>																								<li><strong>Объем:</strong> 1 л</li>
+																																															</ul>
+										</div>
+										<div class="sub_ul sub_ul_2" style="display:none;">
+											<p>Стоимость доставки 45 лей.<br />В связи с КОВИД-19 доставка осуществляется в течение&nbsp;24 часов.&nbsp;<br />&nbsp;</p>
+
+<p>Заказы, поступившие до 20:40, доставляются в этот же день. Заказы, поступившие после 20:40, доставляются на следующий день.</p>
+
+<p>Наш оператор сможет обработать Ваш заказ c 09:00 до 21:00 по будням, выходным и праздничным дням (кроме 1 января).</p>
+
+<p>Правила <a href="/ru/pages/delivery/">Доставки и оплаты</a>.</p>
+										</div>
+									</div>
+								</div>
+								<br clear="all">
+																<a style="padding:5px 0 0 0;" href="/ru/pages/shop/1/27/32/">Вернуться к категории &raquo;</a>
+															</div>
+						</div>
+					</div>
+										<div class="c_wr3">
+						<div class="title">Мы рекомендуем:</div>
+						                        <script type="text/javascript" src="/kjs/slick.min.js"></script>
+						<link href="/kcss/slick.css" type="text/css" rel="stylesheet">
+
+						<div class="carousel b_info7 ib_wr single_rec">
+							<div class="preview slyder_item"><div class="thumb"><a href="/ru/pages/shop/1/27/30/1440/"><img src="/public/catalog/thumbs/version_189x189x1/374e291f6ab78242fb8181363a36fad7.jpg" alt=""></a></div>	<div class="p_descr">
+										<p style="min-height: 36px;">Вино красное 'Saperavi' 750 мл</p>
+										<div class="price" style="padding:0;margin:-7px 0 0 0;">121.6 Лей</div>
+									  <div class="p_buy" style="position:relative;"><div class="qt qt_min"><div class="amount rec">
+								    <span class="amount-btn_reduce amount-btn_disabled" title="Меньше" >–</span>
+								    <span class="amount-input">
+										  <input maxval="24" minstep="1" type="text" id="num1440" sval="1" value="1" class="styler qty_value" style="border:none;">
+								    </span>
+								    <span class="amount-btn_inc" title="Больше" >+</span>
+								  </div>
+								  <div style="position:absolute;top:18px;left:114px;">шт.</div>
+									</div>
+									<div>
+									  <input style="margin-top:15px;" type="submit" value="В заказ" class="btn" onclick="addtocart(1440);">
+								  </div>
+								</div>
+									</div>
+								</div><div class="preview slyder_item"><div class="thumb"><a href="/ru/pages/shop/1/27/28/555/"><img src="/public/catalog/thumbs/version_189x189x1/_MG_1930_web.jpg" alt=""></a></div>	<div class="p_descr">
+										<p style="min-height: 36px;">Пиво 'Chisinau' 2.4 л</p>
+										<div class="price" style="padding:0;margin:-7px 0 0 0;">41.6 Лей</div>
+									  <div class="p_buy" style="position:relative;"><div class="qt qt_min"><div class="amount rec">
+								    <span class="amount-btn_reduce amount-btn_disabled" title="Меньше" >–</span>
+								    <span class="amount-input">
+										  <input maxval="21" minstep="1" type="text" id="num555" sval="1" value="1" class="styler qty_value" style="border:none;">
+								    </span>
+								    <span class="amount-btn_inc" title="Больше" >+</span>
+								  </div>
+								  <div style="position:absolute;top:18px;left:114px;">шт.</div>
+									</div>
+									<div>
+									  <input style="margin-top:15px;" type="submit" value="В заказ" class="btn" onclick="addtocart(555);">
+								  </div>
+								</div>
+									</div>
+								</div><div class="preview slyder_item"><div class="thumb"><a href="/ru/pages/shop/1/27/30/2390/"><img src="/public/catalog/thumbs/version_189x189x1/e22132ef4af25f88e25e32aff94e87b9.jpg" alt=""></a></div>	<div class="p_descr">
+										<p style="min-height: 36px;">Вино игристое  Cuvee Prestige Alb brut 'Cricova'  750 мл</p>
+										<div class="price" style="padding:0;margin:-7px 0 0 0;">153.6 Лей</div>
+									  <div class="p_buy" style="position:relative;"><div class="qt qt_min"><div class="amount rec">
+								    <span class="amount-btn_reduce amount-btn_disabled" title="Меньше" >–</span>
+								    <span class="amount-input">
+										  <input maxval="26" minstep="1" type="text" id="num2390" sval="1" value="1" class="styler qty_value" style="border:none;">
+								    </span>
+								    <span class="amount-btn_inc" title="Больше" >+</span>
+								  </div>
+								  <div style="position:absolute;top:18px;left:114px;">шт.</div>
+									</div>
+									<div>
+									  <input style="margin-top:15px;" type="submit" value="В заказ" class="btn" onclick="addtocart(2390);">
+								  </div>
+								</div>
+									</div>
+								</div><div class="preview slyder_item"><div class="thumb"><a href="/ru/pages/shop/1/27/28/2285/"><img src="/public/catalog/thumbs/version_189x189x1/02c9ef99721cd3ca1256131095c61a94.jpg" alt=""></a></div>	<div class="p_descr">
+										<p style="min-height: 36px;">Пиво 'Hoegaarden' Wit Blanche 330 мл</p>
+										<div class="price" style="padding:0;margin:-7px 0 0 0;">29.6 Лей</div>
+									  <div class="p_buy" style="position:relative;"><div class="qt qt_min"><div class="amount rec">
+								    <span class="amount-btn_reduce amount-btn_disabled" title="Меньше" >–</span>
+								    <span class="amount-input">
+										  <input maxval="44" minstep="1" type="text" id="num2285" sval="1" value="1" class="styler qty_value" style="border:none;">
+								    </span>
+								    <span class="amount-btn_inc" title="Больше" >+</span>
+								  </div>
+								  <div style="position:absolute;top:18px;left:114px;">шт.</div>
+									</div>
+									<div>
+									  <input style="margin-top:15px;" type="submit" value="В заказ" class="btn" onclick="addtocart(2285);">
+								  </div>
+								</div>
+									</div>
+								</div>						</div>
+
+
+						<script type="text/javascript">
+						  $(document).on('ready', function() {
+						    if($(window).width() <= 900) {
+						    	$('.single_rec').slick({dots: false});
+
+                    $(".p_descr .qt_min .rec .amount-btn_reduce").click(function () {
+                        var qty_f = $(this).siblings().children('.qty_value');
+                        if ( (parseInt(qty_f.val()) - 1) > 0 ) {
+                            qty_f.val(parseInt(qty_f.val()) - 1).trigger('change');
+
+                            if ((parseInt(qty_f.val())) == 1)  {
+                                $(this).addClass('amount-btn_disabled');
+                            }
+                        }
+                    });
+                    $(".p_descr .qt_min .rec .amount-btn_inc").click(function () {
+                        var qty_f = $(this).siblings().children('.qty_value');
+                        newval=parseInt(qty_f.val())+1;
+                        maxval=parseInt($(qty_f).attr('maxval'));
+                        if (newval>maxval) newval=maxval;
+                        $(this).siblings('.amount-btn_reduce').removeClass('amount-btn_disabled');
+                        qty_f.val(parseInt(newval)).trigger('change');
+                    });
+
+                    $(".p_descr .qt_100 .rec .amount-btn_reduce").click(function () {
+                        var qty_f = $(this).siblings().children('.qty_value');
+                        mstep=parseInt($(qty_f).attr('minstep'));
+                        if ( (parseInt(qty_f.val().replace('.','')) - mstep) > 0 ) {
+                            newval=parseInt(qty_f.val().replace('.','')) - mstep;
+                            if (newval>1000) {
+                                fval=newval%1000;
+                                if (fval==0) fval='000';
+                                trval=((newval-fval)/1000)+'.'+fval;
+                            } else {
+                                trval=newval;
+                            }
+                            qty_f.val(trval).trigger('change');
+                            if (trval == mstep) {
+                                $(this).addClass('amount-btn_disabled');
+                            }
+                        }
+                    });
+                    $(".p_descr .qt_100 .rec .amount-btn_inc").click(function () {
+                        var qty_f = $(this).siblings().children('.qty_value');
+                        mstep=parseInt($(qty_f).attr('minstep'));
+                        newval=parseInt(qty_f.val().replace('.','')) + mstep;
+                        maxval=parseInt($(qty_f).attr('maxval'))*1000;
+                        if (newval>maxval) newval=maxval;
+                        if (newval>1000) {
+                            fval=newval%1000;
+                            if (fval==0) fval='000';
+                            trval=((newval-fval)/1000)+'.'+fval;
+                        } else {
+                            trval=newval;
+                        }
+                        $(this).siblings('.amount-btn_reduce').removeClass('amount-btn_disabled');
+
+                        qty_f.val(trval).trigger('change');
+                    });
+
+						    }
+						  });
+						</script>
+
+					</div>
+					</div>
+
+	<input type="hidden" id="cartitemelements" name="cart" value="0">
+	<div class="clear"></div>
+</div>				</div><!--/main-->
+				<!--footer-->
+				<div id="footer">
+					<div class="in">
+						<div class="mailer">
+							Подписаться на рассылку &gt;
+							<input type="text" name="" id="" class="styler" placeholder="Впишите ваш email">
+							<input type="submit" value="Подписаться" class="btn">
+						</div>
+						<div class="social">
+													</div>
+						<div class="colgroup ib_wr">
+							<div class="col col1">
+								<ul class="b_menu"><li><a href="/ru/pages/delivery/" class="tm-lnk">Доставка</a></li><li><a href="/ru/pages/customer-care/" class="tm-lnk">Забота о клиентах</a></li><li><a href="/ru/pages/advices/" class="tm-lnk">Идеальная разделка</a></li><li><a href="/ru/pages/login/" class="tm-lnk">Логин</a></li><li><a href="/ru/pages/popular/" class="tm-lnk">Купить Online</a></li><li><a href="/ru/pages/products/" class="tm-lnk">Наша продукция</a></li><li><a href="/ru/pages/about-us/" class="tm-lnk">О нас</a></li><li><a href="/ru/pages/recipes/" class="tm-lnk">Рецепты</a></li><li><a href="/ru/pages/our-address/" class="tm-lnk">Наши адреса</a></li><li><a href="/ru/pages/cart/" class="tm-lnk">Корзина</a></li></ul>							</div>
+							<div class="col col2">
+								<div class="logo"><a href="/"><img src="/public/i/logo2.png"></a></div>
+								<p>Мы с удовольствием делимся с Вами нашим большим
+								выбором мясных изделий, вкусной еды и вина</p>
+								                  								<div class="phone">
+                  <span style="width: 30px;float: left;">тел:  </span>
+                  <big><a href="tel:022 783 783">022.783.783</a></big> <br>
+                  <span style="width: 30px;float: left;">моб:</span>
+                  <big><a href="tel:060 003 972">060.003.972</a></big> <br>
+
+                <span style="font-size: 12px; display: inline-block; margin: 0 0 -8px;">Ботаника</span> <br>
+                <span style="width: 30px;float: left;">моб:</span>
+                <big><a href="tel:060.003.905">060.003.905</a></big>
+                </div>
+							</div>
+						</div>
+						<div class="copy">
+							© 2020 Pegas 						</div>
+					</div>
+				</div><!--/footer-->
+			</div><!--/wrapper-->
+		</div><!--/overflow-->
+	</div><!--/min-width-->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter25950143 = new Ya.Metrika({id:25950143,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/25950143" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54077788-1', 'auto');
+  ga('send', 'pageview');
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-54077788-1']);
+  _gaq.push(['_trackPageview']);
+
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 864770019;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/864770019/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+</body>
+</html>

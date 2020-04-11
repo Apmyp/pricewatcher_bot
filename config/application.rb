@@ -60,7 +60,8 @@ module SalesBot
         Parsers::MakeupParser,
         Parsers::OvicoParser,
         Parsers::VizajenicaParser,
-        Parsers::CultbeautyParser
+        Parsers::CultbeautyParser,
+        Parsers::PegasParser
       ]
     end
   end

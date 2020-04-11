@@ -3,12 +3,13 @@
 require 'rails_helper'
 
 RSpec.describe Parsers::ParserChooser do
-  shared_examples 'Host checker' do |host, path, parser_const|
+  shared_examples 'Host checker' do |raw_link, parser_const|
+    host = URI.parse(raw_link).host
     describe "Host #{host}" do
+      let(:user) { create(:telegram_user) }
+
       let(:link) do
-        create(:link,
-               host: host,
-               path: path)
+        Links::CreateLink.call(user, raw_link)
       end
 
       it 'returns parser constant' do
@@ -36,18 +37,16 @@ RSpec.describe Parsers::ParserChooser do
   end
 
   include_examples 'Host checker',
-                   'pumamoldova.md',
-                   '/ru/shop/1/1/1/1',
+                   'https://pumamoldova.md/ru/shop/1/1/1/1',
                    Parsers::PumaMoldovaParser
 
   include_examples 'Host checker',
-                   'origin.md',
-                   '/ru/product/tufli-clarks-batcombe-wing-burgundy-leather',
+                   'https://origin.md/ru/product/'\
+                   'tufli-clarks-batcombe-wing-burgundy-leather',
                    Parsers::OriginParser
 
   include_examples 'Host checker',
-                   'myskin.md',
-                   '/ru/product/966-SOME-BY-ME-'\
+                   'https://myskin.md/ru/product/966-SOME-BY-ME-'\
                    '%D0%92%D0%BE%D1%81%D1%81%D1%82%D0'\
                    '%B0%D0%BD%D0%B0%D0%B2%D0%BB%D0%B8%'\
                    'D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-'\
@@ -58,58 +57,54 @@ RSpec.describe Parsers::ParserChooser do
                    Parsers::MyskinParser
 
   include_examples 'Host checker',
-                   'moonglow.md',
-                   '/ro/products/dr-ceuracle-deesse-ac-spot-healer',
+                   'https://moonglow.md/ro/products/'\
+                   'dr-ceuracle-deesse-ac-spot-healer',
                    Parsers::MoonglowParser
 
   include_examples 'Host checker',
-                   'inglot.md',
-                   '/ro/face-makeup-highlighting/979-highlighter-empowerpuff',
+                   'https://inglot.md/ro/face-makeup-highlighting/'\
+                   '979-highlighter-empowerpuff',
                    Parsers::InglotParser
 
   include_examples 'Host checker',
-                   'elefant.md',
-                   '/la-cinci-pasi-de-tine_45553530-ecaa-'\
+                   'https://elefant.md/la-cinci-pasi-de-tine_45553530-ecaa-'\
                    '45a5-84bd-b54ac0272472',
                    Parsers::ElefantParser
 
   include_examples 'Host checker',
-                   'sephora.com',
-                   '/product/mini-star-eyeshadow-palette-'\
+                   'https://sephora.com/product/mini-star-eyeshadow-palette-'\
                    'P436273?icid2=similar%20products:p436273:product',
                    Parsers::SephoraParser
 
   include_examples 'Host checker',
-                   'cosmeticshop.md',
                    'http://cosmeticshop.md/ru/home/'\
                    '2501-gubnaya-pomada-uvlazhnyayusshaya-dlya-gub-sophi-.html',
                    Parsers::CosmeticshopParser
 
   include_examples 'Host checker',
-                   'makeup.md',
                    'https://makeup.md/product/314655/',
                    Parsers::MakeupParser
 
   include_examples 'Host checker',
-                   'makeup.md',
                    'https://makeup.md/ru/product/314655/',
                    Parsers::MakeupParser
 
   include_examples 'Host checker',
-                   'ovico.md',
                    'https://ovico.md/ru/ga-stronger-with-you-freeze-edt',
                    Parsers::OvicoParser
 
   include_examples 'Host checker',
-                   'shop.vizaje-nica.com',
                    'https://shop.vizaje-nica.com/tovar/uhod-za-kozhey'\
                    '/antivozrastnyie-sredstva/l-action-youth-boosting-'\
                    'night-mask-nochnaya-maska-stimulyatsiya-molodosti',
                    Parsers::VizajenicaParser
 
   include_examples 'Host checker',
-                   'cultbeauty.co.uk',
                    'https://www.cultbeauty.co.uk/'\
                    'huda-beauty-mercury-retrograde-palette.html',
                    Parsers::CultbeautyParser
+
+  include_examples 'Host checker',
+                   'https://www.pegas.md/ru/pages/shop/1/27/32/687/',
+                   Parsers::PegasParser
 end

@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
 module Parsers
-  class OvicoParser < Parser
+  class PegasParser < Parser
     class << self
       def host
-        'ovico.md'
+        'pegas.md'
       end
 
       def paths
         [
-          %r{/[^\/]*/[^\/]*/?}
+          %r{/[^\/]*/pages/[^\/]*/[^\/]*/[^\/]*/[^\/]*/[^\/]*/?}
         ]
       end
     end
@@ -17,16 +17,18 @@ module Parsers
     private
 
     def name
-      doc.at("meta[property='og:title']")['content']
+      doc.css('.p_descr h1').first.text.strip
     end
 
     def image
-      doc.at("meta[property='og:image']")['content']
+      path = doc.css('.preview img').first['src'].strip
+      "https://#{self.class.host}#{path}"
     end
 
     def price
-      doc.css('meta[itemprop="price"]')
-         .first['content']
+      doc.css('.p_descr .price strong')
+         .first
+         .text
          .strip
          .to_i
          .to_s
@@ -37,11 +39,7 @@ module Parsers
     end
 
     def availability
-      availability = doc.css('meta[itemprop="availability"]')
-                        .first['content']
-                        .strip
-
-      availability == 'InStock'
+      true
     end
 
     protected
