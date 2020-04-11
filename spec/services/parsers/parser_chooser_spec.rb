@@ -107,4 +107,8 @@ RSpec.describe Parsers::ParserChooser do
   include_examples 'Host checker',
                    'https://www.pegas.md/ru/pages/shop/1/27/32/687/',
                    Parsers::PegasParser
+
+  include_examples 'Host checker',
+                   'https://alcomarket.md/ru/product/viski-jack-daniel-s-035l/',
+                   Parsers::AlcomarketParser
 end
