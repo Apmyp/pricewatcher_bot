@@ -37,7 +37,8 @@ module Parsers
 
     def regular_price
       css = 'span[data-at="price"]'
-      doc.css(css).first.text.strip.sub(/^\$/, '').to_i.to_s
+      el = doc.css(css).first
+      el.text.strip.sub(/^\$/, '').to_i.to_s if el.present?
     end
 
     def sale_price

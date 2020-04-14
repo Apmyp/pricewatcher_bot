@@ -57,6 +57,7 @@ group :development do
   gem 'capistrano3-puma'
   gem 'rubocop-rails', '>= 2.5.1', require: false
   gem 'spring'
+  gem 'spring-commands-rspec'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
