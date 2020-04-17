@@ -28,37 +28,37 @@ module Parsers
     end
 
     def price
-      doc.xpath('//*[@id="main"]/section[3]/div/'\
-                'div/div[3]/div[2]/div[2]/div/div[2]/h2')
-         .text
-         .gsub(' ', '')
-         .strip
-         .to_i
-         .to_s
+      if sale_price.to_i.positive?
+        sale_price
+      else
+        regular_price
+      end
     end
 
     def regular_price
-      wrapper = doc.css('p.price')
-      return if wrapper.blank?
+      el = doc.xpath('//*[@id="main"]/section[3]/div/div/div[3]'\
+                     '/div[2]/div[2]/div/div[1]/h2')
+      return if el.blank?
 
-      doc.css('p.price .woocommerce-Price-amount.amount')
-         .first
-         .text
-         .gsub(' ', '')
-         .gsub(/lei$/, '')
-         .strip
+      el
+        .text
+        .gsub(' ', '')
+        .strip
+        .to_i
+        .to_s
     end
 
     def sale_price
-      wrapper = doc.css('p.price.price-on-sale')
-      return if wrapper.blank?
+      el = doc.xpath('//*[@id="main"]/section[3]/div/'\
+                'div/div[3]/div[2]/div[2]/div/div[2]/h2')
+      return if el.blank?
 
-      doc.css('p.price.price-on-sale ins .woocommerce-Price-amount.amount')
-         .first
-         .text
-         .gsub(' ', '')
-         .gsub(/lei$/, '')
-         .strip
+      el
+        .text
+        .gsub(' ', '')
+        .strip
+        .to_i
+        .to_s
     end
 
     def currency
