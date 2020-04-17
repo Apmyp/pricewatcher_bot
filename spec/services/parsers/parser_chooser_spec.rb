@@ -115,4 +115,7 @@ RSpec.describe Parsers::ParserChooser do
   include_examples 'Host checker',
                    'https://sonycenter.md/ru/shop/wh-l600/',
                    Parsers::SonycenterParser
+  include_examples 'Host checker',
+                   'https://darwin.md/smartphone_Apple-iPhone-11-Pro-512GB-Gold.html',
+                   Parsers::DarwinParser
 end
