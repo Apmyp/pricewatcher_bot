@@ -1,0 +1,1656 @@
+
+<!DOCTYPE html>
+<!--[if IE 9 ]> <html lang="ru-RU" class="ie9 loading-site no-js bg-fill"> <![endif]-->
+<!--[if IE 8 ]> <html lang="ru-RU" class="ie8 loading-site no-js bg-fill"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru-RU" class="loading-site no-js bg-fill"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://sonycenter.md/xmlrpc.php" />
+
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>WH1000XM3 - SONY</title>
+<link rel="alternate" hreflang="ro" href="https://sonycenter.md/ro/shop/wh1000xm3/" />
+<link rel="alternate" hreflang="ru" href="https://sonycenter.md/ru/shop/wh1000xm3/" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- This site is optimized with the Yoast SEO plugin v13.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://sonycenter.md/ru/shop/wh1000xm3/" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="WH1000XM3 - SONY" />
+<meta property="og:description" content="Диапазон воспроизводимых частот : 4–40 000 Гц
+ 	Динамик : 40 мм
+ 	Время работы аккумулятора : до 38 часов
+ 	Bluetooth : Да" />
+<meta property="og:url" content="https://sonycenter.md/ru/shop/wh1000xm3/" />
+<meta property="og:site_name" content="SONY" />
+<meta property="og:image" content="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg" />
+<meta property="og:image:secure_url" content="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="600" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Диапазон воспроизводимых частот : 4–40 000 Гц  Динамик : 40 мм  Время работы аккумулятора : до 38 часов  Bluetooth : Да" />
+<meta name="twitter:title" content="WH1000XM3 - SONY" />
+<meta name="twitter:image" content="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://sonycenter.md/ru/#website","url":"https://sonycenter.md/ru/","name":"SONY","inLanguage":"ru-RU","description":"SONYCENTER \u0432 \u041a\u0438\u0448\u0438\u043d\u0435\u0432\u0435","potentialAction":[{"@type":"SearchAction","target":"https://sonycenter.md/ru/?s={search_term_string}","query-input":"required name=search_term_string"}]},{"@type":"ImageObject","@id":"https://sonycenter.md/ru/shop/wh1000xm3/#primaryimage","inLanguage":"ru-RU","url":"https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg","width":600,"height":600},{"@type":"WebPage","@id":"https://sonycenter.md/ru/shop/wh1000xm3/#webpage","url":"https://sonycenter.md/ru/shop/wh1000xm3/","name":"WH1000XM3 - SONY","isPartOf":{"@id":"https://sonycenter.md/ru/#website"},"inLanguage":"ru-RU","primaryImageOfPage":{"@id":"https://sonycenter.md/ru/shop/wh1000xm3/#primaryimage"},"datePublished":"2020-03-01T10:15:57+00:00","dateModified":"2020-04-14T08:28:03+00:00","potentialAction":[{"@type":"ReadAction","target":["https://sonycenter.md/ru/shop/wh1000xm3/"]}]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="SONY &raquo; Лента" href="https://sonycenter.md/ru/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SONY &raquo; Лента комментариев" href="https://sonycenter.md/ru/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="SONY &raquo; Лента комментариев к &laquo;WH1000XM3&raquo;" href="https://sonycenter.md/ru/shop/wh1000xm3/feed/" />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style-2.5.14.css' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/contact-form-7/includes/css/styles-5.1.7.css' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style-1.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-tm-admin-bar-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/wpml-translation-management/res/css/admin-bar-style-2.9.5.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-icons-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/assets/css/fl-icons-3.11.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-main-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/assets/css/flatsome-3.11.0.css' type='text/css' media='all' />
+<link rel='stylesheet' id='flatsome-shop-css'  href='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/assets/css/flatsome-shop-3.11.0.css' type='text/css' media='all' />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://sonycenter.md/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat;cursor:pointer}
+</style>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-includes/js/jquery/jquery-1.12.4-wp.js'></script>
+<link rel='https://api.w.org/' href='https://sonycenter.md/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sonycenter.md/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://sonycenter.md/wp-includes/wlwmanifest.xml" />
+
+<link rel='shortlink' href='https://sonycenter.md/ru/?p=18035' />
+
+<!-- Call Now Button 0.4.0 by Jerry Rietveld (callnowbutton.com) -->
+<style>#callnowbutton {display:none;} @media screen and (max-width:650px){#callnowbutton {display:block; position:fixed; text-decoration:none; z-index:2147483647;width:65px; height:65px; border-radius:50%; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);transform: scale(1);bottom:15px; left:20px;background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjAgNjAiPjxwYXRoIGQ9Ik03LjEwNCAxNC4wMzJsMTUuNTg2IDEuOTg0YzAgMC0wLjAxOSAwLjUgMCAwLjk1M2MwLjAyOSAwLjc1Ni0wLjI2IDEuNTM0LTAuODA5IDIuMSBsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDE2LjUgMTcuNCAxOS44IDE5LjhsMTYuODEzIDEuMTQxYzAgMCAwIDAuNCAwIDEuMSBjLTAuMDAyIDAuNDc5LTAuMTc2IDAuOTUzLTAuNTQ5IDEuMzI3bC02LjUwNCA2LjUwNWMwIDAtMTEuMjYxIDAuOTg4LTI1LjkyNS0xMy42NzRDNi4xMTcgMjUuMyA3LjEgMTQgNy4xIDE0IiBmaWxsPSIjMzgwMGExIi8+PHBhdGggZD0iTTcuMTA0IDEzLjAzMmw2LjUwNC02LjUwNWMwLjg5Ni0wLjg5NSAyLjMzNC0wLjY3OCAzLjEgMC4zNWw1LjU2MyA3LjggYzAuNzM4IDEgMC41IDIuNTMxLTAuMzYgMy40MjZsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDUuMyA2LjkgOS4xIDEwLjY5OWMzLjg0MiAzLjggNy40IDYuNyAxMC43IDkuMSBsNC43NC00Ljc0MmMwLjg5Ny0wLjg5NSAyLjQ3MS0xLjAyNiAzLjQ5OC0wLjI4OWw3LjY0NiA1LjQ1NWMxLjAyNSAwLjcgMS4zIDIuMiAwLjQgMy4xMDVsLTYuNTA0IDYuNSBjMCAwLTExLjI2MiAwLjk4OC0yNS45MjUtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZmZmZiIvPjwvc3ZnPg==) center/45px 45px no-repeat #5600bf;}}#callnowbutton span{display:none;}</style>
+<meta name="generator" content="WPML ver:4.3.11 stt:45,46;" />
+                    <!-- Tracking code generated with Simple Universal Google Analytics plugin v1.0.4 -->
+                    <script>
+                    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                    })(window,document,'script','https://sonycenter.md/wp-content/cache/busting/google-tracking/ga-af5c617d36e28d19710b882a6824e213.js','ga');
+
+                    ga('create', 'UA-8333233-1', 'auto');
+                    ga('send', 'pageview');
+
+                    </script>
+                    <!-- / Simple Universal Google Analytics plugin --><style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style><!--[if IE]><link rel="stylesheet" type="text/css" href="https://sonycenter.md/wp-content/themes/flatsome/assets/css/ie-fallback.css"><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script><script>var head = document.getElementsByTagName('head')[0],style = document.createElement('style');style.type = 'text/css';style.styleSheet.cssText = ':before,:after{content:none !important';head.appendChild(style);setTimeout(function(){head.removeChild(style);}, 0);</script><script src="https://sonycenter.md/wp-content/themes/flatsome/assets/libs/ie-flexibility.js"></script><![endif]-->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://sonycenter.md/wp-content/uploads/2016/03/cropped-6345634634-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://sonycenter.md/wp-content/uploads/2016/03/cropped-6345634634-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://sonycenter.md/wp-content/uploads/2016/03/cropped-6345634634-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://sonycenter.md/wp-content/uploads/2016/03/cropped-6345634634-1-270x270.png" />
+<style id="custom-css" type="text/css">:root {--primary-color: #5865f5;}html{background-color:#ffffff!important;}.full-width .ubermenu-nav, .container, .row{max-width: 1570px}.row.row-collapse{max-width: 1540px}.row.row-small{max-width: 1562.5px}.row.row-large{max-width: 1600px}.header-main{height: 65px}#logo img{max-height: 65px}#logo{width:203px;}#logo a{max-width:150px;}.header-bottom{min-height: 10px}.header-top{min-height: 25px}.transparent .header-main{height: 70px}.transparent #logo img{max-height: 70px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 150px;}.transparent .header-wrapper{background-color: rgba(0,0,0,0.6)!important;}.transparent .top-divider{display: none;}.header.show-on-scroll,.stuck .header-main{height:53px!important}.stuck #logo img{max-height: 53px!important}.search-form{ width: 70%;}.header-bg-color, .header-wrapper {background-color: rgba(0,0,0,0.9)}.header-bottom {background-color: #e0e7ef}.header-main .nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.main-menu-overlay{background-color: #000000}.nav-dropdown-has-arrow li.has-dropdown:before{border-bottom-color: #ffffff;}.nav .nav-dropdown{border-color: #ffffff }.nav-dropdown{border-radius:3px}.nav-dropdown{font-size:80%}.header-top{background-color:#191919!important;}/* Color */.accordion-title.active, .has-icon-bg .icon .icon-inner,.logo a, .primary.is-underline, .primary.is-link, .badge-outline .badge-inner, .nav-outline > li.active> a,.nav-outline >li.active > a, .cart-icon strong,[data-color='primary'], .is-outline.primary{color: #5865f5;}/* Color !important */[data-text-color="primary"]{color: #5865f5!important;}/* Background Color */[data-text-bg="primary"]{background-color: #5865f5;}/* Background */.scroll-to-bullets a,.featured-title, .label-new.menu-item > a:after, .nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,button[type="submit"], .button.wc-forward:not(.checkout):not(.checkout-button), .button.submit-button, .button.primary:not(.is-outline),.featured-table .title,.is-outline:hover, .has-icon:hover .icon-label,.nav-dropdown-bold .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold > li > a:hover, .nav-dropdown-bold.dark .nav-column li > a:hover, .nav-dropdown.nav-dropdown-bold.dark > li > a:hover, .is-outline:hover, .tagcloud a:hover,.grid-tools a, input[type='submit']:not(.is-form), .box-badge:hover .box-text, input.button.alt,.nav-box > li > a:hover,.nav-box > li.active > a,.nav-pills > li.active > a ,.current-dropdown .cart-icon strong, .cart-icon:hover strong, .nav-line-bottom > li > a:before, .nav-line-grow > li > a:before, .nav-line > li > a:before,.banner, .header-top, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover, .button.primary:not(.is-outline), input[type='submit'].primary, input[type='submit'].primary, input[type='reset'].button, input[type='button'].primary, .badge-inner{background-color: #5865f5;}/* Border */.nav-vertical.nav-tabs > li.active > a,.scroll-to-bullets a.active,.nav-pagination > li > .current,.nav-pagination > li > span:hover,.nav-pagination > li > a:hover,.has-hover:hover .badge-outline .badge-inner,.accordion-title.active,.featured-table,.is-outline:hover, .tagcloud a:hover,blockquote, .has-border, .cart-icon strong:after,.cart-icon strong,.blockUI:before, .processing:before,.loading-spin, .slider-nav-circle .flickity-prev-next-button:hover svg, .slider-nav-circle .flickity-prev-next-button:hover .arrow, .primary.is-outline:hover{border-color: #5865f5}.nav-tabs > li.active > a{border-top-color: #5865f5}.widget_shopping_cart_content .blockUI.blockOverlay:before { border-left-color: #5865f5 }.woocommerce-checkout-review-order .blockUI.blockOverlay:before { border-left-color: #5865f5 }/* Fill */.slider .flickity-prev-next-button:hover svg,.slider .flickity-prev-next-button:hover .arrow{fill: #5865f5;}/* Background Color */[data-icon-label]:after, .secondary.is-underline:hover,.secondary.is-outline:hover,.icon-label,.button.secondary:not(.is-outline),.button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button, .current .breadcrumb-step{ background-color:#8e8e8e; }[data-text-bg="secondary"]{background-color: #8e8e8e;}/* Color */.secondary.is-underline,.secondary.is-link, .secondary.is-outline,.stars a.active, .star-rating:before, .woocommerce-page .star-rating:before,.star-rating span:before, .color-secondary{color: #8e8e8e}/* Color !important */[data-text-color="secondary"]{color: #8e8e8e!important;}/* Border */.secondary.is-outline:hover{border-color:#8e8e8e}.success.is-underline:hover,.success.is-outline:hover,.success{background-color: #63bc09}.success-color, .success.is-link, .success.is-outline{color: #63bc09;}.success-border{border-color: #63bc09!important;}/* Color !important */[data-text-color="success"]{color: #63bc09!important;}/* Background Color */[data-text-bg="success"]{background-color: #63bc09;}.alert.is-underline:hover,.alert.is-outline:hover,.alert{background-color: #f25507}.alert.is-link, .alert.is-outline, .color-alert{color: #f25507;}/* Color !important */[data-text-color="alert"]{color: #f25507!important;}/* Background Color */[data-text-bg="alert"]{background-color: #f25507;}body{font-size: 100%;}@media screen and (max-width: 549px){body{font-size: 100%;}}body{font-family:"Roboto", sans-serif}body{font-weight: 300}body{color: #555555}.nav > li > a {font-family:"Roboto", sans-serif;}.nav > li > a {font-weight: 0;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Roboto", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 0;}h1,h2,h3,h4,h5,h6,.heading-font{color: #333333;}.breadcrumbs{text-transform: none;}button,.button{text-transform: none;}.nav > li > a, .links > li > a{text-transform: none;}.section-title span{text-transform: none;}.alt-font{font-family: "Open Sans", sans-serif;}.alt-font{font-weight: 0!important;}.header:not(.transparent) .header-bottom-nav.nav > li > a{color: #232323;}a{color: #5865f5;}a:hover{color: #7075b2;}.tagcloud a:hover{border-color: #7075b2;background-color: #7075b2;}.is-divider{background-color: #5865f5;}.shop-page-title.featured-title .title-overlay{background-color: #eaf4fc;}.current .breadcrumb-step, [data-icon-label]:after, .button#place_order,.button.checkout,.checkout-button,.single_add_to_cart_button.button{background-color: #dc3a1a!important }.products.has-equal-box-heights .box-image {padding-top: 100%;}.badge-inner.on-sale{background-color: #dc3a1a}.badge-inner.new-bubble{background-color: #5865f5}.price del, .product_list_widget del, del .woocommerce-Price-amount { color: #878787; }ins .woocommerce-Price-amount { color: #5865f5; }.pswp__bg,.mfp-bg.mfp-ready{background-color: #000000}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 625px!important;width: 625px!important;}}.header-main .social-icons,.header-main .cart-icon strong,.header-main .menu-title,.header-main .header-button > .button.is-outline,.header-main .nav > li > a > i:not(.icon-angle-down){color: #ffffff!important;}.header-main .header-button > .button.is-outline,.header-main .cart-icon strong:after,.header-main .cart-icon strong{border-color: #ffffff!important;}.header-main .header-button > .button:not(.is-outline){background-color: #ffffff!important;}.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover,.header-main .header-button > .button:hover i,.header-main .header-button > .button:hover span{color:#FFF!important;}.header-main .menu-title:hover,.header-main .social-icons a:hover,.header-main .header-button > .button.is-outline:hover,.header-main .nav > li > a:hover > i:not(.icon-angle-down){color: #e5e5e5!important;}.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{background-color: #e5e5e5!important;}.header-main .current-dropdown .cart-icon strong:after,.header-main .current-dropdown .cart-icon strong,.header-main .header-button > .button:hover{border-color: #e5e5e5!important;}.footer-1{background-color: #f2f5f8}.footer-2{background-color: #1f2024}.absolute-footer, html{background-color: #000000}.page-title-small + main .product-container > .row{padding-top:0;}.label-new.menu-item > a:after{content:"Новое";}.label-hot.menu-item > a:after{content:"Горячее предложение";}.label-sale.menu-item > a:after{content:"Скидка";}.label-popular.menu-item > a:after{content:"Самые популярные";}</style>		<style type="text/css" id="wp-custom-css">
+			.box-image .out-of-stock-label {
+    display: none;
+}
+p.name.product-title {
+    font-weight: 700;
+}
+p.name.product-title a {
+    color:#555;
+}
+span.amount {
+    color: #5865f5;
+	  font-size:1.2em;
+}
+del span.amount {
+    color: #57595d;
+}
+input[type='button'].is-form {
+    border-radius: 0px!important;
+	  margin-right:0;
+}
+.product-info p.stock {
+    font-size: 1em;
+}
+p.in-stock {
+    color: #4cad40;
+}
+.page-title-inner {
+    padding-top: 0px;
+}
+.page-title.shop-page-title.product-page-title {
+    background-color: #f1f5f9;
+	margin-bottom:25px;
+}
+.shop-page-title.category-page-title.page-title {
+    background-color: #f1f5f9;
+    padding: 5px 0 5px 0;
+}
+select.orderby {
+    border-radius: 50px;
+	  font-size: 13px;
+}
+p.woocommerce-result-count.hide-for-medium {
+    font-size: 13px;
+}
+.breadcrumbs a {
+    color: rgb(79, 91, 220);
+}
+.product-categories .cat-item a {
+    font-size: 0.9em;
+}
+.product-short-description {
+    font-size: 14px;
+}
+.product-short-description li {
+    margin-bottom: 0.2em;
+}
+.widget .is-divider {
+    margin-top: .66em;
+    margin-left: 0;
+}
+.product-info.summary.col-fit.col.entry-summary.product-summary.text-left {
+    margin-top: 20px;
+}
+ul.product_list_widget span.product-title {
+    font-weight: 600;
+}
+@media(max-width:550px){
+td {
+    font-size: 0.7em;
+}}
+.section-title-normal span {
+    border-bottom: 2px solid rgb(79, 91, 220);
+}
+/* ВИД БЕЙДЖА СО СКИДКОЙ  */
+.badge-container {
+	margin:2px;
+}
+.badge-inner {
+	padding: 9px 12px;
+}
+span.onsale{
+	font-size:0.9em;
+}
+.badge {
+	height:1.3em;
+}
+/*.badge-inner.on-sale {
+    background-color: #4f5bdc!important;
+}*/
+/*.badge-container {
+    background-color: #4f5bdc;
+    color: white;
+    padding: 0px 0px;
+}*/
+.badge-inner.new-bubble {
+    padding: 10px 15px;
+    border-radius: 0px;
+}
+.badge-circle .badge-inner {
+    border-radius: 0;
+}
+
+/* ВИД БЕЙДЖА СО СКИДКОЙ - КОНЕЦ  */
+.col.large-3.hide-for-medium {
+    padding: 15px 20px;
+    background-color: #f6f8fb;
+}
+h1.shop-page-title.is-xlarge {
+    line-height: 1;
+	  font-size: 1.1em;
+}
+.quantity+.button {
+    font-size: .8em;
+    padding: 4px 30px;
+}
+del span.woocommerce-Price-amount.amount {
+    font-size: 1em;
+}
+.widget .current-cat>a {
+    font-weight: 600;
+}
+.live-search-results.text-left.z-top {
+    width: 280px;
+    margin-left: -25px;
+}
+.autocomplete-suggestions ins span.woocommerce-Price-amount.amount {
+    color: #4f5bdc;
+}
+.category-page-row {
+    padding-bottom: 30px;
+}
+div#product-sidebar {
+    background-color: white;
+}
+.widget_price_filter .price_slider_amount .button {
+    border-radius: 0px;
+    background-color: #4f5bdc;
+}
+.widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #4f5bdc;
+}
+.single_add_to_cart_button.button {
+    background-color: #dc3a1a!important;
+}
+.quantity+.button {
+    width: 80%;
+}
+.nav-dropdown>li>a {
+    padding: 5px 20px;
+}
+.nav-dropdown {
+    min-width: 310px;
+}
+.nav-dropdown>li>a:hover, .nav-column li>a:hover {
+    color: rgb(79, 91, 220);
+}
+a.tooltip.tooltipstered {
+    text-transform: none;
+}
+@media screen and (min-width: 850px){
+.category-page-row .col.large-3.hide-for-medium {
+    max-width: 20%;
+	  flex-basis: 20%;
+	}}
+@media screen and (min-width: 850px){
+.category-page-row .col.large-9 {
+    max-width: 80%;
+    -ms-flex-preferred-size: 80%;
+    flex-basis: 80%;
+	}}
+.image-tools.bottom.left {
+    display: none;
+}
+ul.header-nav.header-nav-main.nav.nav-left.nav-spacing-xlarge.nav-uppercase {
+    justify-content: center;
+}
+.nav-left {
+    -ms-flex-pack: start;
+    justify-content: left;
+}
+.page-title-inner.container.flex-row.dark.is-large {
+    min-height: 450px!important;
+}
+.title-bg.fill.bg-fill.bg-top.parallax-active {
+    background-position: 70% 50%;
+}
+ul#menu-footer-bottom-menu {
+    color: #fff;
+}
+.normal-title {
+    background-color: #f6faff;
+    border-top: 1px solid #f0f3f7;
+    border-bottom: 1px solid #f0f3f7;
+}
+.widget>ul>li+li {
+    border-top: none;
+}
+ul#qtranslate-2-chooser {
+    width: fit-content;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+li#qtranslate-2 {
+    width: fit-content;
+    margin-right: 0!important;
+    padding-right: 0;
+}
+li.header-block {
+    width: fit-content;
+}
+a.nav-top-link {
+    text-transform: uppercase!important;
+    letter-spacing: -10em;
+}
+.qtranxs_widget ul li.active {
+    opacity: 0.5!important;
+}
+.qtranxs_widget ul li {
+    opacity: 1!important;
+}
+aside#woocommerce_product_categories-3 {
+    position: sticky;
+    top: 100px;
+}
+ul.nav.nav-sidebar.nav-vertical.nav-uppercase {
+    font-size: 0.9em;
+}
+.product-lightbox-inner .quantity+.button {
+    width: 70%;
+    margin-left: 2px;
+}
+.widget .current-cat>a {
+    font-weight: 400;
+    text-decoration: underline;
+}
+.product-categories .cat-item a:hover {
+    text-decoration: underline;
+}
+p.stock.out-of-stock {
+    color: red;
+}
+.wpml-ls-current-language {
+    opacity: 0.6!important;
+}
+#main {
+    min-height:calc(100vh - 270px)!important;
+}
+a.filter-button.uppercase.plain {
+    text-transform: capitalize;
+}
+p {
+    line-height: 1.7;
+}
+@media (max-width:600px){
+	p {
+    font-size:0.8em;
+		line-height: 1.5;
+	}
+	li {
+    font-size: 0.8em;
+	}
+.nav-sidebar.nav-vertical.nav-uppercase a {
+  font-size: 1em;
+	text-transform:uppercase;
+}
+.nav.nav-sidebar.nav-vertical.nav-uppercase li {
+    font-size: 0.8em;
+		text-transform:capitalize!important;
+}}
+
+		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body data-rsssl=1 class="product-template-default single single-product postid-18035 theme-flatsome woocommerce woocommerce-page woocommerce-no-js yith-wcan-pro full-width bg-fill parallax-mobile page-template-blank-title-center page-template-blank-title-center-php has-lightbox">
+
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+<div id="wrapper">
+
+
+	<header id="header" class="header has-sticky sticky-jump">
+		<div class="header-wrapper">
+			<div id="top-bar" class="header-top hide-for-sticky nav-dark">
+    <div class="flex-row container">
+      <div class="flex-col hide-for-medium flex-left">
+          <ul class="nav nav-left medium-nav-center nav-small  nav-divided">
+              <li class="html custom html_top_right_text"><a href="https://goo.gl/maps/E23kxNHtka34svEAA"><b><i class=icon-map-pin-fill></i><span style="font-size:13px;margin-right:10px;"> SONYCENTER</span></b></a></li><li class="html custom html_topbar_right"><a style="font-size:1.2em;" href="mailto:sony-md@mail.ru">sony-md@mail.ru</a></li><li class="header-divider"></li><li class="html custom html_nav_position_text"><span><strong>GSM:</strong><a style="font-size:13px; color:white"  href="tel:+373 60 874759"> 060 874759</a></span></li>          </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-center">
+          <ul class="nav nav-center nav-small  nav-divided">
+                        </ul>
+      </div>
+
+      <div class="flex-col hide-for-medium flex-right">
+         <ul class="nav top-bar-nav nav-right nav-small  nav-divided">
+              <li class="html custom html_topbar_left">
+<div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-ro wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://sonycenter.md/ro/shop/wh1000xm3/" class="wpml-ls-link"><img class="wpml-ls-flag" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Румынский" data-lazy-src="https://sonycenter.md/wp-content/plugins/sitepress-multilingual-cms/res/flags/ro.png"><noscript><img class="wpml-ls-flag" src="https://sonycenter.md/wp-content/plugins/sitepress-multilingual-cms/res/flags/ro.png" alt="Румынский"></noscript></a>
+			</li></ul>
+</div>
+</li><li class="account-item has-icon
+    "
+>
+
+<a href="https://sonycenter.md/ru/my-account/"
+    class="nav-top-link nav-top-not-logged-in is-small"
+    data-open="#login-form-popup"  >
+  <i class="icon-user" ></i>
+</a>
+
+
+
+</li>
+          </ul>
+      </div>
+
+            <div class="flex-col show-for-medium flex-grow">
+          <ul class="nav nav-center nav-small mobile-nav  nav-divided">
+              <li class="html custom html_nav_position_text"><span><strong>GSM:</strong><a style="font-size:13px; color:white"  href="tel:+373 60 874759"> 060 874759</a></span></li><li class="header-divider"></li><li class="html custom html_topbar_left">
+<div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-ro wpml-ls-first-item wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://sonycenter.md/ro/shop/wh1000xm3/" class="wpml-ls-link"><img class="wpml-ls-flag" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" alt="Румынский" data-lazy-src="https://sonycenter.md/wp-content/plugins/sitepress-multilingual-cms/res/flags/ro.png"><noscript><img class="wpml-ls-flag" src="https://sonycenter.md/wp-content/plugins/sitepress-multilingual-cms/res/flags/ro.png" alt="Румынский"></noscript></a>
+			</li></ul>
+</div>
+</li><li class="header-divider"></li><li class="account-item has-icon
+    "
+>
+
+<a href="https://sonycenter.md/ru/my-account/"
+    class="nav-top-link nav-top-not-logged-in is-small"
+    data-open="#login-form-popup"  >
+  <i class="icon-user" ></i>
+</a>
+
+
+
+</li>
+          </ul>
+      </div>
+
+    </div>
+</div>
+<div id="masthead" class="header-main nav-dark">
+      <div class="header-inner flex-row container logo-left" role="navigation">
+
+          <!-- Logo -->
+          <div id="logo" class="flex-col logo">
+            <!-- Header logo -->
+<a href="https://sonycenter.md/ru/" title="SONY - SONYCENTER в Кишиневе" rel="home">
+    <img width="203" height="65" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20203%2065'%3E%3C/svg%3E" class="header_logo header-logo" alt="SONY" data-lazy-src="https://sonycenter.md/wp-content/uploads/2016/03/sony-logo-3.png"/><noscript><img width="203" height="65" src="https://sonycenter.md/wp-content/uploads/2016/03/sony-logo-3.png" class="header_logo header-logo" alt="SONY"/></noscript><img  width="203" height="65" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20203%2065'%3E%3C/svg%3E" class="header-logo-dark" alt="SONY" data-lazy-src="https://sonycenter.md/wp-content/uploads/2013/06/sony-logo-white3.png"/><noscript><img  width="203" height="65" src="https://sonycenter.md/wp-content/uploads/2013/06/sony-logo-white3.png" class="header-logo-dark" alt="SONY"/></noscript></a>
+          </div>
+
+          <!-- Mobile Left Elements -->
+          <div class="flex-col show-for-medium flex-left">
+            <ul class="mobile-nav nav nav-left ">
+              <li class="nav-icon has-icon">
+  		<a href="#" data-open="#main-menu" data-pos="left" data-bg="main-menu-overlay" data-color="dark" class="is-small" aria-label="Menu" aria-controls="main-menu" aria-expanded="false">
+
+		  <i class="icon-menu" ></i>
+		  <span class="menu-title uppercase hide-for-small">Menu</span>		</a>
+	</li>            </ul>
+          </div>
+
+          <!-- Left Elements -->
+          <div class="flex-col hide-for-medium flex-left
+            flex-grow">
+            <ul class="header-nav header-nav-main nav nav-left  nav-spacing-xlarge nav-uppercase" >
+              <li id="menu-item-287" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-287"><a href="https://sonycenter.md/ru/shop/" class="nav-top-link">КАТАЛОГ ТОВАРОВ</a></li>
+<li id="menu-item-3622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3622"><a href="https://sonycenter.md/ru/dostavka/" class="nav-top-link">ДОСТАВКА</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://sonycenter.md/ru/contact/" class="nav-top-link">КОНТАКТЫ</a></li>
+<li id="menu-item-4910" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4910"><a href="https://sonycenter.md/ru/garantiya/" class="nav-top-link">ГАРАНТИЯ</a></li>
+            </ul>
+          </div>
+
+          <!-- Right Elements -->
+          <div class="flex-col hide-for-medium flex-right">
+            <ul class="header-nav header-nav-main nav nav-right  nav-spacing-xlarge nav-uppercase">
+              <li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="https://sonycenter.md/ru/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-0">Искать:</label>
+			<input type="search" id="woocommerce-product-search-field-0" class="search-field mb-0" placeholder="Поиск&hellip;" value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+							<input type="hidden" name="lang" value="ru" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Поиск" class="ux-search-submit submit-button secondary button icon mb-0">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li><li class="header-divider"></li><li class="cart-item has-icon has-dropdown">
+
+<a href="https://sonycenter.md/ru/cart/" title="Корзина" class="header-cart-link is-small">
+
+
+
+    <i class="icon-shopping-basket"
+    data-icon-label="0">
+  </i>
+  </a>
+
+ <ul class="nav-dropdown nav-dropdown-simple">
+    <li class="html widget_shopping_cart">
+      <div class="widget_shopping_cart_content">
+
+
+	<p class="woocommerce-mini-cart__empty-message">Корзина пуста.</p>
+
+
+      </div>
+    </li>
+     </ul>
+
+</li>
+            </ul>
+          </div>
+
+          <!-- Mobile Right Elements -->
+          <div class="flex-col show-for-medium flex-right">
+            <ul class="mobile-nav nav nav-right ">
+              <li class="header-search header-search-lightbox has-icon">
+			<a href="#search-lightbox" aria-label="Поиск" data-open="#search-lightbox" data-focus="input.search-field"
+		class="is-small">
+		<i class="icon-search" style="font-size:16px;"></i></a>
+
+	<div id="search-lightbox" class="mfp-hide dark text-center">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-large"><form role="search" method="get" class="searchform" action="https://sonycenter.md/ru/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-1">Искать:</label>
+			<input type="search" id="woocommerce-product-search-field-1" class="search-field mb-0" placeholder="Поиск&hellip;" value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+							<input type="hidden" name="lang" value="ru" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Поиск" class="ux-search-submit submit-button secondary button icon mb-0">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li>
+<li class="cart-item has-icon">
+
+      <a href="https://sonycenter.md/ru/cart/" class="header-cart-link off-canvas-toggle nav-top-link is-small" data-open="#cart-popup" data-class="off-canvas-cart" title="Корзина" data-pos="right">
+
+    <i class="icon-shopping-basket"
+    data-icon-label="0">
+  </i>
+  </a>
+
+
+  <!-- Cart Sidebar Popup -->
+  <div id="cart-popup" class="mfp-hide widget_shopping_cart">
+  <div class="cart-popup-inner inner-padding">
+      <div class="cart-popup-title text-center">
+          <h4 class="uppercase">Корзина</h4>
+          <div class="is-divider"></div>
+      </div>
+      <div class="widget_shopping_cart_content">
+
+
+	<p class="woocommerce-mini-cart__empty-message">Корзина пуста.</p>
+
+
+      </div>
+             <div class="cart-sidebar-content relative"></div>  </div>
+  </div>
+
+</li>
+            </ul>
+          </div>
+
+      </div>
+
+            <div class="container"><div class="top-divider full-width"></div></div>
+      </div><div id="wide-nav" class="header-bottom wide-nav hide-for-sticky flex-has-center">
+    <div class="flex-row container">
+
+
+                        <div class="flex-col hide-for-medium flex-center">
+                <ul class="nav header-nav header-bottom-nav nav-center  nav-line-bottom nav-size-xsmall nav-spacing-small nav-uppercase">
+                    <li id="menu-item-8124" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8124 has-dropdown"><a class="nav-top-link">Телевизоры<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-simple">
+	<li id="menu-item-18224" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18224"><a href="https://sonycenter.md/ru/category/televizory/televizory-led/">Телевизоры LED Full HD</a></li>
+	<li id="menu-item-18225" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18225"><a href="https://sonycenter.md/ru/category/televizory/4k-led-televizory/">Телевизоры LED 4K</a></li>
+	<li id="menu-item-8395" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8395"><a href="https://sonycenter.md/ru/category/televizory/oled-televizory/">Телевизоры OLED</a></li>
+	<li id="menu-item-18223" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18223"><a href="https://sonycenter.md/ru/category/televizory/televizory-8k/">Телевизоры 8K</a></li>
+	<li id="menu-item-8401" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8401"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/">Аксессуары для телевизоров</a></li>
+</ul>
+</li>
+<li id="menu-item-8125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8125 has-dropdown"><a class="nav-top-link">Аудио<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-simple">
+	<li id="menu-item-8385" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8385"><a href="https://sonycenter.md/ru/category/audiosistemy/sistemy-hi-fi/">Системы Hi-Fi</a></li>
+	<li id="menu-item-8391" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8391"><a href="https://sonycenter.md/ru/category/audiosistemy/besprovodnye-audiosistemy/">Беспроводные аудиосистемы</a></li>
+	<li id="menu-item-8402" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8402"><a href="https://sonycenter.md/ru/category/audiosistemy/">Аудиосистемы</a></li>
+	<li id="menu-item-18606" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18606"><a href="https://sonycenter.md/ru/category/audiosistemy/saundbary/">Саундбары</a></li>
+	<li id="menu-item-8413" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8413"><a href="https://sonycenter.md/ru/category/audiosistemy/mp3mp4-pleery/">Плееры Walkman®</a></li>
+	<li id="menu-item-19734" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor menu-item-19734"><a href="https://sonycenter.md/ru/category/naushniki/">Наушники</a></li>
+	<li id="menu-item-18608" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18608"><a href="https://sonycenter.md/ru/category/audiosistemy/domashnie-kinoteatry/">Домашние кинотеатры</a></li>
+	<li id="menu-item-8411" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8411"><a href="https://sonycenter.md/ru/category/audiosistemy/portativnye-cd-proigryvateli/">Портативные CD проигрыватели</a></li>
+	<li id="menu-item-19775" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19775"><a href="https://sonycenter.md/ru/category/audiosistemy/vinilovyj-proigryvatel/">Виниловые проигрыватели</a></li>
+	<li id="menu-item-19736" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19736"><a href="https://sonycenter.md/ru/category/audiosistemy/avtomobilnye-audiosistemy/">Автомобильные аудиосистемы</a></li>
+	<li id="menu-item-19733" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19733"><a href="https://sonycenter.md/ru/category/tsifrovye-diktofony/">Цифровые диктофоны</a></li>
+</ul>
+</li>
+<li id="menu-item-8126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8126 has-dropdown"><a class="nav-top-link">Фото и Фотоаксессуары<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-simple">
+	<li id="menu-item-8382" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8382"><a href="https://sonycenter.md/ru/category/photos/kamery-alpha/">Камеры α (Alpha)</a></li>
+	<li id="menu-item-8390" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8390"><a href="https://sonycenter.md/ru/category/photos/kamery-cybershot-serii-rx/">Камеры CyberShot серии RX</a></li>
+	<li id="menu-item-8393" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8393"><a href="https://sonycenter.md/ru/category/photos/cybershot-seriya-hx/">Камеры CyberShot серии HX</a></li>
+	<li id="menu-item-8381" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8381"><a href="https://sonycenter.md/ru/category/aksessuary/obektivy-serii/">Объективы Alpha</a></li>
+	<li id="menu-item-18639" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18639"><a href="https://sonycenter.md/ru/category/aksessuary/shtativy/">Штативы</a></li>
+	<li id="menu-item-18640" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18640"><a href="https://sonycenter.md/ru/category/aksessuary/vspyshki-i-lampy/">Вспышки и лампы</a></li>
+	<li id="menu-item-18641" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18641"><a href="https://sonycenter.md/ru/category/aksessuary/chehly-sumki-i-remni/">Чехлы, сумки и ремни</a></li>
+</ul>
+</li>
+<li id="menu-item-8127" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8127 has-dropdown"><a class="nav-top-link">Видео и аксессуары<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-simple">
+	<li id="menu-item-18227" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18227"><a href="https://sonycenter.md/ru/category/cameras/video-4k/">Видеокамеры 4K</a></li>
+	<li id="menu-item-18226" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18226"><a href="https://sonycenter.md/ru/category/cameras/actioncam/">ActionCam</a></li>
+	<li id="menu-item-8412" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8412"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/skype-kamera/">Skype камера</a></li>
+</ul>
+</li>
+<li id="menu-item-8128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8128 has-dropdown"><a class="nav-top-link">PlayStation<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-simple">
+	<li id="menu-item-18338" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18338"><a href="https://sonycenter.md/ru/category/playstation/konsoli-ps4/">Консоли PlayStation</a></li>
+	<li id="menu-item-8383" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8383"><a href="https://sonycenter.md/ru/category/playstation/igry-ps4/">Игры для PlayStation</a></li>
+	<li id="menu-item-8396" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8396"><a href="https://sonycenter.md/ru/category/playstation/aksessuary-dlja-playstation/">Аксессуары для PlayStation</a></li>
+</ul>
+</li>
+<li id="menu-item-8129" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8129 has-dropdown"><a class="nav-top-link">Прочее<i class="icon-angle-down" ></i></a>
+<ul class="sub-menu nav-dropdown nav-dropdown-simple">
+	<li id="menu-item-8384" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8384"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/karty-pamyati/">Карты памяти</a></li>
+	<li id="menu-item-8387" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8387"><a href="https://sonycenter.md/ru/category/aksessuary/chehly-sumki-i-remni/">Чехлы, сумки и ремни</a></li>
+	<li id="menu-item-8388" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8388"><a href="https://sonycenter.md/ru/category/aksessuary/zaryadnye-ustrojstva/">Зарядные устройства</a></li>
+	<li id="menu-item-8389" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8389"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/usb-nosideli/">USB носители</a></li>
+	<li id="menu-item-8392" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8392"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/kabeli/">Кабели</a></li>
+	<li id="menu-item-8399" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8399"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/vneshnie-zhestkie-diski/">Внешние жесткие диски</a></li>
+	<li id="menu-item-8403" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8403"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/">Носители информации и элементы питания</a></li>
+</ul>
+</li>
+                </ul>
+            </div>
+
+
+                          <div class="flex-col show-for-medium flex-grow">
+                  <ul class="nav header-bottom-nav nav-center mobile-nav  nav-line-bottom nav-size-xsmall nav-spacing-small nav-uppercase">
+                      <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-287"><a href="https://sonycenter.md/ru/shop/" class="nav-top-link">КАТАЛОГ ТОВАРОВ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3622"><a href="https://sonycenter.md/ru/dostavka/" class="nav-top-link">ДОСТАВКА</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://sonycenter.md/ru/contact/" class="nav-top-link">КОНТАКТЫ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4910"><a href="https://sonycenter.md/ru/garantiya/" class="nav-top-link">ГАРАНТИЯ</a></li>
+                  </ul>
+              </div>
+
+    </div>
+</div>
+
+<div class="header-bg-container fill"><div class="header-bg-image fill"></div><div class="header-bg-color fill"></div></div>		</div>
+	</header>
+
+	<div class="page-title shop-page-title product-page-title">
+	<div class="page-title-inner flex-row medium-flex-wrap container">
+	  <div class="flex-col flex-grow medium-text-center">
+	  		<div class="is-xsmall">
+	<nav class="woocommerce-breadcrumb breadcrumbs uppercase"><a href="https://sonycenter.md/ru/">Главная</a> <span class="divider">&#47;</span> <a href="https://sonycenter.md/ru/shop/">Магазин</a> <span class="divider">&#47;</span> <a href="https://sonycenter.md/ru/category/naushniki/">Наушники</a> <span class="divider">&#47;</span> <a href="https://sonycenter.md/ru/category/naushniki/besprovodnye-naushniki/">Беспроводные наушники</a></nav></div>
+	  </div>
+
+	   <div class="flex-col medium-text-center">
+		   	<ul class="next-prev-thumbs is-small ">         <li class="prod-dropdown has-dropdown">
+               <a href="https://sonycenter.md/ru/shop/wic600n/"  rel="next" class="button icon is-outline circle">
+                  <i class="icon-angle-left" ></i>              </a>
+              <div class="nav-dropdown">
+                <a title="WIC600N" href="https://sonycenter.md/ru/shop/wic600n/">
+                <img width="100" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3C/svg%3E" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail wp-post-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1.jpg 600w" data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-100x100.jpg" /><noscript><img width="100" height="100" src="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-100x100.jpg" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail wp-post-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1.jpg 600w" sizes="(max-width: 100px) 100vw, 100px" /></noscript></a>
+              </div>
+          </li>
+               <li class="prod-dropdown has-dropdown">
+               <a href="https://sonycenter.md/ru/shop/wi1000x/" rel="next" class="button icon is-outline circle">
+                  <i class="icon-angle-right" ></i>              </a>
+              <div class="nav-dropdown">
+                  <a title="WI1000X" href="https://sonycenter.md/ru/shop/wi1000x/">
+                  <img width="100" height="100" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3C/svg%3E" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail wp-post-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6.jpg 600w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-520x520.jpg 520w" data-lazy-sizes="(max-width: 100px) 100vw, 100px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-100x100.jpg" /><noscript><img width="100" height="100" src="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-100x100.jpg" class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail wp-post-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6.jpg 600w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-520x520.jpg 520w" sizes="(max-width: 100px) 100vw, 100px" /></noscript></a>
+              </div>
+          </li>
+      </ul>	   </div>
+	</div>
+</div>
+
+	<main id="main" class="">
+
+	<div class="shop-container">
+
+			<div class="container">
+	<div class="woocommerce-notices-wrapper"></div></div>
+<div id="product-18035" class="product type-product post-18035 status-publish first outofstock product_cat-besprovodnye-naushniki has-post-thumbnail sale shipping-taxable purchasable product-type-variable">
+	<div class="row content-row row-divided row-large row-reverse">
+	<div id="product-sidebar" class="col large-3 hide-for-medium shop-sidebar ">
+		<aside id="woocommerce_product_categories-3" class="widget woocommerce widget_product_categories"><span class="widget-title shop-sidebar">Категории товаров</span><div class="is-divider small"></div><ul class="product-categories"><li class="cat-item cat-item-512"><a href="https://sonycenter.md/ru/category/televizory/">Телевизоры</a></li>
+<li class="cat-item cat-item-546"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/">Аксессуары для телевизоров</a></li>
+<li class="cat-item cat-item-767"><a href="https://sonycenter.md/ru/category/playstation/">PlayStation</a></li>
+<li class="cat-item cat-item-219"><a href="https://sonycenter.md/ru/category/cameras/">Видеокамеры</a></li>
+<li class="cat-item cat-item-451"><a href="https://sonycenter.md/ru/category/photos/">Фотокамеры</a></li>
+<li class="cat-item cat-item-535"><a href="https://sonycenter.md/ru/category/aksessuary/">Аксессуары Фото Видео</a></li>
+<li class="cat-item cat-item-526 cat-parent current-cat-parent"><a href="https://sonycenter.md/ru/category/naushniki/">Наушники</a><ul class='children'>
+<li class="cat-item cat-item-527 current-cat"><a href="https://sonycenter.md/ru/category/naushniki/besprovodnye-naushniki/">Беспроводные наушники</a></li>
+<li class="cat-item cat-item-528"><a href="https://sonycenter.md/ru/category/naushniki/vkladyshi/">Вкладыши</a></li>
+<li class="cat-item cat-item-529"><a href="https://sonycenter.md/ru/category/naushniki/nakladnye/">Накладные наушники</a></li>
+</ul>
+</li>
+<li class="cat-item cat-item-517"><a href="https://sonycenter.md/ru/category/audiosistemy/">Аудиосистемы</a></li>
+<li class="cat-item cat-item-524"><a href="https://sonycenter.md/ru/category/proigryvateli-diskov-blu-ray/">Проигрыватели дисков Blu-ray</a></li>
+<li class="cat-item cat-item-530"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/">Носители информации и элементы питания</a></li>
+<li class="cat-item cat-item-540"><a href="https://sonycenter.md/ru/category/tsifrovye-diktofony/">Цифровые диктофоны</a></li>
+<li class="cat-item cat-item-769"><a href="https://sonycenter.md/ru/category/raznoe/">Разное</a></li>
+</ul></aside>	</div>
+
+	<div class="col large-9">
+		<div class="product-main">
+		<div class="row">
+			<div class="large-6 col">
+				<div class="row row-small">
+<div class="col large-10">
+
+<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images relative mb-half has-hover" data-columns="4">
+
+  <div class="badge-container is-larger absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">Распродажа!</span></div></div>
+</div>
+  <div class="image-tools absolute top show-on-hover right z-3">
+      </div>
+
+  <figure class="woocommerce-product-gallery__wrapper product-gallery-slider slider slider-nav-small mb-0"
+        data-flickity-options='{
+                "cellAlign": "center",
+                "wrapAround": true,
+                "autoPlay": false,
+                "prevNextButtons":true,
+                "adaptiveHeight": true,
+                "imagesLoaded": true,
+                "lazyLoad": 1,
+                "dragThreshold" : 15,
+                "pageDots": false,
+                "rightToLeft": false       }'>
+    <div data-thumb="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-100x100.jpg" class="woocommerce-product-gallery__image slide first"><a href="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg"><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg" class="wp-post-image skip-lazy" alt="" title="1000xm3" data-caption="" data-src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg" data-large_image="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg" data-large_image_width="600" data-large_image_height="600" srcset="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3.jpg 600w, https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-520x520.jpg 520w, https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-247x247.jpg 247w" sizes="(max-width: 600px) 100vw, 600px" /></a></div><div data-thumb="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2-100x100.jpg" class="woocommerce-product-gallery__image slide"><a href="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2.jpg"><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2.jpg" class="skip-lazy" alt="" title="1000xm3 2" data-caption="" data-src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2.jpg" data-large_image="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2.jpg" data-large_image_width="600" data-large_image_height="600" srcset="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2-520x520.jpg 520w, https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2-200x200.jpg 200w" sizes="(max-width: 600px) 100vw, 600px" /></a></div><div data-thumb="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7-100x100.jpg" class="woocommerce-product-gallery__image slide"><a href="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7.jpg"><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7.jpg" class="skip-lazy" alt="" title="1000xm3-7.jpg" data-caption="" data-src="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7.jpg" data-large_image="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7.jpg" data-large_image_width="600" data-large_image_height="600" srcset="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></a></div>  </figure>
+
+  <div class="image-tools absolute bottom left z-3">
+        <a href="#product-zoom" class="zoom-button button is-outline circle icon tooltip hide-for-small" title="Зум.">
+      <i class="icon-expand" ></i>    </a>
+   </div>
+</div>
+</div>
+
+    <div class="col large-2 large-col-first vertical-thumbnails pb-0">
+
+    <div class="product-thumbnails thumbnails slider-no-arrows slider row row-small row-slider slider-nav-small small-columns-4"
+      data-flickity-options='{
+                "cellAlign": "left",
+                "wrapAround": false,
+                "autoPlay": false,
+                "prevNextButtons": false,
+                "asNavFor": ".product-gallery-slider",
+                "percentPosition": true,
+                "imagesLoaded": true,
+                "pageDots": false,
+                "rightToLeft": false,
+                "contain":  true
+            }'
+      >              <div class="col is-nav-selected first">
+          <a>
+            <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3C/svg%3E" alt="" width="100" height="100" class="attachment-woocommerce_thumbnail" data-lazy-src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-100x100.jpg" /><noscript><img src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-100x100.jpg" alt="" width="100" height="100" class="attachment-woocommerce_thumbnail" /></noscript>          </a>
+        </div>
+      <div class="col"><a><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3C/svg%3E" alt="" width="100" height="100"  class="attachment-woocommerce_thumbnail" data-lazy-src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2-100x100.jpg" /><noscript><img src="https://sonycenter.md/wp-content/uploads/2018/09/1000xm3-2-100x100.jpg" alt="" width="100" height="100"  class="attachment-woocommerce_thumbnail" /></noscript></a></div><div class="col"><a><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3C/svg%3E" alt="" width="100" height="100"  class="attachment-woocommerce_thumbnail" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7-100x100.jpg" /><noscript><img src="https://sonycenter.md/wp-content/uploads/2020/03/1000xm3-7-100x100.jpg" alt="" width="100" height="100"  class="attachment-woocommerce_thumbnail" /></noscript></a></div>    </div>
+    </div>
+</div>
+
+			</div>
+
+
+			<div class="product-info summary entry-summary col col-fit product-summary text-left form-flat">
+				<h1 class="product-title product_title entry-title">
+	WH1000XM3</h1>
+
+<div class="price-wrapper">
+	<p class="price product-page-price price-on-sale price-not-in-stock">
+  <del><span class="woocommerce-Price-amount amount">6 599<span class="woocommerce-Price-currencySymbol"> lei</span></span></del> <ins><span class="woocommerce-Price-amount amount">5 799<span class="woocommerce-Price-currencySymbol"> lei</span></span></ins></p>
+</div>
+<div class="product-short-description">
+	<ul>
+<li>Диапазон воспроизводимых частот : 4–40 000 Гц</li>
+<li>Динамик : 40 мм</li>
+<li>Время работы аккумулятора : до 38 часов</li>
+<li>Bluetooth : Да</li>
+</ul>
+</div>
+
+<form class="variations_form cart" action="https://sonycenter.md/ru/shop/wh1000xm3/" method="post" enctype='multipart/form-data' data-product_id="18035" data-product_variations="[{&quot;attributes&quot;:{&quot;attribute_pa_color&quot;:&quot;black&quot;},&quot;availability_html&quot;:&quot;&lt;p class=\&quot;stock out-of-stock\&quot;&gt;\u0423\u0442\u043e\u0447\u043d\u044f\u0439\u0442\u0435 \u043d\u0430\u043b\u0438\u0447\u0438\u0435&lt;\/p&gt;\n&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;\u041d\/\u0414&quot;,&quot;display_price&quot;:5799,&quot;display_regular_price&quot;:6599,&quot;image&quot;:{&quot;title&quot;:&quot;1000xm3.jpg&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3.jpg 600w, https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3-200x200.jpg 200w, https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3-100x100.jpg 100w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3.jpg&quot;,&quot;full_src_w&quot;:600,&quot;full_src_h&quot;:600,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2020\/03\/1000xm3.jpg&quot;,&quot;thumb_src_w&quot;:600,&quot;thumb_src_h&quot;:600,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:17521,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:false,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:19884,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;\u041d\/\u0414&quot;},{&quot;attributes&quot;:{&quot;attribute_pa_color&quot;:&quot;silver&quot;},&quot;availability_html&quot;:&quot;&lt;p class=\&quot;stock out-of-stock\&quot;&gt;\u0423\u0442\u043e\u0447\u043d\u044f\u0439\u0442\u0435 \u043d\u0430\u043b\u0438\u0447\u0438\u0435&lt;\/p&gt;\n&quot;,&quot;backorders_allowed&quot;:false,&quot;dimensions&quot;:{&quot;length&quot;:&quot;&quot;,&quot;width&quot;:&quot;&quot;,&quot;height&quot;:&quot;&quot;},&quot;dimensions_html&quot;:&quot;\u041d\/\u0414&quot;,&quot;display_price&quot;:5799,&quot;display_regular_price&quot;:6599,&quot;image&quot;:{&quot;title&quot;:&quot;1000xm3 2&quot;,&quot;caption&quot;:&quot;&quot;,&quot;url&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2.jpg&quot;,&quot;alt&quot;:&quot;&quot;,&quot;src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2.jpg&quot;,&quot;srcset&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2.jpg 600w, https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2-100x100.jpg 100w, https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2-520x520.jpg 520w, https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2-200x200.jpg 200w&quot;,&quot;sizes&quot;:&quot;(max-width: 600px) 100vw, 600px&quot;,&quot;full_src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2.jpg&quot;,&quot;full_src_w&quot;:600,&quot;full_src_h&quot;:600,&quot;gallery_thumbnail_src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2-100x100.jpg&quot;,&quot;gallery_thumbnail_src_w&quot;:100,&quot;gallery_thumbnail_src_h&quot;:100,&quot;thumb_src&quot;:&quot;https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3-2.jpg&quot;,&quot;thumb_src_w&quot;:600,&quot;thumb_src_h&quot;:600,&quot;src_w&quot;:600,&quot;src_h&quot;:600},&quot;image_id&quot;:7113,&quot;is_downloadable&quot;:false,&quot;is_in_stock&quot;:false,&quot;is_purchasable&quot;:true,&quot;is_sold_individually&quot;:&quot;no&quot;,&quot;is_virtual&quot;:false,&quot;max_qty&quot;:&quot;&quot;,&quot;min_qty&quot;:1,&quot;price_html&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;variation_description&quot;:&quot;&quot;,&quot;variation_id&quot;:19883,&quot;variation_is_active&quot;:true,&quot;variation_is_visible&quot;:true,&quot;weight&quot;:&quot;&quot;,&quot;weight_html&quot;:&quot;\u041d\/\u0414&quot;}]">
+
+			<table class="variations" cellspacing="0">
+			<tbody>
+									<tr>
+						<td class="label"><label for="pa_color">Цвет</label></td>
+						<td class="value">
+							<select id="pa_color" class="" name="attribute_pa_color" data-attribute_name="attribute_pa_color" data-show_option_none="yes"><option value="">Выбрать опцию</option><option value="black" >black</option><option value="silver" >silver</option></select><a class="reset_variations" href="#">Очистить</a>						</td>
+					</tr>
+							</tbody>
+		</table>
+
+		<div class="single_variation_wrap">
+			<div class="woocommerce-variation single_variation"></div><div class="woocommerce-variation-add-to-cart variations_button">
+
+		<div class="quantity buttons_added form-flat">
+		<input type="button" value="-" class="minus button is-form">				<label class="screen-reader-text" for="quantity_5e996f2b3b821">Количество WH1000XM3</label>
+		<input
+			type="number"
+			id="quantity_5e996f2b3b821"
+			class="input-text qty text"
+			step="1"
+			min="1"
+			max=""
+			name="quantity"
+			value="1"
+			title="Кол-во"
+			size="4"
+			placeholder=""
+			inputmode="numeric" />
+				<input type="button" value="+" class="plus button is-form">	</div>
+
+	<button type="submit" class="single_add_to_cart_button button alt">В корзину</button>
+
+
+	<input type="hidden" name="add-to-cart" value="18035" />
+	<input type="hidden" name="product_id" value="18035" />
+	<input type="hidden" name="variation_id" class="variation_id" value="0" />
+</div>
+		</div>
+
+	</form>
+
+<div class="product_meta">
+
+
+
+	<span class="posted_in">Категория: <a href="https://sonycenter.md/ru/category/naushniki/besprovodnye-naushniki/" rel="tag">Беспроводные наушники</a></span>
+
+
+</div>
+<div class="social-icons share-icons share-row relative" ><a href="whatsapp://send?text=WH1000XM3 - https://sonycenter.md/ru/shop/wh1000xm3/" data-action="share/whatsapp/share" class="icon button circle is-outline tooltip whatsapp show-for-medium" title="Share on WhatsApp"><i class="icon-whatsapp"></i></a><a href="//www.facebook.com/sharer.php?u=https://sonycenter.md/ru/shop/wh1000xm3/" data-label="Facebook" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" target="_blank" class="icon button circle is-outline tooltip facebook" title="Опубликовать на Фэйсбуке"><i class="icon-facebook" ></i></a><a href="mailto:enteryour@addresshere.com?subject=WH1000XM3&amp;body=Check%20this%20out:%20https://sonycenter.md/ru/shop/wh1000xm3/" rel="nofollow" class="icon button circle is-outline tooltip email" title="Отправить друзьям на e-mail"><i class="icon-envelop" ></i></a><a href="//vkontakte.ru/share.php?url=https://sonycenter.md/ru/shop/wh1000xm3/" target="_blank" class="icon button circle is-outline tooltip vk" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;" rel="noopener noreferrer nofollow" title="Share on VKontakte"><i class="icon-vk" ></i></a></div>
+			</div>
+		</div>
+		</div>
+		<div class="product-footer">
+
+	<div class="woocommerce-tabs wc-tabs-wrapper container tabbed-content">
+		<ul class="tabs wc-tabs product-tabs small-nav-collapse nav nav-uppercase nav-line nav-left" role="tablist">
+							<li class="description_tab active" id="tab-title-description" role="tab" aria-controls="tab-description">
+					<a href="#tab-description">
+						Описание					</a>
+				</li>
+											<li class="additional_information_tab " id="tab-title-additional_information" role="tab" aria-controls="tab-additional_information">
+					<a href="#tab-additional_information">
+						Детали					</a>
+				</li>
+									</ul>
+		<div class="tab-panels">
+							<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content active" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+
+
+<table>
+<tbody>
+<tr>
+<td width="171"><strong>Вес </strong></td>
+<td width="204"></td>
+<td width="190"></td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ВЕС</strong></td>
+<td>Прибл. 255 г</td>
+</tr>
+<tr>
+<td><strong>Основные функции</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ТИП НАУШНИКОВ</strong></td>
+<td>Динамические, закрытого типа</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ДИНАМИК</strong></td>
+<td>40 мм, купольный тип</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ПОЛНОЕ СОПРОТИВЛЕНИЕ (ОМ)</strong></td>
+<td>46 ом (1 кГц) (при подключении через кабель для наушников со включенным динамиком), 14 ом (1 кГц) (при подключении через кабель для наушников с выключенным динамиком)</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ДИАПАЗОН ВОСПРОИЗВОДИМЫХ ЧАСТОТ (ГЦ)</strong></td>
+<td>4–40 000 Гц</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ДИАПАЗОН ВОСПРОИЗВОДИМЫХ ЧАСТОТ (СОЕДИНЕНИЕ BLUETOOTH®)</strong></td>
+<td>20–20 000 Гц (частота дискретизации 44,1 кГц); 20–40 000 Гц (LDAC, частота дискретизации 96 кГц, 990 кбит/с)</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ДЛИНА ШНУРА</strong></td>
+<td>Кабель для наушников (прибл. 1,5 м, жилы из бескислородной меди, позолоченный стереофонический мини-штекер)</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>NFC </strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>DSEE HX</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>S-MASTER HX</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>РАБОТА В ПАССИВНОМ РЕЖИМЕ</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong>Аккумулятор</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ВРЕМЯ ЗАРЯДКИ БАТАРЕИ</strong></td>
+<td>Прибл. 3 часа</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ВРЕМЯ РАБОТЫ ОТ АККУМУЛЯТОРА (В РЕЖИМЕ ВОСПРОИЗВЕДЕНИЯ МУЗЫКИ)</strong></td>
+<td>Макс. 30 часов с шумоподавлением и 38 часов без шумоподавления</td>
+</tr>
+<tr>
+<td><strong>Технические характеристики Bluetooth®</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ВЕРСИЯ BLUETOOTH®</strong></td>
+<td>Версия 4.1</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ПРОФИЛЬ</strong></td>
+<td>A2DP, AVRCP, HFP, HSP</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ПОДДЕРЖКА АУДИОФОРМАТОВ</strong></td>
+<td>SBC, AAC, aptX, aptX HD, LDAC</td>
+</tr>
+<tr>
+<td><strong>Подавление шумов</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ПЕРЕКЛЮЧАТЕЛЬ ШУМОПОДАВЛЕНИЯ ВКЛ./ВЫКЛ.</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>АВТОМАТИЧЕСКОЕ ИНТЕЛЛЕКТУАЛЬНОЕ ШУМОПОДАВЛЕНИЕ</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ПЕРСОНАЛЬНЫЙ ОПТИМИЗАТОР NC</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>ОПТИМИЗАЦИЯ АТМОСФЕРНОГО ДАВЛЕНИЯ</strong></td>
+<td>Да</td>
+</tr>
+<tr>
+<td><strong> </strong></td>
+<td><strong>РЕЖИМ ОКРУЖАЮЩЕГО ЗВУКА</strong></td>
+<td>Да</td>
+</tr>
+</tbody>
+</table>
+				</div>
+											<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content " id="tab-additional_information" role="tabpanel" aria-labelledby="tab-title-additional_information">
+
+
+<table class="woocommerce-product-attributes shop_attributes">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_color">
+			<th class="woocommerce-product-attributes-item__label">Цвет</th>
+			<td class="woocommerce-product-attributes-item__value"><p>black, silver</p>
+</td>
+		</tr>
+	</table>
+				</div>
+
+					</div>
+	</div>
+
+
+	<div class="related related-products-wrapper product-section">
+
+					<h3 class="product-section-title container-width product-section-title-related pt-half pb-half uppercase">
+				Похожие товары			</h3>
+
+
+
+
+    <div class="row large-columns-5 medium-columns-3 small-columns-2 row-small slider row-slider slider-nav-reveal slider-nav-push"  data-flickity-options='{"imagesLoaded": true, "groupCells": "100%", "dragThreshold" : 5, "cellAlign": "left","wrapAround": true,"prevNextButtons": true,"percentPosition": true,"pageDots": false, "rightToLeft": false, "autoPlay" : false}'>
+
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-18096 status-publish outofstock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/wixb400/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2019/09/xb400.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/xb400-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2019/09/xb400-247x247.jpg 247w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2019/09/xb400.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2019/09/xb400.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2019/09/xb400.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/xb400-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2019/09/xb400-247x247.jpg 247w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2019/09/xb400-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/xb400-2-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2019/09/xb400-2.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2019/09/xb400-2.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2019/09/xb400-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/xb400-2-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18096" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WIXB400</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">999<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-18959 status-publish outofstock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/whch700n/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2018/03/whch700.jpeg 600w, https://sonycenter.md/wp-content/uploads/2018/03/whch700-100x100.jpeg 100w, https://sonycenter.md/wp-content/uploads/2018/03/whch700-520x520.jpeg 520w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2018/03/whch700.jpeg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2018/03/whch700.jpeg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2018/03/whch700.jpeg 600w, https://sonycenter.md/wp-content/uploads/2018/03/whch700-100x100.jpeg 100w, https://sonycenter.md/wp-content/uploads/2018/03/whch700-520x520.jpeg 520w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/ch700w.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/ch700w-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/ch700w-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/ch700w.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/ch700w.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/ch700w.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/ch700w-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/ch700w-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18959" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WHCH700N</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">2 599<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-18934 status-publish last outofstock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/wfsp900/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2-520x520.jpg 520w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2-247x247.jpg 247w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2-520x520.jpg 520w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-2-247x247.jpg 247w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3.jpg 600w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3-520x520.jpg 520w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3-200x200.jpg 200w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3.jpg 600w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3-520x520.jpg 520w, https://sonycenter.md/wp-content/uploads/2018/10/wfsp900-3-200x200.jpg 200w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18934" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WFSP900</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">4 599<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-18044 status-publish first outofstock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/wic600n/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/wic600-1.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-1-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/wic600-3-1-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18044" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WIC600N</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">2 399<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover product type-product post-5523 status-publish instock product_cat-besprovodnye-naushniki has-post-thumbnail sale featured shipping-taxable purchasable product-type-simple">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">Распродажа!</span></div></div>
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/mdr-zx220bt/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2016/12/MDRzx220L.jpg 600w, https://sonycenter.md/wp-content/uploads/2016/12/MDRzx220L-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2016/12/MDRzx220L.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2016/12/MDRzx220L.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2016/12/MDRzx220L.jpg 600w, https://sonycenter.md/wp-content/uploads/2016/12/MDRzx220L-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="5523" href="#quick-view">Быстрый просмотр</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">MDRZX220BT</h3></div><div class="price-wrapper">
+	<span class="price"><del><span class="woocommerce-Price-amount amount">799<span class="woocommerce-Price-currencySymbol"> lei</span></span></del> <ins><span class="woocommerce-Price-amount amount">599<span class="woocommerce-Price-currencySymbol"> lei</span></span></ins></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover product type-product post-18095 status-publish instock product_cat-besprovodnye-naushniki has-post-thumbnail sale shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">Распродажа!</span></div></div>
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/whch510/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2019/09/ch510.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/ch510-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2019/09/ch510-247x247.jpg 247w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2019/09/ch510.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2019/09/ch510.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2019/09/ch510.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/ch510-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2019/09/ch510-247x247.jpg 247w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2019/09/ch510-3.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/ch510-3-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2019/09/ch510-3.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2019/09/ch510-3.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2019/09/ch510-3.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/09/ch510-3-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18095" href="#quick-view">Быстрый просмотр</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WHCH510</h3></div><div class="price-wrapper">
+	<span class="price"><del><span class="woocommerce-Price-amount amount">899<span class="woocommerce-Price-currencySymbol"> lei</span></span></del> <ins><span class="woocommerce-Price-amount amount">799<span class="woocommerce-Price-currencySymbol"> lei</span></span></ins></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-4185 status-publish last outofstock product_cat-besprovodnye-naushniki has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+		<div class="callout badge badge-circle"><div class="badge-inner secondary on-sale"><span class="onsale">Распродажа!</span></div></div>
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/mdr-rf811/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2016/05/rf811.jpg 600w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-150x150.jpg 150w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-300x300.jpg 300w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-520x520.jpg 520w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2016/05/rf811.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2016/05/rf811.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2016/05/rf811.jpg 600w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-150x150.jpg 150w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-300x300.jpg 300w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-520x520.jpg 520w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2016/05/rf811-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-150x150.jpg 150w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-300x300.jpg 300w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-520x520.jpg 520w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2016/05/rf811-2.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2016/05/rf811-2.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2016/05/rf811-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-150x150.jpg 150w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-300x300.jpg 300w, https://sonycenter.md/wp-content/uploads/2016/05/rf811-2-520x520.jpg 520w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="4185" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">MDR-RF811</h3></div><div class="price-wrapper">
+	<span class="price"><del><span class="woocommerce-Price-amount amount">1 299<span class="woocommerce-Price-currencySymbol"> lei</span></span></del> <ins><span class="woocommerce-Price-amount amount">1 159<span class="woocommerce-Price-currencySymbol"> lei</span></span></ins></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-18915 status-publish first outofstock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/whxb700/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/xb700.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/xb700.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/xb700.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/xb700.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/xb700-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-2-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-2-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/xb700-2.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/xb700-2.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/xb700-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-2-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/xb700-2-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18915" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WHXB700</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">2 399<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover product type-product post-18899 status-publish instock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/whxb900/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2019/07/xb900-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/07/xb900-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2019/07/xb900-2-247x247.jpg 247w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2019/07/xb900-2.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2019/07/xb900-2.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2019/07/xb900-2.jpg 600w, https://sonycenter.md/wp-content/uploads/2019/07/xb900-2-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2019/07/xb900-2-247x247.jpg 247w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2020/03/xb900-4.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/xb900-4-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/xb900-4-100x100.jpg 100w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2020/03/xb900-4.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2020/03/xb900-4.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2020/03/xb900-4.jpg 600w, https://sonycenter.md/wp-content/uploads/2020/03/xb900-4-200x200.jpg 200w, https://sonycenter.md/wp-content/uploads/2020/03/xb900-4-100x100.jpg 100w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="18899" href="#quick-view">Быстрый просмотр</a>			</div>
+					</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WHXB900</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">4 199<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+
+<div class="product-small col has-hover out-of-stock product type-product post-6381 status-publish outofstock product_cat-besprovodnye-naushniki has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="col-inner">
+
+<div class="badge-container absolute left top z-1">
+</div>
+	<div class="product-small box ">
+		<div class="box-image">
+			<div class="image-fade_in_back">
+				<a href="https://sonycenter.md/ru/shop/wi1000x/">
+					<img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6.jpg 600w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-520x520.jpg 520w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6.jpg 600w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x6-520x520.jpg 520w" sizes="(max-width: 600px) 100vw, 600px" /></noscript><img width="600" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20600'%3E%3C/svg%3E" class="show-on-hover absolute fill hide-for-small back-image" alt="" data-lazy-srcset="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4.jpg 600w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4-520x520.jpg 520w" data-lazy-sizes="(max-width: 600px) 100vw, 600px" data-lazy-src="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4.jpg" /><noscript><img width="600" height="600" src="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4.jpg" class="show-on-hover absolute fill hide-for-small back-image" alt="" srcset="https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4.jpg 600w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4-100x100.jpg 100w, https://sonycenter.md/wp-content/uploads/2017/09/wi1000x4-520x520.jpg 520w" sizes="(max-width: 600px) 100vw, 600px" /></noscript>				</a>
+			</div>
+			<div class="image-tools is-small top right show-on-hover">
+							</div>
+			<div class="image-tools is-small hide-for-small bottom left show-on-hover">
+							</div>
+			<div class="image-tools grid-tools text-center hide-for-small bottom hover-slide-in show-on-hover">
+				  <a class="quick-view" data-prod="6381" href="#quick-view">Быстрый просмотр</a>			</div>
+			<div class="out-of-stock-label">Нет в наличии</div>		</div>
+
+		<div class="box-text box-text-products text-center grid-style-2">
+			<div class="title-wrapper">		<p class="category uppercase is-smaller no-text-overflow product-cat op-7">
+			Беспроводные наушники		</p>
+	<h3 class="woocommerce-loop-product__title">WI1000X</h3></div><div class="price-wrapper">
+	<span class="price"><span class="woocommerce-Price-amount amount">5 899<span class="woocommerce-Price-currencySymbol"> lei</span></span></span>
+</div>		</div>
+	</div>
+		</div>
+</div>
+
+
+		</div>
+	</div>
+
+			</div>
+  </div>
+</div>
+</div>
+
+
+	</div><!-- shop container -->
+
+</main>
+
+<footer id="footer" class="footer-wrapper">
+
+
+<!-- FOOTER 1 -->
+
+<!-- FOOTER 2 -->
+
+
+
+<div class="absolute-footer dark medium-text-center text-center">
+  <div class="container clearfix">
+
+          <div class="footer-secondary pull-right">
+                  <div class="footer-text inline-block small-block">
+            Copyright 2020 © <strong>Emit SA</strong>          </div>
+                <div class="payment-icons inline-block"><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M10.781 7.688c-0.251-1.283-1.219-1.688-2.344-1.688h-8.376l-0.061 0.405c5.749 1.469 10.469 4.595 12.595 10.501l-1.813-9.219zM13.125 19.688l-0.531-2.781c-1.096-2.907-3.752-5.594-6.752-6.813l4.219 15.939h5.469l8.157-20.032h-5.501l-5.062 13.688zM27.72 26.061l3.248-20.061h-5.187l-3.251 20.061h5.189zM41.875 5.656c-5.125 0-8.717 2.72-8.749 6.624-0.032 2.877 2.563 4.469 4.531 5.439 2.032 0.968 2.688 1.624 2.688 2.499 0 1.344-1.624 1.939-3.093 1.939-2.093 0-3.219-0.251-4.875-1.032l-0.688-0.344-0.719 4.499c1.219 0.563 3.437 1.064 5.781 1.064 5.437 0.032 8.97-2.688 9.032-6.843 0-2.282-1.405-4-4.376-5.439-1.811-0.904-2.904-1.563-2.904-2.499 0-0.843 0.936-1.72 2.968-1.72 1.688-0.029 2.936 0.314 3.875 0.752l0.469 0.248 0.717-4.344c-1.032-0.406-2.656-0.844-4.656-0.844zM55.813 6c-1.251 0-2.189 0.376-2.72 1.688l-7.688 18.374h5.437c0.877-2.467 1.096-3 1.096-3 0.592 0 5.875 0 6.624 0 0 0 0.157 0.688 0.624 3h4.813l-4.187-20.061h-4zM53.405 18.938c0 0 0.437-1.157 2.064-5.594-0.032 0.032 0.437-1.157 0.688-1.907l0.374 1.72c0.968 4.781 1.189 5.781 1.189 5.781-0.813 0-3.283 0-4.315 0z"></path>
+</svg>
+</div><div class="payment-icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 64 32">
+<path d="M42.667-0c-4.099 0-7.836 1.543-10.667 4.077-2.831-2.534-6.568-4.077-10.667-4.077-8.836 0-16 7.163-16 16s7.164 16 16 16c4.099 0 7.835-1.543 10.667-4.077 2.831 2.534 6.568 4.077 10.667 4.077 8.837 0 16-7.163 16-16s-7.163-16-16-16zM11.934 19.828l0.924-5.809-2.112 5.809h-1.188v-5.809l-1.056 5.809h-1.584l1.32-7.657h2.376v4.753l1.716-4.753h2.508l-1.32 7.657h-1.585zM19.327 18.244c-0.088 0.528-0.178 0.924-0.264 1.188v0.396h-1.32v-0.66c-0.353 0.528-0.924 0.792-1.716 0.792-0.442 0-0.792-0.132-1.056-0.396-0.264-0.351-0.396-0.792-0.396-1.32 0-0.792 0.218-1.364 0.66-1.716 0.614-0.44 1.364-0.66 2.244-0.66h0.66v-0.396c0-0.351-0.353-0.528-1.056-0.528-0.442 0-1.012 0.088-1.716 0.264 0.086-0.351 0.175-0.792 0.264-1.32 0.703-0.264 1.32-0.396 1.848-0.396 1.496 0 2.244 0.616 2.244 1.848 0 0.353-0.046 0.749-0.132 1.188-0.089 0.616-0.179 1.188-0.264 1.716zM24.079 15.076c-0.264-0.086-0.66-0.132-1.188-0.132s-0.792 0.177-0.792 0.528c0 0.177 0.044 0.31 0.132 0.396l0.528 0.264c0.792 0.442 1.188 1.012 1.188 1.716 0 1.409-0.838 2.112-2.508 2.112-0.792 0-1.366-0.044-1.716-0.132 0.086-0.351 0.175-0.836 0.264-1.452 0.703 0.177 1.188 0.264 1.452 0.264 0.614 0 0.924-0.175 0.924-0.528 0-0.175-0.046-0.308-0.132-0.396-0.178-0.175-0.396-0.308-0.66-0.396-0.792-0.351-1.188-0.924-1.188-1.716 0-1.407 0.792-2.112 2.376-2.112 0.792 0 1.32 0.045 1.584 0.132l-0.265 1.451zM27.512 15.208h-0.924c0 0.442-0.046 0.838-0.132 1.188 0 0.088-0.022 0.264-0.066 0.528-0.046 0.264-0.112 0.442-0.198 0.528v0.528c0 0.353 0.175 0.528 0.528 0.528 0.175 0 0.35-0.044 0.528-0.132l-0.264 1.452c-0.264 0.088-0.66 0.132-1.188 0.132-0.881 0-1.32-0.44-1.32-1.32 0-0.528 0.086-1.099 0.264-1.716l0.66-4.225h1.584l-0.132 0.924h0.792l-0.132 1.585zM32.66 17.32h-3.3c0 0.442 0.086 0.749 0.264 0.924 0.264 0.264 0.66 0.396 1.188 0.396s1.1-0.175 1.716-0.528l-0.264 1.584c-0.442 0.177-1.012 0.264-1.716 0.264-1.848 0-2.772-0.924-2.772-2.773 0-1.142 0.264-2.024 0.792-2.64 0.528-0.703 1.188-1.056 1.98-1.056 0.703 0 1.274 0.22 1.716 0.66 0.35 0.353 0.528 0.881 0.528 1.584 0.001 0.617-0.046 1.145-0.132 1.585zM35.3 16.132c-0.264 0.97-0.484 2.201-0.66 3.697h-1.716l0.132-0.396c0.35-2.463 0.614-4.4 0.792-5.809h1.584l-0.132 0.924c0.264-0.44 0.528-0.703 0.792-0.792 0.264-0.264 0.528-0.308 0.792-0.132-0.088 0.088-0.31 0.706-0.66 1.848-0.353-0.086-0.661 0.132-0.925 0.66zM41.241 19.697c-0.353 0.177-0.838 0.264-1.452 0.264-0.881 0-1.584-0.308-2.112-0.924-0.528-0.528-0.792-1.32-0.792-2.376 0-1.32 0.35-2.42 1.056-3.3 0.614-0.879 1.496-1.32 2.64-1.32 0.44 0 1.056 0.132 1.848 0.396l-0.264 1.584c-0.528-0.264-1.012-0.396-1.452-0.396-0.707 0-1.235 0.264-1.584 0.792-0.353 0.442-0.528 1.144-0.528 2.112 0 0.616 0.132 1.056 0.396 1.32 0.264 0.353 0.614 0.528 1.056 0.528 0.44 0 0.924-0.132 1.452-0.396l-0.264 1.717zM47.115 15.868c-0.046 0.264-0.066 0.484-0.066 0.66-0.088 0.442-0.178 1.035-0.264 1.782-0.088 0.749-0.178 1.254-0.264 1.518h-1.32v-0.66c-0.353 0.528-0.924 0.792-1.716 0.792-0.442 0-0.792-0.132-1.056-0.396-0.264-0.351-0.396-0.792-0.396-1.32 0-0.792 0.218-1.364 0.66-1.716 0.614-0.44 1.32-0.66 2.112-0.66h0.66c0.086-0.086 0.132-0.218 0.132-0.396 0-0.351-0.353-0.528-1.056-0.528-0.442 0-1.012 0.088-1.716 0.264 0-0.351 0.086-0.792 0.264-1.32 0.703-0.264 1.32-0.396 1.848-0.396 1.496 0 2.245 0.616 2.245 1.848 0.001 0.089-0.021 0.264-0.065 0.529zM49.69 16.132c-0.178 0.528-0.396 1.762-0.66 3.697h-1.716l0.132-0.396c0.35-1.935 0.614-3.872 0.792-5.809h1.584c0 0.353-0.046 0.66-0.132 0.924 0.264-0.44 0.528-0.703 0.792-0.792 0.35-0.175 0.614-0.218 0.792-0.132-0.353 0.442-0.574 1.056-0.66 1.848-0.353-0.086-0.66 0.132-0.925 0.66zM54.178 19.828l0.132-0.528c-0.353 0.442-0.838 0.66-1.452 0.66-0.707 0-1.188-0.218-1.452-0.66-0.442-0.614-0.66-1.232-0.66-1.848 0-1.142 0.308-2.067 0.924-2.773 0.44-0.703 1.056-1.056 1.848-1.056 0.528 0 1.056 0.264 1.584 0.792l0.264-2.244h1.716l-1.32 7.657h-1.585zM16.159 17.98c0 0.442 0.175 0.66 0.528 0.66 0.35 0 0.614-0.132 0.792-0.396 0.264-0.264 0.396-0.66 0.396-1.188h-0.397c-0.881 0-1.32 0.31-1.32 0.924zM31.076 15.076c-0.088 0-0.178-0.043-0.264-0.132h-0.264c-0.528 0-0.881 0.353-1.056 1.056h1.848v-0.396l-0.132-0.264c-0.001-0.086-0.047-0.175-0.133-0.264zM43.617 17.98c0 0.442 0.175 0.66 0.528 0.66 0.35 0 0.614-0.132 0.792-0.396 0.264-0.264 0.396-0.66 0.396-1.188h-0.396c-0.881 0-1.32 0.31-1.32 0.924zM53.782 15.076c-0.353 0-0.66 0.22-0.924 0.66-0.178 0.264-0.264 0.749-0.264 1.452 0 0.792 0.264 1.188 0.792 1.188 0.35 0 0.66-0.175 0.924-0.528 0.264-0.351 0.396-0.879 0.396-1.584-0.001-0.792-0.311-1.188-0.925-1.188z"></path>
+</svg>
+</div></div>      </div>
+
+    <div class="footer-primary pull-left">
+              <div class="menu-footer-bottom-menu-container"><ul id="menu-footer-bottom-menu" class="links footer-nav uppercase"><li id="menu-item-3625" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3625"><a href="https://sonycenter.md/ru/dostavka/">Доставка</a></li>
+<li id="menu-item-6685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6685"><a href="https://sonycenter.md/ru/pravila/">Правила</a></li>
+<li id="menu-item-3245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3245"><a href="https://sonycenter.md/ru/pravila/">Как купить</a></li>
+<li id="menu-item-5803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-5803"><a href="https://sonycenter.md/ru/politika-konfidencialnosti/">Политика конфиденциальности</a></li>
+</ul></div>            <div class="copyright-footer">
+        Made with ❤ by <a href="https://emarketing.md" style="color:#5865f5">EMarketing.md<a>      </div>
+          </div>
+  </div>
+</div>
+<a href="#top" class="back-to-top button icon invert plain fixed bottom z-1 is-outline hide-for-medium circle" id="top-link"><i class="icon-angle-up" ></i></a>
+
+</footer>
+
+</div>
+
+<!-- Mobile Sidebar -->
+<div id="main-menu" class="mobile-sidebar no-scrollbar mfp-hide">
+    <div class="sidebar-menu no-scrollbar ">
+        <ul class="nav nav-sidebar  nav-vertical nav-uppercase">
+              <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8124"><a>Телевизоры</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18224"><a href="https://sonycenter.md/ru/category/televizory/televizory-led/">Телевизоры LED Full HD</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18225"><a href="https://sonycenter.md/ru/category/televizory/4k-led-televizory/">Телевизоры LED 4K</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8395"><a href="https://sonycenter.md/ru/category/televizory/oled-televizory/">Телевизоры OLED</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18223"><a href="https://sonycenter.md/ru/category/televizory/televizory-8k/">Телевизоры 8K</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8401"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/">Аксессуары для телевизоров</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8125"><a>Аудио</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8385"><a href="https://sonycenter.md/ru/category/audiosistemy/sistemy-hi-fi/">Системы Hi-Fi</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8391"><a href="https://sonycenter.md/ru/category/audiosistemy/besprovodnye-audiosistemy/">Беспроводные аудиосистемы</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8402"><a href="https://sonycenter.md/ru/category/audiosistemy/">Аудиосистемы</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18606"><a href="https://sonycenter.md/ru/category/audiosistemy/saundbary/">Саундбары</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8413"><a href="https://sonycenter.md/ru/category/audiosistemy/mp3mp4-pleery/">Плееры Walkman®</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-product-ancestor menu-item-19734"><a href="https://sonycenter.md/ru/category/naushniki/">Наушники</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18608"><a href="https://sonycenter.md/ru/category/audiosistemy/domashnie-kinoteatry/">Домашние кинотеатры</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8411"><a href="https://sonycenter.md/ru/category/audiosistemy/portativnye-cd-proigryvateli/">Портативные CD проигрыватели</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19775"><a href="https://sonycenter.md/ru/category/audiosistemy/vinilovyj-proigryvatel/">Виниловые проигрыватели</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19736"><a href="https://sonycenter.md/ru/category/audiosistemy/avtomobilnye-audiosistemy/">Автомобильные аудиосистемы</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-19733"><a href="https://sonycenter.md/ru/category/tsifrovye-diktofony/">Цифровые диктофоны</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8126"><a>Фото и Фотоаксессуары</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8382"><a href="https://sonycenter.md/ru/category/photos/kamery-alpha/">Камеры α (Alpha)</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8390"><a href="https://sonycenter.md/ru/category/photos/kamery-cybershot-serii-rx/">Камеры CyberShot серии RX</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8393"><a href="https://sonycenter.md/ru/category/photos/cybershot-seriya-hx/">Камеры CyberShot серии HX</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8381"><a href="https://sonycenter.md/ru/category/aksessuary/obektivy-serii/">Объективы Alpha</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18639"><a href="https://sonycenter.md/ru/category/aksessuary/shtativy/">Штативы</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18640"><a href="https://sonycenter.md/ru/category/aksessuary/vspyshki-i-lampy/">Вспышки и лампы</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18641"><a href="https://sonycenter.md/ru/category/aksessuary/chehly-sumki-i-remni/">Чехлы, сумки и ремни</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8127"><a>Видео и аксессуары</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18227"><a href="https://sonycenter.md/ru/category/cameras/video-4k/">Видеокамеры 4K</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18226"><a href="https://sonycenter.md/ru/category/cameras/actioncam/">ActionCam</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8412"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/skype-kamera/">Skype камера</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8128"><a>PlayStation</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-18338"><a href="https://sonycenter.md/ru/category/playstation/konsoli-ps4/">Консоли PlayStation</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8383"><a href="https://sonycenter.md/ru/category/playstation/igry-ps4/">Игры для PlayStation</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8396"><a href="https://sonycenter.md/ru/category/playstation/aksessuary-dlja-playstation/">Аксессуары для PlayStation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8129"><a>Прочее</a>
+<ul class="sub-menu nav-sidebar-ul children">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8384"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/karty-pamyati/">Карты памяти</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8387"><a href="https://sonycenter.md/ru/category/aksessuary/chehly-sumki-i-remni/">Чехлы, сумки и ремни</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8388"><a href="https://sonycenter.md/ru/category/aksessuary/zaryadnye-ustrojstva/">Зарядные устройства</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8389"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/usb-nosideli/">USB носители</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8392"><a href="https://sonycenter.md/ru/category/aksessuary-dlya-televizora/kabeli/">Кабели</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8399"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/vneshnie-zhestkie-diski/">Внешние жесткие диски</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8403"><a href="https://sonycenter.md/ru/category/nositeli-informatsii-i-elementy-pitaniya/">Носители информации и элементы питания</a></li>
+</ul>
+</li>
+<li class="header-search-form search-form html relative has-icon">
+	<div class="header-search-form-wrapper">
+		<div class="searchform-wrapper ux-search-box relative form-flat is-normal"><form role="search" method="get" class="searchform" action="https://sonycenter.md/ru/">
+	<div class="flex-row relative">
+						<div class="flex-col flex-grow">
+			<label class="screen-reader-text" for="woocommerce-product-search-field-2">Искать:</label>
+			<input type="search" id="woocommerce-product-search-field-2" class="search-field mb-0" placeholder="Поиск&hellip;" value="" name="s" />
+			<input type="hidden" name="post_type" value="product" />
+							<input type="hidden" name="lang" value="ru" />
+					</div>
+		<div class="flex-col">
+			<button type="submit" value="Поиск" class="ux-search-submit submit-button secondary button icon mb-0">
+				<i class="icon-search" ></i>			</button>
+		</div>
+	</div>
+	<div class="live-search-results text-left z-top"></div>
+</form>
+</div>	</div>
+</li><li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-287"><a href="https://sonycenter.md/ru/shop/">КАТАЛОГ ТОВАРОВ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3622"><a href="https://sonycenter.md/ru/dostavka/">ДОСТАВКА</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://sonycenter.md/ru/contact/">КОНТАКТЫ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4910"><a href="https://sonycenter.md/ru/garantiya/">ГАРАНТИЯ</a></li>
+<li class="html header-social-icons ml-0">
+	<div class="social-icons follow-icons" ><a href="http://#" target="_blank" data-label="Facebook"  rel="noopener noreferrer nofollow" class="icon plain facebook tooltip" title="Мы на Фэйсбуке"><i class="icon-facebook" ></i></a><a href="http://#" target="_blank" rel="noopener noreferrer nofollow" data-label="Instagram" class="icon plain  instagram tooltip" title="Мы на Инстаграме"><i class="icon-instagram" ></i></a><a href="http://#" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon plain  youtube tooltip" title="Мы на YouTube"><i class="icon-youtube" ></i></a></div></li>        </ul>
+    </div>
+</div>
+<a href="tel:+373 060 874759" id="callnowbutton" onclick="ga('send', 'event', 'Contact', 'Call Now Button', 'Phone');"><span>Call Now Button</span></a>    <div id="login-form-popup" class="lightbox-content mfp-hide">
+            <div class="woocommerce-notices-wrapper"></div>
+<div class="account-container lightbox-inner">
+
+
+	<div class="col2-set row row-divided row-large" id="customer_login">
+
+		<div class="col-1 large-6 col pb-0">
+
+
+			<div class="account-login-inner">
+
+				<h3 class="uppercase">Авторизация</h3>
+
+				<form class="woocommerce-form woocommerce-form-login login" method="post">
+
+
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="username">Имя пользователя или email&nbsp;<span class="required">*</span></label>
+						<input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="" />					</p>
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="password">Пароль&nbsp;<span class="required">*</span></label>
+						<input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password" />
+					</p>
+
+
+					<p class="form-row">
+						<label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+							<input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span>Запомнить меня</span>
+						</label>
+						<input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="499257d6de" /><input type="hidden" name="_wp_http_referer" value="/ru/shop/wh1000xm3/" />						<button type="submit" class="woocommerce-Button button woocommerce-form-login__submit" name="login" value="Войти">Войти</button>
+					</p>
+					<p class="woocommerce-LostPassword lost_password">
+						<a href="https://sonycenter.md/ru/my-account/lost-password/">Забыли свой пароль?</a>
+					</p>
+
+
+				</form>
+			</div>
+
+
+		</div>
+
+		<div class="col-2 large-6 col pb-0">
+
+			<div class="account-register-inner">
+
+				<h3 class="uppercase">Регистрация</h3>
+
+				<form method="post" class="woocommerce-form woocommerce-form-register register"  >
+
+
+
+					<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+						<label for="reg_email">Email&nbsp;<span class="required">*</span></label>
+						<input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" autocomplete="email" value="" />					</p>
+
+
+						<p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+							<label for="reg_password">Пароль&nbsp;<span class="required">*</span></label>
+							<input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password" autocomplete="new-password" />
+						</p>
+
+
+					<div class="woocommerce-privacy-policy-text"><p>Ваши личные данные будут использоваться для упрощения вашей работы с сайтом, управления доступом к вашей учётной записи и для других целей, описанных в нашей <a href="https://sonycenter.md/ru/politika-konfidencialnosti/" class="woocommerce-privacy-policy-link" target="_blank">политика конфиденциальности</a>.</p>
+</div>
+					<p class="woocommerce-FormRow form-row">
+						<input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="db7a32481e" /><input type="hidden" name="_wp_http_referer" value="/ru/shop/wh1000xm3/" />						<button type="submit" class="woocommerce-Button button" name="register" value="Регистрация">Регистрация</button>
+					</p>
+
+
+				</form>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+          </div>
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@graph":[{"@context":"https:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"name":"\u0413\u043b\u0430\u0432\u043d\u0430\u044f","@id":"https:\/\/sonycenter.md\/ru\/"}},{"@type":"ListItem","position":2,"item":{"name":"\u041c\u0430\u0433\u0430\u0437\u0438\u043d","@id":"https:\/\/sonycenter.md\/ru\/shop\/"}},{"@type":"ListItem","position":3,"item":{"name":"\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438","@id":"https:\/\/sonycenter.md\/ru\/category\/naushniki\/"}},{"@type":"ListItem","position":4,"item":{"name":"\u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438","@id":"https:\/\/sonycenter.md\/ru\/category\/naushniki\/besprovodnye-naushniki\/"}},{"@type":"ListItem","position":5,"item":{"name":"WH1000XM3","@id":"https:\/\/sonycenter.md\/ru\/shop\/wh1000xm3\/"}}]},{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"https:\/\/sonycenter.md\/ru\/shop\/wh1000xm3\/#product","name":"WH1000XM3","url":"https:\/\/sonycenter.md\/ru\/shop\/wh1000xm3\/","description":"\u0414\u0438\u0430\u043f\u0430\u0437\u043e\u043d \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u043c\u044b\u0445 \u0447\u0430\u0441\u0442\u043e\u0442 :\u00a04\u201340\u00a0000\u00a0\u0413\u0446\r\n \t\u0414\u0438\u043d\u0430\u043c\u0438\u043a : 40 \u043c\u043c\r\n \t\u0412\u0440\u0435\u043c\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430 : \u0434\u043e 38 \u0447\u0430\u0441\u043e\u0432\r\n \tBluetooth : \u0414\u0430","image":"https:\/\/sonycenter.md\/wp-content\/uploads\/2018\/09\/1000xm3.jpg","sku":18035,"offers":[{"@type":"Offer","price":"5799","priceValidUntil":"2021-12-31","priceSpecification":{"price":"5799","priceCurrency":"MDL","valueAddedTaxIncluded":"false"},"priceCurrency":"MDL","availability":"http:\/\/schema.org\/OutOfStock","url":"https:\/\/sonycenter.md\/ru\/shop\/wh1000xm3\/","seller":{"@type":"Organization","name":"SONY","url":"https:\/\/sonycenter.md\/ru\/"}}]}]}</script>	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Этот товар недоступен. Пожалуйста, выберите другую комбинацию.</p>
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/sonycenter.md\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/contact-form-7/includes/js/scripts-5.1.7.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0441\u0442\u0430\u0432\u044c\u0442\u0435 \u043e\u0446\u0435\u043d\u043a\u0443","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min-4.0.1.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min-2.70.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min-2.1.4.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/ru\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min-4.0.1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/ru\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_4d3cfa47bd7a5ea12ffb7f1cfe16a1fa-ru","fragment_name":"wc_fragments_4d3cfa47bd7a5ea12ffb7f1cfe16a1fa","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min-4.0.1.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-includes/js/hoverIntent.min-1.8.1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var flatsomeVars = {"ajaxurl":"https:\/\/sonycenter.md\/wp-admin\/admin-ajax.php","rtl":"","sticky_height":"53","lightbox":{"close_markup":"<button title=\"%title%\" type=\"button\" class=\"mfp-close\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-x\"><line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"><\/line><line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"><\/line><\/svg><\/button>","close_btn_inside":false},"user":{"can_edit_pages":false}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/assets/js/flatsome-3.11.0.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/inc/integrations/wp-rocket/flatsome-wp-rocket-3.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/inc/extensions/flatsome-instant-page/flatsome-instant-page-1.2.1.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/inc/extensions/flatsome-live-search/flatsome-live-search-3.11.0.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce-multilingual/res/js/front-scripts.min-4.8.0.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actions = {"is_lang_switched":"0","force_reset":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce-multilingual/res/js/cart_widget.min-4.8.0.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/themes/flatsome/assets/js/woocommerce-3.11.0.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-includes/js/comment-reply.min-5f8342dfc8fe836c77ab17866611dca7.js'></script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-includes/js/underscore.min-1.8.3.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-includes/js/wp-util.min-5f8342dfc8fe836c77ab17866611dca7.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/ru\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"\u0416\u0430\u043b\u044c, \u043d\u043e \u0442\u043e\u0432\u0430\u0440\u043e\u0432, \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u0432\u0430\u0448\u0435\u043c\u0443 \u0432\u044b\u0431\u043e\u0440\u0443, \u043d\u0435 \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u043e. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0443\u044e \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u044e.","i18n_make_a_selection_text":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043e\u043f\u0446\u0438\u0438 \u0442\u043e\u0432\u0430\u0440\u0430 \u043f\u0435\u0440\u0435\u0434 \u0435\u0433\u043e \u0434\u043e\u0431\u0430\u0432\u043b\u0435\u043d\u0438\u0435\u043c \u0432 \u0432\u0430\u0448\u0443 \u043a\u043e\u0440\u0437\u0438\u043d\u0443.","i18n_unavailable_text":"\u042d\u0442\u043e\u0442 \u0442\u043e\u0432\u0430\u0440 \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u0443\u044e \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u044e."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min-4.0.1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _zxcvbnSettings = {"src":"https:\/\/sonycenter.md\/wp-includes\/js\/zxcvbn.min.js"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-includes/js/zxcvbn-async.min-1.0.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pwsL10n = {"unknown":"\u041d\u0430\u0434\u0451\u0436\u043d\u043e\u0441\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044f \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u0430","short":"\u041e\u0447\u0435\u043d\u044c \u0441\u043b\u0430\u0431\u044b\u0439","bad":"\u0421\u043b\u0430\u0431\u044b\u0439","good":"\u0421\u0440\u0435\u0434\u043d\u0438\u0439","strong":"\u041d\u0430\u0434\u0451\u0436\u043d\u044b\u0439","mismatch":"\u041d\u0435\u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-admin/js/password-strength-meter.min-5f8342dfc8fe836c77ab17866611dca7.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_password_strength_meter_params = {"min_password_strength":"3","stop_checkout":"","i18n_password_error":"\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0431\u043e\u043b\u0435\u0435 \u043d\u0430\u0434\u0451\u0436\u043d\u044b\u0439 \u043f\u0430\u0440\u043e\u043b\u044c.","i18n_password_hint":"\u041f\u043e\u0434\u0441\u043a\u0430\u0437\u043a\u0430: \u0420\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f \u0437\u0430\u0434\u0430\u0442\u044c \u043f\u0430\u0440\u043e\u043b\u044c \u0434\u043b\u0438\u043d\u043e\u0439 \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 \u0434\u0432\u0435\u043d\u0430\u0434\u0446\u0430\u0442\u0438 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432. \u0427\u0442\u043e\u0431\u044b \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0435\u0433\u043e \u043d\u0430\u0434\u0451\u0436\u043d\u0435\u0435, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0431\u0443\u043a\u0432\u044b \u0432\u0435\u0440\u0445\u043d\u0435\u0433\u043e \u0438 \u043d\u0438\u0436\u043d\u0435\u0433\u043e \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430, \u0447\u0438\u0441\u043b\u0430 \u0438 \u0441\u0438\u043c\u0432\u043e\u043b\u044b \u043d\u0430\u043f\u043e\u0434\u043e\u0431\u0438\u0435 ! \" ? $ % ^ & )."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://sonycenter.md/wp-content/cache/busting/1/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min-4.0.1.js'></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){return}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){return}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://sonycenter.md/wp-content/plugins/wp-rocket/assets/js/lazyload/12.0/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img loading="lazy" data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<div class="play"></div>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="https://www.youtube.com/embed/ID?autoplay=1";t+=0===this.dataset.query.length?'':'&'+this.dataset.query;e.setAttribute("src",t.replace("ID",this.dataset.id)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.replaceChild(e,this)}document.addEventListener("DOMContentLoaded",function(){var e,t,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.innerHTML=lazyLoadThumb(a[t].dataset.id),e.onclick=lazyLoadYoutubeIframe,a[t].appendChild(e)});</script>
+</body>
+</html>
+<!-- Rocket no webp -->
+<!-- Cached by WP-Optimize (gzip) - https://getwpo.com - Last modified: Fri, 17 Apr 2020 08:56:11 GMT -->

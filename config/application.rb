@@ -62,7 +62,8 @@ module SalesBot
         Parsers::VizajenicaParser,
         Parsers::CultbeautyParser,
         Parsers::PegasParser,
-        Parsers::AlcomarketParser
+        Parsers::AlcomarketParser,
+        Parsers::SonycenterParser
       ]
     end
   end

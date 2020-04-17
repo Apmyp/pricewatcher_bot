@@ -111,4 +111,8 @@ RSpec.describe Parsers::ParserChooser do
   include_examples 'Host checker',
                    'https://alcomarket.md/ru/product/viski-jack-daniel-s-035l/',
                    Parsers::AlcomarketParser
+
+  include_examples 'Host checker',
+                   'https://sonycenter.md/ru/shop/wh-l600/',
+                   Parsers::SonycenterParser
 end
