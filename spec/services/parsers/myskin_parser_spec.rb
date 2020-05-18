@@ -9,11 +9,11 @@ RSpec.describe Parsers::MyskinParser do
          '%D0%BB%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9-%D0%BA%D0%BE%D0%B6%D0%B8-60'\
          '%D0%BC%D0%BB'
   parser_hash_item = {
-    name: 'SOME BY ME Восстанавливающий крем для проблемной кожи, 60мл.',
-    price: '315',
-    image: 'https://myskin.md/img/p/3358/3358.jpg',
+    name: 'Deoproce Тонep с экстрактом зеленого чая, 260 мл',
+    price: '145',
+    image: 'https://myskin.md/img/p/3767/3767.jpg',
     currency: 'MDL',
-    availability: true
+    availability: false
   }
 
   include_examples 'Parser',
