@@ -9,7 +9,7 @@ module Parsers
 
       def paths
         [
-            %r{/[^\/]*/product/[^\/]*/?}
+          %r{/[^\/]*/product/[^\/]*/?}
         ]
       end
     end
@@ -17,16 +17,16 @@ module Parsers
     private
 
     def name
-      doc.xpath('//*[@id="content"]/div[1]/h1')&.first&.text&.strip
+      doc.xpath('//*[@id="content"]/div[1]/h1').first.text.strip
     end
 
     def image
-      doc.xpath('//*[@id="imgCoverSingle"]/img')&.first['data-src']&.strip
+      doc.xpath('//*[@id="imgCoverSingle"]/img').first['data-src'].strip
     end
 
     def price
       css = 'span[id*="productPrice-"]'
-      doc.css(css)&.first&.text&.strip&.to_i&.to_s
+      doc.css(css).first.text.strip.to_i.to_s
     end
 
     def currency
@@ -34,7 +34,7 @@ module Parsers
     end
 
     def availability
-      el = doc.at('//*[@id="content"]/div[2]/div[5]/div[5]')&.text
+      el = doc.at('//*[@id="content"]/div[2]/div[5]/div[5]').text
 
       el == 'Есть в наличии'
     end
