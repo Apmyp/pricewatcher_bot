@@ -8,5 +8,7 @@ class ParseLinkJob < ApplicationJob
     link_item, = Links::PerformLink.call(link)
 
     UpdatedLinkJob.perform_later(link) if link_item.present?
+  rescue Parsers::NotOkException
+    nil
   end
 end
