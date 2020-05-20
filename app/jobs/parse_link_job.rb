@@ -8,7 +8,9 @@ class ParseLinkJob < ApplicationJob
     link_item, = Links::PerformLink.call(link)
 
     UpdatedLinkJob.perform_later(link) if link_item.present?
-  rescue Parsers::NotOkException
+  rescue Parsers::NotOkException,
+         Dry::Struct::Error,
+         Parsers::ParserChooser::ParserNotFoundException
     nil
   end
 end
