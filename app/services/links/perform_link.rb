@@ -52,7 +52,7 @@ module Links
     def perform_error
       request = save_request(:error)
 
-      Links::DisableLink.call(link) if link.reload.errors_count >= 3
+      Links::DisableLink.call(link) if link.reload.errors_count >= 9
 
       Rails.logger.info("[link:#{link.id}][host:#{link.host}]"\
 "[request:#{request.id}] "\

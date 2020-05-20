@@ -41,19 +41,5 @@ module Parsers
     def availability
       doc.css('li .price-box.flex.unstyled li.instock').first.present?
     end
-
-    protected
-
-    def fetch
-      @fetch ||= begin
-                   fetch_body
-                 rescue OpenURI::HTTPError => e
-                   raise Parsers::NotOkException unless e.io.status[0] == '500'
-
-                   e.io.read
-                 rescue StandardError
-                   raise Parsers::NotOkException
-                 end
-    end
   end
 end

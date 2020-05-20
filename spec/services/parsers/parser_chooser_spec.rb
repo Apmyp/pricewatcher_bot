@@ -41,6 +41,11 @@ RSpec.describe Parsers::ParserChooser do
                    Parsers::PumaMoldovaParser
 
   include_examples 'Host checker',
+                   'https://origin.md/ru/product/'\
+                   'tufli-clarks-batcombe-wing-burgundy-leather',
+                   Parsers::OriginParser
+
+  include_examples 'Host checker',
                    'https://myskin.md/ru/product/966-SOME-BY-ME-'\
                    '%D0%92%D0%BE%D1%81%D1%81%D1%82%D0'\
                    '%B0%D0%BD%D0%B0%D0%B2%D0%BB%D0%B8%'\

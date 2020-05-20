@@ -47,8 +47,8 @@ RSpec.describe Links::PerformLink do
     include_examples 'Parser raises error',
                      Parsers::ParserChooser::ParserNotFoundException
 
-    it 'disables link when 3 errors occured' do
-      create_list(:request, 3, link: link, status: :error)
+    it 'disables link when 9 errors occured' do
+      create_list(:request, 9, link: link, status: :error)
       allow(parser_dbl).to receive(:call).and_raise(Dry::Struct::Error)
       allow(parser_dbl).to receive(:to_html).and_return('test')
 
