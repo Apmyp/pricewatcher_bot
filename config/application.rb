@@ -50,7 +50,6 @@ module SalesBot
     config.after_initialize do
       Parsers::ParserChooser.parsers += [
         Parsers::PumaMoldovaParser,
-        Parsers::OriginParser,
         Parsers::MyskinParser,
         Parsers::MoonglowParser,
         Parsers::InglotParser,
