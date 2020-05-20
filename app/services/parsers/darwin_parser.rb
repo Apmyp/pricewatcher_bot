@@ -17,14 +17,14 @@ module Parsers
     private
 
     def name
-      doc.at("meta[property='og:title']")['content']
+      doc.at("meta[property='og:title']").try(:to_h).try(:fetch, 'content')
          .gsub(' - на darwin.md', '')
          .gsub(' - pe darwin.md', '')
          .strip
     end
 
     def image
-      doc.at("meta[property='og:image']")['content']
+      doc.at("meta[property='og:image']").try(:to_h).try(:fetch, 'content')
     end
 
     def price

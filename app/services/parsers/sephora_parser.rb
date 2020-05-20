@@ -17,13 +17,15 @@ module Parsers
     private
 
     def name
-      doc.at("meta[property='og:title']")['content']
+      doc.at("meta[property='og:title']").try(:to_h).try(:fetch, 'content')
          .strip
          .sub(/\s\|\sSephora$/, '')
     end
 
     def image
-      img = doc.at("meta[property='og:image']")['content']
+      img = doc.at("meta[property='og:image']")
+               .try(:to_h)
+               .try(:fetch, 'content')
       "https://#{self.class.host}#{img}"
     end
 

@@ -17,23 +17,32 @@ module Parsers
     private
 
     def name
-      doc.at("meta[property='og:title']")['content']
+      doc.at("meta[property='og:title']").try(:to_h).try(:fetch, 'content')
     end
 
     def image
-      doc.at("meta[property='og:image']")['content']
+      doc.at("meta[property='og:image']").try(:to_h).try(:fetch, 'content')
     end
 
     def price
-      doc.at("meta[property='product:price:amount']")['content'].strip.to_i.to_s
+      doc.at("meta[property='product:price:amount']")
+         .try(:to_h)
+         .try(:fetch, 'content')
+         .strip
+         .to_i
+         .to_s
     end
 
     def currency
-      doc.at("meta[property='product:price:currency']")['content']
+      doc.at("meta[property='product:price:currency']")
+         .try(:to_h)
+         .try(:fetch, 'content')
     end
 
     def availability
-      doc.at("meta[property='product:availability']")['content']
+      doc.at("meta[property='product:availability']")
+         .try(:to_h)
+         .try(:fetch, 'content')
          .to_s == 'in stock'
     end
   end

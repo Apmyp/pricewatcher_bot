@@ -21,7 +21,7 @@ module Parsers
     end
 
     def image
-      doc.at("meta[property='og:image']")['content']
+      doc.at("meta[property='og:image']").try(:to_h).try(:fetch, 'content')
     end
 
     def price
