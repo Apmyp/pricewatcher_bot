@@ -30,7 +30,7 @@ module Parsers
     end
 
     def to_html
-      fetch_body
+      fetch
     end
 
     protected
@@ -39,6 +39,8 @@ module Parsers
 
     def fetch
       @fetch ||= begin
+                   raise Parsers::NotOkException unless fetch_status_code == 200
+
                    fetch_body
                  rescue OpenURI::HTTPError, StandardError
                    raise Parsers::NotOkException
