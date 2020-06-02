@@ -26,10 +26,10 @@ Pricewatcher is a telegram bot who detect price change. Tell about at least one 
 - [x] Realize telegram integration
 - [x] Run bot [@apm_pricewatcher_bot](https://t.me/apm_pricewatcher_bot)
 - [x] Give a way to add parsers
-- [ ] Run rspec, rubocop and brakeman in CircleCI
+- [x] Run rspec, rubocop and brakeman in CircleCI
 - [ ] Schedule deletion of too old links
 - [ ] Collect events and create read models
-- [ ] Schedule sending statistics in the regular basis 
+- [x] Schedule sending statistics in the regular basis 
 
 ## Contact us 
 <table>

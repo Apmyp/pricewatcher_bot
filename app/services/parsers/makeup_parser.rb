@@ -26,11 +26,8 @@ module Parsers
     end
 
     def price
-      doc.css('meta[itemprop="price"]')
-         .first['content']
-         .strip
-         .to_i
-         .to_s
+      selectors = ['meta[itemprop="price"]', '[itemprop="price"]']
+      normalize_number(try_selectors(selectors))
     end
 
     def currency

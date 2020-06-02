@@ -50,4 +50,20 @@ RSpec.describe Parsers::MakeupParser do
                      link,
                      parser_hash_item
   end
+
+  context 'updated_markup_with_no_meta_price' do
+    link = 'https://makeup.md/ru/product/463763/'
+    parser_hash_item = {
+      name: 'Pensulă pentru farduri de ochi 228',
+      price: '319',
+      image: 'https://i.makeup.md/f/f0/f0kiditvucud.jpg',
+      currency: 'MDL',
+      availability: true
+    }
+
+    include_examples 'Parser',
+                     'makeup_with_no_meta_price',
+                     link,
+                     parser_hash_item
+  end
 end

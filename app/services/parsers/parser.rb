@@ -62,5 +62,29 @@ module Parsers
     def fetch_status_code
       @fetch_status_code ||= fetch_uri.status[0].to_i
     end
+
+    def normalize_number(number)
+      number.try(:strip).try(:to_i).try(:to_s)
+    end
+
+    def try_selectors(selectors)
+      selectors.map do |selector|
+        el = doc.css(selector)
+        next nil if el.blank?
+
+        first_el = el.first
+        next nil if first_el.blank?
+
+        get_el_content(first_el)
+      end.select(&:present?).first
+    end
+
+    def get_el_content(element)
+      if element.try(:to_h).try(:fetch, 'content', nil).present?
+        element.try(:to_h).try(:fetch, 'content')
+      elsif element.try(:text).present?
+        element.try(:text)
+      end
+    end
   end
 end
