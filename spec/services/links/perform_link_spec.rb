@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe Links::PerformLink do
-  let(:link) { create(:link) }
+  let(:link) { create(:link, errors_count: 5) }
   let(:parser_item) { build(:parser_item, price: '1330') }
 
   let(:parser_dbl) do
@@ -88,6 +88,16 @@ RSpec.describe Links::PerformLink do
         expect(described_class.call(link)).to(
           eq([link.active_link_item, { price: '1330' }])
         )
+      end
+
+      it 'reset errors count' do
+        expect(Links::AttachLinkItem).to(
+          receive(:call).with(link, parser_item).and_return(link_item)
+        )
+
+        described_class.call(link)
+
+        expect(link.reload.errors_count).to eq(0)
       end
     end
 

@@ -20,12 +20,19 @@ module Links
 
     attr_reader :link
 
+    def reset_errors_count
+      # rubocop:disable Rails/SkipsModelValidations
+      link.update_attribute(:errors_count, 0)
+      # rubocop:enable Rails/SkipsModelValidations
+    end
+
     def perform_parser_item
       if link.link_items.empty?
         return [AttachLinkItem.call(link, parser_item), nil]
       end
 
       diff = item_data_differs?(link, parser_item)
+      reset_errors_count
       return [AttachLinkItem.call(link, parser_item), diff] unless diff.nil?
 
       [nil, nil]
