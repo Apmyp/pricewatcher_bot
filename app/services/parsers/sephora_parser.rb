@@ -17,9 +17,9 @@ module Parsers
     private
 
     def name
-      doc.at("meta[property='og:title']").try(:to_h).try(:fetch, 'content')
-         .strip
-         .sub(/\s\|\sSephora$/, '')
+      try_selectors(["meta[property='og:title']", 'div > h1'])
+        &.gsub(/\|\sSephora/, '')
+        &.strip
     end
 
     def image
