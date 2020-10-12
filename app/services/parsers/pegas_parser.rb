@@ -21,7 +21,7 @@ module Parsers
     end
 
     def image
-      path = doc.css('.preview img')&.first&.fetch('src', '')&.strip
+      path = doc.css('.preview img')&.first&.to_h&.fetch('src', '')&.strip
       "https://#{self.class.host}#{path}" if path
     end
 
