@@ -9,7 +9,7 @@ module Parsers
 
       def paths
         [
-          %r{/[^\/]*/pages/[^\/]*/[^\/]*/[^\/]*/[^\/]*/[^\/]*/?}
+          %r{/[^\/]*/pages/shop/[^\/]*/[^\/]*/[^\/]*/[^\/]*/?}
         ]
       end
     end
@@ -17,21 +17,21 @@ module Parsers
     private
 
     def name
-      doc.css('.p_descr h1').first.text.strip
+      doc.css('.p_descr h1')&.first&.text&.strip
     end
 
     def image
-      path = doc.css('.preview img').first['src'].strip
-      "https://#{self.class.host}#{path}"
+      path = doc.css('.preview img')&.first&.fetch('src', '')&.strip
+      "https://#{self.class.host}#{path}" if path
     end
 
     def price
       doc.css('.p_descr .price strong')
-         .first
-         .text
-         .strip
-         .to_i
-         .to_s
+         &.first
+         &.text
+         &.strip
+         &.to_i
+         &.to_s
     end
 
     def currency
