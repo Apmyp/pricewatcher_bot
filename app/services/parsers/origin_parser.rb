@@ -24,17 +24,17 @@ module Parsers
     end
 
     def image
-      href = doc.xpath('//*[@id="zoom1"]').first['href']
+      href = doc.xpath('//*[@id="zoom1"]')&.first.try(:[], 'href')
 
       "https://#{self.class.host}#{href}"
     end
 
     def price
-      doc.at('//*[@id="item_info"]/div[2]/div[1]/div[1]/p').text.strip.to_i.to_s
+      doc.at('//*[@id="item_info"]/div[2]/div[1]/div[1]/p')&.text&.strip&.to_i&.to_s
     end
 
     def currency
-      doc.at('//*[@id="item_info"]/div[2]/div[1]/div[1]/span').text
+      doc.at('//*[@id="item_info"]/div[2]/div[1]/div[1]/span')&.text
     end
 
     def availability
