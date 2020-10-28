@@ -30,7 +30,11 @@ module Parsers
     end
 
     def price
-      doc.at('//*[@id="item_info"]/div[2]/div[1]/div[1]/p')&.text&.strip&.to_i&.to_s
+      doc.at('//*[@id="item_info"]/div[2]/div[1]/div[1]/p')
+        &.text
+        &.strip
+        &.to_i
+        &.to_s
     end
 
     def currency
