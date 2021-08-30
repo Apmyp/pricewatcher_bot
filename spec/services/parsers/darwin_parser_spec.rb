@@ -6,10 +6,9 @@ RSpec.describe Parsers::DarwinParser do
   context 'with sale' do
     link = 'https://darwin.md/ru/smartphone_Apple-iPhone-11-Pro-512GB-Gold.html'
     parser_hash_item = {
-      name: 'Apple iPhone 11 Pro 512GB, Gold - iPhone Apple',
-      price: '29999',
-      image: 'https://darwin.md/images/product/2019/'\
-           '18/darwin-apple-iphone-11-pro-512gb-gold.jpg',
+      name: 'Apple iPhone 12 Pro Max 128GB, Pacific Blue cumpara pe Darwin.md',
+      price: '24999',
+      image: 'https://darwin.md/images/product/2020/11/iphone_12_pro_max_pacific_blue1-201116024211-darwin.png',
       currency: 'MDL',
       availability: true
     }
@@ -23,10 +22,9 @@ RSpec.describe Parsers::DarwinParser do
   context 'without sale' do
     link = 'https://darwin.md/ru/samsung-rs66n8100s9ua-silver.html'
     parser_hash_item = {
-      name: 'Samsung RS66N8100S9/UA, Inox - Крупная бытовая техника Samsung',
-      price: '21899',
-      image: 'https://darwin.md/images/product/'\
-               '2020/01/1-200103054758-darwin.jpg',
+      name: 'Samsung Galaxy Z Flip 3 8 GB  256 GB Green vezi pe Darwin.md',
+      price: '22599',
+      image: 'https://darwin.md/images/product/2021/08/darwin-samsung-galaxy-z-flip-3-8-gb-256-gb-green-019.png',
       currency: 'MDL',
       availability: true
     }

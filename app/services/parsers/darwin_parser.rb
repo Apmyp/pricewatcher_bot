@@ -9,7 +9,8 @@ module Parsers
 
       def paths
         [
-          %r{/[^\/_]*_[^\/]*\.html}
+          %r{/[^\/_]*_[^\/]*\.html},
+          %r{/[^\/-]*-[^\/]*\.html}
         ]
       end
     end
@@ -36,8 +37,8 @@ module Parsers
     end
 
     def regular_price
-      el = doc.xpath('//*[@id="main"]/section[3]/div/div/div[3]'\
-                     '/div[2]/div[2]/div/div[1]/h2')
+      el = doc.xpath('//*[@id="main"]/section[3]/div/div/div[3]/'\
+        'div[2]/div[2]/div/div[1]/div')
       return if el.blank?
 
       el
@@ -49,8 +50,8 @@ module Parsers
     end
 
     def sale_price
-      el = doc.xpath('//*[@id="main"]/section[3]/div/'\
-                'div/div[3]/div[2]/div[2]/div/div[2]/h2')
+      el = doc.xpath('//*[@id="main"]/section[3]/div/div/div[3]/'\
+        'div[2]/div[2]/div/div[2]/div')
       return if el.blank?
 
       el
